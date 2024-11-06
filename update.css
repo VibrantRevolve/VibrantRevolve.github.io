@@ -1,0 +1,410 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #dca134 9.10%, #ca3030 7%, #FFD700 20.33%, #9d5757 7%, #da9f33 30.66%, #9e4caf 27%, #da9f33 30.66%);
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100px;
+}
+
+#one a:hover {
+    color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+    color: #ffd700;
+    font-family: 'arial Script MT', cursive;
+    font-size: 100%;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'brush Script MT', cursive;
+}
+
+nav ul li:hover {
+    background: linear-gradient(135deg, #8e6666 7%, #fff700 50.33%, #ed9d07 40.66%);
+    border-radius: 5px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/******************************** BANNER FRAME***********************************/
+/*img {
+    width: 460px;
+    height: 340px;
+    margin-top: 15px ;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 100%;
+    position: absolute;
+    width: 400px;
+    height: 95%;
+}
+*/
+.top-slides {
+    overflow: hidden;
+    position: relative;
+    margin-top: 180px;
+}
+
+
+
+
+
+.slides {
+    display: flex;
+    animation: slideAnimation 5s infinite;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**********************************************************************************/
+
+/*main {
+    /*padding-top: 60px;*
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+#one {
+    animation-name: text;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+
+#one {
+    animation-direction: normal;
+}
+
+@keyframes text {
+    from {
+        margin-left: 20%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.txt-animate1 {
+    font-size: 20px;
+    color: #FFD500;
+    font-weight: bold;
+    animation: fadeInOut 10s ease-in-out infinite;
+    font-family: 'Arial Script MT', cursive;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/*******************About Message*******************
+.about {
+    background-color: #fff;
+    color: black;
+    opacity: 0.5;
+    width: 465px;
+    height: 490px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3px 15px;
+    position: relative;
+    margin-top: 460px;
+    font-size: auto;
+    font-weight: bolder;
+    font-style: bolder;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.about p {
+    color: #140202;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1.0;
+    position: auto;
+}
+
+.quo {
+    color: #ff0000;
+    font-size: 30px;
+}
+/**********************************Footer*****************************/
+footer {
+    background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background-position: bottom;
+    width: 100%;
+    bottom: 0;
+}
+
+/*.banner {
+    text-align: center;
+    padding: none;
+}
+
+#logo {
+    background-image: url(../img/abo.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    padding: none;
+    display: inline-block;
+    animation: spin 2s linear infinite;
+    perspective: 1000px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-top: -40px;
+}
+
+#logo div {
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotateX(30deg) rotateY(45deg);
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+img {
+    display: none;
+}
+/*********************************Hover logo***********************************/
+/*#logo:hover .banner2{
+    display: contents;
+}
+
+    .banner2 {
+        color: #FFB732;
+        text-align: center;
+        padding: 10px 0;
+        display: none;
+    }
+    
+    #logo1 {
+        background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+        box-shadow: 10px 1px 6px 0 rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+        font-size: 13em;
+        font-weight: bold;
+        border-top-left-radius: 155px;
+        border-top-right-radius: 155px;
+        padding: 30px;
+        display: inline-block;
+        animation: spin 2s linear infinite;
+        perspective: 1000px;
+        position: relative;
+        margin-top: -25px;
+    }
+    
+    #logo1 div {
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        transform-style: preserve-3d;
+        transform: rotateX(30deg) rotateY(45deg);
+        background-color: rgba(0, 0, 255, 0.5);
+    }
+
+
+*.s1-2 {
+    text-shadow: 10px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.s1 {
+    color: #ff0000;
+}
+/******************************************End**********************************/
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+    2% {
+        transform: rotateY(360deg);
+    }
+}
+
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    flex: auto;
+    margin-top: ;
+}
+
+
+.item {
+    background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+    font-size: 24px;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    height: 250px;
+    width: 200px;
+}
+
+.item:hover {
+    background: linear-gradient(135deg, #8e6666 7%, #fff700 50.33%, #ed9d07 40.66%);
+    transition: all 0.7s ease-in-out;
+}
+
+.item .pix {
+    height: 230px;
+    width: 180px;
+    margin: 7px 0 0 10px;
+    background-size: cover;
+    position: absolute;
+}
+
+/*.item .pix:hover {
+    width: 150px;
+    height: 200px;
+    margin: 6px ;
+    transition: all 0.8s ease-in-out;
+    box-shadow: 10px 10px 5px rgb(80, 79, 79);
+}*/
+
+.pix1{
+    background-image: url(img/Data.png);
+}
+
+.pix2 {
+    background-image: url(img/vr\ flashing.jpg);
+}
+
+.pix3 {
+    background-image: url(img/vr\ designer.jpg);
+}
+
+.pix4 {
+    background-image: url(img/all_service.png);
+}
+
+.pix5{
+    background-image: url(img/Data.png);
+}
+
+.pix6 {
+    background-image: url(img/vr\ flashing.jpg);
+}
+
+.pix7 {
+    background-image: url(img/vr\ designer.jpg);
+}
+
+.pix8 {
+    background-image: url(img/all_service.png);
+}
+
+.pix9 {
+    background-image: url(img/Data.png);
+}
+
+.pix10 {
+    background-image: url(img/vr\ flashing.jpg);
+}
+
+.pix11 {
+    background-image: url(img/vr\ designer.jpg);
+}
+
+.pix12 {
+    background-image: url(img/all_service.png);
+}
+
+.pix13 {
+    background-image: url(img/Data.png);
+}
+
+.pix14 {
+    background-image: url(img/vr\ flashing.jpg);
+}
+
+.pix15 {
+    background-image: url(img/vr\ designer.jpg);
+}
+
+.pix16 {
+    background-image: url(img/all_service.png);
+}
+
+.btn {
+    margin-top: 200px;
+    height: 25px;
+    width: 100px;
+    position: relative;
+    border: 0 5px 0 5px solid;
+    box-shadow: 10px 10px 5px rgb(80, 79, 79);
+}
+
+.btn:hover {
+    box-shadow: 5px 2px 10px 0 black;
+    transition: all 0.6s ease-in-out;
+}
+
+.item-title {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 400px) {
+    .container-box {
+        /*display: flex;*/
+        justify-content: center;
+        margin: 0;
+        flex: auto;
+    }
+}
+
+
+/********** SCREEN@ < 600PX WIDE  *********/
+
+/**@media screen and (max-width: 600px) {
+    .col-1, .col-2, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}**/
