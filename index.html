@@ -8,54 +8,72 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="containerh container">
             <h1>VibrantRevolve</h1>
-            <!--<nav>
-                <ul>
-                    <li><a href="../../index.html">Home</a></li>
-                    <li><a href="../abt.html">About</a></li>
-                    <li><a href="../srv.html">Services</a></li>
-                    <li><a href="../cnt.html">Contact</a></li>
-                </ul>
-            </nav>--->
+            <div class="Time Date">
+                <div class="containerT">
+                    <h1>Time and Location</h1>
+                    <p id="time">Fetching current time...</p>
+                    <p id="location">Fetching location...</p>
+                </div>
+                </div>
         </div>
+        <script>
+            // Function to get current time and update the page
+            function updateTime() {
+                const now = new Date();
+                const timeString = now.toLocaleString();
+                document.getElementById('time').innerText = `Current Time: ${timeString}`;
+            }
+        
+            // Function to get the geographical location
+            function updateLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(position => {
+                        const latitude = position.coords.latitude;
+                        const longitude = position.coords.longitude;
+        
+                        // Fetch the city and country based on latitude and longitude
+                        fetch(`https://geocode.xyz/${latitude},${longitude}?geoit=json`)
+                            .then(response => response.json())
+                            .then(data => {
+                                const city = data.city;
+                                const country = data.country;
+                                document.getElementById('location').innerText = `Location: ${city}, ${country} (Lat: ${latitude}, Lon: ${longitude})`;
+                            })
+                            .catch(() => {
+                                document.getElementById('location').innerText = `Latitude: ${latitude}, Longitude: ${longitude}`;
+                            });
+                    }, () => {
+                        document.getElementById('location').innerText = "Unable to retrieve your location.";
+                    });
+                } else {
+                    document.getElementById('location').innerText = "Geolocation is not supported by this browser.";
+                }
+            }
+        
+            // Update time every second
+            setInterval(updateTime, 1000);
+        
+            // Get the location once when the page loads
+            updateLocation();
+        </script>
     </header>
-    <main>
+<main>
         <div class="container">
             <p class="txt-animate1">Welcome to VibrantRevolve! Home of Business, Tech & Arts...</p>
-            <p id="one">Crypto updates and weekly highlights... <a href="updates.html"style=" text-decoration:none" class="click">click here</a></p>
+            <p id="one">Crypto updates and weekly highlights... <a href="pages/updates/updates.html"style=" text-decoration:none" class="click">click here</a></p>
         </div>
     </main>
     <div class="banner">
         <div id="logo" class="s1-2"><span class="s1">V</span>R</div>
         <img src="img/vrimage.jpeg" alt="VR Image">
     </div>
-   <!---- <div class="container-box">
 
-                    <div class="item ">
-                        <div class="pix pix1"></div>
-                        <button class="btn" href="#" >Book Us Now</button>
-                    </div>
-
-                    <div class="item">
-                        <div class="pix pix2"></div>
-                        <button class="btn">Order Now</button>
-                    </div>
-
-                    <div class="item">
-                        <div class="pix pix3"></div>
-                        <button class="btn">Order Now</button>
-                    </div>
-
-                    <div class="item">
-                        <div class="pix pix4"></div>
-                        <button class="btn">Order Now</button>
-                    </div>
-    </div>-->
     <div class="button-container">
-        <a href="pages/Buiz.html" class="btn-3d b1">BUIZ</a>
-        <a href="pages/home/Tech.html" class="btn-3d b2">TECH</a>
-        <a href="pages/home/Art.html" class="btn-3d b3">ART</a>
+        <a href="pages/buiz/Buiz.html" class="btn-3d b1">BUIZ</a>
+        <a href="pages/tech/tech.html" class="btn-3d b2">TECH</a>
+        <a href="pages/arts/art.html" class="btn-3d b3">ART</a>
     </div>
     <footer>
         <div class="container">

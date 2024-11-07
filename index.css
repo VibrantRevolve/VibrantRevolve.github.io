@@ -8,11 +8,35 @@ body {
     background: linear-gradient(135deg, #dca134 270.30%, #ca3030 7%, #FFD700 23.73%, #ca3030 47%, #da9f33 0.66%, #9e4caf 27%, #da9f33 30.66%);
 }
 
+.containerh {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 15px;
     height: 100px;
+}
+
+.containerT {
+    font-size: 10px;
+    color: #8e6666;
+    margin-left: 5px;
+}
+
+.Time .Date {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    left: 0;
+}
+#time {
+    color: #fff;
+}
+
+#location {
+    color: #fff;
 }
 
 .click:hover {
@@ -120,7 +144,6 @@ footer .container {
 }
 
 .banner {
-    /*background-color: #fff;*/
     color: #FFB732;
     text-align: center;
     padding: 10px 0;
@@ -176,8 +199,8 @@ img {
 }
 /********************************************************************************/
 .button-container {
-    margin-top: 1rem;
-    margin-left: 1%;
+    margin-top: 3rem;
+    align-self: center;
     text-align: center;
     display: block;
 }

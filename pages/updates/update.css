@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -75,15 +81,31 @@ nav ul li a {
     height: 95%;
 }
 */
+body .top {
+    justify-self: center;
+    align-self: center;
+}
+
+.top {
+    box-sizing: border-box;
+    display: grid;
+    width: 60%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
 .top-slides {
     overflow: hidden;
     position: relative;
     margin-top: 180px;
 }
 
-
-
-
+.top-slides .btn {
+    display: none;
+}
 
 .slides {
     display: flex;
@@ -93,6 +115,24 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+img {
+    flex: 1 0 100%;
+    position: relative;
+    width: 100%;
+}
+
+@keyframes slideAnimation {
+    0% {transform: translateX(0%);}
+    20% {transform: translateX(0%);}
+    25% {transform: translateX(-100%);}
+    45% {transform: translateX(-100%);}
+    50% {transform: translateX(-200%);}
+    70% {transform: translateX(-200%);}
+    75% {transform: translateX(-300%);}
+    95% {transform: translateX(-300%);}
+    100% {transform: translateX(0%);}
 }
 
 /**********************************************************************************/
@@ -309,67 +349,67 @@ img {
 }*/
 
 .pix1{
-    background-image: url(img/Data.png);
+    background-image: url(/img/Data.png);
 }
 
 .pix2 {
-    background-image: url(img/vr\ flashing.jpg);
+    background-image: url(/img/vr\ flashing.jpg);
 }
 
 .pix3 {
-    background-image: url(img/vr\ designer.jpg);
+    background-image: url(/img/vr\ designer.jpg);
 }
 
 .pix4 {
-    background-image: url(img/all_service.png);
+    background-image: url(/img/all_service.png);
 }
 
 .pix5{
-    background-image: url(img/Data.png);
+    background-image: url(/img/Data.png);
 }
 
 .pix6 {
-    background-image: url(img/vr\ flashing.jpg);
+    background-image: url(/img/vr\ flashing.jpg);
 }
 
 .pix7 {
-    background-image: url(img/vr\ designer.jpg);
+    background-image: url(/img/vr\ designer.jpg);
 }
 
 .pix8 {
-    background-image: url(img/all_service.png);
+    background-image: url(/img/all_service.png);
 }
 
 .pix9 {
-    background-image: url(img/Data.png);
+    background-image: url(/img/Data.png);
 }
 
 .pix10 {
-    background-image: url(img/vr\ flashing.jpg);
+    background-image: url(/img/vr\ flashing.jpg);
 }
 
 .pix11 {
-    background-image: url(img/vr\ designer.jpg);
+    background-image: url(/img/vr\ designer.jpg);
 }
 
 .pix12 {
-    background-image: url(img/all_service.png);
+    background-image: url(/img/all_service.png);
 }
 
 .pix13 {
-    background-image: url(img/Data.png);
+    background-image: url(/img/Data.png);
 }
 
 .pix14 {
-    background-image: url(img/vr\ flashing.jpg);
+    background-image: url(/img/vr\ flashing.jpg);
 }
 
 .pix15 {
-    background-image: url(img/vr\ designer.jpg);
+    background-image: url(/img/vr\ designer.jpg);
 }
 
 .pix16 {
-    background-image: url(img/all_service.png);
+    background-image: url(/img/all_service.png);
 }
 
 .btn {

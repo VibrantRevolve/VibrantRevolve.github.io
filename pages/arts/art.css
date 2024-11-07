@@ -1,0 +1,26 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: linear-gradient(135deg, #ff00d4 7%, #FFD700 50.33%, #FFB732 40.66%);
+    height: 50vh;
+}
+
+.container {
+    justify-self: center;
+    align-self: center;
+}
+
+h1 {
+    width: 100%;
+    color: #fff;
+    font-size: 60px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
