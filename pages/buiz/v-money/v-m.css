@@ -1,8 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #dca134 9.10%, #ca3030 7%, #FFD700 20.33%, #9d5757 7%, #da9f33 30.66%, #9e4caf 27%, #da9f33 30.66%);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dca134 8.58%, #ca3030 7%, #FFD700 20.33%, #9d5757 7%, #da9f33 30.66%, #9e4caf 27%, #da9f33 30.66%);
 }
 
 .container {
@@ -61,7 +64,6 @@ nav ul li a {
 }
 
 main {
-    /*padding-top: 60px;*/
     text-align: center;
     margin-top: 150px;
     margin-bottom: 35px;
@@ -104,38 +106,6 @@ main {
     }
 }
 
-/*******************About Message*******************/
-.about {
-    background-color: #fff;
-    color: black;
-    opacity: 0.5;
-    width: auto;
-    height: auto;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 3px 15px;
-    position: relative;
-    margin-top: 460px;
-    font-size: 10px;
-    font-weight: bolder;
-    font-style: bolder;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-
-.about p {
-    color: #140202;
-    font-weight: 100;
-    font-style: italic;
-    opacity: 1.0;
-    position: auto;
-}
-
-.quo {
-    color: #ff0000;
-    font-size: 30px;
-}
-/**********************************Footer*****************************/
 footer {
     background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
     color: #fff;
@@ -146,98 +116,14 @@ footer {
     bottom: 0;
 }
 
-.banner {
-    text-align: center;
-    padding: none;
-}
-
-#logo {
-    background-image: url(../img/abo.png);
-    background-position: cover;
-    background-repeat: no-repeat;
-    padding: none;
-    display: inline-block;
-    animation: spin 2s linear infinite;
-    perspective: 1000px;
-    position: relative;
-    width: 500px;
-    height: 500px;
-    margin-top: -40px;
-}
-
-#logo div {
-    position: absolute;
-    transform-style: preserve-3d;
-    transform: rotateX(30deg) rotateY(45deg);
-    background-color: rgba(0, 0, 255, 0.5);
-}
-
-img {
-    display: none;
-}
-/*********************************Hover logo***********************************/
-#logo:hover .banner2{
-    display: contents;
-}
-
-    .banner2 {
-        color: #FFB732;
-        text-align: center;
-        padding: 10px 0;
-        display: none;
-    }
-    
-    #logo1 {
-        background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
-        box-shadow: 10px 1px 6px 0 rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.3) inset;
-        font-size: 13em;
-        font-weight: bold;
-        border-top-left-radius: 155px;
-        border-top-right-radius: 155px;
-        padding: 30px;
-        display: inline-block;
-        animation: spin 2s linear infinite;
-        perspective: 1000px;
-        position: relative;
-        margin-top: -25px;
-    }
-    
-    #logo1 div {
-        width: 80%;
-        height: 80%;
-        position: absolute;
-        transform-style: preserve-3d;
-        transform: rotateX(30deg) rotateY(45deg);
-        background-color: rgba(0, 0, 255, 0.5);
-    }
-
-
-*.s1-2 {
-    text-shadow: 10px 6px 4px rgba(0, 0, 0, 0.5);
-}
-
-.s1 {
-    color: #ff0000;
-}
-/******************************************End**********************************/
-@keyframes spin {
-    0% {
-        transform: rotateY(0deg);
-    }
-    2% {
-        transform: rotateY(360deg);
-    }
-}
 
 .container-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
     gap: 30px;
     justify-content: center;
-    justify-content: space-between;
-    justify-self: center;
-    flex: grid;
-    margin-top: 250px;
+    margin: 30px;
+    flex: auto;
 }
 
 
@@ -247,8 +133,8 @@ img {
     padding: 2px;
     margin: 2px;
     text-align: center;
-    height: 480px;
-    width: 400px;
+    height: 440px;
+    width: 380px;
 }
 
 .item:hover {
@@ -257,40 +143,157 @@ img {
 }
 
 .item .pix {
-    width: 380px;
-    height: 380px;
-    margin: 7px 0 0 10px;
+    width: 340px;
+    height: 340px;
+    margin: 7px 0 0 15px;
     background-size: cover;
     position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 280px;
+    height: 340px;
+    margin: 7px 0 0 0;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
 }
 
 .item .pix:hover {
-    width: 360px;
-    height: 360px;
+    width: 330px;
+    height: 330px;
     margin: 6px ;
     transition: all 0.8s ease-in-out;
     box-shadow: 10px 10px 5px rgb(80, 79, 79);
 }
 
+.item-slides {
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    animation: slideAnimation 5s infinite;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    flex: 1 0 100%;
+    position: relative;
+    width: 100%;
+}
+
 .pix1{
-    background-image: url(img/Data.png);
+    background-image: url(/img/POS.jpg);
 }
 
 .pix2 {
-    background-image: url(img/vr\ flashing.jpg);
+    background-image: url(/img/Data.png);
 }
 
 .pix3 {
-    background-image: url(img/vr\ designer.jpg);
+    background-image: url(/img/vr\ designer.jpg);
 }
 
 .pix4 {
-    background-image: url(img/all_service.png);
+    background-image: url(/img/vr\ flashing.jpg);
+}
+
+.pix5 {
+    background-image: url(/img/web_developer.jpg);
+}
+
+.pix6 {
+    background-image: url(/img/convert-psd-to-html-edith-figma-to-html-css-bootstrap.jpeg);
 }
 
 
+/**********************slide*********************************
+.img:nth-child(1) {
+   /* background-image: url(../img/book.png);*
+}
+.img:nth-child(2) {
+    /*background-image: url(../img/bkc1.jpg);*
+}
+
+.img:nth-child(3) {
+    /*background-image: url(../img/vr\ bkc2,jpg);*
+}
+
+.img:nth-child(4) {
+    /*background-image: url(../img/vr\ bck3.jpg);*
+}
+
+.pix7:nth-child(5) {
+   /* background-image: url(../img/vr\ flashing.jpg);*
+}*/
+
+
+@keyframes slideAnimation {
+    0% {transform: translateX(0%);}
+    20% {transform: translateX(0%);}
+    25% {transform: translateX(-100%);}
+    45% {transform: translateX(-100%);}
+    50% {transform: translateX(-200%);}
+    70% {transform: translateX(-200%);}
+    75% {transform: translateX(-300%);}
+    95% {transform: translateX(-300%);}
+    100% {transform: translateX(0%);}
+}
+
+/************************************************************
+.pix72 {
+    background-image: url(../img/book.png);
+}
+
+.pix71 {
+    background-image: url(../img/bkc1.jpg);
+}
+
+.pix73 {
+    background-image: url(../img/vr\ bkc2,jpg);
+}
+
+.pix74 {
+    background-image: url(../img/vr\ bck3.jpg);
+}
+
+.pix75 {
+    background-image: url(../img/bck4.jpg);
+}
+/************************************************************/
+
+.pix8 {
+    background-image: url(/img/VR-Music\ Distribution.png);
+}
+
+.pix9 {
+    background-image: url(/img/VR-\ boosting\ social\ media\ account.png);
+}
+
+.pix10 {
+    background-image: url(/img/bkc4.jpg);
+}
+
+.pix11 {
+    background-image: url(/img/VR-Music\ Distribution.png);
+}
+
+.pix12 {
+    background-image: url(/img/convert-psd-to-html-edith-figma-to-html-css-bootstrap.jpeg);
+}
+
 .btn {
-    margin-top: 20px;
+    margin-top: 380px;
     height: 35px;
     width: 120px;
     position: relative;
@@ -298,13 +301,10 @@ img {
     box-shadow: 10px 10px 5px rgb(80, 79, 79);
 }
 
-.abtn {
-    margin-top: 220px;
-}
-
 .btn:hover {
     box-shadow: 5px 2px 10px 0 black;
     transition: all 0.6s ease-in-out;
+    cursor: pointer;
 }
 
 .item-title {
@@ -317,6 +317,19 @@ img {
         justify-content: center;
         margin: 0;
         flex: auto;
+    }
+
+    img {
+        background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+        box-shadow: 10px 1px 6px 0 rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+        padding: 10px;
+        display: inline-block;
+        animation: spin 2s linear infinite;
+        perspective: 100px;
+        position: relative;
+        margin-top: -25px;
+        width: 120px;
+        height: 120px;
     }
 }
 
