@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibrantRevolve</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="containerh container">
+            <h1>VibrantRevolve</h1>
+            <div class="Time Date">
+                <div class="containerT">
+                    <h1>Time and Location</h1>
+                    <p id="time">Fetching current time...</p>
+                    <p id="location">Fetching location...</p>
+                </div>
+                </div>
+        </div>
+        <script>
+            // Function to get current time and update the page
+            function updateTime() {
+                const now = new Date();
+                const timeString = now.toLocaleString();
+                document.getElementById('time').innerText = `Current Time: ${timeString}`;
+            }
+        
+            // Function to get the geographical location
+            function updateLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(position => {
+                        const latitude = position.coords.latitude;
+                        const longitude = position.coords.longitude;
+        
+                        // Fetch the city and country based on latitude and longitude
+                        fetch(`https://geocode.xyz/${latitude},${longitude}?geoit=json`)
+                            .then(response => response.json())
+                            .then(data => {
+                                const city = data.city;
+                                const country = data.country;
+                                document.getElementById('location').innerText = `Location: ${city}, ${country} (Lat: ${latitude}, Lon: ${longitude})`;
+                            })
+                            .catch(() => {
+                                document.getElementById('location').innerText = `Latitude: ${latitude}, Longitude: ${longitude}`;
+                            });
+                    }, () => {
+                        document.getElementById('location').innerText = "Unable to retrieve your location.";
+                    });
+                } else {
+                    document.getElementById('location').innerText = "Geolocation is not supported by this browser.";
+                }
+            }
+        
+            // Update time every second
+            setInterval(updateTime, 1000);
+        
+            // Get the location once when the page loads
+            updateLocation();
+        </script>
+    </header>
+<main>
+        <div class="container">
+            <p class="txt-animate1">Welcome to VibrantRevolve! Home of Business, Tech & Arts...</p>
+            <p id="one">Crypto updates and weekly highlights... <a href="pages/updates/updates.html"style=" text-decoration:none" class="click">click here</a></p>
+        </div>
+    </main>
+    <div class="banner">
+        <div id="logo" class="s1-2"><span class="s1">V</span>R</div>
+        <img src="img/vrimage.jpeg" alt="VR Image">
+    </div>
+
+    <div class="button-container">
+        <a href="pages/buiz/Buiz.html" class="btn-3d b1">BUIZ</a>
+        <a href="pages/tech/tech.html" class="btn-3d b2">TECH</a>
+        <a href="pages/arts/art.html" class="btn-3d b3">ART</a>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 VibrantRevolve. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
