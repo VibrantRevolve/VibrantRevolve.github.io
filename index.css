@@ -77,7 +77,7 @@ body {
     color:#8e6666 ;
     font-weight: 800;
     font-size: 6px;
-    margin-left: -160px;
+    margin-left: -155px;
 }
 
 .contact-info a {
@@ -424,7 +424,7 @@ img {
 .containerT {
     font-size: auto;
     color: #8e6666;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 @media screen and (max-width: 600px) {
