@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dca134 270.30%, #ca3030 7%, #FFD700 23.73%, #ca3030 47%, #da9f33 0.66%, #9e4caf 27%, #da9f33 30.66%);
+}
+
+.containerh {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100px;
+}
+
+.containerT {
+    font-size: 10px;
+    color: #8e6666;
+    margin-left: 5px;
+}
+
+.Time .Date {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    left: 0;
+}
+#time {
+    color: #fff;
+    font-size: 8px;
+}
+
+#location {
+    color: #fff;
+    font-size: 8px;
+}
+
+.click:hover {
+    color: white;
+}
+
+.domestic-services {
+    float: left;
+    margin-left: 10%;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    background: linear-gradient(135deg,  #FFB732 40.66%, #FFD700 20.33%,#ff0000 40%);
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: 800;
+    border-style: outset;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.domestic-services a {
+    color: #fff;
+}
+
+.domestic-services:hover {
+    background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+}
+
+.contact-info {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: (minmax(10px, 1fr));
+    color:#8e6666 ;
+    font-weight: 800;
+    font-size: 6px;
+}
+
+.contact-info a {
+    color: black;
+}
+
+.contact-info, a span {
+    width: ;
+    height: 10px;
+}
+
+span i {
+    margin-right: 5px;
+}
+
+header {
+    background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+    color: #ffd700;
+    font-family: 'arial Script MT', cursive;
+    font-size: 100%;
+    font-weight: 800px;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'brush Script MT', cursive;
+}
+
+nav ul li:hover {
+    background: linear-gradient(135deg, #8e6666 7%, #fff700 50.33%, #ed9d07 40.66%);
+    border-radius: 5px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+#one {
+    animation-name: text;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+
+#one {
+    animation-direction: normal;
+}
+
+@keyframes text {
+    from {
+        margin-left: 20%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.txt-animate1 {
+    font-size: 20px;
+    color: #FFD500;
+    font-weight: bold;
+    animation: fadeInOut 10s ease-in-out infinite;
+    font-family: 'Arial Script MT', cursive;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+footer {
+    display: ;
+    background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+    color: #fff;
+    position: ;
+    width: 100%;
+    bottom: ;
+    box-sizing: border-box;
+}
+
+footer .container {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner {
+    color: #FFB732;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#logo {
+    background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+    box-shadow: 10px 1px 6px 0 rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+    font-size: 13em;
+    font-weight: bold;
+    border-top-left-radius: 155px;
+    border-top-right-radius: 155px;
+    padding: 30px;
+    display: inline-block;
+    animation: spin 2s linear infinite;
+    perspective: 1000px;
+    position: relative;
+    margin-top: -25px;
+}
+
+#logo div {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotateX(30deg) rotateY(45deg);
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+img {
+    display: none;
+}
+
+#logo div:hover img {
+    display: block;
+}
+
+.s1-2 {
+    text-shadow: 10px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.s1 {
+    color: #ff0000;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+    2% {
+        transform: rotateY(360deg);
+    }
+}
+/********************************************************************************/
+.button-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    text-align: center;
+    display: block;
+}
+
+.btn-3d {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background:  linear-gradient(135deg, #dca134 1.50%, #ca3030 7%, #FFD700 83.73%, #ca3030 95%, #da9f33 92.66%, #9e4caf 108%, #da9f33 10.66%);;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+    overflow: visible;
+}
+
+.btn-3d:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e68900;
+    border-radius: 10px;
+    transform: translateZ(-20px);
+    transition: transform 0.3s ease;
+}
+
+.btn-3d:hover {
+    transform: translateY(-20px);
+    background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+    box-shadow: 10px 6px 4px rgba(0, 0, 0, 0.5);;
+}
+
+.b1:hover {
+    /*transform: translateY(-20px);*/
+    background: linear-gradient(135deg, #ff0000 7%, #FFD700 50.33%, #FFB732 40.66%);
+}
+
+.b2:hover {
+    background: linear-gradient(135deg, #00ffbf 7%, #FFD700 50.33%, #FFB732 40.66%);
+}
+
+.b3:hover {
+    background: linear-gradient(135deg, #ff00d4 7%, #FFD700 50.33%, #FFB732 40.66%);
+}
+
+.btn-3d:hover:before {
+    transform: translateZ(-10px);
+}
+
+/* Additional styles for the ripple effect */
+.btn-3d .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.7);
+    transform: scale(0);
+    animation: ripple-animation 0.6s linear;
+    pointer-events:none;
+}
+
+/***********************************************************************/
+@media screen and (min-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        font-size: auto;
+    }
+
+    .btn-3d {
+        font-size: auto;
+        padding: auto;
+    }
+
+    #logo {
+        font-size: auto;
+    }
+
+    footer {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .button-container {
+        margin-bottom: auto;
+    }
+
+    .domestic-services {
+        font-size: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {max-width: 90%;
+    }
+
+    .container, .txt-animate1 {
+        font-size: 1rem;
+    }
+
+    .container, .txt-animate1 #one {
+        font-size: 0.7rem;
+    }
+
+    .cnter {
+        margin-top: 18px;
+    }
+
+    header {
+        font-size: 0.6rem;
+        max-height: 100px;
+    }
+
+    .containerT {
+        font-size: 0.4rem;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    #logo {
+        font-size: 6rem;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .button-container {
+        margin-bottom: 10px;
+        font: xx-small;
+    }
+
+    .button-container .btn-3d {
+        width: fit-content;
+        font-size: xx-small;
+    }
+
+    .domestic-services {
+        font-size: auto;
+        width: auto;
+        height: auto;
+    }
+
+}
+#time {
+    color: #fff;
+    font-size: 5px;
+}
+
+#location {
+    color: #fff;
+    font-size: 5px;
+}
+
+.containerT {
+    font-size: auto;
+    color: #8e6666;
+    margin-left: 15px;
+    margin-top: -5%;
+}
+
+@media screen and (max-width: 600px) {
+    .container-box {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        flex: auto;
+    }
+}
