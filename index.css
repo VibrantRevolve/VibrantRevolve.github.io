@@ -71,12 +71,13 @@ body {
 }
 
 .contact-info {
-    margin-top: 5px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: (minmax(10px, 1fr));
     color:#8e6666 ;
     font-weight: 800;
     font-size: 6px;
+    margin-left: -240px;
 }
 
 .contact-info a {
@@ -424,7 +425,6 @@ img {
     font-size: auto;
     color: #8e6666;
     margin-left: 15px;
-    margin-top: -5%;
 }
 
 @media screen and (max-width: 600px) {
