@@ -1,0 +1,197 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sticky Footer Layout */
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+.site-header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 0;
+}
+.site-header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: gold;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  color: gold;
+}
+
+/* Mobile Menu */
+.nav-toggle,
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+  .hamburger {
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+    color: white;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background: black;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+/* Payment Section */
+.payment-section {
+  padding: 2rem 0;
+}
+.payment-section h1 {
+  margin-bottom: 1rem;
+  color: #000;
+}
+.payment-methods {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.payment-method {
+  background: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.payment-method h3 {
+  margin-bottom: 1rem;
+  color: #000;
+}
+.payment-method input[type="email"],
+.payment-method input[type="number"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#paypal-button-container {
+  margin-top: 1rem;
+}
+.pay-button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: gold;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+.pay-button:hover {
+  background-color: #c7a300;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+.whatsapp-button:hover {
+  background-color: #1da851;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Social Media Icons */
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffd700;
+}
+
+
+/* Scroll Progress Bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background-color: #ffd700;
+  width: 0%;
+  z-index: 10000;
+  transition: width 0.25s ease-out;
+}
+
+/* Responsive Grid */
+@media (min-width: 768px) {
+  .payment-methods {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .payment-methods {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

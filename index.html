@@ -1,85 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VibrantRevolve</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VibrantRevolve</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon.png" />
+
+  <script defer src="script.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    emailjs.init("CnB0xCvycunmgJ5OH");
+  </script>
 </head>
 <body>
-    <header>
-        <div class="containerh container">
-            <h1>VibrantRevolve</h1>
-            <div class="Time Date">
-                <div class="containerT">
-                    <h1>Time and Location</h1>
-                    <p id="time">Fetching current time...</p>
-                    <p id="location">Fetching location...</p>
-                </div>
-                </div>
-        </div>
-        <script>
-            // Function to get current time and update the page
-            function updateTime() {
-                const now = new Date();
-                const timeString = now.toLocaleString();
-                document.getElementById('time').innerText = `Current Time: ${timeString}`;
-            }
-        
-            // Function to get the geographical location
-            function updateLocation() {
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(position => {
-                        const latitude = position.coords.latitude;
-                        const longitude = position.coords.longitude;
-        
-                        // Fetch the city and country based on latitude and longitude
-                        fetch(`https://geocode.xyz/${latitude},${longitude}?geoit=json`)
-                            .then(response => response.json())
-                            .then(data => {
-                                const city = data.city;
-                                const country = data.country;
-                                document.getElementById('location').innerText = `Location: ${city}, ${country} (Lat: ${latitude}, Lon: ${longitude})`;
-                            })
-                            .catch(() => {
-                                document.getElementById('location').innerText = `Latitude: ${latitude}, Longitude: ${longitude}`;
-                            });
-                    }, () => {
-                        document.getElementById('location').innerText = "Unable to retrieve your location.";
-                    });
-                } else {
-                    document.getElementById('location').innerText = "Geolocation is not supported by this browser.";
-                }
-            }
-        
-            // Update time every second
-            setInterval(updateTime, 1000);
-        
-            // Get the location once when the page loads
-            updateLocation();
-        </script>
-    </header>
-<main>
-        <div class="container">
-            <p class="txt-animate1">Welcome to VibrantRevolve! Home of Business, Tech & Arts...</p>
-            <p id="one">Crypto updates and weekly highlights... <a href="pages/updates/updates.html"style=" text-decoration:none" class="click">click here</a></p>
-        </div>
-    </main>
-    <div class="banner">
-        <div id="logo" class="s1-2"><span class="s1">V</span>R</div>
-        <img src="img/vrimage.jpeg" alt="VR Image">
-    </div>
+  <a href="#main" class="skip-link">Skip to main content</a>
 
-    <div class="button-container">
-        <a href="pages/buiz/Buiz.html" class="btn-3d b1">BUIZ</a>
-        <a href="pages/tech/tech.html" class="btn-3d b2">TECH</a>
-        <a href="pages/arts/art.html" class="btn-3d b3">ART</a>
+  <div id="loadingScreen" class="loading-screen" role="alert" aria-live="assertive">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+
+  <header>
+    <div class="container header-container">
+      <img src="/img/abo.png" alt="Site Logo" class="logo" />
+      <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="navbar" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 VibrantRevolve. All Rights Reserved.</p>
+  </header>
+
+  <main id="main">
+    <section class="home-section">
+      <h1>Welcome to My Freelance Services</h1>
+      <p>I help businesses and individuals with websites, Software-Programs, CVs, summaries, and more!</p>
+      <a href="#contact" class="hire-button" role="button" aria-label="Hire me button">Hire Me</a>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>I’m a multi-skilled freelancer offering web & software development, custom CV creation, summaries, proofreading, and business card design.</p>
+    </section>
+
+    <section id="services" class="services-section">
+      <h2>Services</h2>
+      <div class="service-cards">
+        <a href="/services/website-development.html" class="service-card">🌐 Website Development</a>
+        <a href="/services/software-development.html" class="service-card">💻 Software Development</a>
+        <a href="/services/custom-cv.html" class="service-card">📄 Custom CV Creation</a>
+        <a href="/services/summarizing.html" class="service-card">🧠 Article/Video Summaries</a>
+        <a href="/services/proofreading.html" class="service-card">📝 Proofreading</a>
+        <a href="/services/business-card.html" class="service-card">🎨 Business Card Design</a>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+      <h2>Portfolio</h2>
+      <div class="portfolio-items">
+        <div class="portfolio-item">
+          <img src="portfolio1.jpg" alt="Portfolio project 1" />
+          <p>Responsive Website for XYZ</p>
         </div>
-    </footer>
-    <script src="index.js"></script>
+        <!-- More portfolio items -->
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing-section">
+      <h2>Pricing</h2>
+      <p>My services are flexible and affordable. Starting from $10 depending on the task.</p>
+      <a href="/page/pricing.html" class="hire-button">View Pricing / Pay Now</a>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form id="contactForm" aria-label="Contact form">
+        <input type="text" name="user_name" placeholder="Your Name" required />
+        <input type="email" name="user_email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <br />
+      <a href="https://calendar-booking-link.com" target="_blank" rel="noopener noreferrer">📅 Book a Free Discovery Call</a>
+    </section>
+  </main>
+
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <div id="confirmationModal" class="modal" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-content">
+      <h3>Thank you!</h3>
+      <p>Your message has been sent.</p>
+      <button id="closeModal">Close</button>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="social-links">
+    <a href="https://twitter.com/vibrantrevolve" target="_blank" aria-label="Twitter">
+    <i class="fab fa-twitter"></i>
+    </a>
+    <!---<a href="https://facebook.com/yourhandle" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>--->
+    <a href="https://instagram.com/vibrantrevolve" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://github.com/itmrbobby" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/yourhandle" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+      </div>
+      <p>&copy; 2025 VibrantRevolve. All rights reserved.</p>
+      <p>Designed with ❤️ by VR</p>
+  </div>
+
+  </footer>
 </body>
 </html>
