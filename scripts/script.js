@@ -1,3 +1,6 @@
+// Initialize EmailJS (do this first, outside DOMContentLoaded)
+emailjs.init("CnB0xCvycunmgJ5OH");
+
 document.addEventListener('DOMContentLoaded', () => {
   // Mobile nav toggle
   const hamburger = document.getElementById('hamburger');
