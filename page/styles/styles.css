@@ -1,73 +1,117 @@
- body {
-      background: #000;
-      color: #fff;
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .currency-toggle {
-      text-align: center;
-      margin: 2rem 0 1rem;
-    }
-    .currency-toggle button {
-      background: #fff;
-      color: #000;
-      border: none;
-      padding: 0.5rem 1rem;
-      font-weight: bold;
-      cursor: pointer;
-      margin: 0 0.5rem;
-      border-radius: 5px;
-    }
-    .pricing-section {
-      max-width: 1100px;
-      margin: auto;
-      padding: 2rem;
-    }
-    .service-category {
-      margin-bottom: 4rem;
-    }
-    .service-category h2 {
-      color: #ffd700;
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-    .pricing-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-    .pricing-card {
-      background: #111;
-      border: 1px solid #333;
-      padding: 1.5rem;
-      border-radius: 10px;
-      text-align: center;
-    }
-    .pricing-card h3 {
-      margin-top: 0;
-      color: #ffd700;
-    }
-    .pricing-card .price {
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin: 1rem 0;
-    }
-    .pricing-actions {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-    .chat-btn, .pay-btn {
-      background-color: #ffd700;
-      color: #000;
-      padding: 0.5rem 1rem;
-      border-radius: 4px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .chat-btn:hover, .pay-btn:hover {
-      background: #fff;
-    }
-    /* Footer */
+/* ===== Base Styles ===== */
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ===== Currency Toggle ===== */
+.currency-toggle {
+  text-align: center;
+  margin: 2rem 1rem 1rem;
+}
+.currency-toggle button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 0.4rem 0.5rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+.currency-toggle button:hover {
+  background: #ffd700;
+}
+
+/* ===== Pricing Section ===== */
+.pricing-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+.service-category {
+  margin-bottom: 3rem;
+}
+.service-category h2 {
+  color: #ffd700;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ===== Pricing Grid ===== */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+.pricing-card {
+  background: #111;
+  border: 1px solid #333;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.03);
+}
+.pricing-card h3 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  color: #ffd700;
+}
+.pricing-card p {
+  font-size: 0.95rem;
+  margin: 0.5rem 0 1rem;
+}
+.pricing-card .price {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.pricing-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.chat-btn, .pay-btn {
+  background-color: #ffd700;
+  color: #000;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+.chat-btn:hover, .pay-btn:hover {
+  background: #fff;
+}
+
+/* ===== Currency Loader ===== */
+#currencyLoader {
+  display: none;
+  text-align: center;
+  margin: 1rem auto;
+}
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #999;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ===== Footer ===== */
 .site-footer {
   background-color: #111;
   color: #fff;
@@ -77,37 +121,58 @@
   border-top: 1px solid #333;
   margin-top: 4rem;
 }
-
 .site-footer .social-links {
   margin: 1rem 0;
 }
-
 .site-footer a {
   color: #ffd700;
   margin: 0 0.5rem;
   font-weight: 500;
   transition: color 0.3s ease;
 }
-
 .site-footer a:hover {
   text-decoration: underline;
   color: #fff;
 }
 
-/* Social Media Icons */
+/* ===== Social Media Icons ===== */
 .social-links {
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   gap: 1.2rem;
 }
-
 .social-links a {
   color: #fff;
   font-size: 1.3rem;
   transition: color 0.3s ease;
 }
-
 .social-links a:hover {
   color: #ffd700;
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+  .pricing-section {
+    padding: 1.5rem 1rem;
+  }
+  .currency-toggle button {
+    width: 48%;
+    margin-bottom: 0.5rem;
+  }
+  .pricing-card .price {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .currency-toggle button {
+    width: 100%;
+    margin: 0.3rem 0;
+  }
+  .pricing-card h3 {
+    font-size: 1.2rem;
+  }
+  .pricing-card p {
+    font-size: 0.9rem;
+  }
 }

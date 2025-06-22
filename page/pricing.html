@@ -14,11 +14,25 @@
    <header><a href="../index.html" class="back-link">← Back to Home</a></header>
 
 <div class="currency-toggle">
-  <button onclick="setCurrency('usd')" id="usdBtn">USD ($)</button>
-  <button onclick="setCurrency('ngn')" id="ngnBtn">NGN (₦)</button>
-  <button onclick="setCurrency('eur')" id="eurBtn">EUR (€)</button>
-  <button onclick="setCurrency('gbp')" id="gbpBtn">GBP (£)</button>
+  <button onclick="setCurrency('usd')">USD ($)</button>
+  <button onclick="setCurrency('ngn')">NGN (₦)</button>
+  <button onclick="setCurrency('eur')">EUR (€)</button>
+  <button onclick="setCurrency('gbp')">GBP (£)</button>
 </div>
+
+<!-- Loader (exchange rate loading indicator) -->
+<div id="currencyLoader" style="display: none; text-align: center; margin: 10px;">
+  <span class="spinner" style="display:inline-block; width: 20px; height: 20px; border: 2px solid #999; border-top: 2px solid transparent; border-radius: 50%; animation: spin 1s linear infinite;"></span>
+  <span style="font-size: 0.9rem; color: #666;">Updating prices...</span>
+</div>
+
+<style>
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+</style>
+
+
 
 
   <section class="pricing-section">
