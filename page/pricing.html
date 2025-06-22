@@ -13,10 +13,13 @@
 <body>
    <header><a href="../index.html" class="back-link">← Back to Home</a></header>
 
-  <div class="currency-toggle">
-    <button onclick="setCurrency('usd')">USD ($)</button>
-    <button onclick="setCurrency('ngn')">NGN (₦)</button>
-  </div>
+<div class="currency-toggle">
+  <button onclick="setCurrency('usd')" id="usdBtn">USD ($)</button>
+  <button onclick="setCurrency('ngn')" id="ngnBtn">NGN (₦)</button>
+  <button onclick="setCurrency('eur')" id="eurBtn">EUR (€)</button>
+  <button onclick="setCurrency('gbp')" id="gbpBtn">GBP (£)</button>
+</div>
+
 
   <section class="pricing-section">
     <div class="service-category">

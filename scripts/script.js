@@ -1,7 +1,10 @@
-// Initialize EmailJS (do this first, outside DOMContentLoaded)
-emailjs.init("CnB0xCvycunmgJ5OH");
-
+// Wait for DOM to be ready
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize EmailJS if available
+  if (window.emailjs) {
+    emailjs.init("CnB0xCvycunmgJ5OH");
+  }
+
   // Mobile nav toggle
   const hamburger = document.getElementById('hamburger');
   const navbar = document.getElementById('navbar');
@@ -63,12 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+});
 
-  // Loading screen
-  const loadingScreen = document.getElementById('loadingScreen');
+// Hide loading screen after full page (including images) is loaded
+window.addEventListener("load", () => {
+  const loadingScreen = document.getElementById("loadingScreen");
   if (loadingScreen) {
-    setTimeout(() => {
-      loadingScreen.style.display = 'none';
-    }, 1200);
+    loadingScreen.style.display = "none";
   }
 });
