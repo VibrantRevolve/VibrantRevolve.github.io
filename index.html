@@ -43,7 +43,7 @@
 
   <main id="main">
     <section class="home-section">
-      <h1>Welcome to My Freelance Services</h1>
+      <h1>Welcome to VibrantRevolve Services</h1>
       <p>I help businesses and individuals with websites, Software-Programs, CVs, summaries, and more!</p>
       <a href="#contact" class="hire-button" role="button" aria-label="Hire me button">Hire Me</a>
     </section>
@@ -65,16 +65,37 @@
       </div>
     </section>
 
-    <section id="portfolio" class="portfolio-section">
-      <h2>Portfolio</h2>
-      <div class="portfolio-items">
-        <div class="portfolio-item">
-          <img src="portfolio1.jpg" alt="Portfolio project 1" />
-          <p>Responsive Website for XYZ</p>
-        </div>
-        <!-- More portfolio items -->
-      </div>
-    </section>
+<section id="portfolio" class="portfolio-section">
+  <h2>My Portfolio</h2>
+  
+  <div class="portfolio-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="web">Web Design</button>
+    <button class="filter-btn" data-filter="software">Software Dev</button>
+  </div>
+
+  <div class="portfolio-grid">
+    <!-- Web Design Example -->
+    <div class="portfolio-item" data-category="web">
+      <img src="/img/portf-img/web1.jpg" alt="Landing Page Design" />
+      <h3>Landing Page - Café Website</h3>
+      <p>Responsive & SEO-optimized web design.</p>
+      <a href="https://example.com/web1" target="_blank">View Live</a>
+    </div>
+
+    <!-- Software Development Example -->
+    <div class="portfolio-item" data-category="software">
+      <img src="/img/portfolio/software1.jpg" alt="SaaS Tool UI" />
+      <h3>SaaS Tool - Project Tracker</h3>
+      <p>Full-stack tool using Firebase + React + Node.js.</p>
+      <a href="https://example.com/software1" target="_blank">View Live</a>
+      <a href="https://github.com/yourrepo" target="_blank">View Code</a>
+    </div>
+
+    <!-- More items... -->
+  </div>
+</section>
+
 
     <section id="pricing" class="pricing-section">
       <h2>Pricing</h2>
