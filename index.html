@@ -11,6 +11,7 @@
 
   <script defer src="/scripts/script.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascripts" async></script>
   <script>
     emailjs.init("CnB0xCvycunmgJ5OH");
   </script>
@@ -67,7 +68,7 @@
 
 <section id="portfolio" class="portfolio-section">
   <h2>My Portfolio</h2>
-  
+
   <div class="portfolio-filters">
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="web">Web Design</button>
@@ -75,7 +76,7 @@
   </div>
 
   <div class="portfolio-grid">
-    <!-- Web Design Example -->
+    <!-- Web Design -->
     <div class="portfolio-item" data-category="web">
       <img src="/img/portf-img/web1.jpg" alt="Landing Page Design" />
       <h3>Landing Page - Café Website</h3>
@@ -83,7 +84,7 @@
       <a href="https://example.com/web1" target="_blank">View Live</a>
     </div>
 
-    <!-- Software Development Example -->
+    <!-- Software Development -->
     <div class="portfolio-item" data-category="software">
       <img src="/img/portfolio/software1.jpg" alt="SaaS Tool UI" />
       <h3>SaaS Tool - Project Tracker</h3>
@@ -112,8 +113,11 @@
     <button type="submit">Send Message</button>
   </form>
   <br />
-  <a href="https://calendar-booking-link.com" target="_blank" rel="noopener noreferrer">📅 Book a Free Discovery Call</a>
-</section>
+  <button onclick="Calendly.initPopupWidget({url:'https://calendly.com/vibrantrevolve/discovery-call'}); return false;" class="book-call-btn">
+    📅 Book a Discovery Call
+  </button>
+  <!--<a href="https://calendar-booking-link.com" target="_blank" rel="noopener noreferrer">📅 Book a Free Discovery Call</a>
+</section>-->
 
   </main>
 
@@ -150,5 +154,6 @@
   </div>
 
   </footer>
+
 </body>
 </html>
