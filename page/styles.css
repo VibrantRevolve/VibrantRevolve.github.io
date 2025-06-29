@@ -41,6 +41,21 @@ main {
   color: gold;
   text-decoration: none;
 }
+
+/* Back to Home Link */
+.back-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: 500;
+}
+.back-link:hover {
+  text-decoration: underline;
+  color: #c7a300;
+}
+
 nav ul {
   display: flex;
   gap: 1rem;
@@ -106,7 +121,8 @@ nav ul li a.active {
   color: #000;
 }
 .payment-method input[type="email"],
-.payment-method input[type="number"] {
+.payment-method input[type="number"],
+.email-entry input[type="email"] {
   width: 100%;
   padding: 0.6rem;
   margin: 0.5rem 0 1rem;
@@ -144,6 +160,21 @@ nav ul li a.active {
   background-color: #1da851;
 }
 
+/* Summary Section */
+#summary {
+  margin: 1rem 0 2rem;
+  background: #eaeaea;
+  padding: 1rem;
+  border-radius: 8px;
+}
+#summary p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+#summary span {
+  font-weight: 600;
+}
+
 /* Footer */
 .site-footer {
   background-color: #000;
@@ -159,17 +190,14 @@ nav ul li a.active {
   justify-content: center;
   gap: 1.2rem;
 }
-
 .social-links a {
   color: #fff;
   font-size: 1.3rem;
   transition: color 0.3s ease;
 }
-
 .social-links a:hover {
   color: #ffd700;
 }
-
 
 /* Scroll Progress Bar */
 .scroll-progress {
@@ -189,7 +217,6 @@ nav ul li a.active {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media (min-width: 992px) {
   .payment-methods {
     grid-template-columns: repeat(3, 1fr);

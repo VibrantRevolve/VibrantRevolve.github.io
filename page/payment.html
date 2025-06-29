@@ -5,49 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Payment Page</title>
   <link rel="stylesheet" href="styles.css" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script defer src="script.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <a href="#" class="logo">VibrantRevolve</a>
-      <nav>
-        <span class="hamburger">&#9776;</span>
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="#" class="active">Payment</a></li>
-          <li><a href="/index.html#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+      <a href="#" class="logo">VibrantRevolve</a><br>
+      <a href="../index.html" class="back-link">← Back to Home</a>
   </header>
 
-  <main class="container payment-section">
-    <h1>Make a Payment</h1>
 
+  <main class="container payment-section">
+    <h1>Complete Payment</h1>
+
+    <!-- Hidden Details to Display -->
+    <div id="summary">
+      <p><strong>Service:</strong> <span id="summary-service"></span></p>
+      <p><strong>Amount:</strong> $<span id="summary-amount"></span></p>
+      <p><strong>Tracking ID:</strong> <span id="summary-tracking"></span></p>
+    </div>
+
+    <!-- Email input for all -->
+    <div class="email-entry">
+      <input type="email" id="user-email" placeholder="Your email" required />
+    </div>
+
+    <!-- Payment Methods -->
     <div class="payment-methods">
       <!-- PayPal -->
       <div class="payment-method">
         <h3>Pay with PayPal</h3>
-        <input type="email" id="paypal-email" placeholder="Your email" />
-        <input type="number" id="paypal-amount" placeholder="Amount (USD)" />
         <div id="paypal-button-container"></div>
       </div>
 
       <!-- Paystack -->
       <div class="payment-method">
         <h3>Pay with Paystack</h3>
-        <input type="email" id="paystack-email" placeholder="Your email" />
-        <input type="number" id="paystack-amount" placeholder="Amount (NGN)" />
         <button class="pay-button" onclick="payWithPaystack()">Pay Now</button>
       </div>
 
       <!-- Flutterwave -->
       <div class="payment-method">
         <h3>Pay with Flutterwave</h3>
-        <input type="email" id="flutter-email" placeholder="Your email" />
-        <input type="number" id="flutter-amount" placeholder="Amount (NGN)" />
         <button class="pay-button" onclick="payWithFlutterwave()">Pay Now</button>
       </div>
     </div>
@@ -55,36 +55,118 @@
     <a href="https://wa.me/2349012739299" class="whatsapp-button">Need Help? Chat on WhatsApp</a>
   </main>
 
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="social-links">
+        <a href="https://twitter.com/vibrantrevolve" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/vibrantrevolve" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/yourhandle" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/yourhandle" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p>&copy; 2025 VibrantRevolve. All rights reserved.</p>
+      <p>Designed with ❤️ by VR</p>
+    </div>
+  </footer>
+
   <!-- Scripts -->
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script src="https://js.paystack.co/v1/inline.js"></script>
   <script src="https://checkout.flutterwave.com/v3.js"></script>
   <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script>
-  <script src="script.js"></script>
+  <script>
+    // Init EmailJS
+    emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
 
-     <footer class="site-footer">
-    <div class="container footer-container">
-      <div class="social-links">
-    <a href="https://twitter.com/vibrantrevolve" target="_blank" aria-label="Twitter">
-    <i class="fab fa-twitter"></i>
-    </a>
-    <!---<a href="https://facebook.com/yourhandle" target="_blank" aria-label="Facebook">
-      <i class="fab fa-facebook-f"></i>
-    </a>--->
-    <a href="https://instagram.com/vibrantrevolve" target="_blank" aria-label="Instagram">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="https://github.com/yourhandle" target="_blank" aria-label="GitHub">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="https://linkedin.com/in/yourhandle" target="_blank" aria-label="LinkedIn">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
-      </div>
-      <p>&copy; 2025 VibrantRevolve. All rights reserved.</p>
-      <p>Designed with ❤️ by VR</p>
-  </div>
+    const service = localStorage.getItem('service') || 'Unknown';
+    const amount = localStorage.getItem('price') || '0';
+    const trackingId = localStorage.getItem('trackingId') || 'N/A';
 
-  </footer>
+    // Show on screen
+    document.getElementById('summary-service').innerText = service;
+    document.getElementById('summary-amount').innerText = amount;
+    document.getElementById('summary-tracking').innerText = trackingId;
+
+    // Reusable function to send email
+    function sendConfirmationEmail(email) {
+      return emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+        user_email: email,
+        service_name: service,
+        amount: amount,
+        tracking_id: trackingId
+      });
+    }
+
+    // Paystack
+    function payWithPaystack() {
+      const email = document.getElementById('user-email').value;
+      if (!email) return alert("Please enter your email");
+
+      sendConfirmationEmail(email).then(() => {
+        const handler = PaystackPop.setup({
+          key: 'YOUR_PAYSTACK_PUBLIC_KEY',
+          email: email,
+          amount: parseFloat(amount) * 100,
+          currency: 'NGN',
+          callback: function(response) {
+            alert('Payment successful!');
+            localStorage.clear();
+            window.location.href = "/page/success.html";
+          }
+        });
+        handler.openIframe();
+      });
+    }
+
+    // Flutterwave
+    function payWithFlutterwave() {
+      const email = document.getElementById('user-email').value;
+      if (!email) return alert("Please enter your email");
+
+      sendConfirmationEmail(email).then(() => {
+        FlutterwaveCheckout({
+          public_key: "YOUR_FLUTTERWAVE_PUBLIC_KEY",
+          tx_ref: trackingId,
+          amount: parseFloat(amount),
+          currency: "NGN",
+          customer: {
+            email: email
+          },
+          callback: function(response) {
+            alert("Payment successful!");
+            localStorage.clear();
+            window.location.href = "/page/success.html";
+          }
+        });
+      });
+    }
+
+    // PayPal
+    paypal.Buttons({
+      createOrder: function(data, actions) {
+        return actions.order.create({
+          purchase_units: [{
+            amount: {
+              value: amount
+            }
+          }]
+        });
+      },
+      onApprove: function(data, actions) {
+        const email = document.getElementById('user-email').value;
+        if (!email) {
+          alert("Please enter your email");
+          return;
+        }
+
+        return actions.order.capture().then(function(details) {
+          sendConfirmationEmail(email).then(() => {
+            alert("Payment confirmed!");
+            localStorage.clear();
+            window.location.href = "/page/success.html";
+          });
+        });
+      }
+    }).render('#paypal-button-container');
+  </script>
 </body>
 </html>
