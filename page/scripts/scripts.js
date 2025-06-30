@@ -19,7 +19,7 @@ async function fetchRates() {
     console.log('Rates fetched:', currencyRates);
   } catch (error) {
     console.error('Currency fetch error:', error);
-    currencyRates.ngn = 1500;
+    currencyRates.ngn = 1560;
     currencyRates.eur = 0.9;
     currencyRates.gbp = 0.8;
   }

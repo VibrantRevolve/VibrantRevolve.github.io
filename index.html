@@ -116,6 +116,19 @@
   <button onclick="Calendly.initPopupWidget({url:'https://calendly.com/vibrantrevolve/discovery-call'}); return false;" class="book-call-btn">
     📅 Book a Discovery Call
   </button>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const calendlyButton = document.getElementById("calendly-button");
+
+    calendlyButton.addEventListener("click", function () {
+      if (typeof Calendly !== "undefined" && Calendly.initPopupWidget) {
+        Calendly.initPopupWidget({ url: 'https://calendly.com/vibrantrevolve/discovery-call' });
+      } else {
+        alert("Calendly is not loaded yet. Please try again shortly.");
+      }
+    });
+  });
+</script>
 
   </main>
 

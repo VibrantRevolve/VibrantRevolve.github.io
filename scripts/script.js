@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Hide loading screen after full page (including images) is loaded
+// Hiding loading screen after full page (including images) is loaded
 window.addEventListener("load", () => {
   const loadingScreen = document.getElementById("loadingScreen");
   if (loadingScreen) {

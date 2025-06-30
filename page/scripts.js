@@ -1,5 +1,5 @@
 // EmailJS init
-emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
+emailjs.init("CnB0xCvycunmgJ5OH");
 
 function sendEmail(email, amount, method) {
   const templateParams = {
@@ -8,7 +8,7 @@ function sendEmail(email, amount, method) {
     payment_method: method
   };
 
-  emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
+  emailjs.send("service_4vc302d", "YOUR_TEMPLATE_ID", templateParams)
     .then(() => {
       alert("Payment confirmed via email!");
       window.location.href = "success.html";
@@ -58,9 +58,9 @@ function payWithFlutterwave() {
       }
     },
     customizations: {
-      title: "Your Company",
+      title: "Vibrant Revolve",
       description: "Payment for services",
-      logo: "https://yourdomain.com/logo.png",
+      logo: "/img/abo.png",
     },
   });
 }
