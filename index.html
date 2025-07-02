@@ -5,16 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VibrantRevolve</title>
   <link rel="stylesheet" href="/styles/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon.png" />
 
   <script defer src="/scripts/script.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
   <script>
     emailjs.init("CnB0xCvycunmgJ5OH");
   </script>
+  <style>
+    .book-call-btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background-color: #ffd700;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    .book-call-btn:hover {
+      background-color: #e6c200;
+      transform: scale(1.05);
+    }
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    .modal-content {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @media (prefers-color-scheme: dark) {
+      .book-call-btn {
+        background-color: #222;
+        color: #ffd700;
+      }
+      .book-call-btn:hover {
+        background-color: #333;
+      }
+      .modal-content {
+        background: #333;
+        color: #fff;
+      }
+    }
+    @media (max-width: 600px) {
+      .book-call-btn {
+        width: 100%;
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -66,37 +125,30 @@
       </div>
     </section>
 
-<section id="portfolio" class="portfolio-section">
-  <h2>My Portfolio</h2>
+    <section id="portfolio" class="portfolio-section">
+      <h2>My Portfolio</h2>
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="software">Software Dev</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="web">
+          <img src="/img/portf-img/web1.jpg" alt="Landing Page Design" />
+          <h3>Landing Page - Café Website</h3>
+          <p>Responsive & SEO-optimized web design.</p>
+          <a href="https://example.com/web1" target="_blank">View Live</a>
+        </div>
 
-  <div class="portfolio-filters">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="web">Web Design</button>
-    <button class="filter-btn" data-filter="software">Software Dev</button>
-  </div>
-
-  <div class="portfolio-grid">
-    <!-- Web Design -->
-    <div class="portfolio-item" data-category="web">
-      <img src="/img/portf-img/web1.jpg" alt="Landing Page Design" />
-      <h3>Landing Page - Café Website</h3>
-      <p>Responsive & SEO-optimized web design.</p>
-      <a href="https://example.com/web1" target="_blank">View Live</a>
-    </div>
-
-    <!-- Software Development -->
-    <div class="portfolio-item" data-category="software">
-      <img src="/img/portfolio/software1.jpg" alt="SaaS Tool UI" />
-      <h3>SaaS Tool - Project Tracker</h3>
-      <p>Full-stack tool using Firebase + React + Node.js.</p>
-      <a href="https://example.com/software1" target="_blank">View Live</a>
-      <a href="https://github.com/yourrepo" target="_blank">View Code</a>
-    </div>
-
-    <!-- More items... -->
-  </div>
-</section>
-
+        <div class="portfolio-item" data-category="software">
+          <img src="/img/portfolio/software1.jpg" alt="SaaS Tool UI" />
+          <h3>SaaS Tool - Project Tracker</h3>
+          <p>Full-stack tool using Firebase + React + Node.js.</p>
+          <a href="https://example.com/software1" target="_blank">View Live</a>
+          <a href="https://github.com/yourrepo" target="_blank">View Code</a>
+        </div>
+      </div>
+    </section>
 
     <section id="pricing" class="pricing-section">
       <h2>Pricing</h2>
@@ -104,32 +156,19 @@
       <a href="/page/pricing.html" class="hire-button">View Pricing / Pay Now</a>
     </section>
 
-<section id="contact" class="contact-section">
-  <h2>Contact Me</h2>
-  <form id="contactForm" aria-label="Contact form">
-    <input type="text" name="from_name" placeholder="Your Name" required />
-    <input type="email" name="from_email" placeholder="Your Email" required />
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-  <br />
-  <button onclick="Calendly.initPopupWidget({url:'https://calendly.com/vibrantrevolve/discovery-call'}); return false;" class="book-call-btn">
-    📅 Book a Discovery Call
-  </button>
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const calendlyButton = document.getElementById("calendly-button");
-
-    calendlyButton.addEventListener("click", function () {
-      if (typeof Calendly !== "undefined" && Calendly.initPopupWidget) {
-        Calendly.initPopupWidget({ url: 'https://calendly.com/vibrantrevolve/discovery-call' });
-      } else {
-        alert("Calendly is not loaded yet. Please try again shortly.");
-      }
-    });
-  });
-</script>
-
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form id="contactForm" aria-label="Contact form">
+        <input type="text" name="from_name" placeholder="Your Name" required />
+        <input type="email" name="from_email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <br />
+    <!---- <button id="calendly-button" class="book-call-btn">
+        📅 Book a Discovery Call
+      </button>-->
+    </section>
   </main>
 
   <button id="backToTop" aria-label="Back to top">↑</button>
@@ -141,30 +180,35 @@
       <button id="closeModal">Close</button>
     </div>
   </div>
+
   <footer class="site-footer">
     <div class="container footer-container">
       <div class="social-links">
-    <a href="https://twitter.com/vibrantrevolve" target="_blank" aria-label="Twitter">
-    <i class="fab fa-twitter"></i>
-    </a>
-    <!---<a href="https://facebook.com/yourhandle" target="_blank" aria-label="Facebook">
-      <i class="fab fa-facebook-f"></i>
-    </a>--->
-    <a href="https://instagram.com/vibrantrevolve" target="_blank" aria-label="Instagram">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="https://github.com/yourhandle" target="_blank" aria-label="GitHub">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="https://linkedin.com/in/yourhandle" target="_blank" aria-label="LinkedIn">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
+        <a href="https://twitter.com/vibrantrevolve" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/vibrantrevolve" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/yourhandle" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/yourhandle" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
       </div>
       <p>&copy; 2025 VibrantRevolve. All rights reserved.</p>
       <p>Designed with ❤️ by VR</p>
-  </div>
-
+    </div>
   </footer>
 
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const calendlyBtn = document.getElementById("calendly-button");
+
+      calendlyBtn.addEventListener("click", function () {
+        if (typeof Calendly !== "undefined" && Calendly.initPopupWidget) {
+          Calendly.initPopupWidget({
+            url: 'https://calendly.com/vibrantrevolve/discovery-call'
+          });
+        } else {
+          alert("Calendly is not loaded yet. Please wait a moment and try again.");
+        }
+      });
+    });
+  </script>
 </body>
 </html>

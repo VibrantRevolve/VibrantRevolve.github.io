@@ -1,17 +1,42 @@
-    <section id="portfolio" class="portfolio-section">
-      <h2>Portfolio</h2>
-      <div class="portfolio-items">
-        <div class="portfolio-item">
-          <img src="portfolio-1.jpeg" alt="Portfolio project 1" />
-          <p>Responsive Website for XYZ</p>
-        </div>
-        <!-- More portfolio items -->
-      </div>
-      <div class="portfolio-items">
-        <div class="portfolio-item">
-          <img src="portfolio-2.jpg" alt="Portfolio project 2" />
-          <p>Responsive Website for XYZ</p>
-        </div>
-        <!-- More portfolio items -->
-      </div>
-    </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calendly Popup Test</title>
+
+  <!-- Calendly Widget Script -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .book-call-btn {
+      padding: 1rem 2rem;
+      background-color: #ffcc00;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.2rem;
+    }
+
+    .book-call-btn:hover {
+      background-color: #e0b700;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calendly Popup Test</h1>
+  <p>Click the button below to open the discovery call popup.</p>
+
+  <button 
+    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/vibrantrevolve/discovery-call'}); return false;" 
+    class="book-call-btn">
+    📅 Book a Discovery Call
+  </button>
+</body>
+</html>
