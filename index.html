@@ -35,16 +35,23 @@
   <header>
     <div class="container header-container">
       <img src="/img/abo.png" alt="VibrantRevolve - Freelance Web & Software Development" class="logo" />
-      <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
       <nav id="navbar" role="navigation" aria-label="Main navigation">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -120,6 +127,47 @@
           <p>Full-stack tool using Firebase + React + Node.js.</p>
           <a href="https://example.com/software1" target="_blank" rel="noopener noreferrer">View Live</a>
           <a href="https://github.com/yourrepo" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+      <h2>What Clients Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"VibrantRevolve built our café website in 48 hours. Sales increased 30% within the first month. Absolutely professional!"</p>
+          <div class="client">
+            <img src="/img/clients/client1.jpg" alt="Sarah Johnson" loading="lazy" />
+            <div class="client-info">
+              <strong>Sarah Johnson</strong>
+              <span>Owner, Brew & Bloom Café</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The custom CV he designed got me 3 interview calls in one week. Worth every penny!"</p>
+          <div class="client">
+            <img src="/img/clients/client2.jpg" alt="Michael Adeyemi" loading="lazy" />
+            <div class="client-info">
+              <strong>Michael Adeyemi</strong>
+              <span>Product Manager, Lagos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Our project tracker SaaS was delivered ahead of schedule. Clean code, great communication throughout."</p>
+          <div class="client">
+            <img src="/img/clients/client3.jpg" alt="David Chen" loading="lazy" />
+            <div class="client-info">
+              <strong>David Chen</strong>
+              <span>CTO, TaskFlow Inc.</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
