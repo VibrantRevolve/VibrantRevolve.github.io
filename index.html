@@ -3,80 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VibrantRevolve</title>
+  <meta name="description" content="VibrantRevolve - Professional freelance web development, software development, custom CVs, and graphic design services. Hire a multi-skilled developer today." />
+  <meta name="keywords" content="freelance web developer, software developer, custom CV, business card design, proofreading, article summaries" />
+  <meta name="author" content="VibrantRevolve" />
+  <meta property="og:title" content="VibrantRevolve - Freelance Web & Software Development" />
+  <meta property="og:description" content="Helping businesses and individuals with websites, software, graphics, articles, and more!" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  
+  <title>VibrantRevolve | Freelance Web & Software Developer</title>
+  
   <link rel="stylesheet" href="/styles/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon.png" />
 
-  <script defer src="/scripts/script.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script>
-    emailjs.init("CnB0xCvycunmgJ5OH");
-  </script>
-  <style>
-    .book-call-btn {
-      display: inline-block;
-      padding: 0.7rem 1.5rem;
-      background-color: #ffd700;
-      color: #000;
-      font-weight: bold;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1rem;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-    }
-    .book-call-btn:hover {
-      background-color: #e6c200;
-      transform: scale(1.05);
-    }
-    .modal {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.6);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 9999;
-    }
-    .modal-content {
-      background: #fff;
-      padding: 2rem;
-      border-radius: 10px;
-      text-align: center;
-      animation: fadeIn 0.5s ease-in-out;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: scale(0.95); }
-      to { opacity: 1; transform: scale(1); }
-    }
-    @media (prefers-color-scheme: dark) {
-      .book-call-btn {
-        background-color: #222;
-        color: #ffd700;
-      }
-      .book-call-btn:hover {
-        background-color: #333;
-      }
-      .modal-content {
-        background: #333;
-        color: #fff;
-      }
-    }
-    @media (max-width: 600px) {
-      .book-call-btn {
-        width: 100%;
-        font-size: 1rem;
-      }
-    }
-  </style>
+  <script defer src="https://assets.calendly.com/assets/external/widget.js"></script>
+  <script defer src="/scripts/script.js"></script>
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
+  
+  <div class="scroll-progress"></div>
 
   <div id="loadingScreen" class="loading-screen" role="alert" aria-live="assertive">
     <div class="spinner"></div>
@@ -85,9 +34,11 @@
 
   <header>
     <div class="container header-container">
-      <img src="/img/abo.png" alt="Site Logo" class="logo" />
+      <img src="/img/abo.png" alt="VibrantRevolve - Freelance Web & Software Development" class="logo" />
       <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
       <nav id="navbar" role="navigation" aria-label="Main navigation">
         <ul>
@@ -104,24 +55,47 @@
   <main id="main">
     <section class="home-section">
       <h1>Welcome to VibrantRevolve</h1>
-      <p>Helping businesses and individuals with websites, Software-Programs, Graphics, Articles, and more!</p>
-      <a href="#contact" class="hire-button" role="button" aria-label="Hire me button">Hire Me</a>
+      <p>Helping businesses and individuals with websites, software programs, graphics, articles, and more!</p>
+      <div class="trust-badges">
+        <span>✓ 50+ Projects Delivered</span>
+        <span>✓ 24h Response Time</span>
+        <span>✓ 100% Satisfaction</span>
+      </div>
+      <a href="#contact" class="hire-button" role="button" aria-label="Hire me for your project">Hire Me</a>
     </section>
 
     <section id="about" class="about-section">
       <h2>About Me</h2>
-      <p>I’m a multi-skilled freelancer offering web & software development, custom CV creation, summaries, proofreading, and business card design.</p>
+      <p>I'm a multi-skilled freelancer offering web & software development, custom CV creation, summaries, proofreading, and business card design. I bring your ideas to life with clean code and stunning visuals.</p>
     </section>
 
     <section id="services" class="services-section">
       <h2>Services</h2>
       <div class="service-cards">
-        <a href="/services/website-development.html" class="service-card">🌐 Website Development</a>
-        <a href="/services/software-development.html" class="service-card">💻 Software Development</a>
-        <a href="/services/custom-cv.html" class="service-card">📄 Custom CV Creation</a>
-        <a href="/services/summarizing.html" class="service-card">🧠 Article/Video Summaries</a>
-        <a href="/services/proofreading.html" class="service-card">📝 Proofreading</a>
-        <a href="/services/business-card.html" class="service-card">🎨 Business Card Design</a>
+        <a href="/services/website-development.html" class="service-card">
+          <span>🌐</span>
+          Website Development
+        </a>
+        <a href="/services/software-development.html" class="service-card">
+          <span>💻</span>
+          Software Development
+        </a>
+        <a href="/services/custom-cv.html" class="service-card">
+          <span>📄</span>
+          Custom CV Creation
+        </a>
+        <a href="/services/summarizing.html" class="service-card">
+          <span>🧠</span>
+          Article/Video Summaries
+        </a>
+        <a href="/services/proofreading.html" class="service-card">
+          <span>📝</span>
+          Proofreading
+        </a>
+        <a href="/services/business-card.html" class="service-card">
+          <span>🎨</span>
+          Business Card Design
+        </a>
       </div>
     </section>
 
@@ -134,18 +108,18 @@
       </div>
       <div class="portfolio-grid">
         <div class="portfolio-item" data-category="web">
-          <img src="/img/portf-img/web1.jpg" alt="Landing Page Design" />
+          <img src="/img/portf-img/web1.jpg" alt="Café landing page design" loading="lazy" />
           <h3>Landing Page - Café Website</h3>
-          <p>Responsive & SEO-optimized web design.</p>
-          <a href="https://example.com/web1" target="_blank">View Live</a>
+          <p>Responsive & SEO-optimized web design for a local café.</p>
+          <a href="https://example.com/web1" target="_blank" rel="noopener noreferrer">View Live</a>
         </div>
 
         <div class="portfolio-item" data-category="software">
-          <img src="/img/portfolio/software1.jpg" alt="SaaS Tool UI" />
+          <img src="/img/portfolio/software1.jpg" alt="SaaS project tracker dashboard" loading="lazy" />
           <h3>SaaS Tool - Project Tracker</h3>
           <p>Full-stack tool using Firebase + React + Node.js.</p>
-          <a href="https://example.com/software1" target="_blank">View Live</a>
-          <a href="https://github.com/yourrepo" target="_blank">View Code</a>
+          <a href="https://example.com/software1" target="_blank" rel="noopener noreferrer">View Live</a>
+          <a href="https://github.com/yourrepo" target="_blank" rel="noopener noreferrer">View Code</a>
         </div>
       </div>
     </section>
@@ -158,25 +132,31 @@
 
     <section id="contact" class="contact-section">
       <h2>Contact Me</h2>
+      <p>Have a project in mind? Let's discuss how I can help.</p>
       <form id="contactForm" aria-label="Contact form">
-        <input type="text" name="from_name" placeholder="Your Name" required />
-        <input type="email" name="from_email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="text" name="from_name" placeholder="Your Name" required aria-required="true" />
+        <input type="email" name="from_email" placeholder="Your Email" required aria-required="true" />
+        <textarea name="message" placeholder="Tell me about your project..." required aria-required="true"></textarea>
         <button type="submit">Send Message</button>
       </form>
+      <p class="form-note">🔒 Your information is safe. I reply within 24 hours.</p>
       <br />
-    <!---- <button id="calendly-button" class="book-call-btn">
+      <button id="calendly-button" class="book-call-btn">
         📅 Book a Discovery Call
-      </button>-->
+      </button>
     </section>
   </main>
 
   <button id="backToTop" aria-label="Back to top">↑</button>
 
+  <div class="sticky-cta">
+    <a href="#contact" class="hire-button">Hire Me Now</a>
+  </div>
+
   <div id="confirmationModal" class="modal" role="dialog" aria-modal="true" style="display: none;">
     <div class="modal-content">
       <h3>Thank you!</h3>
-      <p>Your message has been sent.</p>
+      <p>Your message has been sent successfully. I'll get back to you within 24 hours.</p>
       <button id="closeModal">Close</button>
     </div>
   </div>
@@ -184,31 +164,14 @@
   <footer class="site-footer">
     <div class="container footer-container">
       <div class="social-links">
-        <a href="https://twitter.com/vibrantrevolve" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-        <a href="https://instagram.com/vibrantrevolve" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://github.com/yourhandle" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/yourhandle" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com/vibrantrevolve" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/vibrantrevolve" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
       </div>
       <p>&copy; 2025 VibrantRevolve. All rights reserved.</p>
       <p>Designed with ❤️ by VR</p>
     </div>
   </footer>
-
-  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const calendlyBtn = document.getElementById("calendly-button");
-
-      calendlyBtn.addEventListener("click", function () {
-        if (typeof Calendly !== "undefined" && Calendly.initPopupWidget) {
-          Calendly.initPopupWidget({
-            url: 'https://calendly.com/vibrantrevolve/discovery-call'
-          });
-        } else {
-          alert("Calendly is not loaded yet. Please wait a moment and try again.");
-        }
-      });
-    });
-  </script>
 </body>
 </html>
