@@ -1,178 +1,218 @@
-/* ===== Base Styles ===== */
-body {
-  background: #000;
-  color: #fff;
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
+/* ============================================
+   SERVICE PAGE — BUSINESS CARD PRICING
+   Compatible with main site theme system
+   ============================================ */
 
-/* ===== Currency Toggle ===== */
+/* ===== IMPORT MAIN VARIABLES ===== */
+/* Include your main style.css first in HTML, then this file */
+
+/* ===== CURRENCY TOGGLE ===== */
 .currency-toggle {
   text-align: center;
   margin: 2rem 1rem 1rem;
 }
+
 .currency-toggle button {
-  background: #fff;
-  color: #000;
-  border: none;
-  padding: 0.4rem 0.5rem;
+  background: var(--card-bg);
+  color: var(--text-primary);
+  border: 2px solid var(--accent);
+  padding: 0.5rem 1.25rem;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
   margin: 0 0.4rem 0.5rem;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-}
-.currency-toggle button:hover {
-  background: #ffd700;
+  border-radius: 50px;
+  transition: all 0.3s ease;
 }
 
-/* ===== Pricing Section ===== */
+.currency-toggle button:hover,
+.currency-toggle button.active {
+  background: var(--accent);
+  color: #000;
+}
+
+/* ===== PRICING SECTION ===== */
 .pricing-section {
   max-width: 1200px;
   margin: auto;
-  padding: 2rem 1rem;
+  padding: 5rem 1.5rem;
 }
+
 .service-category {
   margin-bottom: 3rem;
 }
+
 .service-category h2 {
-  color: #ffd700;
+  color: var(--accent);
   text-align: center;
-  font-size: 1.8rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
   margin-bottom: 1.5rem;
 }
 
-/* ===== Pricing Grid ===== */
+.service-category h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--accent);
+  margin: 0.75rem auto 0;
+  border-radius: 2px;
+}
+
+/* ===== PRICING GRID ===== */
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
+
 .pricing-card {
-  background: #111;
-  border: 1px solid #333;
-  padding: 1.5rem;
-  border-radius: 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 16px;
   text-align: center;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.03);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
+
+.pricing-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent);
+  box-shadow: 0 20px 40px var(--shadow);
+}
+
 .pricing-card h3 {
   margin-top: 0;
-  font-size: 1.3rem;
-  color: #ffd700;
+  font-size: 1.4rem;
+  color: var(--accent);
 }
+
 .pricing-card p {
   font-size: 0.95rem;
-  margin: 0.5rem 0 1rem;
+  margin: 0.75rem 0 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
+
 .pricing-card .price {
-  font-size: 1.7rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
 }
+
+/* Popular badge */
+.pricing-card.featured::before {
+  content: "Most Popular";
+  position: absolute;
+  top: 1rem;
+  right: -2rem;
+  background: var(--accent);
+  color: #000;
+  padding: 0.25rem 2.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  transform: rotate(45deg);
+}
+
+/* ===== PRICING ACTIONS ===== */
 .pricing-actions {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
-}
-.chat-btn, .pay-btn {
-  background-color: #ffd700;
-  color: #000;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.95rem;
-  transition: background 0.3s ease;
-}
-.chat-btn:hover, .pay-btn:hover {
-  background: #fff;
+  gap: 0.75rem;
 }
 
-/* ===== Currency Loader ===== */
+.chat-btn, 
+.pay-btn {
+  display: block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.chat-btn {
+  background: transparent;
+  color: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+.chat-btn:hover {
+  background: var(--accent);
+  color: #000;
+  transform: translateY(-2px);
+}
+
+.pay-btn {
+  background: var(--accent);
+  color: #000;
+}
+
+.pay-btn:hover {
+  background: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px var(--shadow);
+}
+
+/* ===== CURRENCY LOADER ===== */
 #currencyLoader {
   display: none;
   text-align: center;
   margin: 1rem auto;
 }
-.spinner {
+
+.currency-spinner {
   display: inline-block;
   width: 20px;
   height: 20px;
-  border: 2px solid #999;
-  border-top: 2px solid transparent;
+  border: 2px solid var(--border-color);
+  border-top-color: var(--accent);
   border-radius: 50%;
-  animation: spin 1s linear infinite;
+  animation: currencySpin 1s linear infinite;
 }
-@keyframes spin {
+
+@keyframes currencySpin {
   to { transform: rotate(360deg); }
 }
 
-/* ===== Footer ===== */
-.site-footer {
-  background-color: #111;
-  color: #fff;
-  text-align: center;
-  padding: 2rem 1rem 1.5rem;
-  font-size: 0.9rem;
-  border-top: 1px solid #333;
-  margin-top: 4rem;
-}
-.site-footer .social-links {
-  margin: 1rem 0;
-}
-.site-footer a {
-  color: #ffd700;
-  margin: 0 0.5rem;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-.site-footer a:hover {
-  text-decoration: underline;
-  color: #fff;
+/* ===== BACK LINK ===== */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  color: var(--accent);
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
-/* ===== Social Media Icons ===== */
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.2rem;
-}
-.social-links a {
-  color: #fff;
-  font-size: 1.3rem;
-  transition: color 0.3s ease;
-}
-.social-links a:hover {
-  color: #ffd700;
+.back-link:hover {
+  transform: translateX(-5px);
 }
 
-/* ===== Responsive Adjustments ===== */
+/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .pricing-section {
-    padding: 1.5rem 1rem;
+    padding: 3rem 1rem;
   }
-  .currency-toggle button {
-    width: 48%;
-    margin-bottom: 0.5rem;
-  }
+  
   .pricing-card .price {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }
 
 @media (max-width: 480px) {
   .currency-toggle button {
-    width: 30%;
-    margin: 0.3rem 0;
+    width: 45%;
+    margin: 0.25rem;
   }
-  .pricing-card h3 {
-    font-size: 1.2rem;
-  }
-  .pricing-card p {
-    font-size: 0.9rem;
+  
+  .pricing-card {
+    padding: 1.5rem;
   }
 }
