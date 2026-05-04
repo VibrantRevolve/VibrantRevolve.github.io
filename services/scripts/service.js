@@ -1,5 +1,5 @@
 // ============================================
-// SERVICE PAGE — BUSINESS CARD PRICING
+// SERVICE PAGE — PRICING
 // ============================================
 
 // Currency state
