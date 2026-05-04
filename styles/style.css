@@ -18,7 +18,10 @@
   --accent-hover: #e6c200;
   --accent-light: #ffed4a;
   --shadow: rgba(255, 215, 0, 0.15);
+  --shadow-deep: rgba(255, 215, 0, 0.25);
   --white: #fff;
+  --success: #28a745;
+  --error: #dc3545;
 }
 
 [data-theme="light"] {
@@ -34,6 +37,7 @@
   --accent-hover: #a88a00;
   --accent-light: #ffd700;
   --shadow: rgba(199, 163, 0, 0.15);
+  --shadow-deep: rgba(199, 163, 0, 0.25);
   --white: #fff;
 }
 
@@ -406,6 +410,22 @@ section:nth-child(even) {
   font-weight: 600;
   color: var(--text-primary);
   position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.service-card:hover::before {
+  left: 100%;
 }
 
 .service-card span {
@@ -414,9 +434,9 @@ section:nth-child(even) {
 }
 
 .service-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
   border-color: var(--accent);
-  box-shadow: 0 10px 30px var(--shadow);
+  box-shadow: 0 20px 40px var(--shadow-deep);
 }
 
 /* === PORTFOLIO === */
@@ -460,12 +480,13 @@ section:nth-child(even) {
   border: 1px solid var(--border-color);
   border-radius: 12px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .portfolio-item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px) scale(1.02);
   border-color: var(--accent);
+  box-shadow: 0 25px 50px var(--shadow-deep);
 }
 
 .portfolio-item img {
@@ -473,6 +494,11 @@ section:nth-child(even) {
   aspect-ratio: 16 / 10;
   object-fit: cover;
   background: var(--bg-secondary);
+  transition: transform 0.5s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.05);
 }
 
 .portfolio-item h3 {
@@ -576,6 +602,11 @@ section:nth-child(even) {
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--accent);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover .client img {
+  transform: scale(1.1);
 }
 
 .client-info {
@@ -594,6 +625,84 @@ section:nth-child(even) {
   font-size: 0.8rem;
 }
 
+/* === PROCESS SECTION === */
+.process-section {
+  background: var(--bg-tertiary);
+}
+
+.process-steps {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.process-step {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.process-step:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  right: -1.5rem;
+  top: 2rem;
+  color: var(--accent);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.process-step .step-number {
+  width: 60px;
+  height: 60px;
+  background: var(--accent);
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px var(--shadow);
+}
+
+.process-step:hover .step-number {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 0 30px var(--shadow-deep);
+}
+
+.process-step h3 {
+  margin-bottom: 0.75rem;
+  color: var(--accent);
+}
+
+.process-step p {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .process-step:not(:last-child)::after {
+    content: "↓";
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: auto;
+    bottom: -1.5rem;
+  }
+  
+  .process-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /* === BUTTONS === */
 .hire-button, 
 button[type="submit"] {
@@ -605,15 +714,37 @@ button[type="submit"] {
   font-weight: 700;
   font-size: 1rem;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.hire-button::after,
+button[type="submit"]::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.hire-button:hover::after,
+button[type="submit"]:hover::after {
+  width: 300px;
+  height: 300px;
 }
 
 .hire-button:hover, 
 button[type="submit"]:hover {
   background: var(--white);
-  transform: translateY(-2px);
-  box-shadow: 0 5px 20px var(--shadow);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 25px var(--shadow-deep);
 }
 
 .hire-button:active, 
@@ -631,11 +762,15 @@ button[type="submit"]:active {
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .book-call-btn:hover {
   background: var(--accent);
   color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px var(--shadow);
 }
 
 /* === FORM === */
@@ -668,6 +803,7 @@ form textarea:focus {
   outline: none;
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--shadow);
+  transform: translateY(-1px);
 }
 
 form textarea {
@@ -682,6 +818,17 @@ form textarea {
   margin-top: 1rem;
 }
 
+/* Form validation states */
+form input:invalid:not(:placeholder-shown),
+form textarea:invalid:not(:placeholder-shown) {
+  border-color: var(--error);
+}
+
+form input:valid:not(:placeholder-shown),
+form textarea:valid:not(:placeholder-shown) {
+  border-color: var(--success);
+}
+
 /* === MODAL === */
 .modal {
   position: fixed;
@@ -692,6 +839,12 @@ form textarea {
   align-items: center;
   z-index: 10000;
   padding: 1rem;
+  opacity: 0;
+  animation: modalFadeIn 0.3s ease forwards;
+}
+
+@keyframes modalFadeIn {
+  to { opacity: 1; }
 }
 
 .modal-content {
@@ -703,12 +856,12 @@ form textarea {
   text-align: center;
   max-width: 400px;
   width: 100%;
-  animation: fadeIn 0.4s ease-out;
+  animation: modalSlideIn 0.4s ease-out;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.9); }
-  to { opacity: 1; transform: scale(1); }
+@keyframes modalSlideIn {
+  from { opacity: 0; transform: translateY(-20px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 .modal-content h3 {
@@ -736,13 +889,18 @@ form textarea {
   align-items: center;
   justify-content: center;
   z-index: 997;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   box-shadow: 0 4px 15px var(--shadow);
 }
 
 #backToTop:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px) scale(1.1);
   background: var(--white);
+  box-shadow: 0 8px 25px var(--shadow-deep);
+}
+
+#backToTop:active {
+  transform: scale(0.95);
 }
 
 /* === STICKY CTA === */
@@ -758,6 +916,10 @@ form textarea {
   z-index: 998;
   transform: translateY(100%);
   transition: transform 0.3s ease;
+}
+
+.sticky-cta.visible {
+  transform: translateY(0);
 }
 
 /* === FOOTER === */
@@ -786,6 +948,23 @@ form textarea {
   padding: 0.5rem;
   transition: all 0.3s ease;
   display: flex;
+  position: relative;
+}
+
+.social-links a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--accent);
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+
+.social-links a:hover::before {
+  transform: scale(1.2);
+  opacity: 0.2;
 }
 
 .social-links a:hover {
@@ -816,12 +995,34 @@ form textarea {
   }
 }
 
+/* Page load animation */
+.page-transition {
+  animation: pageLoad 0.6s ease-out;
+}
+
+@keyframes pageLoad {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Shimmer loading effect */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.loading-shimmer {
+  background: linear-gradient(90deg, var(--bg-secondary) 25%, var(--border-color) 50%, var(--bg-secondary) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
 /* === RESPONSIVE === */
 @media (max-width: 768px) {
   .header-actions {
     order: 2;
   }
-  
+
   nav {
     position: absolute;
     top: 100%;
@@ -893,29 +1094,3 @@ form textarea {
   }
 }
 
-/* === PRINT STYLES === */
-@media print {
-  header, 
-  footer, 
-  #backToTop, 
-  .sticky-cta, 
-  .loading-screen,
-  .theme-toggle,
-  #hamburger {
-    display: none !important;
-  }
-  
-  body { 
-    background: #fff; 
-    color: #000; 
-  }
-  
-  a { 
-    color: #000; 
-    text-decoration: underline; 
-  }
-  
-  section {
-    page-break-inside: avoid;
-  }
-}
