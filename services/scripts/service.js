@@ -1,41 +1,55 @@
+// ============================================
+// SERVICE PAGE — BUSINESS CARD PRICING
+// ============================================
+
+// Currency state
+window.currentCurrency = localStorage.getItem('vr_currency') || 'usd';
+
+function setCurrency(currency) {
+  window.currentCurrency = currency;
+  localStorage.setItem('vr_currency', currency);
+  
+  document.querySelectorAll('.price').forEach(el => {
+    const usd = el.dataset.usd;
+    const ngn = el.dataset.ngn;
+    el.textContent = currency === 'usd' ? `$${usd}` : `₦${parseInt(ngn).toLocaleString()}`;
+  });
+  
+  document.querySelectorAll('.currency-toggle button').forEach(btn => {
+    const isActive = btn.getAttribute('onclick').includes(currency);
+    btn.classList.toggle('active', isActive);
+  });
+}
+
 function preparePayment(service, price, event) {
-  // Prevent default if event exists (for onclick handlers)
   if (event) event.preventDefault();
   
   try {
-    // Get current currency from toggle or default to USD
-    const currentCurrency = window.currentCurrency || 'usd';
-    
-    // Calculate NGN equivalent if needed
-    const ngnPrice = currentCurrency === 'ngn' ? price : Math.round(price * 1500); // Adjust rate as needed
-    const usdPrice = currentCurrency === 'usd' ? price : Math.round(price / 1500);
-    
-    const trackingId = 'VR-' + Date.now().toString(36).toUpperCase();
+    const currentCurrency = window.currentCurrency;
+    const rate = 1500; // USD to NGN rate — update as needed
     
     const paymentData = {
       service: service,
-      priceUSD: usdPrice,
-      priceNGN: ngnPrice,
+      priceUSD: currentCurrency === 'usd' ? price : Math.round(price / rate),
+      priceNGN: currentCurrency === 'ngn' ? price : Math.round(price * rate),
       currency: currentCurrency,
-      trackingId: trackingId,
+      trackingId: 'VR-' + Date.now().toString(36).toUpperCase(),
       timestamp: new Date().toISOString()
     };
     
-    // Store as single object for cleaner retrieval
     localStorage.setItem('vr_payment', JSON.stringify(paymentData));
     
-    // Optional: append tracking to URL for server-side logging
-    const payBtn = event?.target;
-    if (payBtn) {
-      const separator = payBtn.href.includes('?') ? '&' : '?';
-      payBtn.href = `${payBtn.href}${separator}ref=${trackingId}`;
-    }
-    
-    return true; // Allow navigation to proceed
+    // Navigate to payment page
+    window.location.href = event?.target?.href || '/page/payment.html';
+    return false;
     
   } catch (err) {
     console.error('Payment prep failed:', err);
-    // Fallback: navigate anyway, let payment page handle defaults
-    return true;
+    return true; // Let default navigation work
   }
 }
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+  setCurrency(window.currentCurrency);
+});
