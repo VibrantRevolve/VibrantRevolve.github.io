@@ -1,7 +1,8 @@
 // ============================================
 // VIBRANTREVOLVE — PRODUCTION JAVASCRIPT
 // Complete with theme toggle, testimonials, 
-// portfolio filtering, form handling & more
+// process section, portfolio filtering, 
+// form handling & more
 // ============================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -24,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   
   window.addEventListener("load", hideLoader);
-  setTimeout(hideLoader, 5000); // Force hide after 5 seconds
+  setTimeout(hideLoader, 5000);
 
   // === THEME TOGGLE ===
   const themeToggle = document.getElementById('theme-toggle');
@@ -41,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('theme', theme);
   };
   
-  // Init theme
   applyTheme(getPreferredTheme());
   
   if (themeToggle) {
@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
   
-  // Listen for system changes
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
     if (!localStorage.getItem('theme')) {
       applyTheme(e.matches ? 'light' : 'dark');
@@ -83,7 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
       
-      // Close mobile menu if open
       if (navbar?.classList.contains('open')) {
         navbar.classList.remove('open');
         hamburger?.classList.remove('open');
@@ -103,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
       scrollProgress.style.width = `${scrolled}%`;
     }
 
-    // === BACK TO TOP BUTTON ===
     const backToTop = document.getElementById('backToTop');
     if (backToTop) {
       backToTop.style.display = window.scrollY > 300 ? 'flex' : 'none';
@@ -125,11 +122,9 @@ document.addEventListener('DOMContentLoaded', () => {
     button.addEventListener('click', () => {
       const filter = button.dataset.filter;
       
-      // Update active button
       filterButtons.forEach(btn => btn.classList.remove('active'));
       button.classList.add('active');
 
-      // Filter items with animation
       portfolioItems.forEach(item => {
         const category = item.dataset.category;
         const shouldShow = filter === 'all' || category === filter;
@@ -145,11 +140,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // === TESTIMONIALS CAROUSEL (Auto-rotate optional) ===
+  // === TESTIMONIALS ANIMATIONS ===
   const testimonialCards = document.querySelectorAll('.testimonial-card');
-  let currentTestimonial = 0;
-
-  // Add intersection observer for testimonial animations
+  
   const testimonialObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -163,6 +156,46 @@ document.addEventListener('DOMContentLoaded', () => {
     card.style.opacity = '0';
     testimonialObserver.observe(card);
   });
+
+  // === PROCESS SECTION ANIMATIONS ===
+  const processSteps = document.querySelectorAll('.process-step');
+  
+  const processObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }, index * 150);
+        processObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  processSteps.forEach(step => {
+    step.style.opacity = '0';
+    step.style.transform = 'translateY(30px)';
+    step.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    processObserver.observe(step);
+  });
+
+  // === STICKY CTA VISIBILITY ===
+  const stickyCta = document.querySelector('.sticky-cta');
+  const heroSection = document.querySelector('.home-section');
+
+  if (stickyCta && heroSection) {
+    const ctaObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          stickyCta.classList.remove('visible');
+        } else {
+          stickyCta.classList.add('visible');
+        }
+      });
+    }, { threshold: 0 });
+
+    ctaObserver.observe(heroSection);
+  }
 
   // === CONTACT FORM WITH VALIDATION ===
   const contactForm = document.getElementById('contactForm');
@@ -225,7 +258,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // === MODAL HANDLERS ===
     closeModalBtn?.addEventListener('click', () => {
       modal.style.display = 'none';
     });
@@ -281,18 +313,6 @@ document.addEventListener('DOMContentLoaded', () => {
     section.classList.add('fade-in-element');
     sectionObserver.observe(section);
   });
-
-  // === STICKY CTA VISIBILITY ===
-  const stickyCta = document.querySelector('.sticky-cta');
-  if (stickyCta) {
-    window.addEventListener('scroll', () => {
-      const heroSection = document.querySelector('.home-section');
-      if (heroSection) {
-        const heroBottom = heroSection.getBoundingClientRect().bottom;
-        stickyCta.style.transform = heroBottom < 0 ? 'translateY(0)' : 'translateY(100%)';
-      }
-    });
-  }
 
 });
 
