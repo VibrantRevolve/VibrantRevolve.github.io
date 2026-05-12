@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing | VibrantRevolve Services</title>
+  <meta name="description" content="Transparent pricing for web development, software, graphic design, content writing, and more. Starting from $15." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+
+  <script defer src="/assets/js/main.js"></script>
+  <script defer src="/assets/js/pricing-data.js"></script>
+  <script defer src="/assets/js/pricing.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div class="scroll-progress"></div>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="hero-section" style="min-height: 40vh;">
+      <div class="hero-content">
+        <h1>Service Pricing</h1>
+        <p class="hero-subtitle">Transparent, fixed pricing. No hidden fees. Choose your currency below.</p>
+
+        <div class="currency-toggle">
+          <button onclick="CurrencyManager.set('usd')" class="active">USD ($)</button>
+          <button onclick="CurrencyManager.set('ngn')">NGN (₦)</button>
+          <button onclick="CurrencyManager.set('eur')">EUR (€)</button>
+          <button onclick="CurrencyManager.set('gbp')">GBP (£)</button>
+        </div>
+
+        <div id="currencyLoader" style="display: none;">
+          <span class="spinner" style="width: 20px; height: 20px; border-width: 2px;"></span>
+          <span style="font-size: 0.9rem; color: var(--text-muted);">Updating prices...</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing rendered dynamically from pricing-data.js -->
+    <section id="pricing-container" class="container" style="padding-bottom: 5rem;">
+      <!-- Content injected by JavaScript below -->
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script>
+    // Render pricing from PRICING_DATA
+    document.addEventListener('DOMContentLoaded', () => {
+      const container = document.getElementById('pricing-container');
+      if (!container || typeof PRICING_DATA === 'undefined') return;
+
+      Object.entries(PRICING_DATA).forEach(([key, service]) => {
+        const section = document.createElement('div');
+        section.className = 'service-category';
+        section.style.marginBottom = '4rem';
+
+        section.innerHTML = `
+          <div class="section-header">
+            <h2><span class="card-icon">${service.icon}</span> ${service.title}</h2>
+            <p>${service.description}</p>
+          </div>
+          <div class="card-grid pricing-grid" id="grid-${key}"></div>
+        `;
+
+        const grid = section.querySelector(`#grid-${key}`);
+
+        service.tiers.forEach(tier => {
+          const card = document.createElement('div');
+          card.className = `card pricing-card ${tier.popular ? 'featured' : ''}`;
+
+          const featuresList = tier.features.map(f => `<li>${f}</li>`).join('');
+
+          // WhatsApp message specific to this service
+          const waMessage = encodeURIComponent(`Hi, I'm interested in your ${tier.name} ${service.title} package ($${tier.usd}). Can we discuss?`);
+          const tgMessage = encodeURIComponent(`${tier.name} ${service.title}`);
+
+          card.innerHTML = `
+            <h3>${tier.name}</h3>
+            <p>${tier.description}</p>
+            <div class="price" data-usd="${tier.usd}">$${tier.usd}</div>
+            <ul class="features-list">${featuresList}</ul>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: auto;">
+              <a class="btn btn-secondary btn-sm" href="https://wa.me/2349012739299?text=${waMessage}" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp
+              </a>
+              <a class="btn btn-secondary btn-sm" href="https://t.me/vibrantrevolve?start=${tgMessage}" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-telegram" aria-hidden="true"></i> Chat on Telegram
+              </a>
+              <a class="btn btn-primary btn-sm" href="/payment/" onclick="return preparePayment('${tier.name} ${service.title}', ${tier.usd})">
+                <i class="fas fa-credit-card" aria-hidden="true"></i> Pay Now
+              </a>
+            </div>
+          `;
+
+          grid.appendChild(card);
+        });
+
+        container.appendChild(section);
+      });
+    });
+  </script>
+</body>
+</html>

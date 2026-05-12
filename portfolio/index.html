@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | VibrantRevolve Projects</title>
+  <meta name="description" content="View real projects by VibrantRevolve: web development, software, and design work with case studies." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+
+  <script defer src="/assets/js/main.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div class="scroll-progress"></div>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="hero-section" style="min-height: 40vh;">
+      <div class="hero-content">
+        <h1>My Portfolio</h1>
+        <p class="hero-subtitle">Real projects. Real results. See what I can build for you.</p>
+      </div>
+    </section>
+
+    <section class="container fade-in-element" style="padding: 3rem 1.5rem 5rem;">
+      <div class="portfolio-filters" role="tablist" aria-label="Project categories">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web</button>
+        <button class="filter-btn" data-filter="software" role="tab" aria-selected="false">Software</button>
+        <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">Design</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid" role="tabpanel">
+
+        <!-- Project 1 -->
+        <article class="portfolio-item" data-category="web">
+          <img src="/assets/images/portfolio/project-1.jpg" alt="E-commerce website screenshot" loading="lazy" />
+          <div class="portfolio-content">
+            <h3>Nigerian E-Commerce Platform</h3>
+            <p>Full-stack e-commerce with Paystack integration, admin dashboard, and inventory management.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Paystack</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="https://demo-link.com" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+              </a>
+              <a href="https://github.com/YOUR_HANDLE/ecommerce-project" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github" aria-hidden="true"></i> Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="portfolio-item" data-category="software">
+          <img src="/assets/images/portfolio/project-2.jpg" alt="Automation tool interface" loading="lazy" />
+          <div class="portfolio-content">
+            <h3>Workflow Automation Tool</h3>
+            <p>Python-based automation that reduced client's manual data entry time by 70%.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Selenium</span>
+              <span class="tech-tag">Pandas</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="https://github.com/YOUR_HANDLE/automation-tool" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github" aria-hidden="true"></i> View Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="portfolio-item" data-category="design">
+          <img src="/assets/images/portfolio/project-3.jpg" alt="Brand identity mockup" loading="lazy" />
+          <div class="portfolio-content">
+            <h3>Brew & Bloom Brand Identity</h3>
+            <p>Complete visual identity for a Lagos café including logo, packaging, and social media kit.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;">
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">Illustrator</span>
+              <span class="tech-tag">Photoshop</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="/portfolio/brew-bloom-case-study.html">
+                <i class="fas fa-eye" aria-hidden="true"></i> Case Study
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="portfolio-item" data-category="web">
+          <img src="/assets/images/portfolio/project-4.jpg" alt="SaaS dashboard" loading="lazy" />
+          <div class="portfolio-content">
+            <h3>Project Management SaaS</h3>
+            <p>Team collaboration tool with real-time updates, task tracking, and reporting.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;">
+              <span class="tech-tag">Vue.js</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">Tailwind</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="https://saas-demo.com" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+              </a>
+              <a href="https://github.com/YOUR_HANDLE/saas-project" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github" aria-hidden="true"></i> Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="portfolio-item" data-category="software">
+          <img src="/assets/images/portfolio/project-5.jpg" alt="Mobile app screenshot" loading="lazy" />
+          <div class="portfolio-content">
+            <h3>Inventory Tracker App</h3>
+            <p>Cross-platform desktop app for small business inventory management.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;">
+              <span class="tech-tag">Electron</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">Chart.js</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="https://github.com/YOUR_HANDLE/inventory-app" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github" aria-hidden="true"></i> View Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="portfolio-item" data-category="design">
+          <img src="/assets/images/portfolio/project-6.jpg" alt="Social media graphics" loading="lazy" />
+          <div class="portfolio-content">
+            <h3>Social Media Campaign Kit</h3>
+            <p>30-day content calendar with custom graphics for Instagram and Facebook.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;">
+              <span class="tech-tag">Canva</span>
+              <span class="tech-tag">Photoshop</span>
+              <span class="tech-tag">Content Strategy</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="/portfolio/social-media-case-study.html">
+                <i class="fas fa-eye" aria-hidden="true"></i> View Results
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="fade-in-element" style="text-align: center; padding: 3rem 1.5rem;">
+      <h2>Have a project in mind?</h2>
+      <p style="margin-bottom: 1.5rem;">Let's build something amazing together.</p>
+      <a href="/contact/" class="btn btn-primary">
+        <i class="fas fa-paper-plane" aria-hidden="true"></i> Start a Project
+      </a>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script>
+    // Portfolio filtering
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.filter-btn');
+      const items = document.querySelectorAll('.portfolio-item');
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.dataset.filter;
+
+          buttons.forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+
+          items.forEach(item => {
+            const show = filter === 'all' || item.dataset.category === filter;
+            item.style.display = show ? 'block' : 'none';
+            if (show) item.style.animation = 'fadeInUp 0.4s ease forwards';
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>

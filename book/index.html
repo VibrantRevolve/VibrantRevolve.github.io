@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Call | VibrantRevolve</title>
+  <meta name="description" content="Schedule a free 15-minute discovery call with VibrantRevolve. Web development, software, and digital solutions." />
+  <meta name="robots" content="noindex" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+
+  <script defer src="/assets/js/main.js"></script>
+
+  <style>
+    .scheduler-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .scheduler-header {
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .scheduler-header h1 {
+      margin-bottom: 0.5rem;
+    }
+    .scheduler-header p {
+      color: var(--text-secondary);
+      margin: 0;
+    }
+    .scheduler-body {
+      padding: 1rem;
+      min-height: 600px;
+    }
+    .scheduler-iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+      border-radius: var(--radius-sm);
+    }
+    .scheduler-fallback {
+      display: none;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .scheduler-fallback.active {
+      display: block;
+    }
+    .scheduler-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      background: var(--bg-tertiary);
+      border-top: 1px solid var(--border-color);
+    }
+    .info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+    .info-item i {
+      color: var(--accent);
+      font-size: 1.2rem;
+      margin-top: 0.2rem;
+    }
+    .info-item h4 {
+      font-size: 0.95rem;
+      margin-bottom: 0.25rem;
+      color: var(--text-primary);
+    }
+    .info-item p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .back-link:hover {
+      color: var(--white);
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div class="scroll-progress"></div>
+  <div id="site-header"></div>
+
+  <main id="main" style="padding: 3rem 1.5rem;">
+    <div class="container">
+
+      <a href="/contact/" class="back-link">
+        <i class="fas fa-arrow-left" aria-hidden="true"></i> Back to Contact
+      </a>
+
+      <div class="scheduler-container fade-in-element">
+        <div class="scheduler-header">
+          <h1>Book a Discovery Call</h1>
+          <p>Free 15-minute consultation. Let's discuss your project, timeline, and budget.</p>
+        </div>
+
+        <div class="scheduler-body">
+          <!-- Google Appointment Scheduling iframe -->
+          <!-- 
+            INSTRUCTIONS: Replace YOUR_GOOGLE_SCHEDULER_LINK with your actual link.
+
+            To get your link:
+            1. Go to https://calendar.google.com
+            2. Click your calendar → Settings and sharing
+            3. Scroll to "Appointment schedules" → "Create appointment schedule"
+            4. Set title: "Discovery Call with VibrantRevolve"
+            5. Set duration: 15 minutes
+            6. Set your availability (e.g., Mon-Fri 9am-5pm)
+            7. Save and copy the booking page URL
+            8. Paste it below in the src attribute
+          -->
+          <iframe 
+            id="schedulerFrame"
+            class="scheduler-iframe"
+            src="https://calendar.app.google/YOUR_GOOGLE_SCHEDULER_LINK"
+            title="Book an appointment with VibrantRevolve"
+            loading="lazy"
+            allow="fullscreen"
+          ></iframe>
+
+          <!-- Fallback if iframe fails to load -->
+          <div id="schedulerFallback" class="scheduler-fallback">
+            <i class="fas fa-calendar-times" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
+            <h3>Calendar Loading...</h3>
+            <p style="margin-bottom: 1.5rem;">If the calendar doesn't appear, please use one of these options:</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+              <a href="https://calendar.app.google/YOUR_GOOGLE_SCHEDULER_LINK" target="_blank" class="btn btn-primary">
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Open in New Tab
+              </a>
+              <a href="https://wa.me/2349012739299?text=Hi%2C%20I%20want%20to%20book%20a%20discovery%20call" target="_blank" class="btn btn-secondary" style="background: #25d366; color: white; border-color: #25d366;">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i> Book via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="scheduler-info">
+          <div class="info-item">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <div>
+              <h4>15 Minutes</h4>
+              <p>Quick, focused discussion</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-video" aria-hidden="true"></i>
+            <div>
+              <h4>Google Meet</h4>
+              <p>Auto-generated video link</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-globe" aria-hidden="true"></i>
+            <div>
+              <h4>Your Timezone</h4>
+              <p>Auto-detected automatically</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <div>
+              <h4>Email Confirmation</h4>
+              <p>Calendar invite + reminder</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script>
+    // Check if iframe loaded successfully
+    const frame = document.getElementById('schedulerFrame');
+    const fallback = document.getElementById('schedulerFallback');
+
+    // If still placeholder URL, show fallback immediately
+    if (frame.src.includes('YOUR_GOOGLE_SCHEDULER_LINK')) {
+      frame.style.display = 'none';
+      fallback.classList.add('active');
+      fallback.querySelector('h3').textContent = 'Calendar Not Configured';
+      fallback.querySelector('p').textContent = 'Please configure your Google Appointment Schedule link in the code.';
+    }
+
+    // Timeout fallback after 5 seconds
+    setTimeout(() => {
+      try {
+        // If iframe is empty or failed to load
+        if (!frame.contentWindow || frame.contentWindow.location.href === 'about:blank') {
+          frame.style.display = 'none';
+          fallback.classList.add('active');
+        }
+      } catch (e) {
+        // Cross-origin error means it loaded (different domain)
+        console.log('Google Scheduler loaded successfully');
+      }
+    }, 5000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Store | VibrantRevolve Templates & Tools</title>
+  <meta name="description" content="Premium website templates, developer tools, and digital assets for Nigerian businesses. Build faster with ready-made solutions." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+
+  <script defer src="https://js.paystack.co/v1/inline.js"></script>
+  <script defer src="https://checkout.flutterwave.com/v3.js"></script>
+  <script defer src="/assets/js/main.js"></script>
+
+  <style>
+    .product-card {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .product-image {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      background: linear-gradient(135deg, var(--bg-tertiary) 0%, var(--card-bg) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      border-bottom: 1px solid var(--border-color);
+      position: relative;
+      overflow: hidden;
+    }
+    .product-image::after {
+      content: 'Preview Coming Soon';
+      position: absolute;
+      bottom: 0.5rem;
+      right: 0.5rem;
+      background: rgba(0,0,0,0.7);
+      color: var(--accent);
+      padding: 0.25rem 0.5rem;
+      font-size: 0.7rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .product-body {
+      padding: 1.5rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .product-tag {
+      display: inline-block;
+      background: rgba(var(--accent-rgb), 0.15);
+      color: var(--accent);
+      padding: 0.25rem 0.75rem;
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+    }
+    .product-tag.bestseller { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
+    .product-tag.new { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+    .product-tag.hot { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
+    .product-price {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin: 0.5rem 0;
+    }
+    .product-price .original {
+      font-size: 1rem;
+      color: var(--text-muted);
+      text-decoration: line-through;
+      margin-left: 0.5rem;
+      font-weight: 500;
+    }
+    .product-actions {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .trust-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+    }
+    .store-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .store-filters button {
+      padding: 0.5rem 1.25rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      border-radius: 50px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all var(--transition-base);
+    }
+    .store-filters button:hover,
+    .store-filters button.active {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+    }
+    .highlight-banner {
+      background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.1) 0%, rgba(var(--accent-rgb), 0.05) 100%);
+      border: 1px solid rgba(var(--accent-rgb), 0.2);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .faq-section {
+      max-width: 800px;
+      margin: 3rem auto 0;
+    }
+    .faq-item {
+      border-bottom: 1px solid var(--border-color);
+      padding: 1.5rem 0;
+    }
+    .faq-item h4 {
+      margin-bottom: 0.5rem;
+      color: var(--accent);
+    }
+    .faq-item p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    .guarantee-banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      padding: 2rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      margin-top: 3rem;
+    }
+    .guarantee-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+    .guarantee-item i {
+      color: var(--accent);
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div class="scroll-progress"></div>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero-section" style="min-height: 35vh;">
+      <div class="hero-content">
+        <h1>Digital Store</h1>
+        <p class="hero-subtitle">Premium templates and tools for Nigerian businesses. Build faster, ship sooner.</p>
+        <div class="trust-badges">
+          <span><i class="fas fa-bolt" aria-hidden="true"></i> Instant Download</span>
+          <span><i class="fas fa-undo" aria-hidden="true"></i> 7-Day Money Back</span>
+          <span><i class="fas fa-headset" aria-hidden="true"></i> Priority Support</span>
+          <span><i class="fas fa-users" aria-hidden="true"></i> 800+ Happy Customers</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="container fade-in-element" style="padding: 2rem 1.5rem 5rem;">
+
+      <!-- Highlight Banner -->
+      <div class="highlight-banner">
+        <p style="margin: 0; font-size: 1.1rem;">
+          <i class="fas fa-gift" style="color: var(--accent);"></i>
+          <strong>Bundle Deal:</strong> Buy any 3 templates and get <strong>25% off</strong> automatically!
+        </p>
+      </div>
+
+      <!-- Filters -->
+      <div class="store-filters">
+        <button class="active" data-filter="all">All Products</button>
+        <button data-filter="template">Templates</button>
+        <button data-filter="ecommerce">Ecommerce</button>
+        <button data-filter="tool">Tools</button>
+        <button data-filter="asset">Design Assets</button>
+        <button data-filter="guide">Guides</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="card-grid" id="products-grid">
+
+        <!-- Product 1: Ecommerce Storefront (NEW - HIGHEST PRIORITY) -->
+        <article class="card product-card" data-category="ecommerce" data-price="99" data-name="Nigerian Ecommerce Storefront">
+          <div class="product-image">🛒</div>
+          <div class="product-body">
+            <span class="product-tag hot">HOT</span>
+            <h3>Nigerian Ecommerce Storefront</h3>
+            <p>Complete online store for Nigerian businesses. Paystack & Flutterwave ready. Mobile-first, admin dashboard included.</p>
+            <div class="product-price">
+              $99 <span class="original">$149</span>
+            </div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Product catalog + cart</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Paystack & Flutterwave checkout</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Admin dashboard</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> "Pay on Delivery" option</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> WhatsApp order button</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Delivery fee by state</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="Nigerian Ecommerce Storefront" data-price="99">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $99
+              </button>
+              <span class="btn btn-secondary btn-sm" style="font-size: 0.85rem; opacity: 0.6; cursor: not-allowed;">
+                <i class="fas fa-clock" aria-hidden="true"></i> Preview Coming Soon
+              </span>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-fire" style="color: #ef4444;" aria-hidden="true"></i> 23 sold this week
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 2: Business Website Template -->
+        <article class="card product-card" data-category="template" data-price="49" data-name="Nigerian Business Starter">
+          <div class="product-image">🌐</div>
+          <div class="product-body">
+            <span class="product-tag bestseller">Bestseller</span>
+            <h3>Nigerian Business Starter Website</h3>
+            <p>Complete HTML/CSS website template for Nigerian SMEs. Mobile responsive, SEO-ready, contact form included.</p>
+            <div class="product-price">
+              $49 <span class="original">$79</span>
+            </div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> 5 pre-built pages</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Mobile responsive</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Contact form + map</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> WhatsApp integration</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="Nigerian Business Starter" data-price="49">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $49
+              </button>
+              <span class="btn btn-secondary btn-sm" style="font-size: 0.85rem; opacity: 0.6; cursor: not-allowed;">
+                <i class="fas fa-clock" aria-hidden="true"></i> Preview Coming Soon
+              </span>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-download" aria-hidden="true"></i> 47 sold • Instant download
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 3: Artist Portfolio (NEW) -->
+        <article class="card product-card" data-category="template" data-price="39" data-name="Artist Portfolio Pro">
+          <div class="product-image">🎨</div>
+          <div class="product-body">
+            <span class="product-tag new">NEW</span>
+            <h3>Artist Portfolio Pro</h3>
+            <p>For musicians, photographers, painters, and creatives. Gallery, music player, booking form, press kit.</p>
+            <div class="product-price">$39</div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Image/video gallery</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Embedded music player</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Event/gig calendar</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Press kit download</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Dark, moody aesthetic</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="Artist Portfolio Pro" data-price="39">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $39
+              </button>
+              <span class="btn btn-secondary btn-sm" style="font-size: 0.85rem; opacity: 0.6; cursor: not-allowed;">
+                <i class="fas fa-clock" aria-hidden="true"></i> Preview Coming Soon
+              </span>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-download" aria-hidden="true"></i> 12 sold • Instant download
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 4: Real Estate Landing Page (NEW) -->
+        <article class="card product-card" data-category="template" data-price="59" data-name="Real Estate Pro Landing">
+          <div class="product-image">🏘️</div>
+          <div class="product-body">
+            <span class="product-tag new">NEW</span>
+            <h3>Real Estate Pro Landing</h3>
+            <p>For agents and developers in Lagos, Abuja, Port Harcourt. Property listings, mortgage calculator, inquiry forms.</p>
+            <div class="product-price">$59</div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Property grid + filters</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Mortgage calculator</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Schedule viewing form</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Agent profile pages</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Naira + USD pricing</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="Real Estate Pro Landing" data-price="59">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $59
+              </button>
+              <span class="btn btn-secondary btn-sm" style="font-size: 0.85rem; opacity: 0.6; cursor: not-allowed;">
+                <i class="fas fa-clock" aria-hidden="true"></i> Preview Coming Soon
+              </span>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-download" aria-hidden="true"></i> 8 sold • Instant download
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 5: Church Website (NEW) -->
+        <article class="card product-card" data-category="template" data-price="49" data-name="Church Website Pro">
+          <div class="product-image">⛪</div>
+          <div class="product-body">
+            <span class="product-tag new">NEW</span>
+            <h3>Church Website Pro</h3>
+            <p>For churches and ministries. Sermons, events, online giving, prayer requests, branch locator.</p>
+            <div class="product-price">$49</div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Sermon archive (audio/video)</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Event calendar</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Online giving (Paystack)</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Prayer request form</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Branch locator</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="Church Website Pro" data-price="49">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $49
+              </button>
+              <span class="btn btn-secondary btn-sm" style="font-size: 0.85rem; opacity: 0.6; cursor: not-allowed;">
+                <i class="fas fa-clock" aria-hidden="true"></i> Preview Coming Soon
+              </span>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-download" aria-hidden="true"></i> 15 sold • Instant download
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 6: SaaS Starter Kit -->
+        <article class="card product-card" data-category="template" data-price="79" data-name="SaaS Starter Kit">
+          <div class="product-image">🚀</div>
+          <div class="product-body">
+            <span class="product-tag">Premium</span>
+            <h3>SaaS Starter Kit</h3>
+            <p>Full-stack starter template for SaaS apps. Auth, payments, dashboard, database — all wired up.</p>
+            <div class="product-price">
+              $79 <span class="original">$129</span>
+            </div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> React + Node.js + MongoDB</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> User auth (JWT + bcrypt)</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Stripe payment integration</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Admin dashboard included</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="SaaS Starter Kit" data-price="79">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $79
+              </button>
+              <span class="btn btn-secondary btn-sm" style="font-size: 0.85rem; opacity: 0.6; cursor: not-allowed;">
+                <i class="fas fa-clock" aria-hidden="true"></i> Preview Coming Soon
+              </span>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-download" aria-hidden="true"></i> 34 sold • Instant download
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 7: Developer Portfolio -->
+        <article class="card product-card" data-category="template" data-price="29" data-name="Developer Portfolio Pro">
+          <div class="product-image">💼</div>
+          <div class="product-body">
+            <span class="product-tag">Popular</span>
+            <h3>Developer Portfolio Pro Template</h3>
+            <p>The exact portfolio structure that gets developers hired. Dark/light mode, animations, SEO optimized.</p>
+            <div class="product-price">$29</div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Dark & light mode</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> 6 project showcases</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Contact form + booking</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> 1-click deploy to Vercel</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="Developer Portfolio Pro" data-price="29">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $29
+              </button>
+              <span class="btn btn-secondary btn-sm" style="font-size: 0.85rem; opacity: 0.6; cursor: not-allowed;">
+                <i class="fas fa-clock" aria-hidden="true"></i> Preview Coming Soon
+              </span>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-download" aria-hidden="true"></i> 128 sold • Instant download
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 8: Invoice Generator -->
+        <article class="card product-card" data-category="tool" data-price="15" data-name="Invoice Generator Pro">
+          <div class="product-image">📄</div>
+          <div class="product-body">
+            <span class="product-tag">Tool</span>
+            <h3>Invoice & Quote Generator</h3>
+            <p>Python script that generates branded PDF invoices and quotes. Perfect for freelancers and small agencies.</p>
+            <div class="product-price">$15</div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Branded PDF output</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Auto-calculate totals</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Multiple currency support</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> CSV export for accounting</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="Invoice Generator Pro" data-price="15">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $15
+              </button>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-download" aria-hidden="true"></i> 89 sold • Instant download
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 9: Social Media Kit -->
+        <article class="card product-card" data-category="asset" data-price="19" data-name="Social Media Starter Kit">
+          <div class="product-image">📱</div>
+          <div class="product-body">
+            <span class="product-tag">Design</span>
+            <h3>Social Media Starter Kit</h3>
+            <p>30 Canva templates for Instagram, Facebook & Twitter. Perfect for Nigerian small businesses and creators.</p>
+            <div class="product-price">$19</div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> 30 editable templates</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Instagram, FB, Twitter sizes</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Brand color guides included</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Canva + PSD files</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="Social Media Starter Kit" data-price="19">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $19
+              </button>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-download" aria-hidden="true"></i> 203 sold • Instant download
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 10: CV Optimizer -->
+        <article class="card product-card" data-category="guide" data-price="9" data-name="CV ATS Optimizer">
+          <div class="product-image">📋</div>
+          <div class="product-body">
+            <span class="product-tag">Guide</span>
+            <h3>CV ATS Optimizer Guide</h3>
+            <p>PDF guide + checklist to make your CV pass Applicant Tracking Systems. Get more interview calls.</p>
+            <div class="product-price">$9</div>
+            <ul style="list-style: none; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> ATS checklist (50+ points)</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Before/after examples</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> Keyword optimization tips</li>
+              <li><i class="fas fa-check" style="color: var(--accent); margin-right: 0.3rem;"></i> LinkedIn profile bonus</li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary buy-now-btn" data-product="CV ATS Optimizer" data-price="9">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Buy Now — $9
+              </button>
+            </div>
+            <div class="trust-row">
+              <i class="fas fa-download" aria-hidden="true"></i> 312 sold • Instant download
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Guarantee Banner -->
+      <div class="guarantee-banner">
+        <div class="guarantee-item">
+          <i class="fas fa-shield-alt" aria-hidden="true"></i>
+          <span><strong>Secure Payment</strong><br>Paystack & Flutterwave</span>
+        </div>
+        <div class="guarantee-item">
+          <i class="fas fa-undo" aria-hidden="true"></i>
+          <span><strong>7-Day Refund</strong><br>No questions asked</span>
+        </div>
+        <div class="guarantee-item">
+          <i class="fas fa-download" aria-hidden="true"></i>
+          <span><strong>Instant Download</strong><br>Get files immediately</span>
+        </div>
+        <div class="guarantee-item">
+          <i class="fas fa-headset" aria-hidden="true"></i>
+          <span><strong>Priority Support</strong><br>Help via WhatsApp/Email</span>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="faq-section">
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle" style="color: var(--accent); margin-right: 0.5rem;"></i> What's included with each template?</h4>
+          <p>Every template includes the full source code (HTML, CSS, JS), documentation, and a setup guide. You'll also get free updates for 6 months and priority support via WhatsApp or email.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle" style="color: var(--accent); margin-right: 0.5rem;"></i> Do I need coding knowledge to use these?</h4>
+          <p>Basic HTML/CSS knowledge helps, but our templates come with step-by-step guides. For the Ecommerce and SaaS templates, some JavaScript familiarity is recommended. We also offer customization services if you need help.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle" style="color: var(--accent); margin-right: 0.5rem;"></i> Can I use these for client projects?</h4>
+          <p>Yes! Every purchase includes a commercial license. You can use the templates for unlimited personal and client projects. You cannot resell the template itself or redistribute the source code.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle" style="color: var(--accent); margin-right: 0.5rem;"></i> How do I get my files after payment?</h4>
+          <p>After successful payment, you'll receive an email with a secure download link within 5 minutes. The link stays active for 30 days. If you don't see the email, check your spam folder or contact us.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle" style="color: var(--accent); margin-right: 0.5rem;"></i> What if I'm not satisfied?</h4>
+          <p>We offer a 7-day money-back guarantee. If the template doesn't meet your expectations, email us within 7 days of purchase with your order details and we'll process a full refund — no questions asked.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fas fa-question-circle" style="color: var(--accent); margin-right: 0.5rem;"></i> Do you offer customization services?</h4>
+          <p>Yes! If you need the template customized for your specific brand or business, you can hire us. Rates start at $50/hour. Contact us via WhatsApp or email to discuss your project.</p>
+        </div>
+      </div>
+
+      <!-- Bundle CTA -->
+      <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: var(--radius-md);">
+        <h3 style="margin-bottom: 0.5rem;">🎁 Template Club Membership</h3>
+        <p style="margin-bottom: 1.5rem;">Get ALL templates + new ones monthly for one low price.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <div style="text-align: center; padding: 1rem 2rem; border: 2px solid var(--accent); border-radius: var(--radius-md);">
+            <div style="font-size: 1.5rem; font-weight: 800; color: var(--accent);">$19<span style="font-size: 0.9rem; color: var(--text-muted);">/mo</span></div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">Monthly</div>
+          </div>
+          <div style="text-align: center; padding: 1rem 2rem; border: 2px solid var(--accent); border-radius: var(--radius-md); background: rgba(var(--accent-rgb), 0.1);">
+            <div style="font-size: 1.5rem; font-weight: 800; color: var(--accent);">$149<span style="font-size: 0.9rem; color: var(--text-muted);">/yr</span></div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">Save $79</div>
+          </div>
+        </div>
+        <button class="btn btn-primary" style="margin-top: 1.5rem;" onclick="alert('Coming soon! Join the waitlist by emailing hello@vibrantrevolve.com')">
+          <i class="fas fa-crown" aria-hidden="true"></i> Join Template Club
+        </button>
+      </div>
+
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Payment Modal -->
+  <div id="paymentModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="payment-title">
+    <div class="modal-content" style="max-width: 450px;">
+      <h3 id="payment-title">Complete Purchase</h3>
+      <p id="payment-product" style="color: var(--text-secondary); margin-bottom: 0.5rem;"></p>
+      <p id="payment-price" style="font-size: 1.5rem; font-weight: 800; color: var(--accent); margin-bottom: 1.5rem;"></p>
+
+      <div class="form-group">
+        <label for="buyer-email">Your Email (for download link)</label>
+        <input type="email" id="buyer-email" placeholder="your@email.com" required />
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1rem;">
+        <button id="paystack-buy" class="btn btn-primary">
+          <i class="fas fa-credit-card" aria-hidden="true"></i> Pay with Paystack
+        </button>
+        <button id="flutterwave-buy" class="btn btn-secondary">
+          <i class="fas fa-money-bill-wave" aria-hidden="true"></i> Pay with Flutterwave
+        </button>
+        <button id="whatsapp-buy" class="btn btn-secondary" style="background: #25d366; color: white; border-color: #25d366;">
+          <i class="fab fa-whatsapp" aria-hidden="true"></i> Pay via WhatsApp
+        </button>
+      </div>
+
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 1rem; text-align: center;">
+        <i class="fas fa-lock" aria-hidden="true"></i> Secure payment. Instant delivery.
+      </p>
+
+      <button onclick="document.getElementById('paymentModal').classList.remove('active')" class="btn btn-secondary" style="margin-top: 1rem; width: 100%;">
+        Cancel
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // Product filtering
+    document.querySelectorAll('.store-filters button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.store-filters button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        document.querySelectorAll('.product-card').forEach(card => {
+          const show = filter === 'all' || card.dataset.category === filter;
+          card.style.display = show ? 'flex' : 'none';
+          if (show) card.style.animation = 'fadeInUp 0.4s ease forwards';
+        });
+      });
+    });
+
+    // Buy now buttons
+    let currentProduct = null;
+    let currentPrice = 0;
+
+    document.querySelectorAll('.buy-now-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentProduct = btn.dataset.product;
+        currentPrice = parseFloat(btn.dataset.price);
+
+        document.getElementById('payment-product').textContent = currentProduct;
+        document.getElementById('payment-price').textContent = '$' + currentPrice;
+        document.getElementById('paymentModal').classList.add('active');
+      });
+    });
+
+    // Payment handlers
+    document.getElementById('paystack-buy').addEventListener('click', () => {
+      const email = document.getElementById('buyer-email').value;
+      if (!email || !email.includes('@')) {
+        alert('Please enter a valid email address');
+        return;
+      }
+
+      const key = 'YOUR_PAYSTACK_PUBLIC_KEY';
+      if (key.includes('YOUR_')) {
+        alert('Store payments not yet configured. Please pay via WhatsApp instead.');
+        return;
+      }
+
+      const handler = PaystackPop.setup({
+        key: key,
+        email: email,
+        amount: currentPrice * 100,
+        currency: 'USD',
+        ref: 'STORE-' + Date.now(),
+        callback: function(response) {
+          alert('Payment successful! Check your email for the download link.');
+          document.getElementById('paymentModal').classList.remove('active');
+        }
+      });
+      handler.openIframe();
+    });
+
+    document.getElementById('flutterwave-buy').addEventListener('click', () => {
+      const email = document.getElementById('buyer-email').value;
+      if (!email || !email.includes('@')) {
+        alert('Please enter a valid email address');
+        return;
+      }
+
+      const key = 'YOUR_FLUTTERWAVE_PUBLIC_KEY';
+      if (key.includes('YOUR_')) {
+        alert('Store payments not yet configured. Please pay via WhatsApp instead.');
+        return;
+      }
+
+      FlutterwaveCheckout({
+        public_key: key,
+        tx_ref: 'STORE-' + Date.now(),
+        amount: currentPrice,
+        currency: 'USD',
+        customer: { email: email },
+        customizations: {
+          title: 'VibrantRevolve Store',
+          description: currentProduct,
+          logo: '/assets/images/favicon/favicon-32x32.png'
+        },
+        callback: function(data) {
+          if (data.status === 'successful') {
+            alert('Payment successful! Check your email for the download link.');
+            document.getElementById('paymentModal').classList.remove('active');
+          }
+        }
+      });
+    });
+
+    document.getElementById('whatsapp-buy').addEventListener('click', () => {
+      const email = document.getElementById('buyer-email').value;
+      const msg = encodeURIComponent(`Hi, I want to buy "${currentProduct}" ($${currentPrice}). My email: ${email}. Please send payment details.`);
+      window.open(`https://wa.me/2349012739299?text=${msg}`, '_blank');
+      document.getElementById('paymentModal').classList.remove('active');
+    });
+  </script>
+</body>
+</html>

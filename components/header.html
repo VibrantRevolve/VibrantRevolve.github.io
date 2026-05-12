@@ -1,0 +1,35 @@
+<!-- Reusable Header Component -->
+<!-- Include via JS: loadComponent('#site-header', '/components/header.html') -->
+<header class="site-header">
+  <div class="container header-container">
+    <a href="/" class="logo" aria-label="VibrantRevolve Home">
+      <img src="/assets/images/favicon/favicon-32x32.png" alt="VR" class="logo-icon" />
+      <span class="logo-text">VibrantRevolve</span>
+    </a>
+
+    <div class="header-actions">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-sun" aria-hidden="true"></i>
+        <i class="fas fa-moon" aria-hidden="true"></i>
+      </button>
+
+      <button id="hamburger" class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav id="navbar" class="main-nav" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/about.html" class="nav-link">About</a></li>
+        <li><a href="/services/" class="nav-link">Services</a></li>
+        <li><a href="/portfolio/" class="nav-link">Portfolio</a></li>
+        <li><a href="/store/" class="nav-link">Store</a></li>
+        <li><a href="/pricing/" class="nav-link">Pricing</a></li>
+        <li><a href="/contact/" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

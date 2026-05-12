@@ -3,245 +3,495 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="VibrantRevolve - Professional freelance web development, software development, custom CVs, and graphic design services. Hire a multi-skilled developer today." />
-  <meta name="keywords" content="freelance web developer, software developer, custom CV, business card design, proofreading, article summaries" />
-  <meta name="author" content="VibrantRevolve" />
-  <meta property="og:title" content="VibrantRevolve - Freelance Web & Software Development" />
-  <meta property="og:description" content="Helping businesses and individuals with websites, software, graphics, articles, and more!" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
 
+  <!-- SEO Meta -->
   <title>VibrantRevolve | Freelance Web & Software Developer</title>
+  <meta name="description" content="Professional freelance web development, software development, and digital design services. Clean code, stunning visuals, fast delivery." />
+  <meta name="keywords" content="freelance web developer, software developer, custom websites, graphic design, SEO, Nigeria developer" />
+  <meta name="author" content="VibrantRevolve" />
+  <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/styles/style.css" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="VibrantRevolve | Freelance Web & Software Developer" />
+  <meta property="og:description" content="Helping businesses grow with custom websites, software, and digital solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vibrantrevolve.github.io/" />
+  <meta property="og:image" content="https://vibrantrevolve.github.io/assets/images/og-image.jpg" />
+  <meta property="og:site_name" content="VibrantRevolve" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VibrantRevolve | Freelance Developer" />
+  <meta name="twitter:description" content="Custom web & software development services." />
+  <meta name="twitter:image" content="https://vibrantrevolve.github.io/assets/images/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon.png" />
+  <!-- Calendly widget CSS -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"/>
+  <!-- Calendly widget JS -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async> </script>
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "VibrantRevolve",
+    "url": "https://vibrantrevolve.github.io",
+    "jobTitle": "Freelance Web & Software Developer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "VibrantRevolve"
+    },
+    "sameAs": [
+      "https://github.com/itsmrbobby",
+      "https://linkedin.com/in/YOUR_REAL_LINKEDIN_HANDLE",
+      "https://twitter.com/vibrantrevolve",
+      "https://instagram.com/vibrantrevolve"
+    ],
+    "knowsAbout": [
+      "Web Development",
+      "Software Development",
+      "UI/UX Design",
+      "SEO",
+      "Digital Marketing"
+    ],
+    "makesOffer": {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Web Development",
+        "description": "Custom websites built for performance"
+      }
+    }
+  }
+  </script>
 
+  <!-- Scripts (deferred) -->
   <script defer src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script defer src="https://assets.calendly.com/assets/external/widget.js"></script>
-  <script defer src="/scripts/script.js"></script>
+  <script defer src="/assets/js/main.js"></script>
+  <script defer src="/assets/js/contact.js"></script>
 </head>
+
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
 
-  <div class="scroll-progress"></div>
+  <div class="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
 
+  <!-- Loading Screen -->
   <div id="loadingScreen" class="loading-screen" role="alert" aria-live="assertive">
-    <div class="spinner"></div>
-    <p>Loading...</p>
+    <div class="spinner" aria-hidden="true"></div>
+    <p>Loading VibrantRevolve...</p>
   </div>
 
-  <header>
-    <div class="container header-container">
-      <img src="/img/abo.png" alt="VibrantRevolve - Freelance Web & Software Development" class="logo" />
-      <div class="header-actions">
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
-          <i class="fas fa-sun"></i>
-          <i class="fas fa-moon"></i>
-        </button>
-        <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-      <nav id="navbar" role="navigation" aria-label="Main navigation">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#process">Process</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <!-- Header (loaded via JS) -->
+  <div id="site-header"></div>
 
-  <main id="main" class="page-transition">
-    <section class="home-section">
-      <h1>Welcome to VibrantRevolve</h1>
-      <p>Helping businesses and individuals with websites, software programs, graphics, articles, and more!</p>
-      <div class="trust-badges">
-        <span>✓ 50+ Projects Delivered</span>
-        <span>✓ 24h Response Time</span>
-        <span>✓ 100% Satisfaction</span>
-      </div>
-      <a href="#contact" class="hire-button" role="button" aria-label="Hire me for your project">Hire Me</a>
-    </section>
+  <main id="main">
 
-    <section id="about" class="about-section">
-      <h2>About Me</h2>
-      <p>I'm a multi-skilled freelancer offering web & software development, custom CV creation, summaries, proofreading, and business card design. I bring your ideas to life with clean code and stunning visuals.</p>
-    </section>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-section" aria-label="Introduction">
+      <div class="hero-content">
+        <h1 class="hero-title">Welcome to VibrantRevolve</h1>
+        <p class="hero-subtitle">Helping businesses and individuals grow with custom websites, software solutions, and stunning digital experiences.</p>
 
-    <section id="services" class="services-section">
-      <h2>Services</h2>
-      <div class="service-cards">
-        <a href="/services/website-development.html" class="service-card">
-          <span>🌐</span>
-          Website Development
-        </a>
-        <a href="/services/software-development.html" class="service-card">
-          <span>💻</span>
-          Software Development
-        </a>
-        <a href="/services/custom-cv.html" class="service-card">
-          <span>📄</span>
-          Custom CV Creation
-        </a>
-        <a href="/services/summarizing.html" class="service-card">
-          <span>🧠</span>
-          Article/Video Summaries
-        </a>
-        <a href="/services/proofreading.html" class="service-card">
-          <span>📝</span>
-          Proofreading
-        </a>
-        <a href="/services/business-card.html" class="service-card">
-          <span>🎨</span>
-          Business Card Design
-        </a>
-      </div>
-    </section>
-
-    <section id="portfolio" class="portfolio-section">
-      <h2>My Portfolio</h2>
-      <div class="portfolio-filters">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="web">Web Design</button>
-        <button class="filter-btn" data-filter="software">Software Dev</button>
-      </div>
-      <div class="portfolio-grid">
-        <div class="portfolio-item" data-category="web">
-          <img src="/img/portf-img/web1.jpg" alt="Café landing page design" loading="lazy" />
-          <h3>Landing Page - Café Website</h3>
-          <p>Responsive & SEO-optimized web design for a local café.</p>
-          <a href="https://example.com/web1" target="_blank" rel="noopener noreferrer">View Live</a>
+        <div class="trust-badges" aria-label="Trust indicators">
+          <span><i class="fas fa-check-circle" aria-hidden="true"></i> 50+ Projects Delivered</span>
+          <span><i class="fas fa-bolt" aria-hidden="true"></i> 24h Response Time</span>
+          <span><i class="fas fa-star" aria-hidden="true"></i> 100% Satisfaction</span>
         </div>
 
-        <div class="portfolio-item" data-category="software">
-          <img src="/img/portfolio/software1.jpg" alt="SaaS project tracker dashboard" loading="lazy" />
-          <h3>SaaS Tool - Project Tracker</h3>
-          <p>Full-stack tool using Firebase + React + Node.js.</p>
-          <a href="https://example.com/software1" target="_blank" rel="noopener noreferrer">View Live</a>
-          <a href="https://github.com/yourrepo" target="_blank" rel="noopener noreferrer">View Code</a>
+        <div class="hero-actions" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 1rem;">
+          <a href="/contact/" class="btn btn-primary">
+            <i class="fas fa-paper-plane" aria-hidden="true"></i> Hire Me
+          </a>
+          <a href="/portfolio/" class="btn btn-secondary">
+            <i class="fas fa-folder-open" aria-hidden="true"></i> View Portfolio
+          </a>
+          <a href="/assets/resume.pdf" class="btn btn-secondary btn-sm" download>
+            <i class="fas fa-download" aria-hidden="true"></i> Download CV
+          </a>
         </div>
       </div>
     </section>
 
-    <section id="testimonials" class="testimonials-section">
-      <h2>What Clients Say</h2>
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="stars">★★★★★</div>
-          <p>"VibrantRevolve built our café website in 48 hours. Sales increased 30% within the first month. Absolutely professional!"</p>
-          <div class="client">
-            <img src="/img/clients/client1.jpg" alt="Sarah Johnson" loading="lazy" />
-            <div class="client-info">
-              <strong>Sarah Johnson</strong>
-              <span>Owner, Brew & Bloom Café</span>
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="fade-in-element" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="about-heading">About Me</h2>
+          <p>I'm a multi-skilled developer offering web & software development, graphic design, and digital solutions. I bring your ideas to life with clean code and stunning visuals.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TECH STACK SECTION (NEW) ===== -->
+    <section id="tech-stack" class="fade-in-element" aria-labelledby="tech-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="tech-heading">Tech Stack</h2>
+          <p>Technologies I use to build modern, scalable solutions.</p>
+        </div>
+
+        <div class="tech-categories">
+          <div class="tech-category">
+            <h3><i class="fas fa-code" aria-hidden="true"></i> Frontend</h3>
+            <div class="tech-tags">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript (ES6+)</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Tailwind CSS</span>
+              <span class="tech-tag">SASS</span>
             </div>
           </div>
-        </div>
 
-        <div class="testimonial-card">
-          <div class="stars">★★★★★</div>
-          <p>"The custom CV he designed got me 3 interview calls in one week. Worth every penny!"</p>
-          <div class="client">
-            <img src="/img/clients/client2.jpg" alt="Michael Adeyemi" loading="lazy" />
-            <div class="client-info">
-              <strong>Michael Adeyemi</strong>
-              <span>Product Manager, Lagos</span>
+          <div class="tech-category">
+            <h3><i class="fas fa-server" aria-hidden="true"></i> Backend</h3>
+            <div class="tech-tags">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">REST APIs</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">PostgreSQL</span>
             </div>
           </div>
-        </div>
 
-        <div class="testimonial-card">
-          <div class="stars">★★★★★</div>
-          <p>"Our project tracker SaaS was delivered ahead of schedule. Clean code, great communication throughout."</p>
-          <div class="client">
-            <img src="/img/clients/client3.jpg" alt="David Chen" loading="lazy" />
-            <div class="client-info">
-              <strong>David Chen</strong>
-              <span>CTO, TaskFlow Inc.</span>
+          <div class="tech-category">
+            <h3><i class="fas fa-tools" aria-hidden="true"></i> Tools & DevOps</h3>
+            <div class="tech-tags">
+              <span class="tech-tag">Git</span>
+              <span class="tech-tag">GitHub</span>
+              <span class="tech-tag">Vercel</span>
+              <span class="tech-tag">Netlify</span>
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">VS Code</span>
+            </div>
+          </div>
+
+          <div class="tech-category">
+            <h3><i class="fas fa-paint-brush" aria-hidden="true"></i> Design</h3>
+            <div class="tech-tags">
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">Adobe XD</span>
+              <span class="tech-tag">Photoshop</span>
+              <span class="tech-tag">Illustrator</span>
+              <span class="tech-tag">Canva</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="process" class="process-section">
-      <h2>How It Works</h2>
-      <div class="process-steps">
-        <div class="process-step">
-          <div class="step-number">1</div>
-          <h3>Discovery Call</h3>
-          <p>15-minute free chat to understand your goals, timeline, and budget.</p>
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="services" class="fade-in-element" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="services-heading">Services</h2>
+          <p>Comprehensive digital solutions tailored to your needs.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <h3>Proposal & Quote</h3>
-          <p>Clear scope, fixed price, and delivery timeline within 24 hours.</p>
-        </div>
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <h3>Build & Deliver</h3>
-          <p>Weekly updates, unlimited revisions, and launch support included.</p>
+
+        <div class="card-grid">
+          <a href="/services/web-development.html" class="card service-card">
+            <span class="card-icon" aria-hidden="true">🌐</span>
+            <h3>Website Development</h3>
+            <p>Responsive, SEO-optimized websites built for conversion.</p>
+            <span class="btn btn-sm btn-secondary" style="margin-top: auto;">Learn More →</span>
+          </a>
+
+          <a href="/services/software-development.html" class="card service-card">
+            <span class="card-icon" aria-hidden="true">💻</span>
+            <h3>Software Development</h3>
+            <p>Custom tools, scripts, and applications that solve real problems.</p>
+            <span class="btn btn-sm btn-secondary" style="margin-top: auto;">Learn More →</span>
+          </a>
+
+          <a href="/services/graphic-design.html" class="card service-card">
+            <span class="card-icon" aria-hidden="true">🎨</span>
+            <h3>Graphic Design</h3>
+            <p>Logos, brand identity, and marketing materials.</p>
+            <span class="btn btn-sm btn-secondary" style="margin-top: auto;">Learn More →</span>
+          </a>
+
+          <a href="/services/content-writing.html" class="card service-card">
+            <span class="card-icon" aria-hidden="true">✍️</span>
+            <h3>Content Writing</h3>
+            <p>SEO-optimized content that drives traffic and conversions.</p>
+            <span class="btn btn-sm btn-secondary" style="margin-top: auto;">Learn More →</span>
+          </a>
+
+          <a href="/services/cv-creation.html" class="card service-card">
+            <span class="card-icon" aria-hidden="true">📄</span>
+            <h3>Custom CV Creation</h3>
+            <p>Professional CVs that get you noticed by recruiters.</p>
+            <span class="btn btn-sm btn-secondary" style="margin-top: auto;">Learn More →</span>
+          </a>
+
+          <a href="/services/proofreading.html" class="card service-card">
+            <span class="card-icon" aria-hidden="true">📝</span>
+            <h3>Proofreading</h3>
+            <p>Error-free, polished content for any purpose.</p>
+            <span class="btn btn-sm btn-secondary" style="margin-top: auto;">Learn More →</span>
+          </a>
         </div>
       </div>
     </section>
 
-    <section id="pricing" class="pricing-section">
-      <h2>Pricing</h2>
-      <p>My services are flexible and affordable. Starting from $10 depending on the task.</p>
-      <a href="/page/pricing.html" class="hire-button">View Pricing / Pay Now</a>
+    <!-- ===== PORTFOLIO SECTION ===== -->
+    <section id="portfolio" class="fade-in-element" aria-labelledby="portfolio-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="portfolio-heading">Featured Projects</h2>
+          <p>Real work for real clients. <a href="/portfolio/">View all projects →</a></p>
+        </div>
+
+        <div class="portfolio-filters" role="tablist" aria-label="Portfolio filters">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true" aria-controls="portfolio-grid">All</button>
+          <button class="filter-btn" data-filter="web" role="tab" aria-selected="false" aria-controls="portfolio-grid">Web</button>
+          <button class="filter-btn" data-filter="software" role="tab" aria-selected="false" aria-controls="portfolio-grid">Software</button>
+          <button class="filter-btn" data-filter="design" role="tab" aria-selected="false" aria-controls="portfolio-grid">Design</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-grid" role="tabpanel">
+          <!-- Project 1: Real project placeholder -->
+          <article class="portfolio-item" data-category="web">
+            <img src="/assets/images/portfolio/project-1.jpg" alt="E-commerce website for local business" loading="lazy" />
+            <div class="portfolio-content">
+              <h3>E-Commerce Platform</h3>
+              <p>Full-stack e-commerce solution with payment integration for a Nigerian retail business.</p>
+              <div class="portfolio-links">
+                <a href="https://live-demo-link.com" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+                </a>
+                <a href="https://github.com/YOUR_HANDLE/project-1" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github" aria-hidden="true"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="portfolio-item" data-category="software">
+            <img src="/assets/images/portfolio/project-2.jpg" alt="Automation tool dashboard" loading="lazy" />
+            <div class="portfolio-content">
+              <h3>Task Automation Tool</h3>
+              <p>Python-based automation script that reduced client workflow time by 70%.</p>
+              <div class="portfolio-links">
+                <a href="https://github.com/YOUR_HANDLE/project-2" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github" aria-hidden="true"></i> View Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="portfolio-item" data-category="design">
+            <img src="/assets/images/portfolio/project-3.jpg" alt="Brand identity design" loading="lazy" />
+            <div class="portfolio-content">
+              <h3>Brand Identity System</h3>
+              <p>Complete visual identity including logo, color palette, and marketing materials.</p>
+              <div class="portfolio-links">
+                <a href="/portfolio/project-3.html">
+                  <i class="fas fa-eye" aria-hidden="true"></i> Case Study
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="contact-section">
-      <h2>Contact Me</h2>
-      <p>Have a project in mind? Let's discuss how I can help.</p>
-      <form id="contactForm" aria-label="Contact form">
-        <input type="text" name="from_name" placeholder="Your Name" required aria-required="true" />
-        <input type="email" name="from_email" placeholder="Your Email" required aria-required="true" />
-        <textarea name="message" placeholder="Tell me about your project..." required aria-required="true"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-      <p class="form-note">🔒 Your information is safe. I reply within 24 hours.</p>
-      <br />
-      <button id="calendly-button" class="book-call-btn">
-        📅 Book a Discovery Call
-      </button>
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section id="testimonials" class="fade-in-element" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="testimonials-heading">What Clients Say</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-text">VibrantRevolve built our café website in 48 hours. Sales increased 30% within the first month. Absolutely professional!</p>
+            <div class="client">
+              <img src="/assets/images/clients/client-1.jpg" alt="Sarah Johnson" loading="lazy" width="50" height="50" />
+              <div class="client-info">
+                <strong>Sarah Johnson</strong>
+                <span>Owner, Brew & Bloom Café</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-text">The custom CV he designed got me 3 interview calls in one week. Worth every penny!</p>
+            <div class="client">
+              <img src="/assets/images/clients/client-2.jpg" alt="Michael Adeyemi" loading="lazy" width="50" height="50" />
+              <div class="client-info">
+                <strong>Michael Adeyemi</strong>
+                <span>Product Manager, Lagos</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-text">Our project tracker SaaS was delivered ahead of schedule. Clean code, great communication throughout.</p>
+            <div class="client">
+              <img src="/assets/images/clients/client-3.jpg" alt="David Chen" loading="lazy" width="50" height="50" />
+              <div class="client-info">
+                <strong>David Chen</strong>
+                <span>CTO, TaskFlow Inc.</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
+
+    <!-- ===== PROCESS SECTION ===== -->
+    <section id="process" class="fade-in-element" aria-labelledby="process-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="process-heading">How It Works</h2>
+          <p>Simple, transparent process from idea to delivery.</p>
+        </div>
+
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <h3>Discovery Call</h3>
+            <p>15-minute free chat to understand your goals, timeline, and budget.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <h3>Proposal & Quote</h3>
+            <p>Clear scope, fixed price, and delivery timeline within 24 hours.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <h3>Build & Deliver</h3>
+            <p>Weekly updates, unlimited revisions, and launch support included.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="fade-in-element" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="contact-heading">Let's Work Together</h2>
+          <p>Have a project in mind? Let's discuss how I can help.</p>
+        </div>
+
+        <form id="contactForm" aria-label="Contact form" style="max-width: 500px; margin: 0 auto;">
+          <div class="form-group">
+            <label for="from_name">Your Name</label>
+            <input type="text" id="from_name" name="from_name" placeholder="John Doe" required aria-required="true" autocomplete="name" />
+          </div>
+
+          <div class="form-group">
+            <label for="from_email">Your Email</label>
+            <input type="email" id="from_email" name="from_email" placeholder="john@example.com" required aria-required="true" autocomplete="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Project Details</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project, timeline, and budget..." required aria-required="true" minlength="10"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
+          </button>
+
+          <p class="form-note">
+            <i class="fas fa-lock" aria-hidden="true"></i> Your information is safe. I reply within 24 hours.
+          </p>
+        </form>
+
+        <div style="text-align: center; margin-top: 2rem;">
+          <p style="margin-bottom: 1rem;">Or book a free discovery call:</p>
+          <button id="calendly-button" class="btn btn-secondary" type="button">
+            <i class="fas fa-calendar-alt" aria-hidden="true"></i> Book a Discovery Call
+          </button>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <button id="backToTop" aria-label="Back to top">↑</button>
+  <!-- Footer (loaded via JS) -->
+  <div id="site-footer"></div>
 
+  <!-- Back to Top -->
+  <button id="backToTop" aria-label="Back to top" title="Back to top">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Sticky CTA -->
   <div class="sticky-cta">
-    <a href="#contact" class="hire-button">Hire Me Now</a>
+    <a href="/contact/" class="btn btn-primary" style="width: 90%; max-width: 400px;">
+      <i class="fas fa-briefcase" aria-hidden="true"></i> Hire Me Now — Starting from $15
+    </a>
   </div>
 
-  <div id="confirmationModal" class="modal" role="dialog" aria-modal="true" style="display: none;">
+  <!-- Confirmation Modal -->
+  <div id="confirmationModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal-content">
-      <h3>Thank you!</h3>
+      <h3 id="modal-title">Thank you!</h3>
       <p>Your message has been sent successfully. I'll get back to you within 24 hours.</p>
-      <button id="closeModal">Close</button>
+      <button id="closeModal" class="btn btn-primary" style="margin-top: 1.5rem;">Close</button>
     </div>
   </div>
 
-  <footer class="site-footer">
-    <div class="container footer-container">
-      <div class="social-links">
-        <a href="https://twitter.com/vibrantrevolve" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-        <a href="https://instagram.com/vibrantrevolve" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://github.com/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-      <p>&copy; 2025 VibrantRevolve. All rights reserved.</p>
-      <p>Designed with ❤️ by VR</p>
-    </div>
-  </footer>
+  <!-- Portfolio Filter Script (inline, lightweight) -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const calendlyBtn =
+    document.getElementById("calendly-button");
+    calendlyBtn.addEventListener("click", function () {
+      calendly.initPopupWidget({
+        url:"https://calendly.com/vibrantrevolve/30min"
+      })
+    })
+    })
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.filter-btn');
+      const items = document.querySelectorAll('.portfolio-item');
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.dataset.filter;
+
+          buttons.forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+
+          items.forEach(item => {
+            const show = filter === 'all' || item.dataset.category === filter;
+            item.style.display = show ? 'block' : 'none';
+            if (show) item.style.animation = 'fadeInUp 0.4s ease forwards';
+          });
+        });
+      });
+    });
+  </script>
 </body>
 </html>

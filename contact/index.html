@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | VibrantRevolve</title>
+  <meta name="description" content="Get in touch with VibrantRevolve for your next project. Web development, software, design, and more." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script defer src="/assets/js/main.js"></script>
+  <script defer src="/assets/js/contact.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div class="scroll-progress"></div>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="hero-section" style="min-height: 40vh;">
+      <div class="hero-content">
+        <h1>Let's Work Together</h1>
+        <p class="hero-subtitle">Have a project in mind? I'd love to hear about it.</p>
+      </div>
+    </section>
+
+    <section class="container fade-in-element" style="padding: 3rem 1.5rem;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; max-width: 1000px; margin: 0 auto;">
+
+        <!-- Contact Form -->
+        <div>
+          <h2 style="text-align: left; margin-bottom: 1.5rem;">Send a Message</h2>
+          <form id="contactForm" aria-label="Contact form">
+            <div class="form-group">
+              <label for="from_name">Your Name</label>
+              <input type="text" id="from_name" name="from_name" placeholder="John Doe" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="from_email">Your Email</label>
+              <input type="email" id="from_email" name="from_email" placeholder="john@example.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Project Details</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project, timeline, and budget..." required minlength="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
+            </button>
+            <p class="form-note">
+              <i class="fas fa-lock" aria-hidden="true"></i> Your information is safe. I reply within 24 hours.
+            </p>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h2 style="text-align: left; margin-bottom: 1.5rem;">Other Ways to Connect</h2>
+
+          <!-- Request a Call - Simple, No Calendar, No Freezing Risk -->
+          <div class="card" style="margin-bottom: 1.5rem; text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📞</div>
+            <h3>Request a Call</h3>
+            <p style="margin-bottom: 1.5rem;">Tell me what you need and I'll call you. No forms, no calendars — just a quick chat.</p>
+
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <a href="https://wa.me/2349012739299?text=Hi%20VibrantRevolve%2C%20I%20want%20to%20discuss%20a%20project.%20Please%20call%20me%20when%20you're%20free." 
+                 class="btn btn-secondary" 
+                 style="background: #25d366; color: white; border-color: #25d366; width: 100%;" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i> Request Call on WhatsApp
+              </a>
+              <a href="mailto:hello@vibrantrevolve.com?subject=Project%20Inquiry%20-%20Please%20Call%20Me&body=Hi%20VibrantRevolve%2C%0A%0AI%20have%20a%20project%20I'd%20like%20to%20discuss.%20Please%20call%20me%20when%20you're%20available.%0A%0AMy%20phone%20number%3A%20%0A%0ABest%20time%20to%20call%3A%20" 
+                 class="btn btn-secondary" 
+                 style="width: 100%;">
+                <i class="fas fa-envelope" aria-hidden="true"></i> Request Call via Email
+              </a>
+            </div>
+
+            <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">
+                <i class="fas fa-clock" aria-hidden="true" style="color: var(--accent);"></i> 
+                Usually available: <strong>Mon–Fri, 9am–6pm WAT</strong>
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="margin-bottom: 1.5rem;">
+            <h3><i class="fab fa-whatsapp" style="color: #25d366;"></i> Quick WhatsApp Chat</h3>
+            <p style="margin-bottom: 1rem;">Fastest response for quick questions or to share ideas.</p>
+            <a href="https://wa.me/2349012739299?text=Hi%20VibrantRevolve%2C%20I%20have%20a%20quick%20question%20about%20your%20services." 
+               class="btn btn-secondary" 
+               style="width: 100%;" 
+               target="_blank" 
+               rel="noopener noreferrer">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp
+            </a>
+          </div>
+
+          <div class="card">
+            <h3><i class="fas fa-envelope" style="color: var(--accent);"></i> Direct Email</h3>
+            <p style="margin-bottom: 1rem;">For detailed project briefs, proposals, or document sharing.</p>
+            <a href="mailto:hello@vibrantrevolve.com" class="btn btn-secondary" style="width: 100%;">
+              <i class="fas fa-envelope" aria-hidden="true"></i> hello@vibrantrevolve.com
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <div id="confirmationModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <h3 id="modal-title">Thank you!</h3>
+      <p>Your message has been sent successfully. I'll get back to you within 24 hours.</p>
+      <button id="closeModal" class="btn btn-primary" style="margin-top: 1.5rem;">Close</button>
+    </div>
+  </div>
+</body>
+</html>

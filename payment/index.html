@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Payment | VibrantRevolve</title>
+  <meta name="description" content="Secure payment for VibrantRevolve services." />
+  <meta name="robots" content="noindex, follow" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+
+  <script defer src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script defer src="https://js.paystack.co/v1/inline.js"></script>
+  <script defer src="https://checkout.flutterwave.com/v3.js"></script>
+  <script defer src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script>
+
+  <script defer src="/assets/js/main.js"></script>
+  <script defer src="/assets/js/payment.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div id="site-header"></div>
+
+  <main id="main" class="container payment-section" style="max-width: 800px; padding: 3rem 1.5rem;">
+    <div class="section-header">
+      <h1>Complete Payment</h1>
+      <p>Secure checkout for your selected service.</p>
+    </div>
+
+    <!-- Order Summary -->
+    <div id="summary" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 2rem;">
+      <h3 style="margin-bottom: 1rem; font-size: 1.1rem;"><i class="fas fa-receipt" aria-hidden="true"></i> Order Summary</h3>
+      <div style="display: grid; gap: 0.75rem;">
+        <p><strong>Service:</strong> <span id="summary-service" style="color: var(--accent);">Loading...</span></p>
+        <p><strong>Amount:</strong> <span id="summary-amount" style="color: var(--accent); font-weight: 700;">$0</span></p>
+        <p><strong>Tracking ID:</strong> <span id="summary-tracking" style="font-family: var(--font-mono); font-size: 0.9rem;">N/A</span></p>
+      </div>
+    </div>
+
+    <!-- Email Input -->
+    <div class="form-group" style="max-width: 400px; margin: 0 auto 2rem;">
+      <label for="user-email">Your Email Address</label>
+      <input type="email" id="user-email" placeholder="your@email.com" required autocomplete="email" />
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
+        <i class="fas fa-info-circle" aria-hidden="true"></i> Required for payment confirmation receipt
+      </p>
+    </div>
+
+    <!-- Payment Methods -->
+    <div class="payment-methods" style="display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+
+      <!-- PayPal -->
+      <div class="card" style="text-align: center;">
+        <h3><i class="fab fa-paypal" style="color: #0070ba;"></i> Pay with PayPal</h3>
+        <p style="font-size: 0.9rem; margin-bottom: 1rem;">International payments. Secure and fast.</p>
+        <div id="paypal-button-container"></div>
+      </div>
+
+      <!-- Paystack -->
+      <div class="card" style="text-align: center;">
+        <h3><i class="fas fa-credit-card" style="color: #00c3f7;"></i> Pay with Paystack</h3>
+        <p style="font-size: 0.9rem; margin-bottom: 1rem;">Card, bank transfer, USSD. Best for Nigeria.</p>
+        <button id="paystack-button" class="btn btn-primary" style="width: 100%;">
+          <i class="fas fa-lock" aria-hidden="true"></i> Pay Now
+        </button>
+      </div>
+
+      <!-- Flutterwave -->
+      <div class="card" style="text-align: center;">
+        <h3><i class="fas fa-money-bill-wave" style="color: #f5a623;"></i> Pay with Flutterwave</h3>
+        <p style="font-size: 0.9rem; margin-bottom: 1rem;">Multiple African payment methods.</p>
+        <button id="flutterwave-button" class="btn btn-primary" style="width: 100%;">
+          <i class="fas fa-lock" aria-hidden="true"></i> Pay Now
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Help -->
+    <div style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+      <p style="margin-bottom: 1rem;">Need help or have questions?</p>
+      <a href="https://wa.me/2349012739299?text=Hi%2C%20I%20need%20help%20with%20payment" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp
+      </a>
+    </div>
+
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    // Simple loader hide
+    window.addEventListener('load', () => {
+      const loader = document.getElementById('loadingScreen');
+      if (loader) {
+        loader.style.opacity = '0';
+        setTimeout(() => loader.style.display = 'none', 500);
+      }
+    });
+  </script>
+</body>
+</html>
