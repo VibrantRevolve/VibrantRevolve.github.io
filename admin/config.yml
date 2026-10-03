@@ -1,0 +1,49 @@
+# Decap CMS. Before it works you must: (1) set repo below, and (2) run a GitHub
+# OAuth proxy (free on Cloudflare Workers) and put its URL in base_url.
+backend:
+  name: github
+  repo: YOUR_GITHUB_USER/VibrantRevolve.github.io
+  branch: main
+  base_url: https://YOUR-OAUTH-PROXY.example.workers.dev
+media_folder: assets/images/img
+public_folder: /assets/images/img
+collections:
+  - name: site
+    label: Store & banners
+    files:
+      - name: products
+        label: Products
+        file: assets/data/products.json
+        fields:
+          - label: Products
+            name: products
+            widget: list
+            fields:
+              - { label: ID (lowercase-with-dashes), name: id, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Category, name: category, widget: select, options: [template, ecommerce, tool, asset, guide] }
+              - { label: Icon, name: icon, widget: select, options: [globe, cart, palette, rocket, home, building, briefcase, file, phone-mobile, clipboard, laptop, bulb] }
+              - { label: Tag (HOT, NEW...), name: tag, widget: string, required: false }
+              - { label: Tag style, name: tagStyle, widget: select, options: ["", hot, new, bestseller], required: false }
+              - { label: Description, name: description, widget: text }
+              - { label: Price (USD), name: price, widget: number }
+              - { label: Original price (0 = none), name: originalPrice, widget: number, required: false }
+              - { label: Features, name: features, widget: list, field: { label: Feature, name: feature, widget: string } }
+              - { label: Live preview URL, name: previewUrl, widget: string, required: false }
+              - { label: Checkout link (Selar/Paystack), name: checkoutUrl, widget: string, required: false }
+              - { label: PayPal link (optional), name: paypalUrl, widget: string, required: false }
+      - name: banners
+        label: Banners
+        file: assets/data/banners.json
+        fields:
+          - { label: Seconds between slides (ms), name: interval, widget: number }
+          - label: Banners
+            name: items
+            widget: list
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Badge (New, Sale, Free...), name: badge, widget: string, required: false }
+              - { label: Text, name: text, widget: string }
+              - { label: Button text, name: cta, widget: string, required: false }
+              - { label: Link, name: href, widget: string, required: false }
+              - { label: Hide after (date, optional), name: until, widget: string, required: false }

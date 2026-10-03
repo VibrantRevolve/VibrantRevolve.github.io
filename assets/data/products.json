@@ -1,0 +1,209 @@
+{
+  "products": [
+    {
+      "id": "nigerian-ecommerce-storefront",
+      "name": "Nigerian Ecommerce Storefront",
+      "category": "ecommerce",
+      "tag": "HOT",
+      "tagStyle": "hot",
+      "description": "Complete online store for Nigerian businesses. Paystack & Flutterwave ready. Mobile-first, admin dashboard included.",
+      "price": 99,
+      "originalPrice": 149,
+      "features": [
+        "Product catalog + cart",
+        "Paystack & Flutterwave checkout",
+        "Admin dashboard",
+        "\"Pay on Delivery\" option",
+        "WhatsApp order button",
+        "Delivery fee by state"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "cart"
+    },
+    {
+      "id": "nigerian-business-starter-website",
+      "name": "Nigerian Business Starter Website",
+      "category": "template",
+      "tag": "Bestseller",
+      "tagStyle": "bestseller",
+      "description": "Complete HTML/CSS website template for Nigerian SMEs. Mobile responsive, SEO-ready, contact form included.",
+      "price": 49,
+      "originalPrice": 79,
+      "features": [
+        "5 pre-built pages",
+        "Mobile responsive",
+        "Contact form + map",
+        "WhatsApp integration"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "globe"
+    },
+    {
+      "id": "artist-portfolio-pro",
+      "name": "Artist Portfolio Pro",
+      "category": "template",
+      "tag": "NEW",
+      "tagStyle": "new",
+      "description": "For musicians, photographers, painters, and creatives. Gallery, music player, booking form, press kit.",
+      "price": 39,
+      "originalPrice": 0,
+      "features": [
+        "Image/video gallery",
+        "Embedded music player",
+        "Event/gig calendar",
+        "Press kit download",
+        "Dark, moody aesthetic"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "palette"
+    },
+    {
+      "id": "real-estate-pro-landing",
+      "name": "Real Estate Pro Landing",
+      "category": "template",
+      "tag": "NEW",
+      "tagStyle": "new",
+      "description": "For agents and developers in Lagos, Abuja, Port Harcourt. Property listings, mortgage calculator, inquiry forms.",
+      "price": 59,
+      "originalPrice": 0,
+      "features": [
+        "Property grid + filters",
+        "Mortgage calculator",
+        "Schedule viewing form",
+        "Agent profile pages",
+        "Naira + USD pricing"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "home"
+    },
+    {
+      "id": "church-website-pro",
+      "name": "Church Website Pro",
+      "category": "template",
+      "tag": "NEW",
+      "tagStyle": "new",
+      "description": "For churches and ministries. Sermons, events, online giving, prayer requests, branch locator.",
+      "price": 49,
+      "originalPrice": 0,
+      "features": [
+        "Sermon archive (audio/video)",
+        "Event calendar",
+        "Online giving (Paystack)",
+        "Prayer request form",
+        "Branch locator"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "building"
+    },
+    {
+      "id": "saas-starter-kit",
+      "name": "SaaS Starter Kit",
+      "category": "template",
+      "tag": "Premium",
+      "tagStyle": "",
+      "description": "Full-stack starter template for SaaS apps. Auth, payments, dashboard, database — all wired up.",
+      "price": 79,
+      "originalPrice": 129,
+      "features": [
+        "React + Node.js + MongoDB",
+        "User auth (JWT + bcrypt)",
+        "Stripe payment integration",
+        "Admin dashboard included"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "rocket"
+    },
+    {
+      "id": "developer-portfolio-pro-template",
+      "name": "Developer Portfolio Pro Template",
+      "category": "template",
+      "tag": "Popular",
+      "tagStyle": "",
+      "description": "The exact portfolio structure that gets developers hired. Dark/light mode, animations, SEO optimized.",
+      "price": 29,
+      "originalPrice": 0,
+      "features": [
+        "Dark & light mode",
+        "6 project showcases",
+        "Contact form + booking",
+        "1-click deploy to Vercel"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "briefcase"
+    },
+    {
+      "id": "invoice-quote-generator",
+      "name": "Invoice & Quote Generator",
+      "category": "tool",
+      "tag": "Tool",
+      "tagStyle": "",
+      "description": "Python script that generates branded PDF invoices and quotes. Perfect for freelancers and small agencies.",
+      "price": 15,
+      "originalPrice": 0,
+      "features": [
+        "Branded PDF output",
+        "Auto-calculate totals",
+        "Multiple currency support",
+        "CSV export for accounting"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "file"
+    },
+    {
+      "id": "social-media-starter-kit",
+      "name": "Social Media Starter Kit",
+      "category": "asset",
+      "tag": "Design",
+      "tagStyle": "",
+      "description": "30 Canva templates for Instagram, Facebook & Twitter. Perfect for Nigerian small businesses and creators.",
+      "price": 19,
+      "originalPrice": 0,
+      "features": [
+        "30 editable templates",
+        "Instagram, FB, Twitter sizes",
+        "Brand color guides included",
+        "Canva + PSD files"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "phone-mobile"
+    },
+    {
+      "id": "cv-ats-optimizer-guide",
+      "name": "CV ATS Optimizer Guide",
+      "category": "guide",
+      "tag": "Guide",
+      "tagStyle": "",
+      "description": "PDF guide + checklist to make your CV pass Applicant Tracking Systems. Get more interview calls.",
+      "price": 9,
+      "originalPrice": 0,
+      "features": [
+        "ATS checklist (50+ points)",
+        "Before/after examples",
+        "Keyword optimization tips",
+        "LinkedIn profile bonus"
+      ],
+      "previewUrl": "",
+      "checkoutUrl": "",
+      "paypalUrl": "",
+      "icon": "clipboard"
+    }
+  ]
+}

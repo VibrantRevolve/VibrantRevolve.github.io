@@ -93,6 +93,16 @@
       color: var(--white);
     }
   </style>
+  <script defer src="/assets/js/banner.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/enhance.css">
+  <script defer src="/assets/js/enhance.js"></script>
+  <link rel="canonical" href="https://vibrantrevolve.com/book/">
+  <meta property="og:title" content="Book a Call | VibrantRevolve">
+  <meta property="og:description" content="Schedule a free 15-minute discovery call with VibrantRevolve. Web development, software, and digital solutions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vibrantrevolve.com/book/">
+  <meta property="og:image" content="https://vibrantrevolve.com/assets/images/og-image.png">
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -199,8 +209,9 @@
     if (frame.src.includes('YOUR_GOOGLE_SCHEDULER_LINK')) {
       frame.style.display = 'none';
       fallback.classList.add('active');
-      fallback.querySelector('h3').textContent = 'Calendar Not Configured';
-      fallback.querySelector('p').textContent = 'Please configure your Google Appointment Schedule link in the code.';
+      fallback.querySelector('h3').textContent = 'Book Your Discovery Call';
+      fallback.querySelector('p').textContent = 'Online booking is opening soon. Message us on WhatsApp or email to pick a time.';
+      const nt = fallback.querySelector('a[href*="calendar.app.google"]'); if (nt) nt.style.display = 'none';
     }
 
     // Timeout fallback after 5 seconds

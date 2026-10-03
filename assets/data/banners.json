@@ -1,0 +1,29 @@
+{
+  "interval": 6000,
+  "items": [
+    {
+      "id": "store-ecommerce",
+      "text": "New: Nigerian Ecommerce Storefront, Paystack-ready and mobile-first.",
+      "cta": "See it in the store",
+      "href": "/store/",
+      "until": "",
+      "badge": "New"
+    },
+    {
+      "id": "blog-radar",
+      "text": "Tech Radar: fresh web and business tech news, updated daily.",
+      "cta": "Read the blog",
+      "href": "/blog/",
+      "until": "",
+      "badge": "Blog"
+    },
+    {
+      "id": "book-call",
+      "text": "Need something custom? Book a free discovery call.",
+      "cta": "Book a call",
+      "href": "/book/",
+      "until": "",
+      "badge": "Free call"
+    }
+  ]
+}

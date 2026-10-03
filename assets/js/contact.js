@@ -1,5 +1,5 @@
 // ============================================
-// VIBRANTREVOLVE — CONTACT FORM & CALENDLY
+// VIBRANTREVOLVE — CONTACT FORM
 // Secure form handling with validation
 // ============================================
 
@@ -69,14 +69,14 @@ const ContactManager = {
     }
 
     // Send via EmailJS
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form)
+    sendContact(form)
       .then(() => {
         if (modal) modal.style.display = 'flex';
         form.reset();
       })
       .catch((error) => {
         console.error('EmailJS Error:', error);
-        alert('Oops! Something went wrong. Please try again or email me directly at contact@vibrantrevolve.com');
+        alert('Oops! Something went wrong. Please try again or email me directly at vr@vibrantrevolve.com');
       })
       .finally(() => {
         if (submitBtn) {
@@ -87,24 +87,17 @@ const ContactManager = {
   }
 };
 
-// ===== CALENDLY =====
-function initCalendly() {
-  const btn = document.getElementById('calendly-button');
-  if (!btn) return;
-
-  btn.addEventListener('click', () => {
-    if (window.Calendly?.initPopupWidget) {
-      Calendly.initPopupWidget({
-        url: 'https://calendly.com/vibrantrevolve/discovery-call'
-      });
-    } else {
-      window.open('https://calendly.com/vibrantrevolve/discovery-call', '_blank');
-    }
-  });
+const EMAILJS_SERVICE = 'YOUR_SERVICE_ID', EMAILJS_TEMPLATE = 'YOUR_TEMPLATE_ID';
+function sendContact(form) {
+  if (EMAILJS_SERVICE.includes('YOUR_') || !window.emailjs) {
+    const body = [...new FormData(form).entries()].map(([k, v]) => k + ': ' + v).join('\n');
+    window.location.href = 'mailto:vr@vibrantrevolve.com?subject=' + encodeURIComponent('Website enquiry') + '&body=' + encodeURIComponent(body);
+    return Promise.resolve();
+  }
+  return emailjs.sendForm(EMAILJS_SERVICE, EMAILJS_TEMPLATE, form);
 }
 
 // ===== INIT =====
 document.addEventListener('DOMContentLoaded', () => {
   ContactManager.init();
-  initCalendly();
 });

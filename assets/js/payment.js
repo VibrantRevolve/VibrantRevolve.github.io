@@ -26,11 +26,20 @@ const PaymentManager = {
       tracking: params.get('tracking') || 'VR-' + Date.now().toString(36).toUpperCase()
     };
 
+    if (!(this.data.amount > 0)) { window.location.replace('/pricing/'); return; }
     this.renderSummary();
     this.initPayPal();
     this.initPaystack();
     this.initFlutterwave();
     this.checkPlaceholderKeys();
+    // If no online method is configured yet, show a clear manual-payment option.
+    setTimeout(() => {
+      const wrap = document.querySelector('.payment-methods');
+      if (!wrap || [...wrap.querySelectorAll('.card')].some(c => c.style.display !== 'none')) return;
+      const msg = encodeURIComponent('Hi, I want to pay for "' + this.data.service + '" ($' + this.data.amount.toFixed(2) + '). Tracking ID: ' + this.data.tracking + '. Please send payment details.');
+      wrap.innerHTML = '<div class="card" style="text-align:center;grid-column:1/-1"><h3>Complete your order</h3><p style="margin:.75rem 0 1.25rem">Online payment is being set up. Message us and we will send you payment details right away.</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://wa.me/2349012739299?text=' + msg + '"><i class="fab fa-whatsapp" aria-hidden="true"></i> Pay via WhatsApp</a></div>';
+    }, 800);
+
   },
 
   // Warn developer if keys are still placeholders
@@ -40,14 +49,15 @@ const PaymentManager = {
     if (this.config.flutterwaveKey.includes('YOUR_')) placeholders.push('Flutterwave');
     if (this.config.emailjsServiceId.includes('YOUR_')) placeholders.push('EmailJS');
 
-    if (placeholders.length > 0) {
-      console.warn('⚠️ PAYMENT KEYS NOT CONFIGURED:', placeholders.join(', '));
+    const isDev = ['localhost','127.0.0.1'].includes(location.hostname);
+    if (placeholders.length > 0 && isDev) {
+      console.warn('PAYMENT KEYS NOT CONFIGURED:', placeholders.join(', '));
       console.warn('   Replace placeholders in assets/js/payment.js before going live.');
 
       // Show warning banner on page for developer
       const banner = document.createElement('div');
       banner.style.cssText = 'background: #dc3545; color: white; padding: 1rem; text-align: center; font-weight: 600; position: sticky; top: 0; z-index: 10002;';
-      banner.innerHTML = `⚠️ Payment not configured: ${placeholders.join(', ')} keys are still placeholders. <a href="#" onclick="this.parentElement.remove(); return false;" style="color: white; text-decoration: underline;">Dismiss</a>`;
+      banner.innerHTML = `Payment not configured: ${placeholders.join(', ')} keys are still placeholders. <a href="#" onclick="this.parentElement.remove(); return false;" style="color: white; text-decoration: underline;">Dismiss</a>`;
       document.body.insertBefore(banner, document.body.firstChild);
     }
   },
@@ -91,6 +101,17 @@ const PaymentManager = {
   initPayPal() {
     const container = document.getElementById('paypal-button-container');
     if (!container) return;
+    const cfg = window.VR_CONFIG || {};
+    if (!cfg.paypalClientId) { const c = container.closest('.card'); if (c) c.style.display = 'none'; return; }
+    if (!window.paypal?.Buttons && !this._ppLoading) {
+      this._ppLoading = true;
+      const sc = document.createElement('script');
+      sc.src = 'https://www.paypal.com/sdk/js?client-id=' + encodeURIComponent(cfg.paypalClientId) + '&currency=USD';
+      sc.onload = () => this.initPayPal();
+      sc.onerror = () => { const c = container.closest('.card'); if (c) c.style.display = 'none'; };
+      document.head.appendChild(sc);
+      return;
+    }
 
     // Check if PayPal SDK loaded
     if (!window.paypal?.Buttons) {
@@ -162,6 +183,8 @@ const PaymentManager = {
     const btn = document.getElementById('paystack-button');
     if (!btn) return;
 
+    if (this.config.paystackKey.includes('YOUR_')) { const c = btn.closest('.card'); if (c) c.style.display = 'none'; return; }
+
     // Check if Paystack loaded
     if (!window.PaystackPop) {
       btn.disabled = true;
@@ -185,7 +208,8 @@ const PaymentManager = {
       const email = this.validateEmail();
       if (!email) return;
 
-      const amountKobo = Math.round(this.data.amount * 100);
+      const ngn = Math.round(this.data.amount * (parseFloat(this.data.rate) || 1560));
+      const amountKobo = ngn * 100;
 
       try {
         const handler = PaystackPop.setup({
@@ -221,6 +245,8 @@ const PaymentManager = {
     const btn = document.getElementById('flutterwave-button');
     if (!btn) return;
 
+    if (this.config.flutterwaveKey.includes('YOUR_')) { const c = btn.closest('.card'); if (c) c.style.display = 'none'; return; }
+
     // Check if Flutterwave loaded
     if (!window.FlutterwaveCheckout) {
       btn.disabled = true;
@@ -248,7 +274,7 @@ const PaymentManager = {
         FlutterwaveCheckout({
           public_key: this.config.flutterwaveKey,
           tx_ref: this.data.tracking,
-          amount: this.data.amount,
+          amount: Math.round(this.data.amount * (parseFloat(this.data.rate) || 1560)),
           currency: 'NGN',
           customer: { 
             email: email,

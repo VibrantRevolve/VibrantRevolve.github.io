@@ -6,7 +6,7 @@
 const PRICING_DATA = {
   "web-development": {
     title: "Web Development",
-    icon: "🌐",
+    icon: "globe",
     description: "Custom websites built for performance and conversion",
     tiers: [
       {
@@ -33,7 +33,7 @@ const PRICING_DATA = {
 
   "software-development": {
     title: "Software Development",
-    icon: "💻",
+    icon: "laptop",
     description: "Custom tools, scripts, and applications",
     tiers: [
       {
@@ -60,7 +60,7 @@ const PRICING_DATA = {
 
   "graphic-design": {
     title: "Graphic Design",
-    icon: "🎨",
+    icon: "palette",
     description: "Visual identity and marketing materials",
     tiers: [
       {
@@ -87,7 +87,7 @@ const PRICING_DATA = {
 
   "content-writing": {
     title: "Content Writing",
-    icon: "✍️",
+    icon: "pen",
     description: "SEO-optimized content that converts",
     tiers: [
       {
@@ -114,7 +114,7 @@ const PRICING_DATA = {
 
   "digital-marketing": {
     title: "Digital Marketing",
-    icon: "📈",
+    icon: "trending",
     description: "Data-driven marketing campaigns",
     tiers: [
       {
@@ -141,7 +141,7 @@ const PRICING_DATA = {
 
   "cv-creation": {
     title: "Custom CV Creation",
-    icon: "📄",
+    icon: "file",
     description: "Professional CVs that get interviews",
     tiers: [
       {
@@ -168,7 +168,7 @@ const PRICING_DATA = {
 
   "proofreading": {
     title: "Proofreading",
-    icon: "📝",
+    icon: "edit",
     description: "Error-free, polished content",
     tiers: [
       {
@@ -195,7 +195,7 @@ const PRICING_DATA = {
 
   "summarizing": {
     title: "Article & Video Summaries",
-    icon: "🧠",
+    icon: "bulb",
     description: "Concise, actionable summaries",
     tiers: [
       {
@@ -222,7 +222,7 @@ const PRICING_DATA = {
 
   "business-card": {
     title: "Business Card Design",
-    icon: "🎴",
+    icon: "card",
     description: "Professional cards that make an impression",
     tiers: [
       {

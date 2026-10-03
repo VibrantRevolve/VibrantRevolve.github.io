@@ -1,0 +1,63 @@
+[
+  {
+    "id": "vr-guide-3",
+    "title": "5 checks before you buy a website template",
+    "url": "",
+    "source": "VibrantRevolve",
+    "date": "2026-09-29T08:00:00Z",
+    "tag": "Web",
+    "excerpt": "A cheap template can get expensive fast. Here is what to check before you pay.",
+    "body": [
+      "Read the licence. Some templates allow one site only, some allow client work, and some forbid resale. If you build sites for customers, you need the right one.",
+      "Test it on a phone. Open the live demo on your own handset over mobile data, not just on a laptop. If it feels slow or cramped there, your customers will feel it too.",
+      "Look at the code quality. Clean, commented HTML and CSS is far easier to edit than a tangle of plugins. Ask what is included and whether updates are free.",
+      "Check how you will handle contact forms, payments and SEO. A template that looks good but cannot take an enquiry is only half a website.",
+      "Ask what support you get. A quick reply when something breaks is worth more than an extra page layout."
+    ],
+    "take": "Every template we sell states its licence plainly, and we will help you set it up.",
+    "cta": {
+      "label": "Browse templates",
+      "href": "/store/"
+    }
+  },
+  {
+    "id": "vr-guide-2",
+    "title": "Paystack, Flutterwave or PayPal: which should your business use?",
+    "url": "",
+    "source": "VibrantRevolve",
+    "date": "2026-09-24T08:00:00Z",
+    "tag": "Payments",
+    "excerpt": "Each gateway suits a different customer. A simple way to choose, or to offer more than one.",
+    "body": [
+      "Paystack and Flutterwave are built for African payments. They handle cards, bank transfers and other local methods, which is what most Nigerian customers expect to use.",
+      "PayPal is familiar to international buyers, so it helps if your customers live abroad. Availability and fees differ by country, so check what your own account can do before relying on it.",
+      "Fees, payout speed and supported currencies all change over time. Compare the current terms on each provider's site before you decide.",
+      "Offering two options is often better than one: a local gateway for local buyers and PayPal for overseas clients. Fewer abandoned checkouts usually follows."
+    ],
+    "take": "We wire up whichever combination fits your customers.",
+    "cta": {
+      "label": "See ecommerce options",
+      "href": "/store/"
+    }
+  },
+  {
+    "id": "vr-guide-1",
+    "title": "Why speed matters more than you think for small business sites",
+    "url": "",
+    "source": "VibrantRevolve",
+    "date": "2026-09-18T08:00:00Z",
+    "tag": "Web",
+    "excerpt": "Many visitors browse on mobile data. A slow page loses them before they read a word.",
+    "body": [
+      "Large images are the most common cause of slow sites. Resize them to the size they are shown at and use modern formats such as WebP.",
+      "Load only what a page needs. Every extra script, font and widget adds waiting time, especially on a weaker connection.",
+      "Test on a real phone, on mobile data. That is closer to what your customers experience than a fast office connection.",
+      "Make the first screen count: a clear headline, one obvious button, and your WhatsApp or phone number close at hand."
+    ],
+    "take": "Speed is one of the first things we tune on every build.",
+    "cta": {
+      "label": "Talk about your site",
+      "href": "/contact/"
+    }
+  }
+]

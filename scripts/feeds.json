@@ -1,0 +1,28 @@
+{
+  "maxNewPerRun": { "news": 3, "grants": 3 },
+  "maxAgeDays": { "news": 10, "grants": 30 },
+  "feeds": [
+    { "name": "TechCabal", "url": "https://techcabal.com/feed/", "kind": "news", "acceptAll": true },
+    { "name": "Techpoint Africa", "url": "https://techpoint.africa/feed/", "kind": "news", "acceptAll": true },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "kind": "news", "acceptAll": true },
+    { "name": "GitHub Blog", "url": "https://github.blog/feed/", "kind": "news" },
+    { "name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "kind": "news" },
+    { "name": "web.dev", "url": "https://web.dev/feed.xml", "kind": "news" },
+    { "name": "Opportunity Desk", "url": "https://opportunitydesk.org/feed/", "kind": "grants" }
+  ],
+  "grantKeywords": ["grant", "funding", "fund ", "fellowship", "accelerator", "incubat", "prize", "competition", "call for applications", "seed"],
+  "grantCta": { "label": "Get a site ready to apply", "href": "/services/web-development.html" },
+  "defaultNewsCta": { "label": "Explore our services", "href": "/services/" },
+  "rules": [
+    { "tag": "Web", "keywords": ["website", "web ", "css", "javascript", "browser", "frontend", "seo"],
+      "cta": { "label": "Website templates", "href": "/store/" } },
+    { "tag": "Payments", "keywords": ["payment", "fintech", "paystack", "flutterwave", "checkout", "ecommerce", "e-commerce"],
+      "cta": { "label": "Ecommerce storefront", "href": "/store/" } },
+    { "tag": "AI & Automation", "keywords": ["ai ", "automation", "agent", "llm", "machine learning"],
+      "cta": { "label": "Custom software", "href": "/services/software-development.html" } },
+    { "tag": "Security", "keywords": ["security", "vulnerability", "privacy", "breach"],
+      "cta": { "label": "Talk to us", "href": "/contact/" } },
+    { "tag": "Design & Social", "keywords": ["design", "brand", "social media", "creator"],
+      "cta": { "label": "Design assets", "href": "/store/" } }
+  ]
+}

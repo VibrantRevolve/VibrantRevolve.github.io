@@ -12,6 +12,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
 
   <script defer src="/assets/js/main.js"></script>
+  <script defer src="/assets/js/banner.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/enhance.css">
+  <script defer src="/assets/js/enhance.js"></script>
+  <link rel="canonical" href="https://vibrantrevolve.com/portfolio/">
+  <meta property="og:title" content="Portfolio | VibrantRevolve Projects">
+  <meta property="og:description" content="View real projects by VibrantRevolve: web development, software, and design work with case studies.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vibrantrevolve.com/portfolio/">
+  <meta property="og:image" content="https://vibrantrevolve.com/assets/images/og-image.png">
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -29,134 +39,72 @@
     <section class="container fade-in-element" style="padding: 3rem 1.5rem 5rem;">
       <div class="portfolio-filters" role="tablist" aria-label="Project categories">
         <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
-        <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web</button>
-        <button class="filter-btn" data-filter="software" role="tab" aria-selected="false">Software</button>
-        <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">Design</button>
+        <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Websites</button>
+        <button class="filter-btn" data-filter="ecommerce" role="tab" aria-selected="false">E-Commerce</button>
       </div>
 
       <div class="portfolio-grid" id="portfolio-grid" role="tabpanel">
 
-        <!-- Project 1 -->
+        
         <article class="portfolio-item" data-category="web">
-          <img src="/assets/images/portfolio/project-1.jpg" alt="E-commerce website screenshot" loading="lazy" />
+          <img src="https://www.aithandistributors.com/og-image.png" alt="Aithan Distributors website screenshot" loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top" onerror="this.style.display='none'" />
           <div class="portfolio-content">
-            <h3>Nigerian E-Commerce Platform</h3>
-            <p>Full-stack e-commerce with Paystack integration, admin dashboard, and inventory management.</p>
-            <div class="tech-tags" style="margin-bottom: 1rem;">
-              <span class="tech-tag">React</span>
-              <span class="tech-tag">Node.js</span>
-              <span class="tech-tag">MongoDB</span>
-              <span class="tech-tag">Paystack</span>
-            </div>
+            <h3>Aithan Distributors</h3>
+            <p>A distribution platform connecting verified partners with quality products, with a product catalog, distributor applications and partner login.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;"><span class="tech-tag">Web platform</span><span class="tech-tag">Catalog</span><span class="tech-tag">Partner login</span></div>
             <div class="portfolio-links">
-              <a href="https://demo-link.com" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
-              </a>
-              <a href="https://github.com/YOUR_HANDLE/ecommerce-project" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github" aria-hidden="true"></i> Code
-              </a>
+              <a href="https://www.aithandistributors.com/" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Visit Site</a>
             </div>
           </div>
         </article>
 
-        <!-- Project 2 -->
-        <article class="portfolio-item" data-category="software">
-          <img src="/assets/images/portfolio/project-2.jpg" alt="Automation tool interface" loading="lazy" />
+        <article class="portfolio-item" data-category="ecommerce">
+          <img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmartiedenterprises.github.io%2Fmartied-enterprise%2F?w=900&amp;h=560" alt="Martie-D Enterprises website screenshot" loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top" onerror="this.style.display='none'" />
           <div class="portfolio-content">
-            <h3>Workflow Automation Tool</h3>
-            <p>Python-based automation that reduced client's manual data entry time by 70%.</p>
-            <div class="tech-tags" style="margin-bottom: 1rem;">
-              <span class="tech-tag">Python</span>
-              <span class="tech-tag">Selenium</span>
-              <span class="tech-tag">Pandas</span>
-            </div>
+            <h3>Martie-D Enterprises</h3>
+            <p>An online shop for kitchenware, household items, gadgets and gifts, with a cart, delivery details, WhatsApp and bank-transfer ordering, and a product admin.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;"><span class="tech-tag">Online shop</span><span class="tech-tag">Cart</span><span class="tech-tag">WhatsApp ordering</span></div>
             <div class="portfolio-links">
-              <a href="https://github.com/YOUR_HANDLE/automation-tool" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github" aria-hidden="true"></i> View Code
-              </a>
+              <a href="https://martiedenterprises.github.io/martied-enterprise/" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Visit Site</a>
             </div>
           </div>
         </article>
 
-        <!-- Project 3 -->
-        <article class="portfolio-item" data-category="design">
-          <img src="/assets/images/portfolio/project-3.jpg" alt="Brand identity mockup" loading="lazy" />
-          <div class="portfolio-content">
-            <h3>Brew & Bloom Brand Identity</h3>
-            <p>Complete visual identity for a Lagos café including logo, packaging, and social media kit.</p>
-            <div class="tech-tags" style="margin-bottom: 1rem;">
-              <span class="tech-tag">Figma</span>
-              <span class="tech-tag">Illustrator</span>
-              <span class="tech-tag">Photoshop</span>
-            </div>
-            <div class="portfolio-links">
-              <a href="/portfolio/brew-bloom-case-study.html">
-                <i class="fas fa-eye" aria-hidden="true"></i> Case Study
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Project 4 -->
         <article class="portfolio-item" data-category="web">
-          <img src="/assets/images/portfolio/project-4.jpg" alt="SaaS dashboard" loading="lazy" />
+          <img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbooknugget.github.io%2FBookNugget%2F?w=900&amp;h=560" alt="BookNugget website screenshot" loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top" onerror="this.style.display='none'" />
           <div class="portfolio-content">
-            <h3>Project Management SaaS</h3>
-            <p>Team collaboration tool with real-time updates, task tracking, and reporting.</p>
-            <div class="tech-tags" style="margin-bottom: 1rem;">
-              <span class="tech-tag">Vue.js</span>
-              <span class="tech-tag">Firebase</span>
-              <span class="tech-tag">Tailwind</span>
-            </div>
+            <h3>BookNugget</h3>
+            <p>A book discovery website covering education, tech, business, literature and more.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;"><span class="tech-tag">Website</span><span class="tech-tag">Content</span><span class="tech-tag">Responsive</span></div>
             <div class="portfolio-links">
-              <a href="https://saas-demo.com" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
-              </a>
-              <a href="https://github.com/YOUR_HANDLE/saas-project" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github" aria-hidden="true"></i> Code
-              </a>
+              <a href="https://booknugget.github.io/BookNugget/" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Visit Site</a>
             </div>
           </div>
         </article>
 
-        <!-- Project 5 -->
-        <article class="portfolio-item" data-category="software">
-          <img src="/assets/images/portfolio/project-5.jpg" alt="Mobile app screenshot" loading="lazy" />
+        <article class="portfolio-item" data-category="ecommerce">
+          <img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmarvsfoods.org%2F?w=900&amp;h=560" alt="MarvsFoods website screenshot" loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top" onerror="this.style.display='none'" />
           <div class="portfolio-content">
-            <h3>Inventory Tracker App</h3>
-            <p>Cross-platform desktop app for small business inventory management.</p>
-            <div class="tech-tags" style="margin-bottom: 1rem;">
-              <span class="tech-tag">Electron</span>
-              <span class="tech-tag">SQLite</span>
-              <span class="tech-tag">Chart.js</span>
-            </div>
+            <h3>MarvsFoods</h3>
+            <p>An online store for quality food provisions, built to make ordering simple for customers.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;"><span class="tech-tag">Online store</span><span class="tech-tag">Branding</span><span class="tech-tag">Custom domain</span></div>
             <div class="portfolio-links">
-              <a href="https://github.com/YOUR_HANDLE/inventory-app" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github" aria-hidden="true"></i> View Code
-              </a>
+              <a href="https://marvsfoods.org/" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Visit Site</a>
             </div>
           </div>
         </article>
 
-        <!-- Project 6 -->
-        <article class="portfolio-item" data-category="design">
-          <img src="/assets/images/portfolio/project-6.jpg" alt="Social media graphics" loading="lazy" />
+        <article class="portfolio-item" data-category="web">
+          <img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fitsmrbobby.github.io%2FMourine-Momo-Lux-Gallery-%2F?w=900&amp;h=560" alt="Mourine Momo LUX Rug website screenshot" loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top" onerror="this.style.display='none'" />
           <div class="portfolio-content">
-            <h3>Social Media Campaign Kit</h3>
-            <p>30-day content calendar with custom graphics for Instagram and Facebook.</p>
-            <div class="tech-tags" style="margin-bottom: 1rem;">
-              <span class="tech-tag">Canva</span>
-              <span class="tech-tag">Photoshop</span>
-              <span class="tech-tag">Content Strategy</span>
-            </div>
+            <h3>Mourine Momo LUX Rug</h3>
+            <p>A showroom website for a Lagos luxury rug and furniture brand: collections, services, gallery and consultation enquiries.</p>
+            <div class="tech-tags" style="margin-bottom: 1rem;"><span class="tech-tag">Showroom site</span><span class="tech-tag">Gallery</span><span class="tech-tag">Enquiry form</span></div>
             <div class="portfolio-links">
-              <a href="/portfolio/social-media-case-study.html">
-                <i class="fas fa-eye" aria-hidden="true"></i> View Results
-              </a>
+              <a href="https://itsmrbobby.github.io/Mourine-Momo-Lux-Gallery-/" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Visit Site</a>
             </div>
           </div>
         </article>
-
       </div>
     </section>
 
