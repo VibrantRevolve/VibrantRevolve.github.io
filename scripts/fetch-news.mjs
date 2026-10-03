@@ -36,7 +36,7 @@ export function parseFeed(xml) {
   }).filter((i) => i.title && /^https?:\/\//.test(i.url));
 }
 
-const short = (t, n = 220) => (t.length <= n ? t : t.slice(0, t.lastIndexOf(' ', n)) + '…');
+const short = (t, n = 300) => (t.length <= n ? t : t.slice(0, t.lastIndexOf(' ', n)) + '…');
 const found = [];
 const day = 86400000;
 

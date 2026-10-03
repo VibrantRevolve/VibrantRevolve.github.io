@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "id": "a17db24aed",
     "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
     "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
@@ -180,6 +181,8 @@
     "take": ""
   },
   {
+=======
+>>>>>>> f91854f (upgrade)
     "id": "vr-guide-3",
     "title": "5 checks before you buy a website template",
     "url": "",

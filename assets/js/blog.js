@@ -21,14 +21,13 @@
       list.innerHTML = posts.map((p) => `
         <article class="card" data-tag="${esc(p.tag || 'Tech')}" style="padding:1.5rem">
           <span class="product-tag">${esc(p.tag || 'Tech')}</span>
-          <h3 style="margin:.5rem 0">${p.url ? `<a href="${esc(okUrl(p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a>` : esc(p.title)}</h3>
+          <h3 style="margin:.5rem 0"><a href="/blog/p/${esc(p.id)}.html">${esc(p.title)}</a></h3>
           <p style="font-size:.8rem;color:var(--text-muted)">${esc(p.source)} · ${esc(String(p.date || '').slice(0, 10))}</p>
           <p>${esc(p.excerpt)}</p>
-          ${Array.isArray(p.body) && p.body.length ? `<details style="margin:.75rem 0"><summary style="cursor:pointer;color:var(--accent-light);font-weight:600">Read the full guide</summary>${p.body.map((t) => `<p style="margin-top:.75rem">${esc(t)}</p>`).join('')}</details>` : ''}
           ${p.tag === 'Grants & Funding' ? '<p style="font-size:.85rem;color:var(--text-muted)">Always confirm deadlines and eligibility on the official page before applying.</p>' : ''}
           ${p.take ? `<p><strong>Our take:</strong> ${esc(p.take)}</p>` : ''}
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.5rem">
-            ${p.url ? `<a class="btn btn-primary btn-sm" href="${esc(okUrl(p.url))}" target="_blank" rel="noopener noreferrer">${p.tag === 'Grants & Funding' ? 'View opportunity &amp; apply' : 'Read the full story'}</a>` : ''}
+            <a class="btn btn-primary btn-sm" href="/blog/p/${esc(p.id)}.html">${p.tag === 'Grants & Funding' ? 'Read the details' : 'Read more'}</a>
             ${p.cta && p.cta.href ? `<a class="btn btn-secondary btn-sm" href="${esc(okUrl(p.cta.href))}">${esc(p.tag === 'Grants & Funding' ? 'Need a website for your application?' : (p.cta.label || 'Learn more'))}</a>` : ''}
           </div>
         </article>`).join('');

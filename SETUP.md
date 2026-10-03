@@ -25,3 +25,12 @@ Needs a GitHub OAuth proxy (free on Cloudflare Workers). Set `repo` and `base_ur
 
 ## Still on your to-do list
 Real testimonials, product screenshots, a refund policy page, and updating Privacy/Terms. If you move to Vercel later, delete CNAME.
+
+## 6. Chat assistant ("Ask VR", bottom-left)
+Works immediately with answers from `assets/data/assistant.json` (generated from your real services, prices and store).
+Edit that file when prices or services change. For real AI replies, follow `workers/assistant/README.md`
+(costs per use, so set a spend limit) and put the Worker URL in `assets/js/site-config.js` as `assistantUrl`.
+
+## 7. Brand Studio (/brand-studio/) and the animated hero
+No setup. Brand Studio runs fully in the visitor's browser. The hero animation (`assets/js/aurora.js`) pauses off-screen
+and shows a still frame for visitors who prefer reduced motion.

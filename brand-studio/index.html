@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Brand Studio | VibrantRevolve</title>
+  <meta name="description" content="Type your business name and get an instant starter brand: colour palette, font pairing, taglines and a logo mark. Free, private, runs in your browser.">
+  <link rel="canonical" href="https://vibrantrevolve.com/brand-studio/">
+  <meta property="og:title" content="Free Brand Studio | VibrantRevolve">
+  <meta property="og:description" content="Instant colour palette, fonts, taglines and logo mark for your business.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/enhance.css">
+  <style>
+    .bs-wrap{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:2rem;align-items:start}
+    .bs-form{position:sticky;top:6rem;padding:1.5rem}
+    .bs-form label{display:block;font-weight:600;margin:1rem 0 .4rem;color:var(--text-primary)}
+    .bs-form input,.bs-form select{width:100%;padding:.75rem .9rem}
+    .bs-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.4rem}
+    .bs-note{font-size:.8rem;color:var(--text-muted);margin-top:1rem}
+    .bs-out{display:grid;gap:1.5rem}
+    .bs-card{padding:1.5rem}
+    .bs-card h3{margin:0 0 1rem}
+    .bs-swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:.6rem}
+    .bs-sw{border:1px solid rgba(255,255,255,.12);border-radius:12px;height:96px;cursor:pointer;display:flex;align-items:flex-end;padding:.5rem;font:600 .75rem/1.2 Inter,sans-serif;transition:transform .2s}
+    .bs-sw:hover,.bs-sw:focus-visible{transform:translateY(-4px)}
+    .bs-sw.pop{animation:bspop .5s ease both}
+    @keyframes bspop{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:none}}
+    .bs-row{display:grid;grid-template-columns:140px 1fr;gap:1.5rem;align-items:center}
+    .bs-mark{width:140px;height:140px;border-radius:20px;background:rgba(255,255,255,.04);display:grid;place-items:center}
+    .bs-tag{padding:.7rem 0;border-bottom:1px solid var(--border-color);color:var(--text-primary)}
+    .bs-tag:last-child{border:0}
+    .bs-preview{border-radius:16px;padding:2.4rem 1.6rem;text-align:center;border:1px solid rgba(0,0,0,.1)}
+    .bs-preview h4{font-size:clamp(1.6rem,4vw,2.4rem);margin:.7rem 0 .4rem;line-height:1.1}
+    .bs-preview p{margin:0 auto 1.2rem;max-width:34ch;color:inherit;opacity:.8}
+    .bs-btn{display:inline-block;padding:.7rem 1.4rem;border-radius:999px;font-weight:700;border:0}
+    .bs-chip{display:inline-block;padding:.25rem .8rem;border-radius:999px;font-size:.75rem;font-weight:700}
+    .bs-fonts{display:grid;gap:.4rem}
+    .bs-ctas{display:flex;gap:.7rem;flex-wrap:wrap}
+    @media (max-width:860px){.bs-wrap{grid-template-columns:1fr}.bs-form{position:static}.bs-row{grid-template-columns:1fr;justify-items:start}}
+    @media (max-width:520px){.bs-swatches{grid-template-columns:repeat(3,1fr)}}
+    @media (prefers-reduced-motion:reduce){.bs-sw.pop{animation:none}}
+  </style>
+  <script defer src="/assets/js/aurora.js"></script>
+  <script defer src="/assets/js/assistant.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div id="site-header"></div>
+  <main id="main">
+    <section class="hero-section" style="min-height:34vh"><div class="hero-content">
+      <h1>Brand Studio</h1>
+      <p class="hero-subtitle">Type your business name. Get a starter brand in seconds: colours, fonts, taglines and a logo mark.</p>
+    </div></section>
+    <section class="container" style="padding:2rem 1.5rem 5rem">
+      <div class="bs-wrap">
+        <form class="card bs-form" id="bs-form" autocomplete="off">
+          <label for="bs-name">Business name</label>
+          <input id="bs-name" type="text" maxlength="40" placeholder="e.g. Ade's Kitchen" required>
+          <label for="bs-industry">What you do</label>
+          <select id="bs-industry"></select>
+          <label for="bs-mood">Mood</label>
+          <select id="bs-mood"></select>
+          <div class="bs-actions">
+            <button class="btn btn-primary" type="submit">Generate</button>
+            <button class="btn btn-secondary" type="button" id="bs-shuffle">Shuffle</button>
+          </div>
+          <p class="bs-note">Everything is created in your browser. Nothing you type is sent or stored. These are starting ideas, not a finished identity.</p>
+        </form>
+        <div class="bs-out" id="bs-out" aria-live="polite" hidden>
+          <div class="card bs-card"><h3>Colour palette</h3><div class="bs-swatches" id="bs-sw"></div><p class="bs-note">Click a colour to copy its code.</p></div>
+          <div class="card bs-card"><h3>Logo mark</h3><div class="bs-row"><div class="bs-mark" id="bs-mark"></div><div><div class="bs-ctas"><button class="btn btn-secondary btn-sm" type="button" id="bs-dl">Download mark (SVG)</button><button class="btn btn-secondary btn-sm" type="button" id="bs-copy">Copy palette</button></div><p class="bs-note" id="bs-fontnote"></p></div></div></div>
+          <div class="card bs-card"><h3>Taglines</h3><div id="bs-tags"></div></div>
+          <div class="card bs-card"><h3>Preview</h3><div class="bs-preview" id="bs-prev"></div></div>
+          <div class="card bs-card" style="text-align:center"><h3>Like it?</h3><p>We can turn this into a real brand and website.</p><div class="bs-ctas" style="justify-content:center"><a class="btn btn-primary" id="bs-wa" target="_blank" rel="noopener">Build this for me</a><a class="btn btn-secondary" href="/contact/">Contact us</a></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script defer src="/assets/js/main.js"></script>
+  <script defer src="/assets/js/site-config.js"></script>
+  <script defer src="/assets/js/brand-studio.js"></script>
+  <script defer src="/assets/js/banner.js"></script>
+  <script defer src="/assets/js/enhance.js"></script>
+</body>
+</html>

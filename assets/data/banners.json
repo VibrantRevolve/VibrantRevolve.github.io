@@ -10,6 +10,14 @@
       "badge": "New"
     },
     {
+      "id": "brand-studio",
+      "badge": "Free tool",
+      "text": "Try Brand Studio: get a colour palette, fonts and taglines for your business in seconds.",
+      "cta": "Try it free",
+      "href": "/brand-studio/",
+      "until": ""
+    },
+    {
       "id": "blog-radar",
       "text": "Tech Radar: fresh web and business tech news, updated daily.",
       "cta": "Read the blog",

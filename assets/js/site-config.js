@@ -8,6 +8,8 @@ window.VR_CONFIG = {
   // Fallback if you have no client ID: your PayPal.Me name, e.g. "vibrantrevolve".
   // Leave "" to hide the fallback link.
   paypalMeUser: "",
+  // Optional: URL of your Cloudflare Worker for real AI chat replies (see workers/assistant/README.md). "" = built-in answers only.
+  assistantUrl: "",
   currency: "USD",
   whatsapp: "2349012739299",
   supportEmail: "vr@vibrantrevolve.com"

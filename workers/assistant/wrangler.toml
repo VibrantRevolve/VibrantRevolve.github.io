@@ -1,0 +1,6 @@
+name = "vr-assistant"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://vibrantrevolve.com"

@@ -5,7 +5,7 @@
     { "name": "TechCabal", "url": "https://techcabal.com/feed/", "kind": "news", "acceptAll": true },
     { "name": "Disrupt Africa", "url": "https://disrupt-africa.com/feed/", "kind": "news", "acceptAll": true },
     { "name": "Ventureburn", "url": "https://ventureburn.com/feed/", "kind": "news", "acceptAll": true },
-    { "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "kind": "news", "acceptAll": true },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "kind": "news" },
     { "name": "GitHub Blog", "url": "https://github.blog/feed/", "kind": "news" },
     { "name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "kind": "news" },
     { "name": "web.dev", "url": "https://web.dev/feed.xml", "kind": "news" },
