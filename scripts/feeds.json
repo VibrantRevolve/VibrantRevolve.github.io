@@ -3,7 +3,8 @@
   "maxAgeDays": { "news": 10, "grants": 30 },
   "feeds": [
     { "name": "TechCabal", "url": "https://techcabal.com/feed/", "kind": "news", "acceptAll": true },
-    { "name": "Techpoint Africa", "url": "https://techpoint.africa/feed/", "kind": "news", "acceptAll": true },
+    { "name": "Disrupt Africa", "url": "https://disrupt-africa.com/feed/", "kind": "news", "acceptAll": true },
+    { "name": "Ventureburn", "url": "https://ventureburn.com/feed/", "kind": "news", "acceptAll": true },
     { "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "kind": "news", "acceptAll": true },
     { "name": "GitHub Blog", "url": "https://github.blog/feed/", "kind": "news" },
     { "name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "kind": "news" },
@@ -11,7 +12,7 @@
     { "name": "Opportunity Desk", "url": "https://opportunitydesk.org/feed/", "kind": "grants" }
   ],
   "grantKeywords": ["grant", "funding", "fund ", "fellowship", "accelerator", "incubat", "prize", "competition", "call for applications", "seed"],
-  "grantCta": { "label": "Get a site ready to apply", "href": "/services/web-development.html" },
+  "grantCta": { "label": "Need a website for your application?", "href": "/services/web-development.html" },
   "defaultNewsCta": { "label": "Explore our services", "href": "/services/" },
   "rules": [
     { "tag": "Web", "keywords": ["website", "web ", "css", "javascript", "browser", "frontend", "seo"],
