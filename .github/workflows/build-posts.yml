@@ -1,10 +1,10 @@
-name: Build article pages
+name: Build article and store pages
 # Runs after you merge a news pull request (or edit blog/posts.json), so each
 # post's page always matches its latest text, including your "take" lines.
 on:
   push:
     branches: [main]
-    paths: ['blog/posts.json']
+    paths: ['blog/posts.json', 'assets/data/products.json']
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,11 +18,12 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/build-posts.mjs
+      - run: node scripts/build-store.mjs
       - name: Commit changed pages
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add blog/p sitemap.xml
+          git add blog/p blog/feed.xml sitemap.xml store/index.html
           if ! git diff --cached --quiet; then
             git commit -m "Update article pages" && git push
             curl -s -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true

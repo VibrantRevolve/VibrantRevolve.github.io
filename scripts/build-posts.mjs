@@ -15,6 +15,7 @@ function page(p) {
   const indexable = (Array.isArray(p.body) && p.body.length) || p.take; // thin summaries stay out of search results
   const ext = p.url ? `<a class="btn btn-primary" href="${esc(safe(p.url))}" target="_blank" rel="noopener noreferrer">${grant ? 'View opportunity &amp; apply' : 'Continue reading at ' + esc(p.source)}</a>` : '';
   const cta = p.cta && p.cta.href ? `<a class="btn btn-secondary" href="${esc(safe(p.cta.href))}">${esc(grant ? 'Need a website for your application?' : p.cta.label || 'Learn more')}</a>` : '';
+  const ld = indexable ? `\n  <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', headline: p.title, datePublished: p.date, dateModified: p.date, mainEntityOfPage: url, image: SITE + '/assets/images/og-image.png', author: { '@type': 'Organization', name: 'VibrantRevolve' }, publisher: { '@type': 'Organization', name: 'VibrantRevolve', url: SITE }, ...(p.url ? { isBasedOn: p.url } : {}) }).replace(/</g, '\\u003c')}</script>` : '';
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,6 +25,7 @@ function page(p) {
   <meta name="description" content="${esc((p.excerpt || '').slice(0, 160))}">
   <meta name="robots" content="${indexable ? 'index, follow' : 'noindex, follow'}">
   <link rel="canonical" href="${url}">
+  <link rel="alternate" type="application/rss+xml" title="VibrantRevolve Tech Radar" href="/blog/feed.xml">${ld}
   <meta property="og:title" content="${esc(p.title)}">
   <meta property="og:description" content="${esc((p.excerpt || '').slice(0, 200))}">
   <meta property="og:type" content="article">
@@ -74,4 +76,7 @@ try {
   sm = sm.replace(/<!-- posts:start -->[\s\S]*?<!-- posts:end -->/, `<!-- posts:start -->\n${block}\n  <!-- posts:end -->`);
   await writeFile('sitemap.xml', sm);
 } catch {}
+const xe = (t) => String(t ?? '').replace(/[<>&'"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[c]));
+const items = posts.filter((p) => (Array.isArray(p.body) && p.body.length) || p.take).slice(0, 30).map((p) => `    <item><title>${xe(p.title)}</title><link>${SITE}/blog/p/${p.id}.html</link><guid isPermaLink="true">${SITE}/blog/p/${p.id}.html</guid><pubDate>${new Date(p.date).toUTCString()}</pubDate><description>${xe(p.excerpt)}</description></item>`).join('\n');
+await writeFile('blog/feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>VibrantRevolve Tech Radar</title><link>${SITE}/blog/</link><description>Tech news, guides and funding opportunities for African businesses.</description>\n${items}\n</channel></rss>\n`);
 console.log(`Built ${posts.length} post page(s).`);

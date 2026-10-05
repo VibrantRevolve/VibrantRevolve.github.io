@@ -120,11 +120,14 @@
     const btn = e.target.closest('.buy-now-btn');
     if (!btn) return;
     const p = products.find((x) => x.id === btn.dataset.id);
-    if (p) openModal(p);
+    if (p) { e.preventDefault(); openModal(p); }
   });
 
-  fetch('/assets/data/products.json')
-    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then((d) => { products = d.products || []; grid.innerHTML = products.map(card).join(''); })
-    .catch(() => { grid.innerHTML = '<p>Products could not be loaded right now. Please refresh, or message us on WhatsApp.</p>'; });
+  fetch('/assets/data/products.json', { cache: 'no-cache' })
+    .then((r) => { if (!r.ok) throw new Error('products.json returned HTTP ' + r.status); return r.json(); })
+    .then((d) => { products = d.products || []; if (products.length) grid.innerHTML = products.map(card).join(''); })
+    .catch((e) => {
+      console.error('Store: could not load products.json.', e);
+      if (!grid.querySelector('.product-card')) grid.innerHTML = '<p>Products could not be loaded right now. Please refresh, or message us on WhatsApp.</p>';
+    });
 })();
