@@ -1,5 +1,95 @@
 [
   {
+    "id": "00aaae6618",
+    "title": "Google froze its open source bug bounty program due to a &#8216;significant rise' in AI submissions",
+    "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-04T20:31:07.000Z",
+    "excerpt": "AI slop seems to be overwhelming bug bounty programs.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "bbc50510cd",
+    "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+    "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-04T20:08:34.000Z",
+    "excerpt": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+    "tag": "Design & Social",
+    "cta": {
+      "label": "Design assets",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "cafdfc2c96",
+    "title": "TechCrunch Mobility: Reining in robotaxis",
+    "url": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-04T16:05:00.000Z",
+    "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "596cc86a3a",
+    "title": "Loeb Fellowship 2027-2028 at the Harvard Graduate School of Design (Funded)",
+    "url": "https://opportunitydesk.org/2026/10/03/loeb-fellowship-2027-2028/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-03T16:25:31.000Z",
+    "excerpt": "Deadline: January 5, 2027 Applications are open for the Loeb Fellowship 2027-2028. The Loeb Fellowship is designed for civic leaders, journalists, architects, technologists, urban planners and designers, activists, landscape architects, policy makers, and public artists who come from around the…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "465eb26b69",
+    "title": "citiesRISE Fellowship for Emerging Leaders in Mental Health and Spirituality 2026 ($500 stipend)",
+    "url": "https://opportunitydesk.org/2026/10/03/citiesrise-fellowship-2026/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-03T15:40:07.000Z",
+    "excerpt": "Deadline: October 12, 2026 Applications are open for the citiesRISE Fellowship for Emerging Leaders in Mental Health and Spirituality 2026. This is a dynamic fellowship for young leaders (18-25) in New York City ready to build skills, deepen connections, and expand their impact at the intersection…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "22f7a6970e",
+    "title": "Jasiri Growth Accelerator 2026 for Entrepreneurs from Kenya &#038; Rwanda",
+    "url": "https://opportunitydesk.org/2026/10/03/jasiri-growth-accelerator-2026/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-03T15:28:18.000Z",
+    "excerpt": "Deadline: October 8, 2026 Applications are open for the Jasiri Growth Accelerator 2026. The Accelerator backs proven ventures from Kenya and Rwanda solving problems and delivering valuable goods and services to unserved or underserved markets. They provide intelligent capital, operational support,…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
     "id": "vr-guide-3",
     "title": "5 checks before you buy a website template",
     "url": "",
