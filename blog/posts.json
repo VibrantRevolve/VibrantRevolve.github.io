@@ -1,5 +1,95 @@
 [
   {
+    "id": "44e1ea2e1f",
+    "title": "The strategy behind Equity Bank’s new digital wallet",
+    "url": "https://techcabal.com/2026/10/06/why-equity-bank-is-building-a-neo-wallet-for-everyday-cash/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-06T11:54:13.000Z",
+    "excerpt": "Equity Bank is responding to the neobanking race with EMMA, a wallet launched by its fintech arm, Finserve. Customers can access it through an app, USSD or the Equitel STK.",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "2f5d67b50f",
+    "title": "WAEMU’s free-transfer rule could make cash withdrawals more expensive",
+    "url": "https://techcabal.com/2026/10/06/francophone-weekly-by-techcabal-043/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-06T11:21:58.000Z",
+    "excerpt": "6 octobre 2026 Hello 👋, Welcome back to Francophone Weekly by TechCabal, your weekly deep dive into the tech ecosystem across French-speaking Africa. For readers who want to understand Francophone Africa beyond headlines&#8212;through markets, startups, and systems. New editions of the newsletter…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "d1be949c15",
+    "title": "Who owns the wealth beneath your feet? The AI engine exposing Nigeria’s &#8216;hidden' miners",
+    "url": "https://techcabal.com/2026/10/06/who-is-mining-your-land-minetrix-ai/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-06T11:13:23.000Z",
+    "excerpt": "Across rural Nigeria, host communities watch heavy machinery dig up their land daily. But ask locals who hold the operational licence, what minerals are being extracted, or what community benefits they are legally owed—and the room goes silent. To fight this \"information opacity,\" Anthony Adejuwon…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "fed88848d3",
+    "title": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
+    "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-06T05:05:00.000Z",
+    "excerpt": "Deadline: November 20, 2026 Applications are open for the Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027. The purpose of the Collette Postdoctoral Fellowship is to support full-time, resident, independent research focused on the study of systematics, including…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d152f06f05",
+    "title": "AIxBio Fellowship 2027 at Cambridge (Fully-funded)",
+    "url": "https://opportunitydesk.org/2026/10/05/aixbio-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-05T12:03:30.000Z",
+    "excerpt": "Deadline: October 19, 2026 Applications are open for the AIxBio Fellowship 2027. This is a 10-week, fully funded programme at Cambridge, for researchers and entrepreneurs working on important problems at the intersection of advanced AI and biosecurity. Running from 18th January to 26th March, 2027…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "54e257ada8",
+    "title": "NetHope Humanitarian AI Research Fellowship 2026/2027",
+    "url": "https://opportunitydesk.org/2026/10/05/nethope-humanitarian-ai-research-fellowship-2026-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-05T11:53:31.000Z",
+    "excerpt": "Deadline: October 9, 2026 Applications are invited for the NetHope Humanitarian AI Research Fellowship 2026/2027. NetHope is piloting a new, short-term Humanitarian AI Research Fellowship to grow the pool of researchers and practitioners who understand how AI can responsibly advance humanitarian and…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
     "id": "00aaae6618",
     "title": "Google froze its open source bug bounty program due to a &#8216;significant rise' in AI submissions",
     "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
