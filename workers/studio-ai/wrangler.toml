@@ -1,0 +1,9 @@
+name = "vr-studio-ai"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[ai]
+binding = "AI"
+
+[vars]
+ALLOWED_ORIGIN = "https://vibrantrevolve.com,https://www.vibrantrevolve.com"

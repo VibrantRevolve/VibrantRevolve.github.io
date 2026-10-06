@@ -1,0 +1,70 @@
+{
+  "name": "VibrantRevolve",
+  "short_name": "VibrantRevolve",
+  "description": "Premium web, software and brand design studio. Free brand and business tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0a09",
+  "theme_color": "#0b0a09",
+  "icons": [
+    {
+      "src": "/assets/images/favicon/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/favicon/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/favicon/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/",
+  "scope": "/",
+  "lang": "en-NG",
+  "categories": [
+    "business",
+    "productivity",
+    "design"
+  ],
+  "shortcuts": [
+    {
+      "name": "Studio Tools",
+      "short_name": "Tools",
+      "url": "/tools/",
+      "icons": [
+        {
+          "src": "/assets/images/favicon/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Brand Studio",
+      "short_name": "Brand",
+      "url": "/brand-studio/",
+      "icons": [
+        {
+          "src": "/assets/images/favicon/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Get a quote",
+      "short_name": "Quote",
+      "url": "/contact/",
+      "icons": [
+        {
+          "src": "/assets/images/favicon/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,8 @@ window.VR_CONFIG = {
   paypalMeUser: "",
   // Optional: URL of your Cloudflare Worker for real AI chat replies (see workers/assistant/README.md). "" = built-in answers only.
   assistantUrl: "",
+  // Optional: URL of your Cloudflare Worker for the "Write with AI" buttons in Studio Tools (see workers/studio-ai/README.md). "" = buttons hidden.
+  studioAiUrl: "",
   currency: "USD",
   whatsapp: "2349012739299",
   supportEmail: "vr@vibrantrevolve.com"

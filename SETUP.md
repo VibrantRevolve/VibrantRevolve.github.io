@@ -31,6 +31,18 @@ Works immediately with answers from `assets/data/assistant.json` (generated from
 Edit that file when prices or services change. For real AI replies, follow `workers/assistant/README.md`
 (costs per use, so set a spend limit) and put the Worker URL in `assets/js/site-config.js` as `assistantUrl`.
 
-## 7. Brand Studio (/brand-studio/) and the animated hero
-No setup. Brand Studio runs fully in the visitor's browser. The hero animation (`assets/js/aurora.js`) pauses off-screen
-and shows a still frame for visitors who prefer reduced motion.
+## 7. Studio Tools (/tools/) and Brand Studio (/brand-studio/)
+No setup. Seven tools run fully in the visitor's browser: Brand Studio, Logo Maker, Name Generator, Copy Writer, Palette Extractor, Invoice Maker, QR Code Maker.
+- The **Tools** button in the header opens the zip-style tray. The list lives in `assets/js/tools.js` (add or rename tools there, and in `tools/index.html`).
+- Brand Studio exports a 2-page A4 **PDF brief** (brand board + project request with contact details, services, budget, notes and a WhatsApp QR). The visitor sends it to you from the page (phone share sheet, or download then WhatsApp / email).
+- Shared code: `assets/js/tools-kit.js` (PDF/PNG export, colour maths), `assets/js/brand-engine.js` (palette, fonts, logos, brief layout), `assets/css/tools.css`.
+- The QR library in `assets/js/vendor/qrcode.js` is Kazuhiko Arase's MIT-licensed QRCode.
+- Fonts for the exported PDFs load from Google Fonts. If a visitor is offline, the PDF falls back to Georgia / system sans.
+- Favicons: `favicon.ico`, `site.webmanifest` and `assets/images/favicon/` are generated from the gold VR logo (`logo-mark.png` is the transparent mark used in the header and footer).
+
+The animated hero (`assets/js/aurora.js`) pauses off-screen and shows a still frame for visitors who prefer reduced motion.
+
+
+## 8. Optional: "Write with AI" in Studio Tools (Cloudflare Workers AI)
+The Copy Writer, Name Generator and Brand Studio taglines can use real AI. It runs on Cloudflare Workers AI, so there is no API key.
+Follow `workers/studio-ai/README.md`, then paste the Worker URL into `assets/js/site-config.js` as `studioAiUrl`. Until you do, the AI buttons stay hidden and the built-in generators are used.

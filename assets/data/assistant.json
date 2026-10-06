@@ -5,9 +5,41 @@
     "Services",
     "Pricing",
     "Store",
+    "Free tools",
     "Talk to a person"
   ],
   "entries": [
+    {
+      "id": "tools",
+      "k": [
+        "tool",
+        "tools",
+        "logo",
+        "brand",
+        "branding",
+        "qr",
+        "invoice",
+        "palette",
+        "colours",
+        "colors",
+        "names",
+        "name",
+        "generator",
+        "free",
+        "studio"
+      ],
+      "a": "Our free Studio Tools run in your browser: Brand Studio (PDF brand brief), Logo Maker, Name Generator, Copy Writer, Palette Extractor, Invoice Maker and QR Code Maker. Nothing you type is uploaded.",
+      "links": [
+        {
+          "t": "Open the tools",
+          "h": "/tools/"
+        },
+        {
+          "t": "Brand Studio",
+          "h": "/brand-studio/"
+        }
+      ]
+    },
     {
       "id": "web-development",
       "k": [

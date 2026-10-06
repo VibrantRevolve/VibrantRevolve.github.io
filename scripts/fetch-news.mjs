@@ -1,5 +1,6 @@
 // Collects fresh items from RSS/Atom feeds and prepends them to blog/posts.json.
-// Only a short excerpt and a link back to the source are stored (no full articles).
+// By default only a short excerpt and a link back to the source are stored (no full articles).
+// The ONLY exception: a feed in scripts/feeds.json that sets "fullText": true AND a "license" (e.g. CC BY). Check the licence terms first.
 // Run by .github/workflows/news.yml, which opens a pull request for review.
 import { readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
@@ -31,16 +32,26 @@ export function parseFeed(xml) {
       title: clean(field(b, 'title')),
       url,
       date: clean(field(b, 'pubDate') || field(b, 'published') || field(b, 'updated')),
-      text: clean(field(b, 'description') || field(b, 'summary') || field(b, 'content'))
+      text: clean(field(b, 'description') || field(b, 'summary') || field(b, 'content')),
+      html: field(b, 'content:encoded') || field(b, 'content'),
+      author: clean(field(b, 'dc:creator') || field(b, 'author') || field(b, 'name'))
     };
   }).filter((i) => i.title && /^https?:\/\//.test(i.url));
 }
 
+// Turns licensed feed HTML into plain-text paragraphs. All markup, images, scripts and embeds are dropped on purpose.
+export function paragraphs(html = '') {
+  return String(html).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    .replace(/<(script|style|iframe|figure|figcaption|noscript)[\s\S]*?<\/\1>/gi, ' ')
+    .split(/<\/p>|<br\s*\/?>\s*<br\s*\/?>|<\/h[1-6]>|<\/li>|<\/blockquote>/i)
+    .map((s) => clean(s)).filter((s) => s.length > 25 && !/^(the post|this (story|post|article) .* appeared first on)/i.test(s)).slice(0, 60);
+}
 const short = (t, n = 300) => (t.length <= n ? t : t.slice(0, t.lastIndexOf(' ', n)) + '…');
 const found = [];
 const day = 86400000;
 
 for (const feed of cfg.feeds) {
+  if (feed.enabled === false) continue;
   const kind = feed.kind || 'news';
   try {
     const res = await fetch(feed.url, { headers: { 'user-agent': 'VibrantRevolve-news-bot' }, signal: AbortSignal.timeout(15000) });
@@ -60,11 +71,16 @@ for (const feed of cfg.feeds) {
         if (!rule && !feed.acceptAll) continue; // keep only relevant items from general feeds
         tag = rule ? rule.tag : 'Tech News'; cta = rule ? rule.cta : cfg.defaultNewsCta;
       }
-      found.push({
+      const post = {
         id: createHash('sha1').update(it.url).digest('hex').slice(0, 10),
         title: it.title, url: it.url, source: feed.name, kind,
         date: when.toISOString(), excerpt: short(it.text), tag, cta, take: ''
-      });
+      };
+      if (feed.fullText && feed.license && feed.license.name && feed.license.url) {   // licensed republishing only
+        const body = paragraphs(it.html);
+        if (body.length >= 3) Object.assign(post, { body, author: it.author, license: feed.license });
+      }
+      found.push(post);
       seen.add(it.url);
     }
   } catch (e) {

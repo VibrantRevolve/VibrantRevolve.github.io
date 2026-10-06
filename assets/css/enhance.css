@@ -117,3 +117,40 @@ body .product-card .product-image{border-radius:0;aspect-ratio:16/9;width:100%}
 [style*="text-align: center"] p{margin-left:auto;margin-right:auto}
 .card-icon svg,main span[style*="font-size: 3rem"] svg,main div[style*="font-size: 4rem"] svg,main div[style*="font-size: 2.5rem"] svg{color:var(--accent-light)}
 .card-icon svg{width:1.3em;height:1.3em}
+
+/* ===== Company polish: header, footer, chat tray (v2) ===== */
+.site-header{padding:.55rem 0}
+.site-header .logo{gap:.7rem;color:var(--text-primary)}
+.logo-icon{width:auto;height:38px;border-radius:0;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(201,162,39,.35))}
+.logo-text{font-size:1.45rem;letter-spacing:.005em}
+.header-actions{gap:.6rem}
+.theme-toggle{width:42px;height:42px;border-width:1.5px;color:var(--accent-light)}
+[data-theme="light"] .theme-toggle{color:var(--accent)}
+.theme-toggle svg{position:absolute}
+.nav-link{font-size:.92rem;letter-spacing:.01em}
+.nav-link[aria-current="page"]{color:var(--text-primary)}
+.footer-logo{display:inline-flex!important;align-items:center;gap:.7rem;justify-content:center}
+.footer-logo img{height:44px;width:auto;filter:drop-shadow(0 4px 12px rgba(201,162,39,.3))}
+.site-footer{background:linear-gradient(180deg,var(--bg-secondary),var(--bg-primary));position:relative}
+.site-footer::before{content:"";position:absolute;top:-1px;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent)}
+.footer-column h4{letter-spacing:.14em;text-transform:uppercase;font:700 .72rem Inter,sans-serif;color:var(--accent-light);margin-bottom:.9rem}
+.social-links a{border:1px solid var(--border-color)}
+.social-links a:hover{border-color:var(--accent)}
+.footer-credit{opacity:.7}
+@media (min-width:768px){.footer-container{text-align:left}.footer-brand .footer-tagline{margin:0}.footer-links .social-links{justify-content:flex-start}}
+
+/* Chat tray ("Ask VR"): clearer, more refined */
+.vra-launch{border-radius:16px;padding:.7rem 1.1rem .7rem .9rem;box-shadow:0 18px 40px -16px #000,inset 0 1px 0 rgba(255,255,255,.06)}
+.vra-launch svg{padding:5px;width:28px;height:28px;border-radius:9px;background:linear-gradient(135deg,#f0d98a,#c9a227);color:#15110a}
+.vra-panel{border-radius:22px;border-color:rgba(201,162,39,.5);box-shadow:0 40px 80px -24px #000,0 0 0 1px rgba(255,255,255,.04)}
+.vra-head{padding:1rem 1.2rem;background:radial-gradient(120% 160% at 0% 0%,rgba(201,162,39,.22),transparent 55%),linear-gradient(135deg,#2a0e18,#140a0d)}
+.vra-head::before{content:"";width:34px;height:34px;margin-right:.7rem;flex:none;background:url(/assets/images/favicon/logo-mark.png) center/contain no-repeat}
+.vra-head>div:first-of-type{flex:1}
+.vra-m{font-size:.92rem}
+.vra-m.bot{background:#17130e;border-radius:4px 16px 16px 16px}
+.vra-m.me{border-radius:16px 4px 16px 16px}
+.vra-chip{background:rgba(201,162,39,.07)}
+.vra-form button{box-shadow:0 8px 18px -10px rgba(201,162,39,.9)}
+/* Light theme: keep the gold mark legible by seating it on an ink tile */
+[data-theme="light"] .logo-icon,[data-theme="light"] .footer-logo img{background:#0b0a09;border-radius:11px;padding:5px 7px;height:40px;box-sizing:border-box;filter:none}
+[data-theme="light"] .footer-logo img{height:46px}
