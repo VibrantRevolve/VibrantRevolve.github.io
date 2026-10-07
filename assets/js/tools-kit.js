@@ -165,6 +165,55 @@
     return new Blob(chunks, { type: 'application/pdf' });
   };
 
+
+  /* Human-readable file size */
+  K.fmtBytes = (n) => n < 1024 ? n + ' B' : n < 1048576 ? (n / 1024).toFixed(n < 10240 ? 1 : 0) + ' KB' : (n / 1048576).toFixed(2) + ' MB';
+
+  /* ZIP (stored, no compression) from [{name, blob}]. Good for already-compressed files such as JPG, WebP and PDF. */
+  const CRC = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+  const crc32 = (u8) => { let c = 0xFFFFFFFF; for (let i = 0; i < u8.length; i++) c = CRC[(c ^ u8[i]) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; };
+  K.zip = async (files) => {
+    const parts = [], central = []; let offset = 0; const used = new Set();
+    const now = new Date(), dt = ((now.getFullYear() - 1980) << 9 | (now.getMonth() + 1) << 5 | now.getDate()) & 0xFFFF, tm = (now.getHours() << 11 | now.getMinutes() << 5 | (now.getSeconds() >> 1)) & 0xFFFF;
+    for (const f of files) {
+      let name = String(f.name).replace(/[\\/:*?"<>|]+/g, '-'), base = name, i = 2; while (used.has(name)) { const d = base.lastIndexOf('.'); name = d > 0 ? base.slice(0, d) + '-' + i + base.slice(d) : base + '-' + i; i++; } used.add(name);
+      const data = new Uint8Array(await f.blob.arrayBuffer()), nm = enc.encode(name), crc = crc32(data);
+      const lh = new DataView(new ArrayBuffer(30)); lh.setUint32(0, 0x04034b50, true); lh.setUint16(4, 20, true); lh.setUint16(6, 0x0800, true); lh.setUint16(8, 0, true); lh.setUint16(10, tm, true); lh.setUint16(12, dt, true); lh.setUint32(14, crc, true); lh.setUint32(18, data.length, true); lh.setUint32(22, data.length, true); lh.setUint16(26, nm.length, true); lh.setUint16(28, 0, true);
+      parts.push(lh.buffer, nm, data);
+      const ch = new DataView(new ArrayBuffer(46)); ch.setUint32(0, 0x02014b50, true); ch.setUint16(4, 20, true); ch.setUint16(6, 20, true); ch.setUint16(8, 0x0800, true); ch.setUint16(10, 0, true); ch.setUint16(12, tm, true); ch.setUint16(14, dt, true); ch.setUint32(16, crc, true); ch.setUint32(20, data.length, true); ch.setUint32(24, data.length, true); ch.setUint16(28, nm.length, true); ch.setUint32(42, offset, true);
+      central.push(ch.buffer, nm); offset += 30 + nm.length + data.length;
+    }
+    let csize = 0; central.forEach((c) => { csize += c.byteLength !== undefined ? c.byteLength : c.length; });
+    const end = new DataView(new ArrayBuffer(22)); end.setUint32(0, 0x06054b50, true); end.setUint16(8, files.length, true); end.setUint16(10, files.length, true); end.setUint32(12, csize, true); end.setUint32(16, offset, true);
+    return new Blob([...parts, ...central, end.buffer], { type: 'application/zip' });
+  };
+
+  /* PDF with a custom size per page: pages = [{ canvas, w, h }] in PDF points. quality is the JPEG quality, 0 to 1. */
+  K.pdfPages = (pages, opts) => {
+    opts = opts || {}; const q = opts.quality || 0.85, title = (opts.title || 'VibrantRevolve').replace(/[()\\]/g, '');
+    const chunks = [], offsets = []; let len = 0;
+    const push = (d) => { const b = typeof d === 'string' ? enc.encode(d) : d; chunks.push(b); len += b.length; };
+    const obj = (n, body) => { offsets[n] = len; push(n + ' 0 obj\n'); push(body); push('\nendobj\n'); };
+    const n = pages.length, infoId = 3 + n * 3;
+    push('%PDF-1.4\n%\u00e2\u00e3\u00cf\u00d3\n');
+    obj(1, '<</Type/Catalog/Pages 2 0 R>>');
+    obj(2, '<</Type/Pages/Kids [' + pages.map((_, i) => (3 + i * 3) + ' 0 R').join(' ') + ']/Count ' + n + '>>');
+    pages.forEach((pg, i) => {
+      const pid = 3 + i * 3, cid = pid + 1, iid = pid + 2, cv = pg.canvas, w = +pg.w.toFixed(2), h = +pg.h.toFixed(2);
+      const bin = atob(cv.toDataURL('image/jpeg', q).split(',')[1]), bytes = new Uint8Array(bin.length); for (let k = 0; k < bin.length; k++) bytes[k] = bin.charCodeAt(k);
+      obj(pid, '<</Type/Page/Parent 2 0 R/MediaBox [0 0 ' + w + ' ' + h + ']/Resources<</XObject<</Im0 ' + iid + ' 0 R>>>>/Contents ' + cid + ' 0 R>>');
+      const content = 'q ' + w + ' 0 0 ' + h + ' 0 0 cm /Im0 Do Q';
+      obj(cid, '<</Length ' + content.length + '>>\nstream\n' + content + '\nendstream');
+      offsets[iid] = len; push(iid + ' 0 obj\n<</Type/XObject/Subtype/Image/Width ' + cv.width + '/Height ' + cv.height + '/ColorSpace/DeviceRGB/BitsPerComponent 8/Filter/DCTDecode/Length ' + bytes.length + '>>\nstream\n');
+      push(bytes); push('\nendstream\nendobj\n');
+    });
+    obj(infoId, '<</Title (' + title + ')/Producer (VibrantRevolve Studio Tools)/Creator (vibrantrevolve.com)>>');
+    const xref = len; push('xref\n0 ' + (infoId + 1) + '\n0000000000 65535 f \n');
+    for (let i = 1; i <= infoId; i++) push(String(offsets[i]).padStart(10, '0') + ' 00000 n \n');
+    push('trailer\n<</Size ' + (infoId + 1) + '/Root 1 0 R/Info ' + infoId + ' 0 R>>\nstartxref\n' + xref + '\n%%EOF');
+    return new Blob(chunks, { type: 'application/pdf' });
+  };
+
   /* A4 canvas at 150 dpi (1240 x 1754) */
   K.A4 = { w: 1240, h: 1754 };
   K.page = (bg) => { const c = K.canvas(K.A4.w, K.A4.h), x = c.getContext('2d'); x.fillStyle = bg || '#ffffff'; x.fillRect(0, 0, c.width, c.height); return { c, x }; };

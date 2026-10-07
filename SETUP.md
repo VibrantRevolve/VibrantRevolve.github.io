@@ -32,7 +32,7 @@ Edit that file when prices or services change. For real AI replies, follow `work
 (costs per use, so set a spend limit) and put the Worker URL in `assets/js/site-config.js` as `assistantUrl`.
 
 ## 7. Studio Tools (/tools/) and Brand Studio (/brand-studio/)
-No setup. Seven tools run fully in the visitor's browser: Brand Studio, Logo Maker, Name Generator, Copy Writer, Palette Extractor, Invoice Maker, QR Code Maker.
+No setup. Twelve tools run fully in the visitor's browser: Brand Studio, Logo Maker, Name Generator, Copy Writer, Palette Extractor, Invoice Maker, QR Code Maker, Image Compressor, PDF Tools, WhatsApp Link Maker, Flyer & Post Maker, CV Builder.
 - The **Tools** button in the header opens the zip-style tray. The list lives in `assets/js/tools.js` (add or rename tools there, and in `tools/index.html`).
 - Brand Studio exports a 2-page A4 **PDF brief** (brand board + project request with contact details, services, budget, notes and a WhatsApp QR). The visitor sends it to you from the page (phone share sheet, or download then WhatsApp / email).
 - Shared code: `assets/js/tools-kit.js` (PDF/PNG export, colour maths), `assets/js/brand-engine.js` (palette, fonts, logos, brief layout), `assets/css/tools.css`.
@@ -46,3 +46,6 @@ The animated hero (`assets/js/aurora.js`) pauses off-screen and shows a still fr
 ## 8. Optional: "Write with AI" in Studio Tools (Cloudflare Workers AI)
 The Copy Writer, Name Generator and Brand Studio taglines can use real AI. It runs on Cloudflare Workers AI, so there is no API key.
 Follow `workers/studio-ai/README.md`, then paste the Worker URL into `assets/js/site-config.js` as `studioAiUrl`. Until you do, the AI buttons stay hidden and the built-in generators are used.
+
+## Trending topics (Flyer & Post Maker)
+`scripts/build-trends.mjs` reads the headlines in `blog/posts.json` and writes `assets/data/trends.json`. It runs inside both GitHub workflows right after the news build, so the topic chips in the Flyer & Post Maker refresh with every news run. It does not scrape Google, X or Instagram. Topics improve as more headlines accumulate.

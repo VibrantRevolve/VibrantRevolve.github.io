@@ -1,30 +1,290 @@
 {
-  "maxNewPerRun": { "news": 3, "grants": 3 },
-  "maxAgeDays": { "news": 10, "grants": 30 },
+  "maxNewPerRun": {
+    "news": 3,
+    "grants": 3,
+    "business": 3,
+    "startups": 3,
+    "jobs": 4
+  },
+  "maxAgeDays": {
+    "news": 10,
+    "grants": 30,
+    "business": 5,
+    "startups": 10,
+    "jobs": 14
+  },
   "feeds": [
-    { "name": "TechCabal", "url": "https://techcabal.com/feed/", "kind": "news", "acceptAll": true },
-    { "name": "Disrupt Africa", "url": "https://disrupt-africa.com/feed/", "kind": "news", "acceptAll": true },
-    { "name": "Ventureburn", "url": "https://ventureburn.com/feed/", "kind": "news", "acceptAll": true },
-    { "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "kind": "news" },
-    { "name": "GitHub Blog", "url": "https://github.blog/feed/", "kind": "news" },
-    { "name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "kind": "news" },
-    { "name": "web.dev", "url": "https://web.dev/feed.xml", "kind": "news" },
-    { "name": "Global Voices", "url": "https://globalvoices.org/feed/", "kind": "news", "fullText": true, "license": { "name": "CC BY 3.0", "url": "https://creativecommons.org/licenses/by/3.0/" } },
-    { "name": "Opportunity Desk", "url": "https://opportunitydesk.org/feed/", "kind": "grants" }
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "kind": "news",
+      "acceptAll": true
+    },
+    {
+      "name": "Disrupt Africa",
+      "url": "https://disrupt-africa.com/feed/",
+      "kind": "news",
+      "acceptAll": true
+    },
+    {
+      "name": "Ventureburn",
+      "url": "https://ventureburn.com/feed/",
+      "kind": "news",
+      "acceptAll": true
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "kind": "news"
+    },
+    {
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "kind": "news"
+    },
+    {
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rss/",
+      "kind": "news"
+    },
+    {
+      "name": "web.dev",
+      "url": "https://web.dev/feed.xml",
+      "kind": "news"
+    },
+    {
+      "name": "Global Voices",
+      "url": "https://globalvoices.org/feed/",
+      "kind": "news",
+      "fullText": true,
+      "license": {
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/"
+      }
+    },
+    {
+      "name": "Nairametrics",
+      "url": "https://nairametrics.com/feed/",
+      "kind": "business",
+      "acceptAll": true
+    },
+    {
+      "name": "BusinessDay",
+      "url": "https://businessday.ng/feed/",
+      "kind": "business"
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "kind": "startups",
+      "acceptAll": true
+    },
+    {
+      "name": "WeeTracker",
+      "url": "https://weetracker.com/feed/",
+      "kind": "startups",
+      "needLocal": true
+    },
+    {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com/remote-jobs.rss",
+      "kind": "jobs"
+    },
+    {
+      "name": "Remotive",
+      "url": "https://remotive.com/remote-jobs/feed",
+      "kind": "jobs"
+    },
+    {
+      "name": "Opportunity Desk",
+      "url": "https://opportunitydesk.org/feed/",
+      "kind": "grants"
+    }
   ],
-  "grantKeywords": ["grant", "funding", "fund ", "fellowship", "accelerator", "incubat", "prize", "competition", "call for applications", "seed"],
-  "grantCta": { "label": "Need a website for your application?", "href": "/services/web-development.html" },
-  "defaultNewsCta": { "label": "Explore our services", "href": "/services/" },
+  "grantKeywords": [
+    "grant",
+    "funding",
+    "fund ",
+    "fellowship",
+    "accelerator",
+    "incubat",
+    "prize",
+    "competition",
+    "call for applications",
+    "seed"
+  ],
+  "grantCta": {
+    "label": "Need a website for your application?",
+    "href": "/services/web-development.html"
+  },
+  "defaultNewsCta": {
+    "label": "Explore our services",
+    "href": "/services/"
+  },
   "rules": [
-    { "tag": "Web", "keywords": ["website", "web ", "css", "javascript", "browser", "frontend", "seo"],
-      "cta": { "label": "Website templates", "href": "/store/" } },
-    { "tag": "Payments", "keywords": ["payment", "fintech", "paystack", "flutterwave", "checkout", "ecommerce", "e-commerce"],
-      "cta": { "label": "Ecommerce storefront", "href": "/store/" } },
-    { "tag": "AI & Automation", "keywords": ["ai ", "automation", "agent", "llm", "machine learning"],
-      "cta": { "label": "Custom software", "href": "/services/software-development.html" } },
-    { "tag": "Security", "keywords": ["security", "vulnerability", "privacy", "breach"],
-      "cta": { "label": "Talk to us", "href": "/contact/" } },
-    { "tag": "Design & Social", "keywords": ["design", "brand", "social media", "creator"],
-      "cta": { "label": "Design assets", "href": "/store/" } }
-  ]
+    {
+      "tag": "Web",
+      "keywords": [
+        "website",
+        "web ",
+        "css",
+        "javascript",
+        "browser",
+        "frontend",
+        "seo"
+      ],
+      "cta": {
+        "label": "Website templates",
+        "href": "/store/"
+      }
+    },
+    {
+      "tag": "Payments",
+      "keywords": [
+        "payment",
+        "fintech",
+        "paystack",
+        "flutterwave",
+        "checkout",
+        "ecommerce",
+        "e-commerce"
+      ],
+      "cta": {
+        "label": "Ecommerce storefront",
+        "href": "/store/"
+      }
+    },
+    {
+      "tag": "AI & Automation",
+      "keywords": [
+        "ai ",
+        "automation",
+        "agent",
+        "llm",
+        "machine learning"
+      ],
+      "cta": {
+        "label": "Custom software",
+        "href": "/services/software-development.html"
+      }
+    },
+    {
+      "tag": "Security",
+      "keywords": [
+        "security",
+        "vulnerability",
+        "privacy",
+        "breach"
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/contact/"
+      }
+    },
+    {
+      "tag": "Design & Social",
+      "keywords": [
+        "design",
+        "brand",
+        "social media",
+        "creator"
+      ],
+      "cta": {
+        "label": "Design assets",
+        "href": "/store/"
+      }
+    }
+  ],
+  "businessKeywords": [
+    "economy",
+    "naira",
+    "inflation",
+    "bank",
+    "cbn",
+    "ngx",
+    "stock",
+    "market",
+    "invest",
+    "tax",
+    "business",
+    "sme",
+    "tariff",
+    "trade",
+    "revenue",
+    "earnings",
+    "price",
+    "budget",
+    "loan",
+    "export",
+    "import",
+    "fuel",
+    "oil",
+    "gdp",
+    "interest rate",
+    "startup",
+    "company",
+    "profit"
+  ],
+  "localKeywords": [
+    "nigeria",
+    "nigerian",
+    "lagos",
+    "abuja",
+    "naija",
+    "naira",
+    "port harcourt",
+    "kano",
+    "ibadan"
+  ],
+  "jobKeywords": [
+    "developer",
+    "engineer",
+    "designer",
+    "design",
+    "writer",
+    "copywriter",
+    "content",
+    "marketing",
+    "seo",
+    "support",
+    "data",
+    "product",
+    "customer",
+    "social media",
+    "frontend",
+    "backend",
+    "full stack",
+    "full-stack",
+    "wordpress",
+    "python",
+    "react",
+    "javascript",
+    "qa ",
+    "devops",
+    "analyst",
+    "manager"
+  ],
+  "kindMeta": {
+    "business": {
+      "tag": "Business",
+      "cta": {
+        "label": "Get a business website",
+        "href": "/services/web-development.html"
+      }
+    },
+    "startups": {
+      "tag": "Naija Startups",
+      "cta": {
+        "label": "Brand your startup",
+        "href": "/brand-studio/"
+      }
+    },
+    "jobs": {
+      "tag": "Jobs",
+      "cta": {
+        "label": "Need a standout CV?",
+        "href": "/services/cv-creation.html"
+      }
+    }
+  }
 }

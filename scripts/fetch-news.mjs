@@ -14,6 +14,7 @@ const seen = new Set(posts.map((p) => p.url));
 const clean = (s = '') => s
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
   .replace(/<[^>]+>/g, ' ')
+  .replace(/&#(\d+);/g, (m, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (m, n) => String.fromCodePoint(parseInt(n, 16)))
   .replace(/&nbsp;/g, ' ').replace(/&#8217;|&rsquo;/g, "'").replace(/&#8220;|&#8221;|&quot;/g, '"')
   .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
   .replace(/\s+/g, ' ').trim();
@@ -66,6 +67,12 @@ for (const feed of cfg.feeds) {
       if (kind === 'grants') {
         if (!cfg.grantKeywords.some((k) => hay.includes(k))) continue;
         tag = 'Grants & Funding'; cta = cfg.grantCta;
+      } else if (cfg.kindMeta && cfg.kindMeta[kind]) {            // Business, Naija Startups, Jobs
+        const meta = cfg.kindMeta[kind];
+        const words = kind === 'business' ? cfg.businessKeywords : kind === 'jobs' ? cfg.jobKeywords : null;
+        if (!feed.acceptAll && words && !words.some((k) => hay.includes(k))) continue;
+        if (feed.needLocal && !(cfg.localKeywords || []).some((k) => hay.includes(k))) continue;   // Africa-wide feed: keep Nigerian stories
+        tag = meta.tag; cta = meta.cta;
       } else {
         const rule = cfg.rules.find((r) => r.keywords.some((k) => hay.includes(k)));
         if (!rule && !feed.acceptAll) continue; // keep only relevant items from general feeds
@@ -90,11 +97,11 @@ for (const feed of cfg.feeds) {
 
 found.sort((a, b) => b.date.localeCompare(a.date));
 const fresh = [];
-for (const kind of ['news', 'grants']) {
+for (const kind of ['news', 'business', 'startups', 'jobs', 'grants']) {
   fresh.push(...found.filter((f) => f.kind === kind).slice(0, cfg.maxNewPerRun?.[kind] ?? 3));
 }
 if (fresh.length) {
   const merged = [...fresh, ...posts].sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 200);
   await writeFile(POSTS, JSON.stringify(merged, null, 2) + '\n');
 }
-console.log(`Added ${fresh.length} post(s): ${fresh.filter((f) => f.kind === 'grants').length} grants, ${fresh.filter((f) => f.kind === 'news').length} news.`);
+console.log(`Added ${fresh.length} post(s): ${['news', 'business', 'startups', 'jobs', 'grants'].map((k) => fresh.filter((f) => f.kind === k).length + ' ' + k).join(', ')}.`);

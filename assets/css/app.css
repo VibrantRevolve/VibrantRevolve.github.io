@@ -83,3 +83,7 @@ button:active,.btn-primary:active,.btn-secondary:active,.tb:active,.hub-card:act
 :root[data-theme="light"] .vr-install{color:#7a5c05}
 @media (prefers-reduced-motion:reduce){::view-transition-old(root),::view-transition-new(root){animation:none}.vr-tab svg{transition:none}}
 @media print{.vr-tabbar,.vr-progress,.vr-pal{display:none!important}}
+
+/* Header search chip: icon only on mid-size screens so the header never crowds */
+.vr-k span,.vr-k kbd{white-space:nowrap}
+@media (min-width:1024px) and (max-width:1399px){.vr-k span,.vr-k kbd{display:none}.vr-k{width:42px;padding:0;justify-content:center}}

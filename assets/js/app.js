@@ -74,7 +74,9 @@
     ['Go to', 'Blog', '/blog/', I.page, 'tech radar news'], ['Go to', 'Book a call', '/book/', I.page, 'schedule meeting'], ['Go to', 'Contact', '/contact/', I.mail, 'quote email message'],
     ['Studio tools', 'All tools', '/tools/', I.tools, 'hub'], ['Studio tools', 'Brand Studio', '/brand-studio/', I.tools, 'brand brief pdf logo palette'], ['Studio tools', 'Logo Maker', '/tools/logo-maker/', I.tools, 'logo mark'],
     ['Studio tools', 'Name Generator', '/tools/name-generator/', I.tools, 'business name ideas'], ['Studio tools', 'Copy Writer', '/tools/copy-writer/', I.tools, 'taglines bio captions'], ['Studio tools', 'Palette Extractor', '/tools/palette-extractor/', I.tools, 'colours from image'],
-    ['Studio tools', 'Invoice Maker', '/tools/invoice/', I.tools, 'quote receipt'], ['Studio tools', 'QR Code Maker', '/tools/qr-code/', I.tools, 'qr whatsapp wifi']
+    ['Studio tools', 'Invoice Maker', '/tools/invoice/', I.tools, 'quote receipt'], ['Studio tools', 'QR Code Maker', '/tools/qr-code/', I.tools, 'qr whatsapp wifi'],
+    ['Studio tools', 'Image Compressor', '/tools/image-compressor/', I.tools, 'compress resize reduce photo size kb jpg passport'], ['Studio tools', 'PDF Tools', '/tools/pdf-tools/', I.tools, 'pdf images to pdf shrink compress merge'], ['Studio tools', 'WhatsApp Link Maker', '/tools/whatsapp-link/', I.tools, 'whatsapp wa.me link button chat widget qr'],
+    ['Studio tools', 'Flyer & Post Maker', '/tools/post-maker/', I.tools, 'flyer poster instagram social post hashtags caption trending design'], ['Studio tools', 'CV Builder', '/tools/cv-builder/', I.tools, 'cv resume curriculum vitae job pdf']
   ].map((x) => ({ g: x[0], t: x[1], h: x[2], i: x[3], k: x[4] }));
   const cfg = () => window.VR_CONFIG || {};
   const ACTIONS = () => {
