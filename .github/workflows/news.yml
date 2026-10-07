@@ -41,6 +41,8 @@ jobs:
           add-paths: |
             blog/posts.json
             blog/p/
+            blog/cover/
+            assets/data/trends.json
             blog/feed.xml
             sitemap.xml
           commit-message: Add news and grants drafts
