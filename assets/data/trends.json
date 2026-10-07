@@ -1,35 +1,11 @@
 {
- "updated": "2026-10-07T09:25:39.100Z",
- "basedOn": 28,
+ "updated": "2026-10-07T12:35:59.855Z",
+ "basedOn": 38,
  "topics": [
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 8.24,
-   "headline": "Ernest May Fellowship in History and Policy 2027-2028 (stipend available)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/ernest-may-fellowship-in-history-and-policy-2027-2028/"
-  },
-  {
-   "topic": "Growth",
-   "hashtag": "#Growth",
-   "score": 5.24,
-   "headline": "World Bank projects Africa’s per capita GDP growth at 1.8%, poverty at 47.8% in 2026",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/07/world-bank-projects-africas-per-capita-gdp-growth-at-1-8-poverty-at-47-8-in-2026/"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 4.99,
-   "headline": "Ernest May Fellowship in History and Policy 2027-2028 (stipend available)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/ernest-may-fellowship-in-history-and-policy-2027-2028/"
-  },
-  {
-   "topic": "Stipend",
-   "hashtag": "#Stipend",
-   "score": 3.85,
+   "score": 8.05,
    "headline": "Ernest May Fellowship in History and Policy 2027-2028 (stipend available)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/10/06/ernest-may-fellowship-in-history-and-policy-2027-2028/"
@@ -37,15 +13,47 @@
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 3.14,
+   "score": 6.08,
    "headline": "Current: Producer, Client Experience & Growth (Contract)",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract"
   },
   {
-   "topic": "2027-2028",
-   "hashtag": "#20272028",
-   "score": 3.08,
+   "topic": "Current",
+   "hashtag": "#Current",
+   "score": 5.32,
+   "headline": "Current: Producer, Client Experience & Growth (Contract)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract"
+  },
+  {
+   "topic": "Galileo",
+   "hashtag": "#Galileo",
+   "score": 5.32,
+   "headline": "Galileo: Nurse Practitioner (Remote, CT License Required)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/galileo-nurse-practitioner-remote-ct-license-required"
+  },
+  {
+   "topic": "Expel",
+   "hashtag": "#Expel",
+   "score": 5.32,
+   "headline": "Expel: Product Manager, Detection Pipeline",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline"
+  },
+  {
+   "topic": "Growth",
+   "hashtag": "#Growth",
+   "score": 5.09,
+   "headline": "World Bank projects Africa’s per capita GDP growth at 1.8%, poverty at 47.8% in 2026",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/07/world-bank-projects-africas-per-capita-gdp-growth-at-1-8-poverty-at-47-8-in-2026/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 4.87,
    "headline": "Ernest May Fellowship in History and Policy 2027-2028 (stipend available)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/10/06/ernest-may-fellowship-in-history-and-policy-2027-2028/"
@@ -53,76 +61,68 @@
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 2.38,
-   "headline": "World Bank projects Africa’s per capita GDP growth at 1.8%, poverty at 47.8% in 2026",
+   "score": 4.7,
+   "headline": "Brila Media at 24: Building a Sports Media Ecosystem Beyond Radio",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/07/world-bank-projects-africas-per-capita-gdp-growth-at-1-8-poverty-at-47-8-in-2026/"
+   "url": "https://nairametrics.com/2026/10/07/brila-media-at-24-building-a-sports-media-ecosystem-beyond-radio/"
+  },
+  {
+   "topic": "Stipend",
+   "hashtag": "#Stipend",
+   "score": 3.75,
+   "headline": "Ernest May Fellowship in History and Policy 2027-2028 (stipend available)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/06/ernest-may-fellowship-in-history-and-policy-2027-2028/"
+  },
+  {
+   "topic": "Building",
+   "hashtag": "#Building",
+   "score": 3.66,
+   "headline": "Brila Media at 24: Building a Sports Media Ecosystem Beyond Radio",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/07/brila-media-at-24-building-a-sports-media-ecosystem-beyond-radio/"
+  },
+  {
+   "topic": "Analyst",
+   "hashtag": "#Analyst",
+   "score": 3.61,
+   "headline": "Mixmax: Billing Support Analyst - Philippines",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/mixmax-billing-support-analyst-philippines"
+  },
+  {
+   "topic": "2027-2028",
+   "hashtag": "#20272028",
+   "score": 3,
+   "headline": "Ernest May Fellowship in History and Policy 2027-2028 (stipend available)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/06/ernest-may-fellowship-in-history-and-policy-2027-2028/"
   },
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 2.32,
+   "score": 2.95,
    "headline": "Building Git infrastructure for agent-scale development",
    "source": "GitHub Blog",
    "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/"
   },
   {
-   "topic": "Program",
-   "hashtag": "#Program",
-   "score": 2.28,
-   "headline": "Kuwait Program Research Fellowship 2027-2028 at HKS Belfer Center ($65,000 stipend)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/kuwait-program-research-fellowship-2027-2028/"
-  },
-  {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 2.2,
-   "headline": "👨🏿‍🚀TechCabal Daily – Banks want their crypto cake",
+   "score": 2.91,
+   "headline": "Oppo F35: What to know about the new budget phone",
    "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/07/techcabal-daily-banks-want-their-crypto-cake/"
-  },
-  {
-   "topic": "Equity",
-   "hashtag": "#Equity",
-   "score": 1.8,
-   "headline": "Africa Startup funding enters equity era after three years of debt growth",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/technology/article/africa-startup-funding-enters-equity-era-after-three-years-of-debt-growth/"
-  },
-  {
-   "topic": "World Bank",
-   "hashtag": "#WorldBank",
-   "score": 1.8,
-   "headline": "World Bank projects Africa’s per capita GDP growth at 1.8%, poverty at 47.8% in 2026",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/07/world-bank-projects-africas-per-capita-gdp-growth-at-1-8-poverty-at-47-8-in-2026/"
-  },
-  {
-   "topic": "Client Experience",
-   "hashtag": "#ClientExperience",
-   "score": 1.76,
-   "headline": "Current: Producer, Client Experience & Growth (Contract)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract"
-  },
-  {
-   "topic": "Nurse Practitioner",
-   "hashtag": "#NursePractitioner",
-   "score": 1.76,
-   "headline": "Galileo: Nurse Practitioner (Remote, CT License Required)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/galileo-nurse-practitioner-remote-ct-license-required"
+   "url": "https://techcabal.com/2026/10/07/oppo-f35-release-date-price-specs/"
   }
  ],
  "tags": [
   "Business",
-  "Jobs",
+  "Security",
   "Tech News",
+  "Jobs",
   "Grants & Funding",
   "AI & Automation",
   "Naija Startups",
-  "Payments",
-  "Design & Social"
+  "Payments"
  ]
 }
