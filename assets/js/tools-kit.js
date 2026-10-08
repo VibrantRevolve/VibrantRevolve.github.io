@@ -55,9 +55,9 @@
   };
   // Optional AI writing through the Cloudflare Worker in workers/studio-ai (VR_CONFIG.studioAiUrl). Returns data or null, never throws.
   K.aiOn = () => !!((window.VR_CONFIG || {}).studioAiUrl);
-  K.ai = async (task, data) => {
+  K.ai = async (task, data, ms) => {
     if (!K.aiOn()) return null;
-    const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 30000);
+    const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), ms || 30000);
     try {
       const r = await fetch(window.VR_CONFIG.studioAiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(Object.assign({ task }, data)), signal: ctl.signal });
       if (!r.ok) return null; const d = await r.json(); return d && d.ok ? d.data : null;
@@ -213,6 +213,23 @@
     push('trailer\n<</Size ' + (infoId + 1) + '/Root 1 0 R/Info ' + infoId + ' 0 R>>\nstartxref\n' + xref + '\n%%EOF');
     return new Blob(chunks, { type: 'application/pdf' });
   };
+
+  /* ---------- hex code boxes next to every colour picker ---------- */
+  K.hexify = (root) => {
+    K.$$('input[type="color"]', root).forEach((c) => {
+      if (c.dataset.hexed) return; c.dataset.hexed = '1';
+      const lab = c.closest('label'), t = document.createElement('input'); t.type = 'text'; t.className = 'hex-in'; t.maxLength = 7; t.value = c.value.toUpperCase(); t.placeholder = '#RRGGBB'; t.spellcheck = false; t.autocapitalize = 'characters'; t.setAttribute('aria-label', (lab ? lab.textContent.trim().split('\n')[0] : 'Colour') + ' hex code');
+      const wrap = document.createElement('div'); wrap.className = 'hexrow'; c.parentNode.insertBefore(wrap, c); wrap.appendChild(c); wrap.appendChild(t);
+      const norm = (v) => { v = v.trim().replace(/^#?/, '#'); if (/^#[0-9a-f]{3}$/i.test(v)) v = '#' + v.slice(1).split('').map((x) => x + x).join(''); return /^#[0-9a-f]{6}$/i.test(v) ? v.toLowerCase() : null; };
+      t.addEventListener('input', () => { const v = norm(t.value); t.classList.toggle('is-bad', !!t.value && !v); if (v && v !== c.value) { c.value = v; c.dispatchEvent(new Event('input', { bubbles: true })); c.dispatchEvent(new Event('change', { bubbles: true })); } });
+      t.addEventListener('blur', () => { t.value = c.value.toUpperCase(); t.classList.remove('is-bad'); });
+      const back = () => { if (document.activeElement !== t) t.value = c.value.toUpperCase(); };
+      c.addEventListener('input', back); c.addEventListener('change', back);
+    });
+  };
+  const hexInit = () => K.hexify(document);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', hexInit); else hexInit();
+  window.addEventListener('load', hexInit);
 
   /* A4 canvas at 150 dpi (1240 x 1754) */
   K.A4 = { w: 1240, h: 1754 };

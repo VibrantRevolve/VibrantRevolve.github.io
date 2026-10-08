@@ -2,8 +2,11 @@
 // Uses Cloudflare Workers AI, so there is NO API key to manage. It needs one binding named "AI" (see wrangler.toml).
 // Vars (Cloudflare dashboard > Workers > Settings > Variables): ALLOWED_ORIGIN, e.g. https://vibrantrevolve.com
 const MODEL = '@cf/meta/llama-3.3-70b-instruct-fp8-fast';
+const STT_MODEL = '@cf/openai/whisper-large-v3-turbo';   // speech to text (verify the current name in the Workers AI model catalogue)
+const TTS_MODEL = '@cf/myshell-ai/melotts';              // text to speech (verify the current name in the Workers AI model catalogue)
+const MAX_AUDIO_CHARS = 12 * 1024 * 1024;               // base64 length, about 8 MB of audio
 
-const LIMIT = 12, WINDOW = 10 * 60 * 1000;      // best-effort per-isolate limiter. Also add a Cloudflare rate-limit rule.
+const LIMIT = 40, WINDOW = 10 * 60 * 1000;      // best-effort per-isolate limiter. Also add a Cloudflare rate-limit rule.
 const hits = new Map();
 
 const clean = (v, n) => String(v == null ? '' : v).replace(/[\u0000-\u001f<>`]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, n);
@@ -58,6 +61,27 @@ export default {
     rec.push(now); hits.set(ip, rec); if (hits.size > 5000) hits.clear();
 
     let body; try { body = await req.json(); } catch { return json({ ok: false, error: 'bad json' }, 400, cors); }
+    if (body && body.task === 'transcribe') {
+      const audio = typeof body.audio === 'string' ? body.audio.replace(/^data:[^,]*,/, '') : '';
+      if (!audio || audio.length > MAX_AUDIO_CHARS || !/^[A-Za-z0-9+/=\s]+$/.test(audio.slice(0, 2000))) return json({ ok: false, error: 'audio' }, 400, cors);
+      const lang = clean(body.lang, 8).toLowerCase().replace(/[^a-z]/g, '');
+      try {
+        const r = await env.AI.run(STT_MODEL, lang ? { audio, language: lang } : { audio });
+        const text = out(r && r.text, 60000).trim();
+        if (!text) return json({ ok: false, error: 'empty' }, 502, cors);
+        return json({ ok: true, data: { text, vtt: out(r && r.vtt, 200000) } }, 200, cors);
+      } catch { return json({ ok: false, error: 'failed' }, 502, cors); }
+    }
+    if (body && body.task === 'speak') {
+      const text = clean(body.text, 1200); const lang = clean(body.lang, 4).toLowerCase().replace(/[^a-z]/g, '') || 'en';
+      if (text.length < 2) return json({ ok: false, error: 'text' }, 400, cors);
+      try {
+        const r = await env.AI.run(TTS_MODEL, { prompt: text, lang });
+        const audio = typeof r === 'string' ? r : (r && r.audio);
+        if (!audio) return json({ ok: false, error: 'empty' }, 502, cors);
+        return json({ ok: true, data: { audio } }, 200, cors);
+      } catch { return json({ ok: false, error: 'failed' }, 502, cors); }
+    }
     const T = TASKS[body && body.task]; if (!T) return json({ ok: false, error: 'task' }, 400, cors);
     const d = {}; for (const k in T.fields) d[k] = clean(body[k], T.fields[k]);
     if ((T === TASKS.copy || T === TASKS.taglines) && !d.name) return json({ ok: false, error: 'name' }, 400, cors);

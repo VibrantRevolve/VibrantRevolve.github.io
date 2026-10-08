@@ -1,4 +1,4 @@
-// VibrantRevolve assistant. Works instantly from /assets/data/assistant.json.
+// VR assistant. Works instantly from /assets/data/assistant.json.
 // If VR_CONFIG.assistantUrl points to your Cloudflare Worker, real AI answers are used,
 // and the built-in answers remain as the fallback.
 (function () {
@@ -16,7 +16,7 @@
   document.body.appendChild(launch);
 
   function build() {
-    panel = el('div', 'vra-panel'); panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-label', 'VibrantRevolve assistant');
+    panel = el('div', 'vra-panel'); panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-label', 'VR assistant');
     const head = el('div', 'vra-head'); const t = el('div'); t.append(el('strong', '', 'VibrantRevolve'), el('small', '', 'Assistant · replies instantly'));
     const x = el('button', 'vra-x', '✕'); x.type = 'button'; x.setAttribute('aria-label', 'Close chat'); x.onclick = close; head.append(t, x);
     log = el('div', 'vra-log'); log.setAttribute('aria-live', 'polite');

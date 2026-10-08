@@ -32,7 +32,7 @@ Edit that file when prices or services change. For real AI replies, follow `work
 (costs per use, so set a spend limit) and put the Worker URL in `assets/js/site-config.js` as `assistantUrl`.
 
 ## 7. Studio Tools (/tools/) and Brand Studio (/brand-studio/)
-No setup. Twelve tools run fully in the visitor's browser: Brand Studio, Logo Maker, Name Generator, Copy Writer, Palette Extractor, Invoice Maker, QR Code Maker, Image Compressor, PDF Tools, WhatsApp Link Maker, Flyer & Post Maker, CV Builder.
+No setup. Thirteen tools run fully in the visitor's browser: Brand Studio, Logo Maker, Name Generator, Copy Writer, Palette Extractor, Invoice Maker, QR Code Maker, Image Compressor, PDF Tools, WhatsApp Link Maker, Flyer & Post Maker, CV Builder, Voice Studio.
 - The **Tools** button in the header opens the zip-style tray. The list lives in `assets/js/tools.js` (add or rename tools there, and in `tools/index.html`).
 - Brand Studio exports a 2-page A4 **PDF brief** (brand board + project request with contact details, services, budget, notes and a WhatsApp QR). The visitor sends it to you from the page (phone share sheet, or download then WhatsApp / email).
 - Shared code: `assets/js/tools-kit.js` (PDF/PNG export, colour maths), `assets/js/brand-engine.js` (palette, fonts, logos, brief layout), `assets/css/tools.css`.

@@ -76,14 +76,15 @@
     ['Studio tools', 'Name Generator', '/tools/name-generator/', I.tools, 'business name ideas'], ['Studio tools', 'Copy Writer', '/tools/copy-writer/', I.tools, 'taglines bio captions'], ['Studio tools', 'Palette Extractor', '/tools/palette-extractor/', I.tools, 'colours from image'],
     ['Studio tools', 'Invoice Maker', '/tools/invoice/', I.tools, 'quote receipt'], ['Studio tools', 'QR Code Maker', '/tools/qr-code/', I.tools, 'qr whatsapp wifi'],
     ['Studio tools', 'Image Compressor', '/tools/image-compressor/', I.tools, 'compress resize reduce photo size kb jpg passport'], ['Studio tools', 'PDF Tools', '/tools/pdf-tools/', I.tools, 'pdf images to pdf shrink compress merge'], ['Studio tools', 'WhatsApp Link Maker', '/tools/whatsapp-link/', I.tools, 'whatsapp wa.me link button chat widget qr'],
-    ['Studio tools', 'Flyer & Post Maker', '/tools/post-maker/', I.tools, 'flyer poster instagram social post hashtags caption trending design'], ['Studio tools', 'CV Builder', '/tools/cv-builder/', I.tools, 'cv resume curriculum vitae job pdf']
+    ['Studio tools', 'Flyer & Post Maker', '/tools/post-maker/', I.tools, 'flyer poster instagram social post hashtags caption trending design'], ['Studio tools', 'CV Builder', '/tools/cv-builder/', I.tools, 'cv resume curriculum vitae job pdf'],
+    ['Studio tools', 'Voice Studio', '/tools/voice-studio/', I.tools, 'voice speech to text dictation captions srt text to speech audio transcribe youtube podcast']
   ].map((x) => ({ g: x[0], t: x[1], h: x[2], i: x[3], k: x[4] }));
   const cfg = () => window.VR_CONFIG || {};
   const ACTIONS = () => {
     const a = [
       { g: 'Actions', t: 'Chat on WhatsApp', i: I.wa, k: 'message whatsapp', run: () => window.open('https://wa.me/' + (cfg().whatsapp || '2349012739299'), '_blank', 'noopener') },
       { g: 'Actions', t: 'Email us', i: I.mail, k: 'email mail', run: () => { location.href = 'mailto:' + (cfg().supportEmail || 'vr@vibrantrevolve.com'); } },
-      { g: 'Actions', t: 'Switch light / dark theme', i: I.moon, k: 'theme dark light mode', run: () => { const t = $('#theme-toggle'); if (t) t.click(); else { const r = document.documentElement; const n = r.getAttribute('data-theme') === 'light' ? 'dark' : 'light'; r.setAttribute('data-theme', n); try { localStorage.setItem('theme', n); } catch (e) {} } } }
+      { g: 'Actions', t: 'Switch light / dark theme', i: I.moon, k: 'theme dark light mode', run: () => { const t = $('#theme-toggle'); if (t) t.click(); else { const r = document.documentElement; const n = r.getAttribute('data-theme') === 'light' ? 'dark' : 'light'; r.setAttribute('data-theme', n); try { localStorage.setItem('vr_theme', n); } catch (e) {} } } }
     ];
     if (deferred || ios) a.push({ g: 'Actions', t: 'Install the app', i: I.dl, k: 'install app home screen', run: install });
     return a;
@@ -141,4 +142,19 @@
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
     addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
   }
+
+  /* 6. Floating blog button: journal and pen, with a "new post" signal */
+  (function () {
+    if (/^\/(blog|payment|admin|offline)/.test(path) || document.querySelector('.vr-blogfab')) return;
+    const a = document.createElement('a'); a.className = 'vr-blogfab'; a.href = '/blog/'; a.setAttribute('aria-label', 'Read the VibrantRevolve blog');
+    a.innerHTML = '<svg viewBox="0 0 32 32" aria-hidden="true"><path class="bk" d="M6 6.5A2.5 2.5 0 0 1 8.5 4H22v21H8.5A2.5 2.5 0 0 0 6 27.5z"/><path class="bk" d="M6 27.5A2.5 2.5 0 0 0 8.5 30H22v-5"/><path class="ln" d="M11 10h7M11 14h7M11 18h4"/><g class="pen"><path d="M17.5 24.5l1-3.6L27 12.4a1.9 1.9 0 0 1 2.7 2.7l-8.5 8.5z"/><path d="M26 13.4l2.7 2.7"/></g></svg><b>Blog</b><i class="dot" hidden></i>';
+    document.body.appendChild(a);
+    let latest = 0; const KEY = 'vr_blog_seen';
+    const seen = () => { try { return +localStorage.getItem(KEY) || 0; } catch (e) { return 0; } };
+    fetch('/blog/posts.json', { cache: 'no-cache' }).then((r) => r.json()).then((l) => {
+      latest = Math.max.apply(null, (l || []).map((p) => Date.parse(p.date) || 0));
+      if (latest > seen()) { a.querySelector('.dot').hidden = false; a.classList.add('is-new'); a.setAttribute('aria-label', 'Read the VibrantRevolve blog, new posts'); }
+    }).catch(() => {});
+    a.addEventListener('click', () => { try { localStorage.setItem(KEY, String(latest || Date.now())); } catch (e) {} });
+  })();
 })();
