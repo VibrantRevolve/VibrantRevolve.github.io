@@ -1,16 +1,16 @@
 {
   "maxNewPerRun": {
-    "news": 3,
-    "grants": 3,
-    "business": 3,
-    "startups": 3,
-    "jobs": 4
+    "news": 12,
+    "grants": 6,
+    "business": 8,
+    "startups": 8,
+    "jobs": 10
   },
   "maxAgeDays": {
-    "news": 10,
+    "news": 14,
     "grants": 30,
-    "business": 5,
-    "startups": 10,
+    "business": 7,
+    "startups": 14,
     "jobs": 14
   },
   "feeds": [
@@ -99,6 +99,49 @@
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "kind": "grants"
+    },
+    {
+      "name": "Technext",
+      "url": "https://technext24.com/feed/",
+      "kind": "news",
+      "acceptAll": true
+    },
+    {
+      "name": "Tech in Africa",
+      "url": "https://www.techinafrica.com/feed/",
+      "kind": "news",
+      "acceptAll": true
+    },
+    {
+      "name": "Rest of World",
+      "url": "https://restofworld.org/feed/latest",
+      "kind": "news"
+    },
+    {
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/feed/",
+      "kind": "news"
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "kind": "news"
+    },
+    {
+      "name": "Benjamin Dada",
+      "url": "https://www.benjamindada.com/feed/",
+      "kind": "startups",
+      "acceptAll": true
+    },
+    {
+      "name": "Jobicy",
+      "url": "https://jobicy.com/feed/job_feed",
+      "kind": "jobs"
+    },
+    {
+      "name": "Stears Business",
+      "url": "https://www.stearsng.com/feed",
+      "kind": "business"
     }
   ],
   "grantKeywords": [

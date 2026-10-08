@@ -57,7 +57,7 @@ for (const feed of cfg.feeds) {
   try {
     const res = await fetch(feed.url, { headers: { 'user-agent': 'VibrantRevolve-news-bot' }, signal: AbortSignal.timeout(15000) });
     if (!res.ok) throw new Error(res.status);
-    for (const it of parseFeed(await res.text()).slice(0, 10)) {
+    for (const it of parseFeed(await res.text()).slice(0, 25)) {
       if (seen.has(it.url)) continue;
       const d = new Date(it.date);
       const when = isNaN(d) ? new Date() : d;
