@@ -14,7 +14,8 @@
     { id: 'pdf-tools', name: 'PDF Tools', url: '/tools/pdf-tools/', tag: 'New', blurb: "Turn images into one PDF, or make a heavy PDF small enough to send.", icon: ico('<path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="M12 18v-6M9 15l3 3 3-3"/>') },
     { id: 'whatsapp-link', name: 'WhatsApp Link Maker', url: '/tools/whatsapp-link/', tag: 'New', blurb: "Click-to-chat link, website button, chat widget and QR code for your number.", icon: ico('<path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.4A8.4 8.4 0 1 1 21 11.5z"/>') },
     { id: 'post-maker', name: 'Flyer & Post Maker', url: '/tools/post-maker/', tag: 'New', blurb: "Flyers and social posts in your colours, with trending topics and hashtags.", icon: ico('<rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 15l5-5 4 4 3-3 6 6"/><circle cx="16" cy="8" r="1.4"/>') },
-    { id: 'cv-builder', name: 'CV Builder', url: '/tools/cv-builder/', tag: 'New', blurb: "A clean, ATS-friendly CV with live preview. Three templates, PDF download.", icon: ico('<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 11h-6M22 15h-4"/>') }
+    { id: 'cv-builder', name: 'CV Builder', url: '/tools/cv-builder/', tag: 'New', blurb: "A clean, ATS-friendly CV with live preview. Three templates, PDF download.", icon: ico('<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 11h-6M22 15h-4"/>') },
+    { id: 'voice-studio', name: 'Voice Studio', url: '/tools/voice-studio/', tag: 'New', blurb: "Speak to get text and captions, or turn a script into speech. Made for creators.", icon: ico('<path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/>') }
   ];
   window.VR_TOOLS = TOOLS;
 
@@ -117,8 +118,6 @@
     if (actions && !actions.querySelector('.vt-btn')) { actions.insertBefore(makeBtn('vt-btn--header'), actions.firstChild); done = true; }
     const links = document.querySelector('.nav-links');
     if (links && !links.querySelector('.vt-btn')) { const cta = links.querySelector('.nav-cta'); links.insertBefore(makeBtn('vt-btn--nav'), cta || null); done = true; }
-    const mob = document.getElementById('mobileNav');
-    if (mob && !mob.querySelector('.vt-mobile-link')) { const a = el('a', 'vt-mobile-link', 'Tools'); a.href = '/tools/'; mob.insertBefore(a, mob.querySelector('.nav-cta')); }
     return done || !!document.querySelector('.vt-btn');
   }
   function start() {

@@ -28,7 +28,7 @@
   function generate(keepShuffle) {
     const name = $('#bs-name').value.trim();
     isDemo = !name;
-    brand = E.build({ name: name || DEMO.name, industry: isDemo ? DEMO.industry : $('#bs-industry').value, mood: isDemo ? DEMO.mood : mood(), shuffle: keepShuffle ? shuffle : shuffle });
+    brand = E.build({ name: name || DEMO.name, industry: isDemo ? DEMO.industry : $('#bs-industry').value, mood: isDemo ? DEMO.mood : mood(), shuffle: keepShuffle ? shuffle : shuffle, color: isDemo ? '' : ($('#bs-hex').value.trim().replace(/^([0-9a-f]{6})$/i, '#$1')) });
     const set = E.MOODS[brand.mood].fonts; brand.fonts = set[(fontIdx) % set.length]; brand.fontSet = set;
     render();
   }
@@ -106,6 +106,7 @@
   let t; const soft = () => { clearTimeout(t); t = setTimeout(() => { readReq(); render(true); }, 350); };
   ['#bs-contact', '#bs-business', '#bs-email', '#bs-wa', '#bs-notes', '#bs-timeline', '#bs-budget'].forEach((s) => $(s).addEventListener('input', soft));
   $('#bs-services').addEventListener('change', soft);
+  $('#bs-hex').addEventListener('input', () => { const v = $('#bs-hex').value.trim().replace(/^([0-9a-f]{6})$/i, '#$1'); const ok = /^#[0-9a-f]{6}$/i.test(v); $('#bs-hex-sw').style.background = ok ? v : 'transparent'; $('#bs-hex-msg').textContent = v && !ok ? 'Use a 6-digit code like #1F6F5C' : ''; if (ok && $('#bs-name').value.trim()) { shuffle = 0; fontIdx = 0; generate(); } });
   [$('#bs-industry'), $('#bs-mood')].forEach((c) => c.addEventListener('change', () => { if ($('#bs-name').value.trim()) { shuffle = 0; fontIdx = 0; generate(); } }));
 
   generate();

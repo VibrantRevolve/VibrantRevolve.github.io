@@ -87,3 +87,18 @@ button:active,.btn-primary:active,.btn-secondary:active,.tb:active,.hub-card:act
 /* Header search chip: icon only on mid-size screens so the header never crowds */
 .vr-k span,.vr-k kbd{white-space:nowrap}
 @media (min-width:1024px) and (max-width:1399px){.vr-k span,.vr-k kbd{display:none}.vr-k{width:42px;padding:0;justify-content:center}}
+
+/* Floating blog button */
+.vr-blogfab{position:fixed;right:0;top:46%;z-index:940;display:flex;flex-direction:column;align-items:center;gap:2px;width:58px;padding:.6rem 0 .5rem;border-radius:16px 0 0 16px;text-decoration:none;color:#0e0c09;background:linear-gradient(160deg,var(--vr-gold-2),var(--vr-gold));box-shadow:-8px 10px 26px -10px rgba(0,0,0,.55),inset 0 0 0 1px rgba(255,255,255,.25);transition:transform .25s cubic-bezier(.2,.8,.2,1),width .25s}
+.vr-blogfab svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.vr-blogfab .pen{fill:currentColor;fill-opacity:.18;transform-origin:19px 23px;animation:vrwrite 2.6s ease-in-out infinite}
+.vr-blogfab b{font:700 .66rem/1 Inter,system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.vr-blogfab .dot{position:absolute;top:6px;left:8px;width:11px;height:11px;border-radius:50%;background:#d6362b;border:2px solid #fff;animation:vrping 1.8s infinite}
+.vr-blogfab.is-new{animation:vrnudge 5s ease-in-out infinite}
+@media (hover:hover){.vr-blogfab:hover{transform:translateX(-4px);width:64px}}
+@keyframes vrwrite{0%,100%{transform:rotate(0)}25%{transform:rotate(-7deg) translateX(-1px)}50%{transform:rotate(3deg)}75%{transform:rotate(-5deg) translateX(-1px)}}
+@keyframes vrping{0%{box-shadow:0 0 0 0 rgba(214,54,43,.6)}70%,100%{box-shadow:0 0 0 9px rgba(214,54,43,0)}}
+@keyframes vrnudge{0%,86%,100%{transform:translateX(0)}92%{transform:translateX(-7px)}}
+@media (max-width:768px){.vr-blogfab{top:auto;bottom:calc(var(--vr-tab) + env(safe-area-inset-bottom) + 7.5rem);width:50px;padding:.5rem 0 .4rem}.vr-blogfab svg{width:26px;height:26px}}
+@media (prefers-reduced-motion:reduce){.vr-blogfab .pen,.vr-blogfab .dot,.vr-blogfab.is-new{animation:none}}
+@media print{.vr-blogfab{display:none}}

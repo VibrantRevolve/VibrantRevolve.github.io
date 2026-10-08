@@ -31,11 +31,12 @@
   E.SERVICES = ['Logo design', 'Full brand identity', 'Website', 'Online store', 'Social media kit', 'Business cards & print', 'Packaging', 'Copywriting'];
 
   /* ---------- palette ---------- */
-  function makePalette(r, m) {
-    const base = K.pick(r, m.hues) + (r() * 16 - 8), shift = K.pick(r, [30, -30, 150, 180, 210]);
-    const s = K.between(r, m.s[0], m.s[1]), l = K.between(r, m.l[0], m.l[1]);
+  function makePalette(r, m, own) {
+    let base = K.pick(r, m.hues) + (r() * 16 - 8); const shift = K.pick(r, [30, -30, 150, 180, 210]);
+    let s = K.between(r, m.s[0], m.s[1]), l = K.between(r, m.l[0], m.l[1]), primary = null;
+    if (own && /^#[0-9a-f]{6}$/i.test(own)) { const h = K.toHsl(own); base = h[0]; s = Math.max(30, h[1]); l = Math.min(60, Math.max(36, h[2])); primary = own.toLowerCase(); }
     return [
-      { n: 'Primary', c: K.hsl(base, s, l), use: 'Logo, buttons, key moments' },
+      { n: 'Primary', c: primary || K.hsl(base, s, l), use: 'Logo, buttons, key moments' },
       { n: 'Accent', c: K.hsl(base + shift, Math.min(95, s + 6), Math.min(62, l + 8)), use: 'Highlights, icons, links' },
       { n: 'Deep', c: K.hsl(base, 32, 12), use: 'Headlines, dark backgrounds' },
       { n: 'Soft', c: K.hsl(base, 42, 94), use: 'Backgrounds, cards' },
@@ -80,7 +81,7 @@
   E.build = (o) => {
     const name = (o.name || 'Your Brand').trim().slice(0, 40) || 'Your Brand', ind = E.INDUSTRIES[o.industry] ? o.industry : 'Something else', mood = E.MOODS[o.mood] ? o.mood : 'Modern', shuffle = o.shuffle || 0;
     const r = K.rng(K.hash([name.toLowerCase(), ind, mood, shuffle].join('|')));
-    const m = E.MOODS[mood], pal = makePalette(r, m), fonts = K.pick(r, m.fonts);
+    const m = E.MOODS[mood], pal = makePalette(r, m, o.color), fonts = K.pick(r, m.fonts);
     const pref = E.INDUSTRIES[ind].pref, order = K.shuffled(r, [...Array(E.SYMBOL_COUNT).keys()]);
     const ranked = [...pref, ...order.filter((i) => pref.indexOf(i) < 0)];
     return { name, ind, mood, pal, fonts, taglines: taglines(r, name, ind, mood), initials: E.initials(name), symbols: ranked, symbol: ranked[0], layout: 'h', seed: shuffle };

@@ -67,6 +67,7 @@ function page(p) {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- vr-theme --><script>try{var t=localStorage.getItem("vr_theme")||localStorage.getItem("vibrantrevolve-theme");if(t!=="light"&&t!=="dark")t=window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";document.documentElement.setAttribute("data-theme",t)}catch(e){document.documentElement.setAttribute("data-theme","dark")}</script><!-- /vr-theme -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${esc(p.title)} | Tech Radar | VibrantRevolve</title>
   <meta name="description" content="${esc((p.excerpt || '').slice(0, 160))}">

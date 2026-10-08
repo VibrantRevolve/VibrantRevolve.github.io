@@ -57,8 +57,7 @@ async function loadComponent(selector, url) {
 
     // Mark theme toggle in loaded header
     if (selector === '#site-header') {
-      const savedTheme = localStorage.getItem('vr_theme') || 'dark';
-      document.documentElement.setAttribute('data-theme', savedTheme);
+      document.documentElement.setAttribute('data-theme', ThemeManager.saved() || ThemeManager.system());
     }
 
   } catch (error) {
@@ -71,32 +70,24 @@ async function loadComponent(selector, url) {
 
 // ===== THEME TOGGLE =====
 const ThemeManager = {
+  saved() { try { const v = localStorage.getItem('vr_theme') || localStorage.getItem('vibrantrevolve-theme'); return v === 'light' || v === 'dark' ? v : null; } catch (e) { return null; } },
+  system() { return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'; },
   init() {
-    const saved = localStorage.getItem('vr_theme');
-    const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-    const theme = saved || (prefersLight ? 'light' : 'dark');
-    this.apply(theme);
-
-    // Listen for system changes
-    window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', e => {
-      if (!localStorage.getItem('vr_theme')) this.apply(e.matches ? 'light' : 'dark');
-    });
-
-    // Bind toggle button (works even if loaded via component)
+    // Follow the visitor's phone/computer setting until they pick a theme themselves
+    this.apply(this.saved() || this.system(), false);
+    if (window.matchMedia) window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => { if (!this.saved()) this.apply(e.matches ? 'light' : 'dark', false); });
     document.addEventListener('click', (e) => {
       const toggle = e.target.closest('#theme-toggle');
       if (toggle) {
         e.preventDefault();
-        const current = document.documentElement.getAttribute('data-theme');
-        const next = current === 'dark' ? 'light' : 'dark';
-        this.apply(next);
+        const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        this.apply(next, true);
       }
     });
   },
-
-  apply(theme) {
+  apply(theme, remember) {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('vr_theme', theme);
+    if (remember) { try { localStorage.setItem('vr_theme', theme); } catch (e) {} }
   }
 };
 

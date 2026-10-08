@@ -358,3 +358,25 @@ html.vt-open .vt-scrim{opacity:1}
 .cv-sheet canvas{display:block;width:100%;height:auto}
 .hub-card.hub-cta{grid-column:span 2;background:linear-gradient(135deg,rgba(201,162,39,.18),rgba(122,19,48,.22));border-color:var(--vt-gold)}
 @media (max-width:700px){.hub-card.hub-cta{grid-column:auto}}
+
+/* ---- hex code boxes ---- */
+.hexrow{display:flex;align-items:center;gap:.6rem}
+.hexrow input[type=color]{flex:0 0 52px;width:52px;height:44px;padding:3px;cursor:pointer}
+.hexrow .hex-in,.hexrow #bs-hex{flex:1;min-width:0;font-family:ui-monospace,Menlo,Consolas,monospace;letter-spacing:.04em;text-transform:uppercase}
+.hex-in.is-bad,#bs-hex.is-bad{border-color:#e5574b!important}
+.hex-sw{flex:0 0 44px;height:44px;border-radius:11px;border:1px solid var(--vt-line);background:transparent;display:block}
+.hex-msg{color:#e5574b;min-height:1em}
+
+/* ---- Voice Studio ---- */
+.vo-lang{max-width:320px}
+.vo-rec{display:inline-flex;align-items:center;gap:.6rem}
+.vo-dot{width:10px;height:10px;border-radius:50%;background:#d6362b;display:inline-block}
+.vo-rec.is-rec .vo-dot{animation:vopulse 1s infinite}
+@keyframes vopulse{0%,100%{box-shadow:0 0 0 0 rgba(214,54,43,.6)}50%{box-shadow:0 0 0 8px rgba(214,54,43,0)}}
+.vo-interim{margin:-.4rem 0 0;min-height:1.2em;color:var(--vt-faint);font-style:italic;font-size:.9rem}
+.vo-card{border:1px solid var(--vt-line);border-radius:14px;padding:1rem 1.1rem;margin-top:.6rem}
+.vo-card h3{margin:0;font-size:1.05rem;color:var(--vt-text)}
+.vo-note{margin:.4rem 0 0;font-size:.88rem;color:var(--vt-muted)}
+.vo-note.is-warn,#vo-status.is-bad{color:#e5574b}
+.vo-prog{display:grid;gap:.3rem}.vo-prog progress{width:100%;height:8px;accent-color:var(--vt-gold)}.vo-prog small{color:var(--vt-muted);min-height:1em}
+@media (prefers-reduced-motion:reduce){.vo-rec.is-rec .vo-dot{animation:none}}
