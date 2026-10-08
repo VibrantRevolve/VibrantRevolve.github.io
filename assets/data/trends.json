@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-08T12:10:27.956Z",
+ "updated": "2026-10-08T12:33:42.523Z",
  "basedOn": 67,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 11.72,
+   "score": 11.67,
    "headline": "Lemon.io: Senior .NET Full-stack Developer",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-net-full-stack-developer-2"
@@ -13,7 +13,7 @@
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 8.65,
+   "score": 8.62,
    "headline": "Cybersecurity: BluDive, Delinea urge organisations to strengthen privileged access management as AI reshapes enterprise risk",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/08/cybersecurity-bludive-delinea-urge-organisations-to-strengthen-privileged-access-management-as-ai-reshapes-enterprise-risk/"
@@ -21,7 +21,7 @@
   {
    "topic": "Million",
    "hashtag": "#Million",
-   "score": 7.5,
+   "score": 7.47,
    "headline": "Ghana raises $288 million debt to finance cocoa purchases",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/08/ghana-raises-288-million-debt-to-finance-cocoa-purchases/"
@@ -29,7 +29,7 @@
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 6.23,
+   "score": 6.21,
    "headline": "Endeavor Catalyst Closes USD 320 M Fund V With 7 Nigerian Startups In Portfolio",
    "source": "WeeTracker",
    "url": "https://weetracker.com/2026/10/08/endeavor-catalyst-closes-320m-fund-v-nigeria/"
@@ -37,7 +37,7 @@
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 5.95,
+   "score": 5.93,
    "headline": "Ghana’s Cocoa Regulator Secures $288 Million At 11% to Pay Farmers",
    "source": "Ventureburn",
    "url": "https://ventureburn.com/ghana-cocoa-regulator-secures-288-million-to-pay-farmers/"
@@ -45,7 +45,7 @@
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 5.74,
+   "score": 5.71,
    "headline": "Full-Stack Engineer (Back-End Leaning)",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/154018-full-stack-engineer-back-end-leaning"
@@ -53,7 +53,7 @@
   {
    "topic": "Ghana",
    "hashtag": "#Ghana",
-   "score": 5.59,
+   "score": 5.56,
    "headline": "Ghana raises $288 million debt to finance cocoa purchases",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/08/ghana-raises-288-million-debt-to-finance-cocoa-purchases/"
@@ -61,7 +61,7 @@
   {
    "topic": "Enterprise",
    "hashtag": "#Enterprise",
-   "score": 5.58,
+   "score": 5.56,
    "headline": "Cybersecurity: BluDive, Delinea urge organisations to strengthen privileged access management as AI reshapes enterprise risk",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/08/cybersecurity-bludive-delinea-urge-organisations-to-strengthen-privileged-access-management-as-ai-reshapes-enterprise-risk/"
@@ -69,7 +69,7 @@
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 5.39,
+   "score": 5.37,
    "headline": "Novo Nordisk Foundation Postdoctoral Fellowships at Massachusetts Institute of Technology 2027 (Funded)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/10/08/novo-nordisk-foundation-postdoctoral-fellowships-at-mit-2027/"
@@ -77,7 +77,7 @@
   {
    "topic": "Alloy",
    "hashtag": "#Alloy",
-   "score": 5.34,
+   "score": 5.32,
    "headline": "Alloy: Account Executive, Enterprise",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/alloy-account-executive-enterprise"
@@ -85,7 +85,7 @@
   {
    "topic": "Vercel",
    "hashtag": "#Vercel",
-   "score": 5.34,
+   "score": 5.32,
    "headline": "Vercel: Site Engineer",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/vercel-site-engineer"
@@ -93,7 +93,7 @@
   {
    "topic": "Jumio",
    "hashtag": "#Jumio",
-   "score": 5.34,
+   "score": 5.32,
    "headline": "Jumio: Machine Learning Engineer - IV (Biometrics)",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-biometrics"
@@ -101,7 +101,7 @@
   {
    "topic": "Forter",
    "hashtag": "#Forter",
-   "score": 5.34,
+   "score": 5.32,
    "headline": "Forter: Regional Director, Enterprise Sales",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/forter-regional-director-enterprise-sales"
@@ -109,7 +109,7 @@
   {
    "topic": "Starlink",
    "hashtag": "#Starlink",
-   "score": 5.27,
+   "score": 5.25,
    "headline": "Starlink’s capacity crunch",
    "source": "Technext",
    "url": "https://technext24.com/news/starlinks-capacity-crunch/"
