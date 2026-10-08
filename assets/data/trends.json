@@ -1,94 +1,128 @@
 {
- "updated": "2026-10-07T07:30:13.932Z",
- "basedOn": 13,
+ "updated": "2026-10-08T09:59:24.127Z",
+ "basedOn": 27,
  "topics": [
+  {
+   "topic": "Vercel",
+   "hashtag": "#Vercel",
+   "score": 5.46,
+   "headline": "Vercel: Site Engineer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/vercel-site-engineer"
+  },
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 4.15,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
+   "score": 4.39,
+   "headline": "Stanford University Center for International Security and Cooperation Fellowship 2027-2028",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+   "url": "https://opportunitydesk.org/2026/10/07/stanford-cisac-fellowship-2027-2028/"
   },
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 2.98,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
+   "score": 3.87,
+   "headline": "Stanford University Center for International Security and Cooperation Fellowship 2027-2028",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+   "url": "https://opportunitydesk.org/2026/10/07/stanford-cisac-fellowship-2027-2028/"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 1.64,
-   "headline": "Who owns the wealth beneath your feet? The AI engine exposing Nigeria’s ‘hidden' miners",
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 3.79,
+   "headline": "Universal Quantum Raises $100 Million to Build a Working Quantum Computer",
+   "source": "Ventureburn",
+   "url": "https://ventureburn.com/universal-quantum-raises-100-million-quantum-computer/"
+  },
+  {
+   "topic": "Jobs",
+   "hashtag": "#Jobs",
+   "score": 3.12,
+   "headline": "BlueGeko: IT Infrastructure Engineer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/bluegeko-it-infrastructure-engineer"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 2.93,
+   "headline": "BlueGeko: IT Infrastructure Engineer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/bluegeko-it-infrastructure-engineer"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 2.9,
+   "headline": "Universal Quantum Raises $100 Million to Build a Working Quantum Computer",
+   "source": "Ventureburn",
+   "url": "https://ventureburn.com/universal-quantum-raises-100-million-quantum-computer/"
+  },
+  {
+   "topic": "Business",
+   "hashtag": "#Business",
+   "score": 2.39,
+   "headline": "Naira extends Bullish streak against British Pound at N1,767/£",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/08/naira-extends-bullish-streak-against-british-pound-at-n1767/"
+  },
+  {
+   "topic": "Security",
+   "hashtag": "#Security",
+   "score": 1.82,
+   "headline": "Vercel: Security Software Engineer, IAM",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/vercel-security-software-engineer-iam"
+  },
+  {
+   "topic": "Universal Quantum Raises",
+   "hashtag": "#UniversalQuantumRaises",
+   "score": 1.8,
+   "headline": "Universal Quantum Raises $100 Million to Build a Working Quantum Computer",
+   "source": "Ventureburn",
+   "url": "https://ventureburn.com/universal-quantum-raises-100-million-quantum-computer/"
+  },
+  {
+   "topic": "Working Quantum Computer",
+   "hashtag": "#WorkingQuantumComputer",
+   "score": 1.8,
+   "headline": "Universal Quantum Raises $100 Million to Build a Working Quantum Computer",
+   "source": "Ventureburn",
+   "url": "https://ventureburn.com/universal-quantum-raises-100-million-quantum-computer/"
+  },
+  {
+   "topic": "British Pound",
+   "hashtag": "#BritishPound",
+   "score": 1.8,
+   "headline": "Naira extends Bullish streak against British Pound at N1,767/£",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/08/naira-extends-bullish-streak-against-british-pound-at-n1767/"
+  },
+  {
+   "topic": "Neofleet Capital",
+   "hashtag": "#NeofleetCapital",
+   "score": 1.79,
+   "headline": "NeoFleet Capital raises $4 million to finance taxi fleets across Africa and emerging markets",
    "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/06/who-is-mining-your-land-minetrix-ai/"
+   "url": "https://techcabal.com/2026/10/08/neofleet-raises-4-million/"
   },
   {
-   "topic": "Equity Bank",
-   "hashtag": "#EquityBank",
-   "score": 1.49,
-   "headline": "The strategy behind Equity Bank’s new digital wallet",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/06/why-equity-bank-is-building-a-neo-wallet-for-everyday-cash/"
-  },
-  {
-   "topic": "Collette Postdoctoral Fellowship",
-   "hashtag": "#CollettePostdoctoralFellowship",
-   "score": 1.41,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
-  },
-  {
-   "topic": "Systematic Ichthyology",
-   "hashtag": "#SystematicIchthyology",
-   "score": 1.41,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
-  },
-  {
-   "topic": "Stipend",
-   "hashtag": "#Stipend",
-   "score": 1.31,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
-  },
-  {
-   "topic": "Aixbio Fellowship",
-   "hashtag": "#AixbioFellowship",
-   "score": 1.24,
-   "headline": "AIxBio Fellowship 2027 at Cambridge (Fully-funded)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/05/aixbio-fellowship-2027/"
-  },
-  {
-   "topic": "Nethope Humanitarian",
-   "hashtag": "#NethopeHumanitarian",
-   "score": 1.24,
-   "headline": "NetHope Humanitarian AI Research Fellowship 2026/2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/05/nethope-humanitarian-ai-research-fellowship-2026-2027/"
-  },
-  {
-   "topic": "Research Fellowship",
-   "hashtag": "#ResearchFellowship",
-   "score": 1.24,
-   "headline": "NetHope Humanitarian AI Research Fellowship 2026/2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/05/nethope-humanitarian-ai-research-fellowship-2026-2027/"
+   "topic": "Mizar Energies",
+   "hashtag": "#MizarEnergies",
+   "score": 1.79,
+   "headline": "Mizar Energies eyes Nigeria’s busiest trade routes in retail drive",
+   "source": "BusinessDay",
+   "url": "https://businessday.ng/energy/article/mizar-energies-eyes-nigerias-busiest-trade-routes-in-retail-drive/"
   }
  ],
  "tags": [
-  "Payments",
   "Tech News",
-  "AI & Automation",
+  "Business",
+  "Jobs",
   "Grants & Funding",
-  "Design & Social",
-  "Web"
+  "Naija Startups",
+  "Payments",
+  "AI & Automation",
+  "Design & Social"
  ]
 }
