@@ -1,5 +1,5 @@
 /* VibrantRevolve service worker: fast repeat visits and a friendly offline page. Pages, scripts and styles are network-first, so updates always show. */
-const VERSION = 'vr-v1';
+const VERSION = 'vr-v2';
 const PRECACHE = ['/offline.html', '/assets/images/favicon/icon-192.png', '/assets/images/favicon/logo-mark.png'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(VERSION).then((c) => c.addAll(PRECACHE)).catch(() => {}).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== VERSION).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });

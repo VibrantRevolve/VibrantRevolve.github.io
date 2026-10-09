@@ -32,7 +32,7 @@ Edit that file when prices or services change. For real AI replies, follow `work
 (costs per use, so set a spend limit) and put the Worker URL in `assets/js/site-config.js` as `assistantUrl`.
 
 ## 7. Studio Tools (/tools/) and Brand Studio (/brand-studio/)
-No setup. Thirteen tools run fully in the visitor's browser: Brand Studio, Logo Maker, Name Generator, Copy Writer, Palette Extractor, Invoice Maker, QR Code Maker, Image Compressor, PDF Tools, WhatsApp Link Maker, Flyer & Post Maker, CV Builder, Voice Studio.
+No setup. Twenty tools run fully in the visitor's browser: Brand Studio, Logo Maker, Name Generator, Copy Writer, Palette Extractor, Invoice Maker, QR Code Maker, Image Compressor, PDF Tools, WhatsApp Link Maker, Flyer & Post Maker, CV Builder, Voice Studio, Video Studio, Business Calculators, Receipt Maker, Business Card Maker, Price List Maker, Cover Letter Writer, Link-in-Bio Maker.
 - The **Tools** button in the header opens the zip-style tray. The list lives in `assets/js/tools.js` (add or rename tools there, and in `tools/index.html`).
 - Brand Studio exports a 2-page A4 **PDF brief** (brand board + project request with contact details, services, budget, notes and a WhatsApp QR). The visitor sends it to you from the page (phone share sheet, or download then WhatsApp / email).
 - Shared code: `assets/js/tools-kit.js` (PDF/PNG export, colour maths), `assets/js/brand-engine.js` (palette, fonts, logos, brief layout), `assets/css/tools.css`.
@@ -49,3 +49,13 @@ Follow `workers/studio-ai/README.md`, then paste the Worker URL into `assets/js/
 
 ## Trending topics (Flyer & Post Maker)
 `scripts/build-trends.mjs` reads the headlines in `blog/posts.json` and writes `assets/data/trends.json`. It runs inside both GitHub workflows right after the news build, so the topic chips in the Flyer & Post Maker refresh with every news run. It does not scrape Google, X or Instagram. Topics improve as more headlines accumulate.
+
+## Cloudflare Worker extras (optional)
+
+Once `studioAiUrl` in `assets/js/site-config.js` points at your deployed Worker, these switch on by themselves: the smarter VR assistant, CV and post writing help, AI pictures and voice-over in Video Studio, file transcription and MP3 download in Voice Studio.
+
+Optional extras in `assets/js/site-config.js`:
+- `turnstileSiteKey`: your Cloudflare Turnstile **site** key. Adds an invisible bot check to the contact form (put the secret key in the Worker as `TURNSTILE_SECRET`).
+- `cfAnalyticsToken`: your Cloudflare Web Analytics token (dash.cloudflare.com, Analytics and Logs, Web Analytics). Cookie-free visitor stats.
+
+In the Worker (see `workers/studio-ai/README.md`): `RESEND_API_KEY` emails you contact messages and confirmed payments, a free KV namespace `LEADS` keeps a copy, `PAYSTACK_SECRET` / `FLW_SECRET` let the Worker confirm payments with the provider before the customer sees the success page.

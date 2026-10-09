@@ -176,7 +176,7 @@ function initScrollAnimations() {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.1 });
+  }, { threshold: 0, rootMargin: '0px 0px -6% 0px' }); // threshold 0: tall sections (store, portfolio) never reach 10% of their height on a phone
 
   document.querySelectorAll('.fade-in-element').forEach(el => observer.observe(el));
 }

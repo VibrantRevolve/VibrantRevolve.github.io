@@ -54,10 +54,11 @@
     say(q, [], true); history.push({ role: 'user', content: q });
     const typing = el('div', 'vra-m bot vra-dots'); typing.innerHTML = '<span></span><span></span><span></span>'; log.appendChild(typing); log.scrollTop = log.scrollHeight;
     let reply = null;
-    if (cfg().assistantUrl) {
+    const aiUrl = cfg().assistantUrl || cfg().studioAiUrl, viaStudio = !cfg().assistantUrl;
+    if (aiUrl) {
       try {
-        const r = await fetch(cfg().assistantUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ messages: history.slice(-8) }), signal: AbortSignal.timeout(20000) });
-        if (r.ok) { const j = await r.json(); if (j && typeof j.reply === 'string' && j.reply.trim()) reply = { a: j.reply.trim(), links: [{ t: 'Talk to a person', h: 'WHATSAPP' }] }; }
+        const r = await fetch(aiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(viaStudio ? { task: 'chat', messages: history.slice(-8) } : { messages: history.slice(-8) }), signal: AbortSignal.timeout(25000) });
+        if (r.ok) { const j = await r.json(); const t = j && (j.reply || (j.data && j.data.reply)); if (typeof t === 'string' && t.trim()) reply = { a: t.trim(), links: [{ t: 'Talk to a person', h: 'WHATSAPP' }] }; }
       } catch (e) { /* fall back below */ }
     }
     if (!reply) { const e = local(q); reply = e ? { a: e.a, links: e.links } : { a: data.fallback, links: [{ t: 'WhatsApp', h: 'WHATSAPP' }, { t: 'Contact page', h: '/contact/' }] }; }

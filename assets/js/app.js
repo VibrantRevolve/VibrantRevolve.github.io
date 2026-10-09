@@ -77,7 +77,14 @@
     ['Studio tools', 'Invoice Maker', '/tools/invoice/', I.tools, 'quote receipt'], ['Studio tools', 'QR Code Maker', '/tools/qr-code/', I.tools, 'qr whatsapp wifi'],
     ['Studio tools', 'Image Compressor', '/tools/image-compressor/', I.tools, 'compress resize reduce photo size kb jpg passport'], ['Studio tools', 'PDF Tools', '/tools/pdf-tools/', I.tools, 'pdf images to pdf shrink compress merge'], ['Studio tools', 'WhatsApp Link Maker', '/tools/whatsapp-link/', I.tools, 'whatsapp wa.me link button chat widget qr'],
     ['Studio tools', 'Flyer & Post Maker', '/tools/post-maker/', I.tools, 'flyer poster instagram social post hashtags caption trending design'], ['Studio tools', 'CV Builder', '/tools/cv-builder/', I.tools, 'cv resume curriculum vitae job pdf'],
-    ['Studio tools', 'Voice Studio', '/tools/voice-studio/', I.tools, 'voice speech to text dictation captions srt text to speech audio transcribe youtube podcast']
+    ['Studio tools', 'Voice Studio', '/tools/voice-studio/', I.tools, 'voice speech to text dictation captions srt text to speech audio transcribe youtube podcast'],
+    ['Studio tools', 'Video Studio', '/tools/video-studio/', I.tools, 'video maker slideshow reels tiktok status youtube captions images script'],
+    ['Studio tools', 'Business Calculators', '/tools/calculators/', I.tools, 'margin vat tax loan break-even discount currency calculator profit markup'],
+    ['Studio tools', 'Receipt Maker', '/tools/receipt-maker/', I.tools, 'receipt payment proof paid amount in words'],
+    ['Studio tools', 'Business Card Maker', '/tools/business-card/', I.tools, 'business card visiting card qr print'],
+    ['Studio tools', 'Price List Maker', '/tools/price-list/', I.tools, 'price list catalogue menu products whatsapp'],
+    ['Studio tools', 'Cover Letter Writer', '/tools/cover-letter/', I.tools, 'cover letter job application ai write'],
+    ['Studio tools', 'Link-in-Bio Maker', '/tools/link-in-bio/', I.tools, 'link in bio linktree instagram tiktok page']
   ].map((x) => ({ g: x[0], t: x[1], h: x[2], i: x[3], k: x[4] }));
   const cfg = () => window.VR_CONFIG || {};
   const ACTIONS = () => {
@@ -142,6 +149,13 @@
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
     addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
   }
+
+  /* 5b. Cloudflare Web Analytics (cookie-free), only when a token is set in site-config.js */
+  (function () {
+    const go = () => { const t = (window.VR_CONFIG || {}).cfAnalyticsToken; if (!t || document.querySelector('script[data-cf-beacon]')) return;
+      const s = document.createElement('script'); s.defer = true; s.src = 'https://static.cloudflareinsights.com/beacon.min.js'; s.setAttribute('data-cf-beacon', JSON.stringify({ token: t })); document.head.appendChild(s); };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
+  })();
 
   /* 6. Floating blog button: journal and pen, with a "new post" signal */
   (function () {

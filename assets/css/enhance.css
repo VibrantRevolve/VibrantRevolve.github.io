@@ -154,3 +154,6 @@ body .product-card .product-image{border-radius:0;aspect-ratio:16/9;width:100%}
 /* Light theme: keep the gold mark legible by seating it on an ink tile */
 [data-theme="light"] .logo-icon,[data-theme="light"] .footer-logo img{background:#0b0a09;border-radius:11px;padding:5px 7px;height:40px;box-sizing:border-box;filter:none}
 [data-theme="light"] .footer-logo img{height:46px}
+
+/* Most-popular badge must stay a small pill, never the full-card glow */
+.pricing-card.featured::before{inset:auto;top:.9rem;right:.9rem;bottom:auto;left:auto;width:auto;height:auto;opacity:1!important;background:var(--accent)}

@@ -20,6 +20,7 @@
       <label class="f"><span>${kind === 'exp' ? 'Job title' : 'Qualification'}</span><input data-k="role" type="text" value="${K.esc(e.role || '')}"></label>
       <div class="f-2"><label class="f"><span>${kind === 'exp' ? 'Company, city' : 'School'}</span><input data-k="org" type="text" value="${K.esc(e.org || '')}"></label><label class="f"><span>Dates</span><input data-k="dates" type="text" value="${K.esc(e.dates || '')}" placeholder="2021 - Present"></label></div>
       <label class="f"><span>${kind === 'exp' ? 'Achievements (one per line)' : 'Details (optional)'}</span><textarea data-k="pts" rows="3">${K.esc(e.pts || '')}</textarea></label>
+      ${K.aiOn() && kind === 'exp' ? '<div class="cv-ai"><button type="button" class="tb tb--sm" data-ai="pts">' + K.AI_ICON + ' Improve with AI</button></div>' : ''}
       <div class="cv-eact"><button type="button" class="tb tb--sm" data-act="up" aria-label="Move up">&uarr;</button><button type="button" class="tb tb--sm" data-act="down" aria-label="Move down">&darr;</button><button type="button" class="tb tb--sm" data-act="del">Remove</button></div></fieldset>`;
   }
   function paintEntries() { ['exp', 'edu'].forEach((k) => { $('#cv-' + k).innerHTML = data[k].map((e, i) => entryHtml(k, e, i)).join(''); }); }
@@ -29,6 +30,19 @@
     data.accent = $('#cv-accent').value; data.tpl = val('cv-tpl'); accent = data.accent; tpl = data.tpl;
   }
   function schedule() { clearTimeout(t); t = setTimeout(() => { sync(); try { localStorage.setItem(KEY, JSON.stringify(data)); } catch (e) {} render(); }, 160); }
+  /* ---- optional AI (needs the Cloudflare Worker) ---- */
+  const aiNote = (btn, msg) => { const o = btn.dataset.o || btn.innerHTML; btn.dataset.o = o; btn.disabled = true; btn.textContent = msg; return () => { btn.disabled = false; btn.innerHTML = o; }; };
+  $('#cv-form').addEventListener('click', async (e) => {
+    const b = e.target.closest('[data-ai]'); if (!b) return; const done = aiNote(b, 'Working…');
+    try {
+      if (b.dataset.ai === 'pts') { const fs = b.closest('.cv-entry'), ta = fs.querySelector('[data-k="pts"]'), role = fs.querySelector('[data-k="role"]').value; if (ta.value.trim().length < 6) return K.toast('Write a few notes first.', 'err'); const r = await K.rewrite('bullets', ta.value, { context: role }); if (!r) return K.toast('The AI service did not answer. Try again.', 'err'); ta.value = r.join('\n'); schedule(); K.toast('Rewritten. Read it and fix any detail that is wrong.'); }
+      if (b.dataset.ai === 'summary') { const ta = $('#cv-summary'); if (ta.value.trim().length < 6) return K.toast('Write a short profile first.', 'err'); const r = await K.rewrite('summary', ta.value, { context: $('#cv-title').value }); if (!r) return K.toast('The AI service did not answer. Try again.', 'err'); ta.value = r[0].slice(0, 500); schedule(); K.toast('Rewritten. Read it before you download.'); }
+      if (b.dataset.ai === 'translate') { sync(); const lang = $('#cv-lang').value, out = { summary: data.summary, exp: data.exp.map((x) => Object.assign({}, x)) }; const s = data.summary.trim() && await K.rewrite('translate', data.summary, { lang }); if (s) $('#cv-summary').value = s[0].slice(0, 500); const boxes = K.$$('#cv-exp [data-k="pts"]'); for (const ta of boxes) { if (!ta.value.trim()) continue; const r = await K.rewrite('translate', ta.value, { lang }); if (r) ta.value = r[0]; } schedule(); K.toast('Translated to ' + lang + '. Please proofread.'); }
+    } finally { done(); }
+  });
+  K.whenAI(() => {
+    const lab = $('#cv-summary').closest('label'); if (lab && !$('#cv-ai-sum')) { const d = K.el('div', 'cv-ai'); d.id = 'cv-ai-sum'; d.innerHTML = '<button type="button" class="tb tb--sm" data-ai="summary">' + K.AI_ICON + ' Improve with AI</button> <select id="cv-lang" class="tb tb--sm" aria-label="Translate to"><option>French</option><option>Spanish</option><option>Portuguese</option><option>German</option><option>Arabic</option><option>English</option></select> <button type="button" class="tb tb--sm" data-ai="translate">Translate CV</button>'; lab.after(d); }
+    paintEntries(); });
   $('#cv-form').addEventListener('input', schedule); $('#cv-form').addEventListener('change', schedule);
   $('#cv-form').addEventListener('click', (e) => {
     const b = e.target.closest('[data-act]'); if (!b) return; sync(); const fs = b.closest('.cv-entry'), k = fs.dataset.kind, i = +fs.dataset.i, a = data[k];
@@ -115,4 +129,18 @@
   $('#cv-pdf').onclick = (e) => K.busy(e.currentTarget, async () => { await ready(); render(); K.download(await K.pdfPages(pagesNow.map((c) => ({ canvas: c, w: 595.28, h: 841.89 })), { quality: 0.93, title: (data.name || 'CV') + ' CV' }), base() + '.pdf'); K.toast('CV downloaded'); });
   $('#cv-png').onclick = (e) => K.busy(e.currentTarget, async () => { await ready(); render(); for (let i = 0; i < pagesNow.length; i++) K.download(await K.canvasBlob(pagesNow[i], 'image/png'), base() + '-p' + (i + 1) + '.png'); });
   paintEntries(); render(); ready().then(render);
+
+  /* ---- Optional AI help (needs the Cloudflare Worker) ---- */
+  K.whenAI(() => {
+    const mk = (label, fn) => { const b = K.el('button', 'tb tb--sm cv-ai', ''); b.type = 'button'; b.innerHTML = K.AI_ICON + ' ' + label; b.addEventListener('click', () => K.busy(b, fn)); return b; };
+    const put = (ta, v) => { ta.value = v; ta.dispatchEvent(new Event('input', { bubbles: true })); };
+    const sum = $('#cv-summary'); const row = K.el('div', 'cv-airow');
+    row.append(mk('Improve profile', async () => { sync(); if (sum.value.trim().length < 15) return K.toast('Write a line or two first.', 'err'); const r = await K.rewrite('summary', sum.value, { context: data.title }); r ? put(sum, r[0].slice(0, 500)) : K.toast('AI did not answer. Try again.', 'err'); }));
+    const sel = K.el('select', 'cv-ailang'); sel.setAttribute('aria-label', 'Translate profile to'); sel.innerHTML = '<option value="">Translate profile\u2026</option>' + ['French', 'Spanish', 'Portuguese', 'Arabic', 'German'].map((l) => `<option>${l}</option>`).join('');
+    sel.addEventListener('change', () => { const l = sel.value; sel.value = ''; if (!l || !sum.value.trim()) return; K.toast('Translating\u2026'); K.rewrite('translate', sum.value, { lang: l }).then((r) => (r ? put(sum, r[0].slice(0, 500)) : K.toast('AI did not answer. Try again.', 'err'))); });
+    row.append(sel); sum.closest('label').after(row);
+    // one button per job: turn rough notes into strong bullets
+    const addBtns = () => K.$$('#cv-exp .cv-entry').forEach((fs) => { if (fs.querySelector('.cv-ai')) return; const ta = fs.querySelector('[data-k="pts"]'); const b = mk('Improve bullets', async () => { sync(); if (ta.value.trim().length < 8) return K.toast('Add a few notes first.', 'err'); const r = await K.rewrite('bullets', ta.value, { context: (fs.querySelector('[data-k="role"]') || {}).value }); r ? put(ta, r.join('\n')) : K.toast('AI did not answer. Try again.', 'err'); }); ta.closest('label').after(b); });
+    addBtns(); new MutationObserver(addBtns).observe($('#cv-exp'), { childList: true });
+  });
 })();

@@ -63,6 +63,10 @@
       if (!r.ok) return null; const d = await r.json(); return d && d.ok ? d.data : null;
     } catch (e) { return null; } finally { clearTimeout(timer); }
   };
+  // Rewrite helper: K.rewrite('summary'|'bullets'|'translate'|'caption'|'headline'|'tidy', text, {context, lang}) -> array of strings or null
+  K.rewrite = async (mode, text, extra) => { const d = await K.ai('rewrite', Object.assign({ mode, text }, extra || {}), 60000); return d && d.result && d.result.length ? d.result : null; };
+  // Rewrite helper: modes summary, bullets, translate, caption, headline, tidy. Returns an array of strings or null.
+  K.rewrite = async (mode, text, extra) => { const d = await K.ai('rewrite', Object.assign({ mode, text }, extra || {}), 45000); return d && d.result && d.result.length ? d.result : null; };
   K.AI_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg>';
   // Runs fn once the page has finished loading (so site-config.js has run) and only if AI is configured.
   K.whenAI = (fn) => { const go = () => { if (K.aiOn()) fn(); }; if (document.readyState === 'complete') go(); else window.addEventListener('load', go); };

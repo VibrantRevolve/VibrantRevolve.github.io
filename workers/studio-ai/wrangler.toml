@@ -7,3 +7,17 @@ binding = "AI"
 
 [vars]
 ALLOWED_ORIGIN = "https://vibrantrevolve.com,https://www.vibrantrevolve.com"
+
+# ---- Optional: store contact messages and confirmed payments (free KV). ----
+# 1. Run:  wrangler kv namespace create LEADS      2. Paste the id it prints below, then remove the leading # marks.
+# [[kv_namespaces]]
+# binding = "LEADS"
+# id = "PASTE_ID_HERE"
+
+# Secrets (never put these in a file). Run each once; wrangler asks you to paste the value:
+#   wrangler secret put RESEND_API_KEY      (email from resend.com, optional)
+#   wrangler secret put TURNSTILE_SECRET    (Cloudflare Turnstile secret key, optional)
+#   wrangler secret put PAYSTACK_SECRET     (Paystack secret key, optional)
+#   wrangler secret put FLW_SECRET          (Flutterwave secret key, optional)
+#   wrangler secret put NEWS_KEY            (any long random text; also add it to GitHub as VR_NEWS_KEY, optional)
+# Plain variables you can add under [vars] if you like: CONTACT_TO = "you@example.com", MAIL_FROM = "VibrantRevolve <hello@yourdomain.com>"

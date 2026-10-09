@@ -225,8 +225,7 @@ const PaymentManager = {
             ]
           },
           callback: (response) => {
-            this.sendConfirmation(email, 'Paystack', response.reference);
-            this.redirectSuccess();
+            this.finish(email, 'Paystack', response.reference);
           },
           onClose: () => {
             console.log('Paystack payment window closed');
@@ -287,8 +286,7 @@ const PaymentManager = {
           },
           callback: (response) => {
             if (response.status === 'successful') {
-              this.sendConfirmation(email, 'Flutterwave', response.transaction_id);
-              this.redirectSuccess();
+              this.finish(email, 'Flutterwave', response.transaction_id);
             } else {
               this.showError('Payment was not successful. Please try again.');
             }
@@ -305,6 +303,24 @@ const PaymentManager = {
   },
 
   // ===== CONFIRMATION EMAIL =====
+  // After Paystack/Flutterwave say "paid", ask our Worker to confirm it with the provider (server side) when it is connected.
+  async finish(email, method, ref) {
+    this.sendConfirmation(email, method, ref);
+    const url = (window.VR_CONFIG || {}).studioAiUrl;
+    if (!url) return this.redirectSuccess();
+    const note = document.createElement('div'); note.setAttribute('role', 'status');
+    note.style.cssText = 'position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%);z-index:9999;padding:.8rem 1.2rem;border-radius:999px;background:#15110a;color:#f5f0e6;border:1px solid #c9a227;font:600 .9rem Inter,sans-serif';
+    note.textContent = 'Confirming your payment…'; document.body.appendChild(note);
+    try {
+      const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(20000), body: JSON.stringify({ task: 'verify-payment', provider: method.toLowerCase(), reference: String(ref) }) });
+      const j = await r.json().catch(() => ({}));
+      note.remove();
+      if (r.ok && j.ok && j.data && j.data.paid) return this.redirectSuccess();
+      if (r.ok && j.ok) return this.showError('We could not confirm this payment yet. Please keep your reference ' + ref + ' and message us on WhatsApp so we can check it.');
+      this.redirectSuccess();            // verification not set up or unreachable: do not block a real customer
+    } catch (e) { note.remove(); this.redirectSuccess(); }
+  },
+
   sendConfirmation(email, method, transactionId) {
     if (!window.emailjs) {
       console.warn('EmailJS not loaded - skipping confirmation email');

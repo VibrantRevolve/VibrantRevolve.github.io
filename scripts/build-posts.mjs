@@ -114,7 +114,7 @@ ${hero(p)}
 ${lic ? `        <p class="post-credit">This story${p.author ? ' by ' + esc(p.author) : ''} originally appeared on <a href="${esc(safe(p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.source)}</a> on ${esc(String(p.date || '').slice(0, 10))}. Republished under <a href="${esc(safe(lic.url))}" target="_blank" rel="noopener noreferrer">${esc(lic.name)}</a>. Text only, shown without changes.</p>` : ''}
 ${body.map((t) => `        <p>${esc(t)}</p>`).join('\n')}
 ${p.url && !(p.body && p.body.length) ? `        <aside class="post-note"><strong>Summary only.</strong> This is VibrantRevolve's short summary of a story by ${esc(p.source)}. We do not republish other publishers' articles, so the full report, photos and quotes stay with the people who made them. ${care || 'Read the whole story on ' + esc(p.source) + ' below.'}</aside>` : ''}
-${p.take ? `        <p><strong>Our take:</strong> ${esc(p.take)}</p>` : ''}
+${p.take ? `        <p><strong>Our take${p.takeAI ? " (AI-assisted)" : ""}:</strong> ${esc(p.take)}</p>` : ''}
         <div class="post-actions">${ext}${cta}<button type="button" class="btn btn-secondary" id="save-story" aria-pressed="false">&#9734; Save for later</button></div>
         <div class="post-share" aria-label="Share this story"><span>Share</span>
           <a href="https://wa.me/?text=${encodeURIComponent(p.title + ' ' + url)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>

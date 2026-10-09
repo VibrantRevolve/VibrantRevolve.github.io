@@ -31,7 +31,7 @@
           <p style="font-size:.8rem;color:var(--text-muted)">${esc(p.source)} · ${esc(String(p.date || '').slice(0, 10))}</p>
           <p>${esc(p.excerpt)}</p>
           ${p.tag === 'Grants & Funding' ? '<p style="font-size:.85rem;color:var(--text-muted)">Always confirm deadlines and eligibility on the official page before applying.</p>' : p.tag === 'Jobs' ? '<p style="font-size:.85rem;color:var(--text-muted)">Check details with the employer. Never pay to get a job.</p>' : ''}
-          ${p.take ? `<p><strong>Our take:</strong> ${esc(p.take)}</p>` : ''}
+          ${p.take ? `<p><strong>Our take${p.takeAI ? " (AI-assisted)" : ""}:</strong> ${esc(p.take)}</p>` : ''}
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.5rem">
             <a class="btn btn-primary btn-sm" href="/blog/p/${esc(p.id)}.html">${p.tag === 'Grants & Funding' || p.tag === 'Jobs' ? 'Read the details' : 'Read more'}</a>
             ${p.cta && p.cta.href ? `<a class="btn btn-secondary btn-sm" href="${esc(okUrl(p.cta.href))}">${esc(p.tag === 'Grants & Funding' ? 'Need a website for your application?' : (p.cta.label || 'Learn more'))}</a>` : ''}

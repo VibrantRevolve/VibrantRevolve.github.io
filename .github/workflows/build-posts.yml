@@ -17,6 +17,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Write short takes with AI (skipped unless the Worker is connected)
+        run: node scripts/write-takes.mjs
+        env:
+          VR_WORKER_URL: ${{ vars.VR_WORKER_URL || secrets.VR_WORKER_URL }}
+          VR_NEWS_KEY: ${{ secrets.VR_NEWS_KEY }}
       - run: node scripts/build-posts.mjs
       - run: node scripts/build-trends.mjs
       - run: node scripts/build-store.mjs

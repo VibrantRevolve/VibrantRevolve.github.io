@@ -11,7 +11,11 @@ window.VR_CONFIG = {
   // Optional: URL of your Cloudflare Worker for real AI chat replies (see workers/assistant/README.md). "" = built-in answers only.
   assistantUrl: "",
   // Optional: URL of your Cloudflare Worker for the "Write with AI" buttons in Studio Tools (see workers/studio-ai/README.md). "" = buttons hidden.
-  studioAiUrl: "https://vr-studio-ai.vr-studio.workers.dev",
+  studioAiUrl: "",
+  // Optional: Cloudflare Turnstile SITE key (public) to protect the contact form from bots. "" = no check. Secret key goes in the Worker.
+  turnstileSiteKey: "",
+  // Optional: Cloudflare Web Analytics token (dash.cloudflare.com > Analytics & Logs > Web Analytics). "" = no analytics.
+  cfAnalyticsToken: "",
   currency: "USD",
   whatsapp: "2349012739299",
   supportEmail: "vr@vibrantrevolve.com"

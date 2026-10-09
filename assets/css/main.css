@@ -560,6 +560,10 @@ section:nth-child(even) {
   white-space: nowrap;
   transform: none;
   pointer-events: none;
+  bottom: auto;
+  inset-block-end: auto;
+  opacity: 1 !important;
+  transition: none;
 }
 
 .price {
@@ -1305,3 +1309,16 @@ textarea:valid:not(:placeholder-shown) {
 .main-nav .nav-book-link{background:var(--accent);color:#0a0a0a !important;font-weight:600;padding:.45rem 1rem;border-radius:999px}
 .main-nav .nav-book-link::after{display:none}
 @media (max-width:768px){.main-nav ul li.nav-book{grid-column:1 / -1}.main-nav ul li a.nav-book-link{border-color:transparent;padding:.8rem .4rem}}
+.main-nav .nav-book-link{white-space:nowrap}
+@media (min-width:769px){.main-nav ul{align-items:center;flex-wrap:nowrap}.main-nav ul li{white-space:nowrap}}
+
+/* Tablet widths: the full menu does not fit, so use the same compact dropdown as phones */
+@media (min-width:769px) and (max-width:1240px){
+  .hamburger{display:flex}
+  .main-nav{position:absolute;top:100%;left:0;background:var(--bg-secondary);width:100%;max-height:0;overflow:hidden;opacity:0;transition:all .35s ease;border-bottom:1px solid var(--border-color)}
+  .main-nav.open{max-height:420px;opacity:1;padding:1rem}
+  .main-nav ul{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem}
+  .main-nav ul li a{display:block;text-align:center;padding:.7rem .4rem;border:1px solid rgba(var(--accent-rgb),.3);border-radius:12px;background:rgba(var(--accent-rgb),.06)}
+  .main-nav ul li.nav-book{grid-column:1 / -1}
+  .main-nav ul li a.nav-book-link{border-color:transparent;padding:.8rem .4rem;border-radius:12px}
+}

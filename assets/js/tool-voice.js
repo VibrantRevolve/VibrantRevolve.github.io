@@ -47,6 +47,10 @@
   langSel.addEventListener('change', () => { try { localStorage.setItem('vr-vo-lang', langSel.value); } catch (e) {} loadVoices(); if (want) { stopDict(); setTimeout(startDict, 250); } });
   $('#vo-clear').onclick = () => { stopDict(); box.value = ''; segs = []; lastEnd = 0; say(''); count(); ui(false); };
   $('#vo-tidy').onclick = () => { box.value = box.value.replace(/[ \t]+/g, ' ').replace(/ ([,.!?;:])/g, '$1').replace(/([.!?]\s+)([a-z])/g, (m, a, b) => a + b.toUpperCase()).replace(/\bi\b/g, 'I').trim(); if (box.value && !/[.!?]$/.test(box.value)) box.value += '.'; count(); };
+  K.whenAI(() => { const b = K.el('button', 'tb tb--sm'); b.type = 'button'; b.innerHTML = K.AI_ICON + ' Tidy with AI'; b.title = 'Fix punctuation, capitals and paragraphs'; $('#vo-tidy').after(b);
+    b.onclick = () => K.busy(b, async () => { const text = box.value.trim(); if (text.length < 20) return; const parts = []; let cur = ''; text.split(/(?<=[.!?\n])\s+/).forEach((s) => { if ((cur + ' ' + s).length > 4500 && cur) { parts.push(cur); cur = s; } else cur = cur ? cur + ' ' + s : s; }); if (cur) parts.push(cur); const outp = [];
+      for (let i = 0; i < parts.length; i++) { say('Tidying part ' + (i + 1) + ' of ' + parts.length + '\u2026'); const r = await K.rewrite('tidy', parts[i]); if (!r) { say('The AI service did not answer. Your text is unchanged.', true); return; } outp.push(r[0].replace(/\\n/g, '\n')); }
+      box.value = outp.join('\n\n'); segs = []; say('Tidied. Subtitles will now use the new sentences.'); count(); }); });
   $('#vo-copy').onclick = (e) => K.copy(box.value, e.currentTarget, 'Copied');
   $('#vo-txt').onclick = () => K.download(tb(box.value), 'transcript.txt');
   const needSegs = () => { if (segs.length) return segs; const t = box.value.trim(); return t ? t.split(/(?<=[.!?])\s+/).map((x, i, a) => ({ start: i * 4, end: i * 4 + 4, text: x })) : []; };
@@ -82,7 +86,25 @@
 
   /* ---- Read aloud ---- */
   const synth = window.speechSynthesis, script = $('#vo-script'); let voices = [], speaking = false, qi = 0, queue = [], done = 0, totalW = 0;
-  function loadVoices() { if (!synth) return; voices = synth.getVoices(); const sel = $('#vo-voice'), cur = sel.value, lg = langSel.value.split('-')[0]; const sorted = voices.slice().sort((a, b) => (b.lang.startsWith(lg) - a.lang.startsWith(lg)) || a.name.localeCompare(b.name)); sel.innerHTML = sorted.map((v) => `<option value="${K.esc(v.voiceURI)}">${K.esc(v.name)} (${K.esc(v.lang)})</option>`).join('') || '<option value="">Default voice</option>'; if (cur && sorted.some((v) => v.voiceURI === cur)) sel.value = cur; }
+  const FEM = /\b(female|woman|zira|samantha|victoria|karen|moira|tessa|fiona|susan|hazel|heera|catherine|linda|sabina|emma|aria|jenny|michelle|libby|sonia|natasha|clara|mia|luna|ava|elsa|amelie|am\u00e9lie|alice|anna|paulina|monica|m\u00f3nica|helena|laura|luciana|joana|yuna|kyoko|mei-jia|ting-ting|sin-ji|zosia|ioana|milena|katya|alva|damayanti|kanya|montserrat|mariska|carmit|lekha|veena|allison|nicky|noelle|joanna|salli|kimberly|kendra|ivy|amy|ezinne|zuri|imani|elimu|neerja|ayanda|leah|joelle|zira|siri|paola|elena|ioana|lesya|nora|zoe|isabella|sara|marie|sonia|ana|katja|vivian|hortense|julie|denise|lucia|sofia)\b/i;
+  const MAL = /\b(male|man|david|mark|daniel|alex|fred|tom|oliver|ryan|guy|george|james|richard|rishi|aaron|arthur|thomas|jorge|diego|juan|luca|jacques|xander|eric|christopher|davis|jason|tony|brian|andrew|roger|steffan|ravi|hemant|matthew|joey|justin|kevin|liam|mikko|maged|yuri|felipe|nicolas|reed|rocko|eddy|grandpa|bruce|albert|junior|ralph|prabhat|abeo|emeka|chidi|mohamed|henri|claude|pablo|stefan|conrad|jan|kenji|otoya|hans|google uk english male)\b/i;
+  const gender = (n) => { const male = MAL.test(n), fem = FEM.test(n); if (/\bfemale\b/i.test(n)) return 'f'; if (/\bmale\b/i.test(n)) return 'm'; return fem && !male ? 'f' : male && !fem ? 'm' : ''; };
+  let vf = 'all'; const vsel = $('#vo-voice');
+  const savedV = (() => { try { return localStorage.getItem('vr-vo-voice'); } catch (e) { return null; } })();
+  function loadVoices() {
+    if (!synth) return; voices = synth.getVoices().map((v) => { v._g = gender(v.name); return v; });
+    const cur = vsel.value || savedV, lg = langSel.value.split('-')[0], q = ($('#vo-vsearch').value || '').toLowerCase().trim().split(/\s+/).filter(Boolean);
+    let list = voices.filter((v) => (vf === 'all' || (vf === 'lang' ? v.lang.toLowerCase().startsWith(lg) : v._g === vf)) && q.every((w) => (v.name + ' ' + v.lang + ' ' + (v._g === 'f' ? 'female woman' : v._g === 'm' ? 'male man' : '') + ' ' + (LN[v.lang.toLowerCase()] || '')).toLowerCase().includes(w)));
+    list.sort((a, b) => (b.lang.startsWith(lg) - a.lang.startsWith(lg)) || a.name.localeCompare(b.name));
+    vsel.innerHTML = list.map((v) => `<option value="${K.esc(v.voiceURI)}">${v._g === 'f' ? '\u2640 ' : v._g === 'm' ? '\u2642 ' : ''}${K.esc(v.name)} (${K.esc(v.lang)})</option>`).join('') || '<option value="">No voice matches. Clear the search.</option>';
+    if (cur && list.some((v) => v.voiceURI === cur)) vsel.value = cur; else if (list.length) vsel.selectedIndex = 0;
+    $('#vo-vcount').textContent = list.length + ' of ' + voices.length;
+  }
+  const LN = { 'en-ng': 'nigeria nigerian english', 'en-gb': 'uk british english', 'en-us': 'us american english', 'en-gh': 'ghana english', 'en-ke': 'kenya english', 'en-za': 'south africa english', 'fr-fr': 'french france', 'es-es': 'spanish', 'pt-br': 'portuguese brazil', 'ar-sa': 'arabic', 'sw-ke': 'swahili' };
+  $('#vo-vsearch').addEventListener('input', loadVoices);
+  vsel.addEventListener('change', () => { try { localStorage.setItem('vr-vo-voice', vsel.value); } catch (e) {} });
+  $('#vo-vtype').addEventListener('click', (e) => { const b = e.target.closest('[data-g]'); if (!b) return; vf = b.dataset.g; K.$$('#vo-vtype .sp-chip').forEach((x) => { x.classList.toggle('is-on', x === b); x.setAttribute('aria-pressed', x === b); }); loadVoices(); });
+  $('#vo-vstyle').addEventListener('click', (e) => { const b = e.target.closest('[data-s]'); if (!b) return; const [pi, ra] = b.dataset.s.split(',').map(Number); $('#vo-pitch').value = pi; $('#vo-rate').value = ra; $('#vo-pitch').dispatchEvent(new Event('input')); $('#vo-rate').dispatchEvent(new Event('input')); K.$$('#vo-vstyle .sp-chip').forEach((x) => x.classList.toggle('is-on', x === b)); });
   const stats = () => { const w = (script.value.match(/\S+/g) || []).length, r = +$('#vo-rate').value, sec = Math.round((w / (150 * r)) * 60); $('#vo-stats').textContent = w + ' words · about ' + (sec >= 60 ? Math.floor(sec / 60) + ' min ' + (sec % 60) + ' s' : sec + ' s') + ' read aloud'; };
   if (!synth) { $('#vo-tts-unsupported').hidden = false; ['vo-play', 'vo-preview', 'vo-voice', 'vo-rate', 'vo-pitch'].forEach((i) => ($('#' + i).disabled = true)); } else { loadVoices(); if (synth.addEventListener) synth.addEventListener('voiceschanged', loadVoices); }
   const pieces = (t) => (t.replace(/\s+/g, ' ').match(/[^.!?…]+[.!?…]*\s*/g) || [t]).reduce((a, s) => { const l = a[a.length - 1]; if (l && (l + s).length < 180) a[a.length - 1] = l + s; else a.push(s); return a; }, []).map((s) => s.trim()).filter(Boolean);

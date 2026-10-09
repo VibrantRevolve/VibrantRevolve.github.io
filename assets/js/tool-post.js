@@ -163,5 +163,31 @@
   $('#sp-recap').onclick = () => { bump++; caption(); };
   $('#sp-capcopy').onclick = (e) => K.copy($('#sp-cap').value, e.currentTarget, 'Copied');
   fetch('/assets/data/trends.json').then((r) => (r.ok ? r.json() : null)).then((d) => { if (d && d.topics) { trendTopics = d.topics.slice(0, 10); const u = new Date(d.updated); $('#sp-trend-date').textContent = isNaN(u) ? '' : 'Updated ' + u.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }); } chips(); caption(); }).catch(() => { chips(); caption(); });
+  /* ---- optional AI (needs the Cloudflare Worker) ---- */
+  K.whenAI(() => {
+    const details = () => [$('#sp-head').value, $('#sp-body').value, $('#sp-cat').value, $('#sp-city').value].filter(Boolean).join('. ');
+    const cyc = { cap: [], capI: 0, head: [], headI: 0 };
+    const mk = (after, label, fn, id) => { const b = K.el('button', 'tb tb--sm'); b.type = 'button'; b.id = id; b.innerHTML = K.AI_ICON + ' ' + label; b.onclick = () => K.busy(b, fn); after.after(b); return b; };
+    mk($('#sp-recap'), 'AI captions', async () => { if (!cyc.cap.length || cyc.stale) { const r = await K.rewrite('caption', details(), { context: [...picked].join(', ') }); if (!r) return K.toast('The AI service did not answer. Try again.', 'err'); cyc.cap = r; cyc.capI = 0; cyc.stale = false; } $('#sp-cap').value = cyc.cap[cyc.capI++ % cyc.cap.length]; K.toast('Caption written. Tap again for another.'); }, 'sp-aicap');
+    ['sp-head', 'sp-body', 'sp-cat'].forEach((id) => $('#' + id).addEventListener('input', () => (cyc.stale = true)));
+    const hl = K.el('button', 'tb tb--sm'); hl.type = 'button'; hl.innerHTML = K.AI_ICON + ' AI headline'; hl.style.marginTop = '.4rem';
+    hl.onclick = () => K.busy(hl, async () => { if (!cyc.head.length || cyc.hstale) { const r = await K.rewrite('headline', details() || 'a business flyer'); if (!r) return K.toast('The AI service did not answer. Try again.', 'err'); cyc.head = r; cyc.headI = 0; cyc.hstale = false; } $('#sp-head').value = cyc.head[cyc.headI++ % cyc.head.length].replace(/^["\s]+|["\s]+$/g, '').slice(0, 70); $('#sp-head').dispatchEvent(new Event('input')); });
+    $('#sp-head').closest('label').after(hl);
+    const ph = $('#sp-photo').closest('.f'); if (ph) { const row = ph.querySelector('.tp-actions'); const b = K.el('button', 'tb tb--sm'); b.type = 'button'; b.innerHTML = K.AI_ICON + ' AI image'; b.title = 'Make a background picture from your headline'; row.appendChild(b);
+      b.onclick = () => K.busy(b, async () => { const d = await K.ai('image', { prompt: (details() || 'abstract gold and dark gradient') + '. Soft lighting, space for text.' }, 90000); if (!d || !d.image) return K.toast('The image service did not answer. Try again.', 'err'); const im = new Image(); im.onload = () => { photo = im; $('#sp-photo-name').textContent = 'AI image'; redraw(); K.toast('Image added as the background'); }; im.src = 'data:image/jpeg;base64,' + d.image.replace(/^data:[^,]*,/, ''); }); }
+  });
   (async () => { await K.fonts([['Inter', '500;600;700;800'], ['Cormorant Garamond', '700']]); redraw(); })(); chips(); caption(); draw();
+
+  /* ---- Optional AI help (needs the Cloudflare Worker) ---- */
+  K.whenAI(() => {
+    const mk = (label, fn) => { const b = K.el('button', 'tb tb--sm', ''); b.type = 'button'; b.innerHTML = K.AI_ICON + ' ' + label; b.addEventListener('click', () => K.busy(b, fn)); return b; };
+    const details = () => { const o = read(); return [o.head, o.body, o.cta, o.city].filter(Boolean).join('. '); };
+    let ai = [], ni = 0;
+    const capBtn = mk('AI captions', async () => { const t = details(); if (t.length < 6) return K.toast('Add a headline first.', 'err'); if (!ai.length || capBtn.dataset.t !== t) { const r = await K.rewrite('caption', t, { context: $('#sp-cat').value }); if (!r) return K.toast('AI did not answer. Try again.', 'err'); ai = r; ni = 0; capBtn.dataset.t = t; } $('#sp-cap').value = ai[ni % ai.length] + '\n\n' + tagsFor().join(' '); ni++; });
+    $('#sp-recap').after(capBtn);
+    const hdBtn = mk('AI headlines', async () => { const t = details(); if (t.length < 4) return K.toast('Describe your post first.', 'err'); const r = await K.rewrite('headline', t); if (!r) return K.toast('AI did not answer. Try again.', 'err'); const box = $('#sp-aihead') || K.el('div', 'sp-aihead'); box.id = 'sp-aihead'; box.innerHTML = ''; r.slice(0, 6).forEach((h) => { const c = K.el('button', 'sp-chip', h); c.type = 'button'; c.onclick = () => { $('#sp-head').value = h; $('#sp-head').dispatchEvent(new Event('input', { bubbles: true })); }; box.appendChild(c); }); $('#sp-head').closest('label').after(box); box.before(hdBtn); });
+    $('#sp-head').closest('label').after(hdBtn);
+    const imgBtn = mk('AI background', async () => { const q = ($('#sp-head').value + ' ' + $('#sp-cat').value).trim(); const d = await K.ai('image', { prompt: (window.prompt('Describe the background (for example: gold and black abstract waves)', 'abstract soft gradient shapes, ' + q) || '').trim() }, 60000); if (!d || !d.image) return K.toast('Image service did not answer. Try again.', 'err'); const im = new Image(); im.onload = () => { photo = im; $('#sp-photo-name').textContent = 'AI image'; redraw(); K.toast('Background added'); }; im.src = 'data:image/jpeg;base64,' + d.image; });
+    $('#sp-photo-clear').after(imgBtn);
+  });
 })();
