@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-08T12:33:42.523Z",
- "basedOn": 67,
+ "updated": "2026-10-09T12:31:55.359Z",
+ "basedOn": 110,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 11.67,
-   "headline": "Lemon.io: Senior .NET Full-stack Developer",
+   "score": 17.02,
+   "headline": "Upstart: Applied Scientist Intern",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-net-full-stack-developer-2"
+   "url": "https://weworkremotely.com/remote-jobs/upstart-applied-scientist-intern"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 8.62,
-   "headline": "Cybersecurity: BluDive, Delinea urge organisations to strengthen privileged access management as AI reshapes enterprise risk",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/08/cybersecurity-bludive-delinea-urge-organisations-to-strengthen-privileged-access-management-as-ai-reshapes-enterprise-risk/"
-  },
-  {
-   "topic": "Million",
-   "hashtag": "#Million",
-   "score": 7.47,
-   "headline": "Ghana raises $288 million debt to finance cocoa purchases",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/08/ghana-raises-288-million-debt-to-finance-cocoa-purchases/"
+   "score": 13.23,
+   "headline": "NNPC clarifies petrol discount, denies return of fuel subsidy",
+   "source": "BusinessDay",
+   "url": "https://businessday.ng/business-economy/article/nnpc-clarifies-petrol-discount-denies-return-of-fuel-subsidy/"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 6.21,
-   "headline": "Endeavor Catalyst Closes USD 320 M Fund V With 7 Nigerian Startups In Portfolio",
-   "source": "WeeTracker",
-   "url": "https://weetracker.com/2026/10/08/endeavor-catalyst-closes-320m-fund-v-nigeria/"
+   "score": 10.91,
+   "headline": "Local investors acquire South African travel tech platform LekkeSlaap",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/local-investors-acquire-lekkeslaap-travel-tech/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 8.71,
+   "headline": "World Bank Group Government Analytics Fellowship 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/09/world-bank-group-government-analytics-fellowship-2027/"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 5.93,
-   "headline": "Ghana’s Cocoa Regulator Secures $288 Million At 11% to Pay Farmers",
-   "source": "Ventureburn",
-   "url": "https://ventureburn.com/ghana-cocoa-regulator-secures-288-million-to-pay-farmers/"
+   "score": 8.67,
+   "headline": "What a banker discovered when he started listening to farmers",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/09/watson-matsa-banks-understand-african/"
+  },
+  {
+   "topic": "Lagos Life",
+   "hashtag": "#LagosLife",
+   "score": 8.14,
+   "headline": "Lagos Life developer raises $500,000 at $10m valuation with backing from Flutterwave, Terra and Mono CEOs",
+   "source": "Technext",
+   "url": "https://technext24.com/news/lagos-life-creator-vatar-500k-funding/"
+  },
+  {
+   "topic": "Account Executive",
+   "hashtag": "#AccountExecutive",
+   "score": 7.9,
+   "headline": "Stripe: Account Executive, Hunter (Central Eastern Europe)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/stripe-account-executive-hunter-central-eastern-europe"
+  },
+  {
+   "topic": "Enterprise",
+   "hashtag": "#Enterprise",
+   "score": 7.14,
+   "headline": "Zscaler: Account Executive, Enterprise",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-1"
+  },
+  {
+   "topic": "Moove",
+   "hashtag": "#Moove",
+   "score": 6.78,
+   "headline": "‘Some of us died in the process’- Moove drivers react to exit",
+   "source": "Technext",
+   "url": "https://technext24.com/news/moove-drivers-react-to-exit-some-of-us-died/"
   },
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 5.71,
-   "headline": "Full-Stack Engineer (Back-End Leaning)",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154018-full-stack-engineer-back-end-leaning"
+   "score": 6.52,
+   "headline": "Storyblok: Developer Relations Engineer - USA",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/storyblok-developer-relations-engineer-usa"
   },
   {
-   "topic": "Ghana",
-   "hashtag": "#Ghana",
-   "score": 5.56,
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 6,
    "headline": "Ghana raises $288 million debt to finance cocoa purchases",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/08/ghana-raises-288-million-debt-to-finance-cocoa-purchases/"
   },
   {
-   "topic": "Enterprise",
-   "hashtag": "#Enterprise",
-   "score": 5.56,
-   "headline": "Cybersecurity: BluDive, Delinea urge organisations to strengthen privileged access management as AI reshapes enterprise risk",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/08/cybersecurity-bludive-delinea-urge-organisations-to-strengthen-privileged-access-management-as-ai-reshapes-enterprise-risk/"
+   "topic": "Ipo",
+   "hashtag": "#Ipo",
+   "score": 5.72,
+   "headline": "Airtel Money finalises oversubscribed IPO as conditional trading begins on London Stock Exchange",
+   "source": "BusinessDay",
+   "url": "https://businessday.ng/companies/article/airtel-money-finalises-oversubscribed-ipo-as-conditional-trading-begins-on-london-stock-exchange/"
   },
   {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 5.37,
-   "headline": "Novo Nordisk Foundation Postdoctoral Fellowships at Massachusetts Institute of Technology 2027 (Funded)",
+   "topic": "Fellowship",
+   "hashtag": "#Fellowship",
+   "score": 5.6,
+   "headline": "World Bank Group Government Analytics Fellowship 2027",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/08/novo-nordisk-foundation-postdoctoral-fellowships-at-mit-2027/"
+   "url": "https://opportunitydesk.org/2026/10/09/world-bank-group-government-analytics-fellowship-2027/"
   },
   {
-   "topic": "Alloy",
-   "hashtag": "#Alloy",
-   "score": 5.32,
-   "headline": "Alloy: Account Executive, Enterprise",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/alloy-account-executive-enterprise"
-  },
-  {
-   "topic": "Vercel",
-   "hashtag": "#Vercel",
-   "score": 5.32,
-   "headline": "Vercel: Site Engineer",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/vercel-site-engineer"
-  },
-  {
-   "topic": "Jumio",
-   "hashtag": "#Jumio",
-   "score": 5.32,
-   "headline": "Jumio: Machine Learning Engineer - IV (Biometrics)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-biometrics"
-  },
-  {
-   "topic": "Forter",
-   "hashtag": "#Forter",
-   "score": 5.32,
-   "headline": "Forter: Regional Director, Enterprise Sales",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/forter-regional-director-enterprise-sales"
-  },
-  {
-   "topic": "Starlink",
-   "hashtag": "#Starlink",
-   "score": 5.25,
-   "headline": "Starlink’s capacity crunch",
-   "source": "Technext",
-   "url": "https://technext24.com/news/starlinks-capacity-crunch/"
+   "topic": "Vatar",
+   "hashtag": "#Vatar",
+   "score": 5.36,
+   "headline": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
+   "source": "WeeTracker",
+   "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/"
   }
  ],
  "tags": [
+  "Design & Social",
   "Business",
-  "AI & Automation",
   "Tech News",
-  "Jobs",
-  "Naija Startups",
   "Grants & Funding",
-  "Payments",
-  "Security"
+  "Naija Startups",
+  "AI & Automation",
+  "Web",
+  "Payments"
  ]
 }
