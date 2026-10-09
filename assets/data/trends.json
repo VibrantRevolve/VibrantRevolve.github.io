@@ -1,54 +1,86 @@
 {
- "updated": "2026-10-09T22:42:08.769Z",
- "basedOn": 110,
+ "updated": "2026-10-09T22:46:03.273Z",
+ "basedOn": 150,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 15.62,
-   "headline": "Upstart: Applied Scientist Intern",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/upstart-applied-scientist-intern"
+   "score": 23.26,
+   "headline": "Principal Solutions Engineer, Emerging Technologies",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 12.1,
-   "headline": "NNPC clarifies petrol discount, denies return of fuel subsidy",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/business-economy/article/nnpc-clarifies-petrol-discount-denies-return-of-fuel-subsidy/"
+   "score": 18.28,
+   "headline": "Informality to productivity: the lessons Nigeria can learn from Britain guilds, merchants and the future of work",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/09/informality-to-productivity-the-lessons-nigeria-can-learn-from-britain-guilds-merchants-and-the-future-of-work/"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 10.07,
-   "headline": "Local investors acquire South African travel tech platform LekkeSlaap",
+   "score": 13.61,
+   "headline": "AI is making it easier to build games in Africa. Making money is still the hard part",
    "source": "Benjamin Dada",
-   "url": "https://thecondia.com/local-investors-acquire-lekkeslaap-travel-tech/"
+   "url": "https://thecondia.com/ai-african-game-development-monetisation/"
   },
   {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 8.09,
-   "headline": "World Bank Group Government Analytics Fellowship 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/09/world-bank-group-government-analytics-fellowship-2027/"
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 10.89,
+   "headline": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 10.58,
+   "headline": "Principal Solutions Engineer, Emerging Technologies",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 7.95,
-   "headline": "What a banker discovered when he started listening to farmers",
+   "score": 10.22,
+   "headline": "Five months after running out of capital, Chimoney gets a new owner",
    "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/09/watson-matsa-banks-understand-african/"
+   "url": "https://techcabal.com/2026/10/09/chimoney-capitalsage-close-deal/"
+  },
+  {
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 9.88,
+   "headline": "Group Product Manager, AI-Native Data Warehouse",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 9.6,
+   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
   },
   {
    "topic": "Lagos Life",
    "hashtag": "#LagosLife",
-   "score": 7.42,
+   "score": 8.37,
    "headline": "Lagos Life developer raises $500,000 at $10m valuation with backing from Flutterwave, Terra and Mono CEOs",
    "source": "Technext",
    "url": "https://technext24.com/news/lagos-life-creator-vatar-500k-funding/"
+  },
+  {
+   "topic": "Enterprise",
+   "hashtag": "#Enterprise",
+   "score": 7.51,
+   "headline": "Enterprise Sales Manager (Brisbane)",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/154943-enterprise-sales-manager-brisbane"
   },
   {
    "topic": "Account Executive",
@@ -59,70 +91,38 @@
    "url": "https://weworkremotely.com/remote-jobs/stripe-account-executive-hunter-central-eastern-europe"
   },
   {
-   "topic": "Enterprise",
-   "hashtag": "#Enterprise",
-   "score": 6.56,
-   "headline": "Zscaler: Account Executive, Enterprise",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-1"
-  },
-  {
-   "topic": "Moove",
-   "hashtag": "#Moove",
-   "score": 6.19,
-   "headline": "‘Some of us died in the process’- Moove drivers react to exit",
-   "source": "Technext",
-   "url": "https://technext24.com/news/moove-drivers-react-to-exit-some-of-us-died/"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 6,
-   "headline": "Storyblok: Developer Relations Engineer - USA",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/storyblok-developer-relations-engineer-usa"
+   "topic": "Funded",
+   "hashtag": "#Funded",
+   "score": 6.73,
+   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
   },
   {
    "topic": "Million",
    "hashtag": "#Million",
-   "score": 5.53,
-   "headline": "Ghana raises $288 million debt to finance cocoa purchases",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/08/ghana-raises-288-million-debt-to-finance-cocoa-purchases/"
+   "score": 6.48,
+   "headline": "Chowdeck hits 100 million items delivered in 5 years",
+   "source": "Technext",
+   "url": "https://technext24.com/news/chowdeck-hits-100-m-items-delivered-in-5-years/"
   },
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 5.25,
-   "headline": "World Bank Group Government Analytics Fellowship 2027",
+   "score": 6.22,
+   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/09/world-bank-group-government-analytics-fellowship-2027/"
-  },
-  {
-   "topic": "Ipo",
-   "hashtag": "#Ipo",
-   "score": 5.23,
-   "headline": "Airtel Money finalises oversubscribed IPO as conditional trading begins on London Stock Exchange",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/companies/article/airtel-money-finalises-oversubscribed-ipo-as-conditional-trading-begins-on-london-stock-exchange/"
-  },
-  {
-   "topic": "Vatar",
-   "hashtag": "#Vatar",
-   "score": 4.87,
-   "headline": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
-   "source": "WeeTracker",
-   "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/"
+   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
   }
  ],
  "tags": [
-  "Design & Social",
-  "Business",
-  "Tech News",
-  "Grants & Funding",
-  "Naija Startups",
   "AI & Automation",
-  "Web",
-  "Payments"
+  "Business",
+  "Grants & Funding",
+  "Jobs",
+  "Tech News",
+  "Security",
+  "Naija Startups",
+  "Design & Social"
  ]
 }

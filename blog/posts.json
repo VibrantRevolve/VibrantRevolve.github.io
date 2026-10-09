@@ -1,5 +1,500 @@
 [
   {
+    "id": "ac2c548222",
+    "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+    "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-09T21:41:29.000Z",
+    "excerpt": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "0ad44f3ce5",
+    "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-09T21:15:38.000Z",
+    "excerpt": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "01f26bbc9a",
+    "title": "Informality to productivity: the lessons Nigeria can learn from Britain guilds, merchants and the future of work",
+    "url": "https://nairametrics.com/2026/10/09/informality-to-productivity-the-lessons-nigeria-can-learn-from-britain-guilds-merchants-and-the-future-of-work/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T20:34:54.000Z",
+    "excerpt": "Nigeria does not have a shortage of people who work. We have a shortage of productive work. Every morning, millions of Nigerians trade, farm, build, repair, transport, cook, manufacture, code and provide services. They work long hours and demonstrate extraordinary resilience. Yet too much of this…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "a20916fd7f",
+    "title": "Standard Bank moves for up to $200m OPay stake ahead of NYSE listing",
+    "url": "https://businessday.ng/technology/article/standard-bank-moves-for-up-to-200m-opay-stake-ahead-of-nyse-listing/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-09T20:22:24.000Z",
+    "excerpt": "Standard Bank Group is moving to invest as much as $200 million in OPay, the Nigerian-focused fintech, as the digital",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "858e943462",
+    "title": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
+    "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-09T20:17:43.000Z",
+    "excerpt": "Deadline: November 15, 2026 Applications are open for the Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028. The LEAD Fellowship, a one-year fellowship designed to advance leadership skills among individuals from low- and middle-income countries, is now accepting applications.…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "10922e27ba",
+    "title": "CBN insider credit crackdown forces some bank owners, directors out of banking system",
+    "url": "https://nairametrics.com/2026/10/09/cbn-insider-credit-crackdown-forces-some-bank-owners-directors-out-of-banking-system/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T20:13:14.000Z",
+    "excerpt": "The Central Bank of Nigeria (CBN) has disclosed that some bank owners, shareholders and board members have exited the banking industry following stricter enforcement of insider credit rules, warning that directors who persist in insider credit abuses could lose their board positions. The post CBN…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6794814fc0",
+    "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+    "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-09T19:36:56.000Z",
+    "excerpt": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "339bcd59ac",
+    "title": "NGX recovers N208 billion as MTN, Oando shares lift market",
+    "url": "https://nairametrics.com/2026/10/09/ngx-recovers-n208-billion-as-mtn-oando-shares-lift-market/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T19:31:39.000Z",
+    "excerpt": "The Nigerian Exchange (NGX) rebounded from consecutive sessions of decline on Friday, October 9, 2026, as market capitalisation gained N208.46 billion. The post NGX recovers N208 billion as MTN, Oando shares lift market appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f8baa72ca8",
+    "title": "Sterling Financial Holdings relists on NGX at N77.00 after 1-for-10 reconstruction",
+    "url": "https://nairametrics.com/2026/10/09/sterling-financial-holdings-relists-on-ngx-at-n77-00-after-1-for-10-reconstruction/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T19:27:21.000Z",
+    "excerpt": "Sterling Financial Holdings Company Plc has completed its 1-for-10 share reconstruction and resumed trading on the Nigerian Exchange at a reference price of N77.00, up mechanically from N7.70 before the exercise, while its market capitalisation remained unchanged at about N527.5 billion The post…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "dbeea4f8da",
+    "title": "FG courts investors, targets accelerated metering, enhanced gas supply",
+    "url": "https://businessday.ng/news/article/fg-courts-investors-targets-accelerated-metering-enhanced-gas-supply/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-09T19:20:44.000Z",
+    "excerpt": "The Federal Government is courting investors for the next phase of Nigeria’s power sector reform, with accelerated metering and enhanced",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d07dddd55d",
+    "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-09T19:09:44.000Z",
+    "excerpt": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "85eb02af79",
+    "title": "Principal Solutions Engineer, Emerging Technologies",
+    "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:42:48.000Z",
+    "excerpt": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c3b61c6769",
+    "title": "Group Product Manager, AI-Native Data Warehouse",
+    "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:42:48.000Z",
+    "excerpt": "About Juniper Square Private markets are one of the largest, most complex, and most underserved corners of global finance. Our mission at Juniper Square is to unlock their full potential....",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "deb7dd8d7d",
+    "title": "Senior Manager Implementation and Onboarding",
+    "url": "https://jobicy.com/jobs/154954-senior-manager-implementation-and-onboarding",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:42:48.000Z",
+    "excerpt": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e8c55563a4",
+    "title": "Principal Engineer, Product Engineering",
+    "url": "https://jobicy.com/jobs/154957-principal-engineer-product-engineering",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:42:47.000Z",
+    "excerpt": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "1c473ab768",
+    "title": "Client Success Manager (Small-Market)",
+    "url": "https://jobicy.com/jobs/154948-client-success-manager-small-market",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:42:46.000Z",
+    "excerpt": "What you’ll be part of Garner is on a mission to transform the U.S. healthcare system — and we’re the only proven player doing exactly that. We partner with employers...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "79cfe48c72",
+    "title": "Freelance Copywriter, Pregnancy & Baby",
+    "url": "https://jobicy.com/jobs/154950-freelance-copywriter-pregnancy-baby",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:42:45.000Z",
+    "excerpt": "Who We Are Good Inside is redefining parenting – not as something that should “just come naturally,” but as a skill to learn and practice. Founded by Dr. Becky Kennedy...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "fcbd006b88",
+    "title": "Dangote Group projects naira at N1,330/$ by year-end, N1,385/$ average for 2026",
+    "url": "https://nairametrics.com/2026/10/09/dangote-group-projects-naira-at-n1330-by-year-end-n1385-average-for-2026-2/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T18:35:27.000Z",
+    "excerpt": "The naira is projected to trade at around N1,330 per dollar in the fourth quarter of 2026, with a full-year average of about N1,385/$, as rising foreign reserves, returning portfolio inflows and lower fuel import requirements support the currency. The post Dangote Group projects naira at N1,330/$ by…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f11f2c288c",
+    "title": "Nikon microscopic video competition winner disqualified for using generative AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-09T18:06:57.000Z",
+    "excerpt": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr. Ning Xu claimed to show \"tiny, hair-like structures called cilia moving in the…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "cd77a76635",
+    "title": "AI Engineer, GTM",
+    "url": "https://jobicy.com/jobs/154946-ai-engineer-gtm",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:01:43.000Z",
+    "excerpt": "Cresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b838fb3122",
+    "title": "Regional Sales Manager (Southern NSW)",
+    "url": "https://jobicy.com/jobs/154941-regional-sales-manager-southern-nsw",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:01:41.000Z",
+    "excerpt": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "3035f21fad",
+    "title": "Enterprise Sales Manager (Brisbane)",
+    "url": "https://jobicy.com/jobs/154943-enterprise-sales-manager-brisbane",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:01:41.000Z",
+    "excerpt": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "585631282a",
+    "title": "Territory Manager (South Dakota)",
+    "url": "https://jobicy.com/jobs/154947-territory-manager-south-dakota",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-09T18:01:41.000Z",
+    "excerpt": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "48c4d773c2",
+    "title": "Five months after running out of capital, Chimoney gets a new owner",
+    "url": "https://techcabal.com/2026/10/09/chimoney-capitalsage-close-deal/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-09T17:59:44.000Z",
+    "excerpt": "The transaction completes an unexpected turnaround for the Techstars-backed startup, which informed customers in May that it had stopped processing new transactions and integrations, citing insufficient capital.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "5510b50b98",
+    "title": "NBET begins N729 billion debt settlement for GenCos, gas suppliers",
+    "url": "https://nairametrics.com/2026/10/09/nbet-begins-n729-billion-debt-settlement-for-gencos-gas-suppliers/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T17:58:15.000Z",
+    "excerpt": "The Nigerian Bulk Electricity Trading Plc (NBET) has commenced the settlement of N729 billion in outstanding debts owed to participating electricity Generation Companies (GenCos) and their associated gas suppliers. The post NBET begins N729 billion debt settlement for GenCos, gas suppliers appeared…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6f4110ebee",
+    "title": "The Samsung Galaxy S26 Ultra is down to $950 after Prime Day",
+    "url": "https://www.theverge.com/gadgets/1008857/samsung-galaxy-s26-ultra-deal-sale",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-09T17:41:24.000Z",
+    "excerpt": "Amazon has the Samsung Galaxy S26 Ultra in black with 256GB of storage discounted to $949.99, a healthy discount from its usual price of $1,399.99. This phone’s standout feature is the adjustable privacy display, which can hide your entire screen, or just portions of it, from onlookers and…",
+    "tag": "Security",
+    "cta": {
+      "label": "Talk to us",
+      "href": "/contact/"
+    },
+    "take": ""
+  },
+  {
+    "id": "0af18c8cf5",
+    "title": "Chowdeck hits 100 million items delivered in 5 years",
+    "url": "https://technext24.com/news/chowdeck-hits-100-m-items-delivered-in-5-years/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-09T17:31:57.000Z",
+    "excerpt": "Chowdeck has achieved a remarkable milestone by delivering over 100 million items through more than 30 million deliveries,…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "fd6b62e24c",
+    "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+    "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-09T16:56:42.000Z",
+    "excerpt": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "304a6e3180",
+    "title": "We can’t help treating AI like it’s human. But should we?",
+    "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-09T16:40:14.000Z",
+    "excerpt": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ab7f6215d4",
+    "title": "Stop waiting to feel rich before you build wealth",
+    "url": "https://technext24.com/opinion/stop-waiting-feel-rich-before-you-build-wealth/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-09T16:27:39.000Z",
+    "excerpt": "By Gloria Onosode, Director, Enterprise Sales, FairMoney Business...",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "02677c6e98",
+    "title": "AI is making it easier to build games in Africa. Making money is still the hard part",
+    "url": "https://thecondia.com/ai-african-game-development-monetisation/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-09T16:00:00.000Z",
+    "excerpt": "AI is transforming African game development, but local studios must turn viral hits into sustainable businesses?",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "b7942fed5b",
+    "title": "a16z’s Olivia Moore on the state of consumer AI",
+    "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-09T15:43:33.000Z",
+    "excerpt": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "8acd0cdd29",
+    "title": "UN Voluntary Fund for Indigenous Peoples 2027",
+    "url": "https://opportunitydesk.org/2026/10/09/un-voluntary-fund-for-indigenous-peoples-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-09T14:40:24.000Z",
+    "excerpt": "Deadline: November 8, 2026 Applications are open for the UN Voluntary Fund for Indigenous Peoples 2027. The United Nations Voluntary Fund for Indigenous Peoples is pleased to invite applications from representatives of Indigenous Peoples to attend the 26th session of the UN Permanent Forum on…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
     "id": "fd766201a0",
     "title": "Xona’s commercial GPS alternative is about to go live",
     "url": "https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/",
@@ -652,6 +1147,21 @@
     "kind": "startups",
     "date": "2026-10-08T14:24:43.000Z",
     "excerpt": "The move comes weeks after Uber ended its operations in Nigeria on September 2 after 12 years, a development that put Moove's original model under pressure.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "b26686390f",
+    "title": "NeoFleet Capital raises $4m pre-seed to fund taxi fleets across Africa and the Global South",
+    "url": "https://thecondia.com/neofleet-capital-raises-pre-seed/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-08T13:19:38.000Z",
+    "excerpt": "Mobility fintech NeoFleet Capital has secured a $4 million pre-seed round to expand its taxi fleet financing model and build infrastructure.",
     "tag": "Naija Startups",
     "cta": {
       "label": "Brand your startup",
@@ -1532,6 +2042,36 @@
     "take": ""
   },
   {
+    "id": "e666905641",
+    "title": "Tech events you shouldn’t miss this October",
+    "url": "https://thecondia.com/events-in-october-for-tech-workers/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-06T10:17:31.000Z",
+    "excerpt": "A list of events tech professionals and enthusiasts could attend in October 2026.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "de28c6dcff",
+    "title": "Lagos Life: The Nigerian Developer Behind The Game That Hit 1M Users in Three Days",
+    "url": "https://thecondia.com/shalom-mathew-lagos-life/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-06T09:49:37.000Z",
+    "excerpt": "Nigerian developer Shalom Mathew built Lagos Life in under 12 hours. The game hit 1M users in three days and is now becoming a gaming company.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
     "id": "fed88848d3",
     "title": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
     "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/",
@@ -1588,6 +2128,36 @@
     "cta": {
       "label": "Need a website for your application?",
       "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6e7397f811",
+    "title": "Adora Nwodo on building a career in tech, losing a dream job, and starting again",
+    "url": "https://thecondia.com/adora-nwodo-level-up/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-05T09:00:00.000Z",
+    "excerpt": "Adora Nwodo started coding at seven. Now, with over 10 years building an engineering career, she talks about the skills, privileges, sacrifices, and challenges in her journey.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "23a8b84c79",
+    "title": "Leatherback rebrands to Foren two months after Zedcrest acquisition",
+    "url": "https://thecondia.com/leatherback-rebrands-to-foren/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-05T08:00:00.000Z",
+    "excerpt": "Two months after getting acquired by Zedcrest Group, Leatherback is rebranding to Foren, targeting businesses that need cross-border financial services.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
     },
     "take": ""
   },
@@ -1678,6 +2248,36 @@
     "cta": {
       "label": "Need a website for your application?",
       "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "bd0e7dd42f",
+    "title": "Africa’s AI policy cannot be separated from its industrial policy",
+    "url": "https://thecondia.com/ai-africa-industrial-policy/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-03T11:56:44.000Z",
+    "excerpt": "Africa’s AI future will depend on more than technology. Investments in infrastructure, skills and strong institutions will determine who benefits and who is left behind.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "5315931fcf",
+    "title": "Different Ways to Use ChatGPT For Free Without Paying A Subscription",
+    "url": "https://thecondia.com/how-to-use-chatgpt-for-free/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-03T10:13:17.000Z",
+    "excerpt": "Know the different ways to use ChatGPT for free without paying for a personal subscription.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
     },
     "take": ""
   },
