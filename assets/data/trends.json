@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
  "updated": "2026-10-07T07:30:13.932Z",
  "basedOn": 13,
  "topics": [
@@ -10,71 +9,10 @@
    "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
-=======
- "updated": "2026-10-09T22:52:51.392Z",
- "basedOn": 150,
- "topics": [
-  {
-   "topic": "Jobs",
-   "hashtag": "#Jobs",
-   "score": 23.24,
-   "headline": "Principal Solutions Engineer, Emerging Technologies",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
-  },
-  {
-   "topic": "Business",
-   "hashtag": "#Business",
-   "score": 18.26,
-   "headline": "Informality to productivity: the lessons Nigeria can learn from Britain guilds, merchants and the future of work",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/09/informality-to-productivity-the-lessons-nigeria-can-learn-from-britain-guilds-merchants-and-the-future-of-work/"
-  },
-  {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 13.6,
-   "headline": "AI is making it easier to build games in Africa. Making money is still the hard part",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/ai-african-game-development-monetisation/"
-  },
-  {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 10.88,
-   "headline": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 10.57,
-   "headline": "Principal Solutions Engineer, Emerging Technologies",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
-  },
-  {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 10.21,
-   "headline": "Five months after running out of capital, Chimoney gets a new owner",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/09/chimoney-capitalsage-close-deal/"
-  },
-  {
-   "topic": "Manager",
-   "hashtag": "#Manager",
-   "score": 9.87,
-   "headline": "Group Product Manager, AI-Native Data Warehouse",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse"
->>>>>>> fb10683cb85b49b6e1e377f32ad23fe3ba9a7deb
   },
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-<<<<<<< HEAD
    "score": 2.98,
    "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
    "source": "Opportunity Desk",
@@ -152,70 +90,5 @@
   "Grants & Funding",
   "Design & Social",
   "Web"
-=======
-   "score": 9.59,
-   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
-  },
-  {
-   "topic": "Lagos Life",
-   "hashtag": "#LagosLife",
-   "score": 8.36,
-   "headline": "Lagos Life developer raises $500,000 at $10m valuation with backing from Flutterwave, Terra and Mono CEOs",
-   "source": "Technext",
-   "url": "https://technext24.com/news/lagos-life-creator-vatar-500k-funding/"
-  },
-  {
-   "topic": "Enterprise",
-   "hashtag": "#Enterprise",
-   "score": 7.5,
-   "headline": "Enterprise Sales Manager (Brisbane)",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154943-enterprise-sales-manager-brisbane"
-  },
-  {
-   "topic": "Account Executive",
-   "hashtag": "#AccountExecutive",
-   "score": 7.21,
-   "headline": "Stripe: Account Executive, Hunter (Central Eastern Europe)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/stripe-account-executive-hunter-central-eastern-europe"
-  },
-  {
-   "topic": "Funded",
-   "hashtag": "#Funded",
-   "score": 6.73,
-   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
-  },
-  {
-   "topic": "Million",
-   "hashtag": "#Million",
-   "score": 6.47,
-   "headline": "Chowdeck hits 100 million items delivered in 5 years",
-   "source": "Technext",
-   "url": "https://technext24.com/news/chowdeck-hits-100-m-items-delivered-in-5-years/"
-  },
-  {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 6.22,
-   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
-  }
- ],
- "tags": [
-  "AI & Automation",
-  "Business",
-  "Grants & Funding",
-  "Jobs",
-  "Tech News",
-  "Security",
-  "Naija Startups",
-  "Design & Social"
->>>>>>> fb10683cb85b49b6e1e377f32ad23fe3ba9a7deb
  ]
 }
