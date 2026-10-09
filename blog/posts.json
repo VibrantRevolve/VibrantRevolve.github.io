@@ -1,5 +1,665 @@
 [
   {
+    "id": "fd766201a0",
+    "title": "Xona’s commercial GPS alternative is about to go live",
+    "url": "https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-09T12:00:00.000Z",
+    "excerpt": "Xona's precision timing and navigation service will enter beta testing after SpaceX launches six satellites designed by the company.",
+    "tag": "Design & Social",
+    "cta": {
+      "label": "Design assets",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "4753a0e9cc",
+    "title": "NNPC clarifies petrol discount, denies return of fuel subsidy",
+    "url": "https://businessday.ng/business-economy/article/nnpc-clarifies-petrol-discount-denies-return-of-fuel-subsidy/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-09T11:49:53.000Z",
+    "excerpt": "…discount available only at NNPC retail stations ..says discount does not alter deregulated petrol pricing framework State-owned oil firm, the",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9e83115694",
+    "title": "Google Opens AI content detection tool to users worldwide",
+    "url": "https://nairametrics.com/2026/10/09/google-opens-ai-content-detection-tool-to-users-worldwide/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T11:37:34.000Z",
+    "excerpt": "Google has expanded access to its SynthID Detector, allowing people worldwide to check images, videos and audio files for signs that they were generated using artificial intelligence (AI). The post Google Opens AI content detection tool to users worldwide appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "841979d26d",
+    "title": "Airtel Money finalises oversubscribed IPO as conditional trading begins on London Stock Exchange",
+    "url": "https://businessday.ng/companies/article/airtel-money-finalises-oversubscribed-ipo-as-conditional-trading-begins-on-london-stock-exchange/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-09T11:33:20.000Z",
+    "excerpt": "Airtel Africa Plc has finalised the Initial Public Offering (IPO) of its fintech arm, Airtel Mobile Commerce N.V. (Airtel Money),",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "46103b4478",
+    "title": "The Naira has stopped being Nigeria’s biggest economic problem. What happens now?",
+    "url": "https://businessday.ng/opinion/article/the-naira-has-stopped-being-nigerias-biggest-economic-problem-what-happens-now/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-09T11:29:43.000Z",
+    "excerpt": "For years, Nigeria had an economic reflex: whenever things went wrong, look at the naira. The currency fell. Inflation rose.",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "164a386df6",
+    "title": "Airtel Money begins London trading as shareholders monetise stake in African fintech",
+    "url": "https://businessday.ng/technology/article/airtel-money-begins-london-trading-as-shareholders-monetise-stake-in-african-fintech/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-09T11:26:37.000Z",
+    "excerpt": "The mobile financial services platform, valued at £5.3 billion, has joined the London Stock Exchange’s Main Market, giving existing shareholders",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b50532fc4b",
+    "title": "What a banker discovered when he started listening to farmers",
+    "url": "https://techcabal.com/2026/10/09/watson-matsa-banks-understand-african/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-09T11:18:29.000Z",
+    "excerpt": "Don’t get Watson Matsa started on farmers and banks, as we did. He talks on why banks don’t understand farmers from an insider point of view.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "dbdb92a9b2",
+    "title": "World Bank Group Government Analytics Fellowship 2027",
+    "url": "https://opportunitydesk.org/2026/10/09/world-bank-group-government-analytics-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-09T11:01:57.000Z",
+    "excerpt": "Deadline: November 16, 2026 Do you want to lead change and drive innovation within your government? The World Bank invites dedicated public servants to apply for the 2027 Government Analytics Fellowship. The Government Analytics Fellowship aims to strengthen the capacity of government officials to…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c7edafb898",
+    "title": "Local investors acquire South African travel tech platform LekkeSlaap",
+    "url": "https://thecondia.com/local-investors-acquire-lekkeslaap-travel-tech/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-09T11:00:00.000Z",
+    "excerpt": "A consortium of local investors has acquired LekkeSlaap, a South African travel startup. The financial terms of the deal remain undisclosed.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "d68c7a2e05",
+    "title": "What Should Nigerian Businesses Look for in an International Payments Partner?",
+    "url": "https://nairametrics.com/2026/10/09/what-should-nigerian-businesses-look-for-in-an-international-payments-partner/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T10:51:40.000Z",
+    "excerpt": "Every Nigerian founder who sells, sources, or hires across borders eventually hits the same wall. The money leaves, or is supposed to arrive, and then it disappears into a chain of intermediaries nobody can explain. A supplier in Guangzhou says the wire never landed. A SaaS company in Lagos is told…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "766cf687e3",
+    "title": "As U.S. blocks DJI, Insta360 races to win American creators",
+    "url": "https://restofworld.org/2026/insta360-us-dji-sanctions-drones-cameras/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World",
+    "kind": "news",
+    "date": "2026-10-09T10:00:00.000Z",
+    "excerpt": "Regulatory clarity and market timing are a boon for smaller Chinese smart-camera maker Insta360 and its independent Antigravity drone brand.",
+    "tag": "Design & Social",
+    "cta": {
+      "label": "Design assets",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "15717a6b7c",
+    "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-09T09:48:26.000Z",
+    "excerpt": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita ⁠Balesni were dismissed for violating \"clear policies on handling…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e495242327",
+    "title": "FG petrol discount not funded by budget, absorbed by NNPC Retail margin",
+    "url": "https://nairametrics.com/2026/10/09/fg-petrol-discount-not-funded-by-budget-absorbed-by-nnpc-retail-margin/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T09:41:27.000Z",
+    "excerpt": "The Federal Government has said the petrol discount at NNPC Retail Limited stations is funded entirely by the retailer’s margins, not the federal budget or the Federation Account. The post FG petrol discount not funded by budget, absorbed by NNPC Retail margin appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d2b41a1393",
+    "title": "‘Some of us died in the process’- Moove drivers react to exit",
+    "url": "https://technext24.com/news/moove-drivers-react-to-exit-some-of-us-died/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-09T09:38:37.000Z",
+    "excerpt": "As news continues to filter in about the circumstances surrounding the exit of Moove from the Nigerian market,…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "b597d969ea",
+    "title": "Funding the Frontline of Health: CoElevate Calls on West African Innovators in Water, Sanitation and Pharmaceutical R&D",
+    "url": "https://nairametrics.com/2026/10/09/funding-the-frontline-of-health-coelevate-calls-on-west-african-innovators-in-water-sanitation-and-pharmaceutical-rd/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-09T09:30:15.000Z",
+    "excerpt": "A new round of catalytic funding is looking for founders who are solving problems that sit at the root of Africa’s health challenges. Behind many of Africa’s health headlines is a quieter set of questions. Can families reach clean water? Are sanitation systems safe? Can locally developed medicines…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d1c171a9ce",
+    "title": "Lagos Life developer raises $500,000 at $10m valuation with backing from Flutterwave, Terra and Mono CEOs",
+    "url": "https://technext24.com/news/lagos-life-creator-vatar-500k-funding/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-09T09:24:24.000Z",
+    "excerpt": "Vatar Inc., the team behind the hit Nigerian browser game Lagos Life, secured $500,000 in pre-seed funding at…",
+    "tag": "Web",
+    "cta": {
+      "label": "Website templates",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "b1e60bea4b",
+    "title": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
+    "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/",
+    "source": "WeeTracker",
+    "kind": "startups",
+    "date": "2026-10-09T09:15:07.000Z",
+    "excerpt": "Vatar Inc., the company behind viral Nigerian browser game Lagos Life, has raised The post Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation appeared first on WeeTracker .",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "d73e9b5a4e",
+    "title": "EU citizenship in 2026: Legal pathways, costs and Consiliojus reviews",
+    "url": "https://technext24.com/reviews/eu-citizenship-pathways-2026/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-09T08:57:21.000Z",
+    "excerpt": "A Nigerian professional whose grandfather held an Italian passport can, with the right paperwork, become an EU citizen…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "54cf0c697c",
+    "title": "The 20-metre neobank: How Mukuru is solving the gap between receiving cash and spending it",
+    "url": "https://techcabal.com/2026/10/09/mukuru-digital-financial-services/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-09T08:53:24.000Z",
+    "excerpt": "For the Spanish-born executive, the future of African fintech is about eliminating the friction that hinders how people receive, store, move, and spend their money.",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "a0b41cfb8d",
+    "title": "Nigeria’s new digital postcode system achieves 99.8% first-day success, NIPOST says",
+    "url": "https://technext24.com/news/nipost-digital-postcode-99-8-percent-accuracy/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-09T08:37:53.000Z",
+    "excerpt": "Nigeria’s new National Digital Numeric Postcode System recorded about 99.8% accuracy on its launch day, with the Nigerian…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "e213696df8",
+    "title": "Inside Flutterwave CEO Olugbenga Agboola’s startup portfolio",
+    "url": "https://thecondia.com/olugbenga-agboola-startup-investments-resilience17/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-09T08:21:00.000Z",
+    "excerpt": "Olugbenga Agboola’s Resilience17 portfolio spans fintech and startups in healthcare, defence, aviation, media and more across Africa.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "625cfb55d0",
+    "title": "Company behind viral Nigerian game Lagos Life raises $500k",
+    "url": "https://thecondia.com/vatar-lagos-life-raises-500000-pre-seed/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-09T07:36:40.000Z",
+    "excerpt": "Vatar, the company behind viral Nigerian browser game Lagos Life, has raised $500,000 in an angel round that values it at $10 million.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "20ceb6b130",
+    "title": "Upstart: Applied Scientist Intern",
+    "url": "https://weworkremotely.com/remote-jobs/upstart-applied-scientist-intern",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:31:09.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> United States | Remote </p> <div class=\"content-intro\"><p><strong>About Upstart</strong></p> <p>At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "50915e232e",
+    "title": "Amwell: Lead Digital Marketing Manager",
+    "url": "https://weworkremotely.com/remote-jobs/amwell-lead-digital-marketing-manager",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:31:09.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote US </p> <div class=\"content-intro\"><p>Company Description</p> <p>At Amwell, we’re transforming healthcare for all—powered by technology and inspired by people. Here, your ideas don’t just matter—they drive real change, improving lives on a global scale.</p>…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "5e03bf511e",
+    "title": "Stripe: Account Executive Product - Fraud & Risk",
+    "url": "https://weworkremotely.com/remote-jobs/stripe-account-executive-product-fraud-risk",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:31:09.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Chicago, Seattle, NYC, San Francisco, Remote </p> <h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "fe25445770",
+    "title": "Amwell: Content Marketing Manager",
+    "url": "https://weworkremotely.com/remote-jobs/amwell-content-marketing-manager",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:31:02.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote US </p> <div class=\"content-intro\"><p>Company Description</p> <p>At Amwell, we’re transforming healthcare for all—powered by technology and inspired by people. Here, your ideas don’t just matter—they drive real change, improving lives on a global scale.</p>…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b8c7be5a61",
+    "title": "Storyblok: Developer Relations Engineer - USA",
+    "url": "https://weworkremotely.com/remote-jobs/storyblok-developer-relations-engineer-usa",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:31:02.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote </p> <div class=\"content-intro\"><p>Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, apps, AI search, and…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "cec89c2f6b",
+    "title": "Upstart: ALM Manager",
+    "url": "https://weworkremotely.com/remote-jobs/upstart-alm-manager",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:31:02.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> United States | Remote </p> <div class=\"content-intro\"><p><strong>About Upstart</strong></p> <p>At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "5374d81c2b",
+    "title": "JetBrains: Customer Success Engineer EMEA - w/m/d",
+    "url": "https://weworkremotely.com/remote-jobs/jetbrains-customer-success-engineer-emea-w-m-d",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:31:02.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Berlin, Germany; Munich, Germany; Remote, Germany </p> <p>At JetBrains, code is our passion. Since we started in 2000, we have strived to make the most effective developer tools on earth so developers can learn fast and make amazing things happen – with code.…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "3b2c0b64c4",
+    "title": "Stripe: Account Executive, Hunter (Central Eastern Europe)",
+    "url": "https://weworkremotely.com/remote-jobs/stripe-account-executive-hunter-central-eastern-europe",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:31:02.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Poland - Remote OR Romania - Remote </p> <h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "674a169e4f",
+    "title": "Zscaler: Account Executive, Enterprise",
+    "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-1",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:30:59.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - Germany </p> <div class=\"content-intro\"><p>Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ba8c1107be",
+    "title": "Storyblok: Account Executive - North Eastern USA",
+    "url": "https://weworkremotely.com/remote-jobs/storyblok-account-executive-north-eastern-usa",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-09T07:30:59.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote </p> <div class=\"content-intro\"><p>Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, apps, AI search, and…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "528f2b0a46",
+    "title": "Lagos Life maker Vatar raises $500,000 one week after launch",
+    "url": "https://techcabal.com/2026/10/09/lagos-life-maker-vatar-raises-500000/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-09T07:17:46.000Z",
+    "excerpt": "Vatar Inc., the company behind the viral Nigerian browser game Lagos Life, has closed a $500,000 angel round at a $10 million valuation.",
+    "tag": "Web",
+    "cta": {
+      "label": "Website templates",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "225886f79c",
+    "title": "Microsoft 365 Family subscribers will finally be able to share AI benefits",
+    "url": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-09T07:14:32.000Z",
+    "excerpt": "Microsoft bundled its AI-powered Office features into Microsoft 365 Personal and Family subscriptions last year, but it only allowed the primary account holder to access the AI benefits. Now, Microsoft is about to let Microsoft 365 Family and Premium subscribers share Copilot and AI usage features,…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "7af210c72a",
+    "title": "Why Moove is leaving the Nigerian market it was built in",
+    "url": "https://techcabal.com/2026/10/09/moove-exits-nigeria-after-uber/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-09T06:30:00.000Z",
+    "excerpt": "Moove's future is in robotaxi depots in the United States, so its Nigerian business, which had challenges, no longer represents a solid business.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "01f16d0055",
+    "title": "WISE EdTech Accelerator 2026-2027",
+    "url": "https://opportunitydesk.org/2026/10/08/wise-edtech-accelerator-2026-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-08T19:24:09.000Z",
+    "excerpt": "Deadline: October 31, 2026 Applications are open for the WISE EdTech Accelerator 2026-2027. Since its inception, the WISE EdTech Accelerator has supported edtech founders from around the world in building and scaling innovative solutions to key challenges in education. Each year, WISE delivers a…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6706d1e9c9",
+    "title": "Atlantic Fellows for Social and Economic Equity (AFSEE) Programme 2027-2028 (Fully-funded)",
+    "url": "https://opportunitydesk.org/2026/10/08/afsee-programme-2027-2028/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-08T19:05:12.000Z",
+    "excerpt": "Deadline: January 11, 2027 Applications are open for the Atlantic Fellows for Social and Economic Equity (AFSEE) Programme 2027-2028. Policymakers, researchers, activists, practitioners, artists, and movement-builders from around the world are invited to apply to the innovative, fully-funded, and…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "1d55049f4f",
+    "title": "Gloria’s Foundation Fellowship 2027 ($5,000 stipend)",
+    "url": "https://opportunitydesk.org/2026/10/08/gloria-foundation-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-08T18:46:10.000Z",
+    "excerpt": "Deadline: November 1, 2026 Applications are open for the Gloria’s Foundation Fellowship 2027. The Gloria’s Foundation will select two Fellows for a one-year fellowship, which will take place January – December 2027. This program will offer tools, resources, and a safe and inspiring space for work…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f1ff05dca8",
+    "title": "Moove Quits Nigeria, Its Birthplace, As Global Ambitions Trump Difficult Home Market",
+    "url": "https://weetracker.com/2026/10/08/moove-quits-nigeria-global-pivot/",
+    "source": "WeeTracker",
+    "kind": "startups",
+    "date": "2026-10-08T18:29:01.000Z",
+    "excerpt": "Moove, the mobility fintech founded in Lagos in 2020, announced on Thursday it The post Moove Quits Nigeria, Its Birthplace, As Global Ambitions Trump Difficult Home Market appeared first on WeeTracker .",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "cfe4e3b900",
+    "title": "Global Schools Prize 2027 ($500,000 prize)",
+    "url": "https://opportunitydesk.org/2026/10/08/global-schools-prize-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-08T18:02:29.000Z",
+    "excerpt": "Deadline: December 16, 2026 Applications are open for the Global Schools Prize 2027. The Varkey Foundation (VF) is launching a US$1million Global Schools Prize to recognise and celebrate exceptional schools from around the world – institutions that are reimagining what’s possible in education. The…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f6d221a422",
+    "title": "Global Teacher Prize 2027 ($1,000,000 prize)",
+    "url": "https://opportunitydesk.org/2026/10/08/global-teacher-prize-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-08T17:46:11.000Z",
+    "excerpt": "Deadline: October 12, 2026 Applications are invited for the Global Teacher Prize 2027 – a US $1 million award presented to an exceptional teacher who has made an outstanding contribution to their profession. The Global Teacher Prize serves to underline the importance of educators and the fact that,…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9225190f5d",
+    "title": "M-KOPA’s KilpiTek Oy acquisition brings its device-locking advantage in-house",
+    "url": "https://thecondia.com/mkopa-acquires-kilipitek-oy-for-8m/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-08T16:22:54.000Z",
+    "excerpt": "M-KOPA, a Pan-African pay-as-you-go financing company, acquired Finnish communications company KilpiTek Oy for $8 million in March 2026.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "4ae84e065d",
+    "title": "What Lagos Life Game Teaches us About Building Products That Go Viral and Make Money",
+    "url": "https://thecondia.com/lagos-life-game-viral-money/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-08T14:34:03.000Z",
+    "excerpt": "Lagos Life game went viral by turning everyday Nigerian life into a product people wanted to play, share and pay for.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "ff9c754395",
+    "title": "Moove reportedly exits Nigeria after 6 years, offers ₦35B to customers",
+    "url": "https://thecondia.com/moove-reportedly-exits-nigeria-after-6-years/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-08T14:24:43.000Z",
+    "excerpt": "The move comes weeks after Uber ended its operations in Nigeria on September 2 after 12 years, a development that put Moove's original model under pressure.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
     "id": "ae33a2c33c",
     "title": "Cybersecurity: BluDive, Delinea urge organisations to strengthen privileged access management as AI reshapes enterprise risk",
     "url": "https://nairametrics.com/2026/10/08/cybersecurity-bludive-delinea-urge-organisations-to-strengthen-privileged-access-management-as-ai-reshapes-enterprise-risk/",
