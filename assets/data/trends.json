@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-09T23:12:12.718Z",
- "basedOn": 12,
+ "updated": "2026-10-07T07:30:13.932Z",
+ "basedOn": 13,
  "topics": [
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 2.94,
+   "score": 4.15,
    "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
@@ -13,10 +13,74 @@
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 2.1,
+   "score": 2.98,
    "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 1.64,
+   "headline": "Who owns the wealth beneath your feet? The AI engine exposing Nigeria’s ‘hidden' miners",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/06/who-is-mining-your-land-minetrix-ai/"
+  },
+  {
+   "topic": "Equity Bank",
+   "hashtag": "#EquityBank",
+   "score": 1.49,
+   "headline": "The strategy behind Equity Bank’s new digital wallet",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/06/why-equity-bank-is-building-a-neo-wallet-for-everyday-cash/"
+  },
+  {
+   "topic": "Collette Postdoctoral Fellowship",
+   "hashtag": "#CollettePostdoctoralFellowship",
+   "score": 1.41,
+   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+  },
+  {
+   "topic": "Systematic Ichthyology",
+   "hashtag": "#SystematicIchthyology",
+   "score": 1.41,
+   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+  },
+  {
+   "topic": "Stipend",
+   "hashtag": "#Stipend",
+   "score": 1.31,
+   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+  },
+  {
+   "topic": "Aixbio Fellowship",
+   "hashtag": "#AixbioFellowship",
+   "score": 1.24,
+   "headline": "AIxBio Fellowship 2027 at Cambridge (Fully-funded)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/05/aixbio-fellowship-2027/"
+  },
+  {
+   "topic": "Nethope Humanitarian",
+   "hashtag": "#NethopeHumanitarian",
+   "score": 1.24,
+   "headline": "NetHope Humanitarian AI Research Fellowship 2026/2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/05/nethope-humanitarian-ai-research-fellowship-2026-2027/"
+  },
+  {
+   "topic": "Research Fellowship",
+   "hashtag": "#ResearchFellowship",
+   "score": 1.24,
+   "headline": "NetHope Humanitarian AI Research Fellowship 2026/2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/05/nethope-humanitarian-ai-research-fellowship-2026-2027/"
   }
  ],
  "tags": [
@@ -24,6 +88,7 @@
   "Tech News",
   "AI & Automation",
   "Grants & Funding",
-  "Design & Social"
+  "Design & Social",
+  "Web"
  ]
 }

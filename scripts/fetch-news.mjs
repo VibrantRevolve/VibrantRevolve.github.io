@@ -3,12 +3,13 @@
 // The ONLY exception: a feed in scripts/feeds.json that sets "fullText": true AND a "license" (e.g. CC BY). Check the licence terms first.
 // Run by .github/workflows/news.yml, which opens a pull request for review.
 import { readFile, writeFile } from 'node:fs/promises';
+import { parsePosts } from './lib-posts.mjs';
 import { createHash } from 'node:crypto';
 
 const cfg = JSON.parse(await readFile('scripts/feeds.json', 'utf8'));
 const POSTS = 'blog/posts.json';
 let posts = [];
-try { posts = JSON.parse(await readFile(POSTS, 'utf8')); } catch {}
+try { posts = parsePosts(await readFile(POSTS, 'utf8')); } catch {}
 const seen = new Set(posts.map((p) => p.url));
 
 const clean = (s = '') => s

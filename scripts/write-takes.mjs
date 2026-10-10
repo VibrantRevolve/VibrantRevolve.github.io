@@ -2,10 +2,11 @@
 // Needs two GitHub Actions values: secret VR_NEWS_KEY (same as the Worker's NEWS_KEY secret) and variable or secret VR_WORKER_URL.
 // With either missing it does nothing, so the news run still works. Takes are flagged takeAI so the site can label them.
 import { readFile, writeFile } from 'node:fs/promises';
+import { parsePosts } from './lib-posts.mjs';
 const URL_ = process.env.VR_WORKER_URL, KEY = process.env.VR_NEWS_KEY, MAX = 20;
 if (!URL_ || !KEY) { console.log('write-takes: VR_WORKER_URL or VR_NEWS_KEY not set, skipping.'); process.exit(0); }
 const POSTS = 'blog/posts.json';
-const posts = JSON.parse(await readFile(POSTS, 'utf8'));
+const posts = parsePosts(await readFile(POSTS, 'utf8'));
 let n = 0;
 for (const p of posts) {
   if (n >= MAX) break;

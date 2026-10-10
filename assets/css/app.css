@@ -102,3 +102,43 @@ button:active,.btn-primary:active,.btn-secondary:active,.tb:active,.hub-card:act
 @media (max-width:768px){.vr-blogfab{top:auto;bottom:calc(var(--vr-tab) + env(safe-area-inset-bottom) + 7.5rem);width:50px;padding:.5rem 0 .4rem}.vr-blogfab svg{width:26px;height:26px}}
 @media (prefers-reduced-motion:reduce){.vr-blogfab .pen,.vr-blogfab .dot,.vr-blogfab.is-new{animation:none}}
 @media print{.vr-blogfab{display:none}}
+
+/* ---- Install the app ---- */
+.vr-install.show,.vr-appbtn.show{display:inline-flex}
+.vr-appbtn{display:none;align-items:center;gap:.4rem;height:42px;padding:0 .9rem;border-radius:999px;border:1px solid rgba(201,162,39,.55);background:rgba(201,162,39,.1);color:#e8cd7a;font:700 .8rem Inter,sans-serif;cursor:pointer;white-space:nowrap}
+.vr-appbtn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.vr-appbtn:hover{background:rgba(201,162,39,.2)}
+:root[data-theme="light"] .vr-appbtn{color:#7a5c05}
+@media (max-width:1023px){.vr-appbtn{display:none!important}}
+@media (min-width:1024px) and (max-width:1399px){.vr-appbtn span{display:none}.vr-appbtn{width:42px;padding:0;justify-content:center}}
+.is-app .vr-install,.is-app .vr-appbtn,.is-app .vr-installbar{display:none!important}
+.vr-installbar{position:fixed;left:12px;right:12px;bottom:calc(var(--vr-tab,0px) + env(safe-area-inset-bottom) + 12px);z-index:1200;display:flex;align-items:center;gap:.8rem;max-width:520px;margin:0 auto;padding:.7rem .8rem;border-radius:18px;background:#14120e;color:#f4efe2;border:1px solid rgba(201,162,39,.55);box-shadow:0 18px 50px rgba(0,0,0,.45);transform:translateY(140%);opacity:0;transition:transform .4s cubic-bezier(.2,.8,.2,1),opacity .3s}
+.vr-installbar.show{transform:none;opacity:1}
+.vr-installbar img{border-radius:10px;flex:none}
+.vr-installbar div{display:grid;gap:.1rem;min-width:0;flex:1}.vr-installbar b{font:700 .88rem Inter,sans-serif}.vr-installbar span{font:500 .75rem Inter,sans-serif;color:#b9b3a4}
+.vr-ib-go{flex:none;padding:.55rem 1rem;border:0;border-radius:999px;background:linear-gradient(135deg,#e8cd7a,#c9a227);color:#15110a;font:800 .8rem Inter,sans-serif;cursor:pointer}
+.vr-ib-x{flex:none;width:30px;height:30px;border:0;border-radius:50%;background:rgba(255,255,255,.08);color:#f4efe2;font-size:1.2rem;line-height:1;cursor:pointer}
+@media (min-width:769px){.vr-installbar{left:auto;right:24px;bottom:24px;margin:0}}
+.vr-sheet{position:fixed;inset:0;z-index:2500;display:flex;align-items:flex-end;justify-content:center;background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+.vr-sheet-box{position:relative;width:100%;max-width:460px;max-height:92vh;overflow:auto;padding:1.6rem 1.4rem calc(1.2rem + env(safe-area-inset-bottom));border-radius:24px 24px 0 0;background:#14120e;color:#f4efe2;border:1px solid rgba(201,162,39,.5);text-align:center;animation:vr-up .35s cubic-bezier(.2,.8,.2,1)}
+@keyframes vr-up{from{transform:translateY(40px);opacity:0}}
+.vr-sheet-box img{border-radius:16px;margin-bottom:.6rem}.vr-sheet-box h2{margin:.2rem 0 .8rem;font:700 1.35rem "Cormorant Garamond",Georgia,serif;color:#e8cd7a}
+.vr-sheet-x{position:absolute;top:.7rem;right:.8rem;width:34px;height:34px;border:0;border-radius:50%;background:rgba(255,255,255,.08);color:#f4efe2;font-size:1.3rem;cursor:pointer}
+.vr-perks,.vr-steps{margin:0 0 1rem;padding:0;text-align:left;font:500 .9rem/1.5 Inter,sans-serif;color:#d8d2c2}
+.vr-perks{list-style:none}.vr-perks li{padding:.3rem 0 .3rem 1.6rem;position:relative}.vr-perks li::before{content:"✓";position:absolute;left:0;color:#c9a227;font-weight:800}
+.vr-steps{padding-left:1.3rem}.vr-steps li{padding:.3rem 0}
+.vr-go{display:block;width:100%;padding:.85rem;border:0;border-radius:14px;background:linear-gradient(135deg,#e8cd7a,#c9a227);color:#15110a;font:800 .95rem Inter,sans-serif;cursor:pointer;margin-bottom:.4rem}
+.vr-later{display:block;width:100%;padding:.7rem;border:0;background:none;color:#b9b3a4;font:600 .85rem Inter,sans-serif;cursor:pointer}
+@media (min-width:769px){.vr-sheet{align-items:center}.vr-sheet-box{border-radius:24px}}
+:root[data-theme="light"] .vr-sheet-box,:root[data-theme="light"] .vr-installbar{background:#fffdf7;color:#1b1813;border-color:rgba(122,92,5,.5)}
+:root[data-theme="light"] .vr-sheet-box h2{color:#7a5c05}:root[data-theme="light"] .vr-perks,:root[data-theme="light"] .vr-steps{color:#4a443a}
+:root[data-theme="light"] .vr-installbar span,:root[data-theme="light"] .vr-later{color:#6f6757}
+:root[data-theme="light"] .vr-sheet-x,:root[data-theme="light"] .vr-ib-x{background:rgba(0,0,0,.07);color:#1b1813}
+.vr-toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 24px);transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:3000;max-width:90vw;padding:.7rem 1.1rem;border-radius:999px;background:#14120e;color:#f4efe2;border:1px solid rgba(201,162,39,.55);font:600 .85rem Inter,sans-serif;text-align:center;transition:all .3s}
+.vr-toast.show{opacity:1;transform:translate(-50%,0)}
+@media (max-width:768px){.vr-toast{bottom:calc(var(--vr-tab,0px) + env(safe-area-inset-bottom) + 14px)}}
+/* When running as an installed app */
+.is-app body{overscroll-behavior-y:contain}
+.is-app .site-header,.is-app header.header{padding-top:env(safe-area-inset-top)}
+@media (prefers-reduced-motion:reduce){.vr-installbar,.vr-sheet-box,.vr-toast{transition:none;animation:none}}
+@media print{.vr-installbar,.vr-sheet,.vr-toast{display:none!important}}

@@ -1,11 +1,12 @@
 // Builds one static page per post: blog/p/<id>.html (shareable, with its own title and preview tags).
 // Also refreshes the post URLs inside sitemap.xml. Related posts are added in the browser by post.js.
 import { readFile, writeFile, readdir, unlink, mkdir } from 'node:fs/promises';
+import { parsePosts } from './lib-posts.mjs';
 
 const SITE = 'https://vibrantrevolve.com';
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const safe = (u) => (/^(https?:\/\/|\/)/.test(u || '') ? u : '#');
-const posts = JSON.parse(await readFile('blog/posts.json', 'utf8')).filter((p) => /^[a-z0-9-]+$/i.test(p.id || ''));
+const posts = parsePosts(await readFile('blog/posts.json', 'utf8')).filter((p) => /^[a-z0-9-]+$/i.test(p.id || ''));
 await mkdir('blog/p', { recursive: true });
 
 

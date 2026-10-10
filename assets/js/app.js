@@ -47,22 +47,75 @@
   const lift = () => { const tt = $('.theme-toggle'); if (tt && getComputedStyle(tt).position === 'fixed') tt.classList.add('vr-lift'); };
   addEventListener('load', lift); setTimeout(lift, 1200);
 
-  /* 3. Install prompt */
-  let deferred = null;
-  addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferred = e; document.querySelectorAll('.vr-install').forEach((b) => b.classList.add('show')); });
-  addEventListener('appinstalled', () => { deferred = null; document.querySelectorAll('.vr-install').forEach((b) => b.classList.remove('show')); });
-  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) && !isStandalone();
-  const install = async () => {
-    if (deferred) { deferred.prompt(); try { await deferred.userChoice; } catch (e) {} deferred = null; document.querySelectorAll('.vr-install').forEach((b) => b.classList.remove('show')); }
-    else if (ios) toast('On iPhone: tap Share, then "Add to Home Screen".');
+  /* 3. Install the app. The button is always available unless the app is already installed. */
+  let deferred = window.__vrBIP || null;
+  const FLAG = 'vr_installed', SNOOZE = 'vr_install_snooze';
+  const lsGet = (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } }, lsSet = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
+  const installed = () => isStandalone() || lsGet(FLAG) === '1';
+  const ua = navigator.userAgent, ios = /iphone|ipad|ipod/i.test(ua) || (/macintosh/i.test(ua) && navigator.maxTouchPoints > 1), android = /android/i.test(ua);
+  const br = /edg\//i.test(ua) ? 'edge' : /samsungbrowser/i.test(ua) ? 'samsung' : /firefox|fxios/i.test(ua) ? 'firefox' : /opr\/|opera/i.test(ua) ? 'opera' : /chrome|crios/i.test(ua) ? 'chrome' : /safari/i.test(ua) ? 'safari' : 'other';
+  const toast = (m) => { const t = document.createElement('div'); t.className = 'vr-toast'; t.setAttribute('role', 'status'); t.textContent = m; document.body.appendChild(t); requestAnimationFrame(() => t.classList.add('show')); setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 300); }, 3800); };
+  const steps = () => {
+    if (ios) return ['Tap the Share button (the square with an arrow) in your browser.', 'Scroll down and tap "Add to Home Screen".', 'Tap "Add". The VibrantRevolve icon appears on your home screen.'];
+    if (android) return br === 'firefox' ? ['Tap the menu (three dots).', 'Tap "Install".', 'Confirm. The app appears on your home screen.'] : br === 'samsung' ? ['Tap the menu (three lines).', 'Tap "Add page to" then "Home screen".', 'Confirm to finish.'] : ['Tap the menu (three dots) at the top right.', 'Tap "Install app" or "Add to Home screen".', 'Confirm. The app appears on your home screen.'];
+    if (br === 'chrome' || br === 'edge') return ['Look for the install icon at the right end of the address bar, or open the browser menu.', 'Choose "Install VibrantRevolve" (Chrome) or "Apps, then Install this site as an app" (Edge).', 'Confirm. It opens in its own window and shows in your apps.'];
+    if (br === 'safari') return ['In the menu bar choose File, then "Add to Dock".', 'Confirm. It opens like a normal app from your Dock.'];
+    return ['Open this site in Chrome, Edge or Safari.', 'Use the browser menu and choose "Install app" or "Add to Home Screen".'];
   };
-  function toast(m) { const t = document.createElement('div'); t.className = 'vt-toast'; t.textContent = m; document.body.appendChild(t); requestAnimationFrame(() => t.classList.add('show')); setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 300); }, 3800); }
+  let sheet = null, sheetFocus = null;
+  function closeSheet() { if (!sheet) return; sheet.remove(); sheet = null; document.removeEventListener('keydown', escSheet); if (sheetFocus && sheetFocus.focus) sheetFocus.focus(); }
+  function escSheet(e) { if (e.key === 'Escape') closeSheet(); }
+  function openSheet() {
+    if (sheet) return; sheetFocus = document.activeElement;
+    sheet = document.createElement('div'); sheet.className = 'vr-sheet'; sheet.setAttribute('role', 'dialog'); sheet.setAttribute('aria-modal', 'true'); sheet.setAttribute('aria-label', 'Install the VibrantRevolve app');
+    const can = !!deferred;
+    sheet.innerHTML = `<div class="vr-sheet-box"><button type="button" class="vr-sheet-x" aria-label="Close">&times;</button>
+      <img src="/assets/images/favicon/icon-192.png" alt="" width="64" height="64"><h2>Get the VibrantRevolve app</h2>
+      <ul class="vr-perks"><li>Opens full screen like a real app</li><li>Free tools keep working offline</li><li>Faster on slow networks</li><li>No app store, no download size</li></ul>
+      ${can ? '<button type="button" class="vr-go">Install now</button>' : '<ol class="vr-steps">' + steps().map((x) => '<li>' + x + '</li>').join('') + '</ol>'}
+      <button type="button" class="vr-later">Maybe later</button></div>`;
+    document.body.appendChild(sheet);
+    sheet.addEventListener('mousedown', (e) => { if (e.target === sheet) closeSheet(); });
+    sheet.querySelector('.vr-sheet-x').onclick = closeSheet; sheet.querySelector('.vr-later').onclick = closeSheet;
+    const go = sheet.querySelector('.vr-go'); if (go) go.onclick = () => { closeSheet(); install(); };
+    document.addEventListener('keydown', escSheet); (go || sheet.querySelector('.vr-sheet-x')).focus();
+  }
+  async function install() {
+    if (deferred) { const d = deferred; deferred = null; try { d.prompt(); const c = await d.userChoice; if (c && c.outcome === 'accepted') { lsSet(FLAG, '1'); toast('Installing VibrantRevolve…'); } } catch (e) {} refresh(); }
+    else openSheet();
+  }
+  addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferred = e; window.__vrBIP = e; refresh(); });
+  addEventListener('appinstalled', () => { lsSet(FLAG, '1'); deferred = null; closeSheet(); refresh(); toast('VibrantRevolve is installed. Open it from your home screen.'); });
+  function refresh() {
+    const hide = installed();
+    document.querySelectorAll('.vr-install,.vr-appbtn').forEach((b) => b.classList.toggle('show', !hide));
+    if (hide) { const bn = $('.vr-installbar'); if (bn) bn.remove(); }
+  }
   const mountInstall = () => {
-    const host = $('.footer-bottom') || $('.footer-bottom-inner') || $('footer'); if (!host || $('.vr-install')) return;
-    const b = document.createElement('button'); b.type = 'button'; b.className = 'vr-install' + (deferred ? ' show' : ''); b.innerHTML = ico(I.dl).replace('<svg', '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"') + ' Install the app'; b.onclick = install; host.appendChild(b);
-    if (ios) b.classList.add('show');
+    if (installed()) return;
+    const host = $('.footer-bottom') || $('.footer-bottom-inner') || $('footer');
+    if (host && !$('.vr-install')) { const b = document.createElement('button'); b.type = 'button'; b.className = 'vr-install show'; b.innerHTML = ico(I.dl).replace('<svg', '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"') + ' Install the app'; b.onclick = install; host.appendChild(b); }
+    const h = $('.header-actions'), nl = $('.nav-links');
+    if ((h || nl) && !$('.vr-appbtn')) { const b = document.createElement('button'); b.type = 'button'; b.className = 'vr-appbtn show'; b.setAttribute('aria-label', 'Install the VibrantRevolve app'); b.title = 'Install the app'; b.innerHTML = ico(I.dl) + '<span>App</span>'; b.onclick = install; if (h) h.insertBefore(b, h.firstChild); else nl.insertBefore(b, $('.nav-cta', nl) || null); }
   };
-  addEventListener('load', () => setTimeout(mountInstall, 600));
+  // Friendly install bar: after a little engagement, never in the app, snoozed for 14 days after "x"
+  function maybeBar() {
+    if (installed() || $('.vr-installbar') || /^\/(admin|payment|offline)/.test(path)) return;
+    const snoozed = +lsGet(SNOOZE) || 0; if (Date.now() < snoozed) return;
+    const views = (+lsGet('vr_views') || 0) + 1; lsSet('vr_views', String(views)); if (views < 2) return;
+    setTimeout(() => {
+      if (installed() || $('.vr-installbar') || sheet) return;
+      const bar = document.createElement('div'); bar.className = 'vr-installbar'; bar.setAttribute('role', 'region'); bar.setAttribute('aria-label', 'Install the app');
+      bar.innerHTML = `<img src="/assets/images/favicon/icon-192.png" alt="" width="40" height="40"><div><b>Install the VibrantRevolve app</b><span>Free tools, offline, one tap from your home screen.</span></div><button type="button" class="vr-ib-go">Install</button><button type="button" class="vr-ib-x" aria-label="Not now">&times;</button>`;
+      document.body.appendChild(bar); requestAnimationFrame(() => bar.classList.add('show'));
+      bar.querySelector('.vr-ib-go').onclick = () => { bar.remove(); install(); };
+      bar.querySelector('.vr-ib-x').onclick = () => { lsSet(SNOOZE, String(Date.now() + 14 * 864e5)); bar.classList.remove('show'); setTimeout(() => bar.remove(), 300); };
+    }, 9000);
+  }
+  addEventListener('load', () => { setTimeout(() => { mountInstall(); refresh(); }, 600); maybeBar(); });
+  // Online / offline awareness (the tools keep working offline)
+  addEventListener('offline', () => toast('You are offline. The free tools still work.'));
+  addEventListener('online', () => toast('Back online.'));
 
   /* 4. Command palette */
   const ITEMS = [
@@ -93,7 +146,8 @@
       { g: 'Actions', t: 'Email us', i: I.mail, k: 'email mail', run: () => { location.href = 'mailto:' + (cfg().supportEmail || 'vr@vibrantrevolve.com'); } },
       { g: 'Actions', t: 'Switch light / dark theme', i: I.moon, k: 'theme dark light mode', run: () => { const t = $('#theme-toggle'); if (t) t.click(); else { const r = document.documentElement; const n = r.getAttribute('data-theme') === 'light' ? 'dark' : 'light'; r.setAttribute('data-theme', n); try { localStorage.setItem('vr_theme', n); } catch (e) {} } } }
     ];
-    if (deferred || ios) a.push({ g: 'Actions', t: 'Install the app', i: I.dl, k: 'install app home screen', run: install });
+    if (!installed()) a.push({ g: 'Actions', t: 'Install the app', i: I.dl, k: 'install app home screen download phone', run: install });
+    if (navigator.share) a.push({ g: 'Actions', t: 'Share VibrantRevolve', i: I.mail, k: 'share send friend link', run: () => navigator.share({ title: 'VibrantRevolve', text: 'Websites, brand design and free business tools.', url: location.origin }).catch(() => {}) });
     return a;
   };
   let pal, inp, list, sel = 0, shown = [], lastFocus;
@@ -148,6 +202,8 @@
   /* 5. Offline support */
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
     addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
+    const had = !!navigator.serviceWorker.controller; let reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => { if (had && !reloaded) { reloaded = true; toast('Updated to the latest version.'); } });
   }
 
   /* 5b. Cloudflare Web Analytics (cookie-free), only when a token is set in site-config.js */
@@ -167,8 +223,9 @@
     const seen = () => { try { return +localStorage.getItem(KEY) || 0; } catch (e) { return 0; } };
     fetch('/blog/posts.json', { cache: 'no-cache' }).then((r) => r.json()).then((l) => {
       latest = Math.max.apply(null, (l || []).map((p) => Date.parse(p.date) || 0));
+      if (latest > seen() && navigator.setAppBadge) { try { navigator.setAppBadge(1); } catch (e) {} }
       if (latest > seen()) { a.querySelector('.dot').hidden = false; a.classList.add('is-new'); a.setAttribute('aria-label', 'Read the VibrantRevolve blog, new posts'); }
     }).catch(() => {});
-    a.addEventListener('click', () => { try { localStorage.setItem(KEY, String(latest || Date.now())); } catch (e) {} });
+    a.addEventListener('click', () => { try { localStorage.setItem(KEY, String(latest || Date.now())); } catch (e) {} if (navigator.clearAppBadge) { try { navigator.clearAppBadge(); } catch (e) {} } });
   })();
 })();

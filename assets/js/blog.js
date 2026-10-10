@@ -6,8 +6,16 @@
   const KEY = 'vr_saved';
   const getSaved = () => { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { return []; } };
   const setSaved = (a) => { try { localStorage.setItem(KEY, JSON.stringify(a)); } catch (e) {} };
-  fetch('/blog/posts.json')
-    .then((r) => (r.ok ? r.json() : Promise.reject()))
+  // Reads posts.json even if a git merge left conflict markers in it or it was cut off (keeps every complete post, drops duplicates).
+  const parsePosts = (text) => {
+    const t = String(text || '').replace(/^(<<<<<<<|=======|>>>>>>>).*$/gm, '').trim(), joined = t.replace(/\]\s*\[/g, ',');
+    let arr = null; for (const s of [t, joined]) { try { const v = JSON.parse(s); if (Array.isArray(v)) { arr = v; break; } } catch (e) {} }
+    if (!arr) { let i = joined.length, n = 0; while (!arr && (i = joined.lastIndexOf('\n  }', i - 1)) > 0 && n++ < 600) { try { const v = JSON.parse(joined.slice(0, i + 4) + ']'); if (Array.isArray(v)) arr = v; } catch (e) {} } }
+    const seen = new Set(); return (arr || []).filter((p) => { const k = p && (p.id || p.url); if (!k || seen.has(k)) return false; seen.add(k); return true; });
+  };
+  fetch('/blog/posts.json', { cache: 'no-cache' })
+    .then((r) => (r.ok ? r.text() : Promise.reject()))
+    .then((txt) => { const v = parsePosts(txt); if (!v.length && /\S/.test(txt) && !/^\s*\[\s*\]\s*$/.test(txt)) throw new Error('unreadable'); return v; })
     .then((posts) => {
       posts.sort((a, b) => String(b.date).localeCompare(String(a.date)));
       const filters = document.getElementById('blog-filters');
