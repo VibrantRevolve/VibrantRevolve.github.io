@@ -1,46 +1,94 @@
 {
- "updated": "2026-10-10T03:37:59.894Z",
- "basedOn": 53,
+ "updated": "2026-10-10T03:39:55.974Z",
+ "basedOn": 93,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 7.3,
+   "score": 14.54,
    "headline": "Principal Solutions Engineer, Emerging Technologies",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 6.95,
-   "headline": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
-  },
-  {
-   "topic": "Business",
-   "hashtag": "#Business",
-   "score": 5.9,
-   "headline": "Informality to productivity: the lessons Nigeria can learn from Britain guilds, merchants and the future of work",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/09/informality-to-productivity-the-lessons-nigeria-can-learn-from-britain-guilds-merchants-and-the-future-of-work/"
-  },
-  {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 5.47,
+   "score": 11.65,
    "headline": "Group Product Manager, AI-Native Data Warehouse",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse"
   },
   {
+   "topic": "Business",
+   "hashtag": "#Business",
+   "score": 11.62,
+   "headline": "BREAKING; Zenith Bank H1 2026 pre-tax profit rises 1.9% to N637.6 billion",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/10/zenith-bank-h1-2026-pre-tax-profit-rises-1-9-to-n637-6-billion/"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 9.22,
+   "headline": "AI is making it easier to build games in Africa. Making money is still the hard part",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/ai-african-game-development-monetisation/"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 8.38,
+   "headline": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+  },
+  {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 5.21,
-   "headline": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+   "score": 7.91,
+   "headline": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+  },
+  {
+   "topic": "Moove",
+   "hashtag": "#Moove",
+   "score": 6.88,
+   "headline": "How Moove raised over $710 million before exiting Nigeria",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/09/how-moove-raised-over-710-million-before-exiting-nigeria/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 6.39,
+   "headline": "WomanKind Creative Grant 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/10/womankind-creative-grant-2027/"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 6.19,
+   "headline": "Principal Solutions Engineer, Emerging Technologies",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
+  },
+  {
+   "topic": "Lagos Life",
+   "hashtag": "#LagosLife",
+   "score": 5.6,
+   "headline": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
+   "source": "WeeTracker",
+   "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 5.32,
+   "headline": "Five months after running out of capital, Chimoney gets a new owner",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/09/chimoney-capitalsage-close-deal/"
   },
   {
    "topic": "Philadelphia",
@@ -59,66 +107,18 @@
    "url": "https://nairametrics.com/2026/10/09/ngx-recovers-n208-billion-as-mtn-oando-shares-lift-market/"
   },
   {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 5.15,
-   "headline": "AI is making it easier to build games in Africa. Making money is still the hard part",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/ai-african-game-development-monetisation/"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 4.84,
-   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 4.38,
-   "headline": "Principal Solutions Engineer, Emerging Technologies",
+   "topic": "Seo",
+   "hashtag": "#Seo",
+   "score": 5.09,
+   "headline": "Staff Product Manager, SEO and AI Visibility – US",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
-  },
-  {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 3.98,
-   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
-  },
-  {
-   "topic": "Funded",
-   "hashtag": "#Funded",
-   "score": 3.67,
-   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
-  },
-  {
-   "topic": "Market",
-   "hashtag": "#Market",
-   "score": 3.31,
-   "headline": "NGX recovers N208 billion as MTN, Oando shares lift market",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/09/ngx-recovers-n208-billion-as-mtn-oando-shares-lift-market/"
-  },
-  {
-   "topic": "Lagos Life",
-   "hashtag": "#LagosLife",
-   "score": 3,
-   "headline": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
-   "source": "WeeTracker",
-   "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/"
+   "url": "https://jobicy.com/jobs/154945-staff-product-manager-seo-and-ai-visibility-us"
   }
  ],
  "tags": [
-  "AI & Automation",
   "Business",
   "Grants & Funding",
+  "AI & Automation",
   "Jobs",
   "Tech News",
   "Security",
