@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-10T05:00:29.104Z",
- "basedOn": 93,
+ "updated": "2026-10-10T11:51:47.083Z",
+ "basedOn": 131,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 14.36,
-   "headline": "Principal Solutions Engineer, Emerging Technologies",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
-  },
-  {
-   "topic": "Manager",
-   "hashtag": "#Manager",
-   "score": 11.5,
-   "headline": "Group Product Manager, AI-Native Data Warehouse",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse"
+   "score": 21.14,
+   "headline": "Typeform: Full Stack Developer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/typeform-full-stack-developer"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 11.47,
-   "headline": "BREAKING; Zenith Bank H1 2026 pre-tax profit rises 1.9% to N637.6 billion",
+   "score": 17.09,
+   "headline": "SEC DG warns shortage of credible issuers could inflate asset prices",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/10/zenith-bank-h1-2026-pre-tax-profit-rises-1-9-to-n637-6-billion/"
+   "url": "https://nairametrics.com/2026/10/10/sec-dg-warns-shortage-of-credible-issuers-could-inflate-asset-prices/"
+  },
+  {
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 15.4,
+   "headline": "Netlify: Senior Demand Generation Marketing Manager",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/netlify-senior-demand-generation-marketing-manager"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 9.13,
+   "score": 11.42,
    "headline": "AI is making it easier to build games in Africa. Making money is still the hard part",
    "source": "Benjamin Dada",
    "url": "https://thecondia.com/ai-african-game-development-monetisation/"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 8.28,
-   "headline": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
-  },
-  {
-   "topic": "Anthropic",
-   "hashtag": "#Anthropic",
-   "score": 7.81,
-   "headline": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
-  },
-  {
    "topic": "Moove",
    "hashtag": "#Moove",
-   "score": 6.8,
+   "score": 10.01,
    "headline": "How Moove raised over $710 million before exiting Nigeria",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/09/how-moove-raised-over-710-million-before-exiting-nigeria/"
   },
   {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 6.32,
-   "headline": "WomanKind Creative Grant 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/10/womankind-creative-grant-2027/"
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 9.55,
+   "headline": "Binance Launches $200K STABLE Trading Competition with New Multiplier Mechanics",
+   "source": "Ventureburn",
+   "url": "https://ventureburn.com/binance-stable-trading-competition/"
   },
   {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 6.11,
-   "headline": "Principal Solutions Engineer, Emerging Technologies",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 9.22,
+   "headline": "My brief romance with an AI bird feeder",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too"
   },
   {
    "topic": "Lagos Life",
    "hashtag": "#LagosLife",
-   "score": 5.54,
-   "headline": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
-   "source": "WeeTracker",
-   "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/"
+   "score": 9.02,
+   "headline": "Lagos Life beats Zuckerberg’s billion-dollar Metaverse to merge the virtual worlds with real African economies",
+   "source": "Technext",
+   "url": "https://technext24.com/reviews/lagos-life-game-metaverse-therapy-funding/"
   },
   {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 5.25,
-   "headline": "Five months after running out of capital, Chimoney gets a new owner",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/09/chimoney-capitalsage-close-deal/"
+   "topic": "Anthropic",
+   "hashtag": "#Anthropic",
+   "score": 7.32,
+   "headline": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
   },
   {
-   "topic": "Philadelphia",
-   "hashtag": "#Philadelphia",
-   "score": 5.14,
-   "headline": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 6.7,
+   "headline": "BeyondTrust: Cyber Defense Engineer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cyber-defense-engineer"
   },
   {
-   "topic": "Ngx",
-   "hashtag": "#Ngx",
-   "score": 5.09,
+   "topic": "Market",
+   "hashtag": "#Market",
+   "score": 6.29,
    "headline": "NGX recovers N208 billion as MTN, Oando shares lift market",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/09/ngx-recovers-n208-billion-as-mtn-oando-shares-lift-market/"
   },
   {
-   "topic": "Seo",
-   "hashtag": "#Seo",
-   "score": 5.03,
-   "headline": "Staff Product Manager, SEO and AI Visibility – US",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154945-staff-product-manager-seo-and-ai-visibility-us"
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 5.99,
+   "headline": "WomanKind Creative Grant 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/10/womankind-creative-grant-2027/"
+  },
+  {
+   "topic": "Fitch",
+   "hashtag": "#Fitch",
+   "score": 5.52,
+   "headline": "Fitch revises Nigeria’s credit outlook to positive, affirms ‘B’ rating",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/10/fitch-revises-nigerias-credit-outlook-to-positive-affirms-b-rating/"
+  },
+  {
+   "topic": "Typeform",
+   "hashtag": "#Typeform",
+   "score": 5.36,
+   "headline": "Typeform: Full Stack Developer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/typeform-full-stack-developer"
   }
  ],
  "tags": [
   "Business",
-  "Grants & Funding",
-  "AI & Automation",
-  "Jobs",
+  "Design & Social",
   "Tech News",
+  "Jobs",
+  "AI & Automation",
+  "Grants & Funding",
   "Security",
-  "Naija Startups",
-  "Payments"
+  "Naija Startups"
  ]
 }
