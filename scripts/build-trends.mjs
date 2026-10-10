@@ -1,7 +1,8 @@
 // Builds assets/data/trends.json: what Nigerian/African tech & business news is talking about right now.
 // Source: headlines already collected in blog/posts.json (public RSS feeds). No scraping of search engines.
 import fs from 'node:fs';
-const posts = JSON.parse(fs.readFileSync('blog/posts.json', 'utf8'));
+import { parsePosts } from './lib-posts.mjs';
+const posts = parsePosts(fs.readFileSync('blog/posts.json', 'utf8'));
 const DAY = 864e5, now = Date.now();
 const recent = posts.filter((p) => p.kind !== 'guide' && now - Date.parse(p.date) < 10 * DAY);
 const use = recent.length >= 8 ? recent : posts.filter((p) => p.kind !== 'guide').slice(0, 30);

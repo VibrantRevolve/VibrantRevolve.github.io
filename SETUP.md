@@ -59,3 +59,9 @@ Optional extras in `assets/js/site-config.js`:
 - `cfAnalyticsToken`: your Cloudflare Web Analytics token (dash.cloudflare.com, Analytics and Logs, Web Analytics). Cookie-free visitor stats.
 
 In the Worker (see `workers/studio-ai/README.md`): `RESEND_API_KEY` emails you contact messages and confirmed payments, a free KV namespace `LEADS` keeps a copy, `PAYSTACK_SECRET` / `FLW_SECRET` let the Worker confirm payments with the provider before the customer sees the success page.
+
+## If the blog ever looks empty
+The blog reads `blog/posts.json`. If a git merge leaves lines like `<<<<<<< HEAD` inside it, the page now repairs itself and still shows every post, and the next news run rewrites the file cleanly. To avoid conflicts, do not edit `blog/posts.json` by hand while the news workflow has an open pull request.
+
+## The installable app
+Visitors can install VibrantRevolve from the "Install the app" button (footer, desktop header, search menu) or the install bar shown on a second visit. Where the browser cannot offer a one-tap install, the button shows steps for that browser. The free tools are saved on first visit and work offline.
