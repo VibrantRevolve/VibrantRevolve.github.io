@@ -1,94 +1,128 @@
 {
- "updated": "2026-10-07T07:30:13.932Z",
- "basedOn": 13,
+ "updated": "2026-10-10T03:37:59.894Z",
+ "basedOn": 53,
  "topics": [
   {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 4.15,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 2.98,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+   "topic": "Jobs",
+   "hashtag": "#Jobs",
+   "score": 7.3,
+   "headline": "Principal Solutions Engineer, Emerging Technologies",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
   },
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 1.64,
-   "headline": "Who owns the wealth beneath your feet? The AI engine exposing Nigeria’s ‘hidden' miners",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/06/who-is-mining-your-land-minetrix-ai/"
+   "score": 6.95,
+   "headline": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
   },
   {
-   "topic": "Equity Bank",
-   "hashtag": "#EquityBank",
-   "score": 1.49,
-   "headline": "The strategy behind Equity Bank’s new digital wallet",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/06/why-equity-bank-is-building-a-neo-wallet-for-everyday-cash/"
+   "topic": "Business",
+   "hashtag": "#Business",
+   "score": 5.9,
+   "headline": "Informality to productivity: the lessons Nigeria can learn from Britain guilds, merchants and the future of work",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/09/informality-to-productivity-the-lessons-nigeria-can-learn-from-britain-guilds-merchants-and-the-future-of-work/"
   },
   {
-   "topic": "Collette Postdoctoral Fellowship",
-   "hashtag": "#CollettePostdoctoralFellowship",
-   "score": 1.41,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 5.47,
+   "headline": "Group Product Manager, AI-Native Data Warehouse",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse"
+  },
+  {
+   "topic": "Anthropic",
+   "hashtag": "#Anthropic",
+   "score": 5.21,
+   "headline": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+  },
+  {
+   "topic": "Philadelphia",
+   "hashtag": "#Philadelphia",
+   "score": 5.21,
+   "headline": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+  },
+  {
+   "topic": "Ngx",
+   "hashtag": "#Ngx",
+   "score": 5.16,
+   "headline": "NGX recovers N208 billion as MTN, Oando shares lift market",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/09/ngx-recovers-n208-billion-as-mtn-oando-shares-lift-market/"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 5.15,
+   "headline": "AI is making it easier to build games in Africa. Making money is still the hard part",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/ai-african-game-development-monetisation/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 4.84,
+   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
   },
   {
-   "topic": "Systematic Ichthyology",
-   "hashtag": "#SystematicIchthyology",
-   "score": 1.41,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 4.38,
+   "headline": "Principal Solutions Engineer, Emerging Technologies",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
   },
   {
-   "topic": "Stipend",
-   "hashtag": "#Stipend",
-   "score": 1.31,
-   "headline": "Sara E. and Bruce B. Collette Postdoctoral Fellowship in Systematic Ichthyology 2027 (stipend available)",
+   "topic": "Fellowship",
+   "hashtag": "#Fellowship",
+   "score": 3.98,
+   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/06/sara-e-and-bruce-b-collette-postdoctoral-fellowship-in-systematic-ichthyology-2027/"
+   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
   },
   {
-   "topic": "Aixbio Fellowship",
-   "hashtag": "#AixbioFellowship",
-   "score": 1.24,
-   "headline": "AIxBio Fellowship 2027 at Cambridge (Fully-funded)",
+   "topic": "Funded",
+   "hashtag": "#Funded",
+   "score": 3.67,
+   "headline": "Harvard LEAD Fellowship for Promoting Women in Global Health 2027-2028 (Funded)",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/05/aixbio-fellowship-2027/"
+   "url": "https://opportunitydesk.org/2026/10/09/harvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028/"
   },
   {
-   "topic": "Nethope Humanitarian",
-   "hashtag": "#NethopeHumanitarian",
-   "score": 1.24,
-   "headline": "NetHope Humanitarian AI Research Fellowship 2026/2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/05/nethope-humanitarian-ai-research-fellowship-2026-2027/"
+   "topic": "Market",
+   "hashtag": "#Market",
+   "score": 3.31,
+   "headline": "NGX recovers N208 billion as MTN, Oando shares lift market",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/09/ngx-recovers-n208-billion-as-mtn-oando-shares-lift-market/"
   },
   {
-   "topic": "Research Fellowship",
-   "hashtag": "#ResearchFellowship",
-   "score": 1.24,
-   "headline": "NetHope Humanitarian AI Research Fellowship 2026/2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/05/nethope-humanitarian-ai-research-fellowship-2026-2027/"
+   "topic": "Lagos Life",
+   "hashtag": "#LagosLife",
+   "score": 3,
+   "headline": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
+   "source": "WeeTracker",
+   "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/"
   }
  ],
  "tags": [
-  "Payments",
-  "Tech News",
   "AI & Automation",
+  "Business",
   "Grants & Funding",
-  "Design & Social",
-  "Web"
+  "Jobs",
+  "Tech News",
+  "Security",
+  "Naija Startups",
+  "Payments"
  ]
 }
