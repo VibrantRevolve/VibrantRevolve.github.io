@@ -13,7 +13,7 @@ const ContactManager = {
     // EmailJS init (key should come from env, this is placeholder)
     if (window.emailjs) {
       // In production, load from secure endpoint or env
-      emailjs.init("YOUR_EMAILJS_PUBLIC_KEY"); 
+      emailjs.init("CnB0xCvycunmgJ5OH"); 
     }
 
     this.guard(form);
@@ -100,7 +100,7 @@ const ContactManager = {
   }
 };
 
-const EMAILJS_SERVICE = 'YOUR_SERVICE_ID', EMAILJS_TEMPLATE = 'YOUR_TEMPLATE_ID';
+const EMAILJS_SERVICE = 'service_4vc302d', EMAILJS_TEMPLATE = 'template_51idxwf';
 async function sendContact(form) {
   const url = (window.VR_CONFIG || {}).studioAiUrl;
   if (url) {
