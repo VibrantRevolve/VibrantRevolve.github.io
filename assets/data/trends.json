@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-10T05:00:29.104Z",
- "basedOn": 93,
+ "updated": "2026-10-11T12:03:33.002Z",
+ "basedOn": 131,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 14.36,
-   "headline": "Principal Solutions Engineer, Emerging Technologies",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
+   "score": 18.77,
+   "headline": "Descript: Brand Design Lead",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/descript-brand-design-lead"
+  },
+  {
+   "topic": "Business",
+   "hashtag": "#Business",
+   "score": 15.12,
+   "headline": "Sterling cuts bloated share count by 90%, resets price to N77",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/11/sterling-cuts-bloated-share-count-by-90-resets-price-to-n77/"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 10.26,
+   "headline": "OPay files for US IPO, considers secondary listing in Nigeria",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/opay-files-for-us-ipo/"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 10.01,
+   "headline": "Learning to use local AI is exciting, overwhelming, and frustrating",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
+  },
+  {
+   "topic": "Opay",
+   "hashtag": "#Opay",
+   "score": 9.38,
+   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 11.5,
+   "score": 8.91,
    "headline": "Group Product Manager, AI-Native Data Warehouse",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse"
   },
   {
-   "topic": "Business",
-   "hashtag": "#Business",
-   "score": 11.47,
-   "headline": "BREAKING; Zenith Bank H1 2026 pre-tax profit rises 1.9% to N637.6 billion",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/10/zenith-bank-h1-2026-pre-tax-profit-rises-1-9-to-n637-6-billion/"
-  },
-  {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 9.13,
-   "headline": "AI is making it easier to build games in Africa. Making money is still the hard part",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/ai-african-game-development-monetisation/"
-  },
-  {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 8.28,
-   "headline": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
-  },
-  {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 7.81,
-   "headline": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+   "score": 8.29,
+   "headline": "Anthropic is cutting off its internal evaluations from the internet",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
+  },
+  {
+   "topic": "Ipo",
+   "hashtag": "#Ipo",
+   "score": 7.4,
+   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 6.88,
+   "headline": "Bolt calls for dialogue with AUATON ahead of October 12 app shutdown/indefinite strike",
+   "source": "Technext",
+   "url": "https://technext24.com/news/bolt-calls-for-dialogue-with-auaton-shutdown/"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 6.65,
+   "headline": "Vercel: Software Engineer - Data Platform",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-data-platform"
+  },
+  {
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 5.52,
+   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
   },
   {
    "topic": "Moove",
    "hashtag": "#Moove",
-   "score": 6.8,
+   "score": 5.41,
    "headline": "How Moove raised over $710 million before exiting Nigeria",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/09/how-moove-raised-over-710-million-before-exiting-nigeria/"
   },
   {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 6.32,
-   "headline": "WomanKind Creative Grant 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/10/womankind-creative-grant-2027/"
+   "topic": "Descript",
+   "hashtag": "#Descript",
+   "score": 5.35,
+   "headline": "Descript: Brand Design Lead",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/descript-brand-design-lead"
   },
   {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 6.11,
-   "headline": "Principal Solutions Engineer, Emerging Technologies",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
-  },
-  {
-   "topic": "Lagos Life",
-   "hashtag": "#LagosLife",
-   "score": 5.54,
-   "headline": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
-   "source": "WeeTracker",
-   "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/"
-  },
-  {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 5.25,
-   "headline": "Five months after running out of capital, Chimoney gets a new owner",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/09/chimoney-capitalsage-close-deal/"
-  },
-  {
-   "topic": "Philadelphia",
-   "hashtag": "#Philadelphia",
-   "score": 5.14,
-   "headline": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
-  },
-  {
-   "topic": "Ngx",
-   "hashtag": "#Ngx",
-   "score": 5.09,
-   "headline": "NGX recovers N208 billion as MTN, Oando shares lift market",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/09/ngx-recovers-n208-billion-as-mtn-oando-shares-lift-market/"
-  },
-  {
-   "topic": "Seo",
-   "hashtag": "#Seo",
-   "score": 5.03,
-   "headline": "Staff Product Manager, SEO and AI Visibility – US",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/154945-staff-product-manager-seo-and-ai-visibility-us"
+   "topic": "Vercel",
+   "hashtag": "#Vercel",
+   "score": 5.35,
+   "headline": "Vercel: Software Engineer - Data Platform",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-data-platform"
   }
  ],
  "tags": [
   "Business",
-  "Grants & Funding",
   "AI & Automation",
-  "Jobs",
   "Tech News",
-  "Security",
+  "Jobs",
+  "Design & Social",
+  "Payments",
   "Naija Startups",
-  "Payments"
+  "Grants & Funding"
  ]
 }
