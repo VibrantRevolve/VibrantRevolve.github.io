@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-11T12:03:33.002Z",
+ "updated": "2026-10-12T09:36:54.945Z",
  "basedOn": 131,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 18.77,
+   "score": 15.91,
    "headline": "Descript: Brand Design Lead",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/descript-brand-design-lead"
@@ -13,7 +13,7 @@
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 15.12,
+   "score": 12.8,
    "headline": "Sterling cuts bloated share count by 90%, resets price to N77",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/11/sterling-cuts-bloated-share-count-by-90-resets-price-to-n77/"
@@ -21,7 +21,7 @@
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 10.26,
+   "score": 9.12,
    "headline": "OPay files for US IPO, considers secondary listing in Nigeria",
    "source": "Benjamin Dada",
    "url": "https://thecondia.com/opay-files-for-us-ipo/"
@@ -29,7 +29,7 @@
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 10.01,
+   "score": 8.6,
    "headline": "Learning to use local AI is exciting, overwhelming, and frustrating",
    "source": "The Verge",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
@@ -37,7 +37,7 @@
   {
    "topic": "Opay",
    "hashtag": "#Opay",
-   "score": 9.38,
+   "score": 7.88,
    "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
@@ -45,7 +45,7 @@
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 8.91,
+   "score": 7.71,
    "headline": "Group Product Manager, AI-Native Data Warehouse",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse"
@@ -53,7 +53,7 @@
   {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 8.29,
+   "score": 7.11,
    "headline": "Anthropic is cutting off its internal evaluations from the internet",
    "source": "The Verge",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
@@ -61,7 +61,7 @@
   {
    "topic": "Ipo",
    "hashtag": "#Ipo",
-   "score": 7.4,
+   "score": 6.17,
    "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
@@ -69,7 +69,7 @@
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 6.88,
+   "score": 5.9,
    "headline": "Bolt calls for dialogue with AUATON ahead of October 12 app shutdown/indefinite strike",
    "source": "Technext",
    "url": "https://technext24.com/news/bolt-calls-for-dialogue-with-auaton-shutdown/"
@@ -77,42 +77,42 @@
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 6.65,
+   "score": 5.67,
    "headline": "Vercel: Software Engineer - Data Platform",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-data-platform"
   },
   {
-   "topic": "Million",
-   "hashtag": "#Million",
-   "score": 5.52,
-   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
-  },
-  {
    "topic": "Moove",
    "hashtag": "#Moove",
-   "score": 5.41,
+   "score": 4.74,
    "headline": "How Moove raised over $710 million before exiting Nigeria",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/09/how-moove-raised-over-710-million-before-exiting-nigeria/"
   },
   {
-   "topic": "Descript",
-   "hashtag": "#Descript",
-   "score": 5.35,
-   "headline": "Descript: Brand Design Lead",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/descript-brand-design-lead"
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 4.67,
+   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
   },
   {
-   "topic": "Vercel",
-   "hashtag": "#Vercel",
-   "score": 5.35,
-   "headline": "Vercel: Software Engineer - Data Platform",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-data-platform"
+   "topic": "Lagos Life",
+   "hashtag": "#LagosLife",
+   "score": 4.61,
+   "headline": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
+   "source": "WeeTracker",
+   "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 4.44,
+   "headline": "WomanKind Creative Grant 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/10/womankind-creative-grant-2027/"
   }
  ],
  "tags": [
