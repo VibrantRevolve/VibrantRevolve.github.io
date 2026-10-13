@@ -1,5 +1,533 @@
 [
   {
+<<<<<<< HEAD
+=======
+    "id": "c575d48f5d",
+    "title": "Sterling cuts bloated share count by 90%, resets price to N77",
+    "url": "https://nairametrics.com/2026/10/11/sterling-cuts-bloated-share-count-by-90-resets-price-to-n77/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-11T11:43:38.000Z",
+    "excerpt": "Sterling Financial Holdings Company Plc has completed its 1-for-10 share reconstruction, pushing its quoted share price to N77 from N7.70 as the company cuts the number of shares outstanding by 90%. The post Sterling cuts bloated share count by 90%, resets price to N77 appeared first on Nairametrics…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d40d3b8ed5",
+    "title": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
+    "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-11T11:16:15.000Z",
+    "excerpt": "OPay Limited has disclosed a short-term investment portfolio valued at $532.94 million as of June 30, 2026, with much of the portfolio placed through Nigerian asset management companies ahead of its proposed US initial public offering (IPO). The post OPay discloses $532.9 million short-term…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e164e5f0fb",
+    "title": "Energy transition: Why fossil fuels aren’t going away — Mesagan",
+    "url": "https://businessday.ng/education/article/energy-transition-why-fossil-fuels-arent-going-away-mesagan/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-11T11:03:46.000Z",
+    "excerpt": "…as Pan-Atlantic University holds its 26th inaugural lecture Fossil fuels will remain a critical part of the global energy mix",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ea95eacbd8",
+    "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-11T11:00:00.000Z",
+    "excerpt": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful […]",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "60e3d09263",
+    "title": "World Bank: Debt interest swallows health, education budgets in 80% of African countries",
+    "url": "https://nairametrics.com/2026/10/11/world-bank-debt-interest-swallows-health-education-budgets-in-80-of-african-countries/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-11T09:45:15.000Z",
+    "excerpt": "Interest payments on public debt exceed government spending on health and/or education in nearly four-fifths of sub-Saharan African countries, as high debt-servicing costs continue to constrain public finances across the region, according to the World Bank. The post World Bank: Debt interest…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2510ad1a59",
+    "title": "Bolt calls for dialogue with AUATON ahead of October 12 app shutdown/indefinite strike",
+    "url": "https://technext24.com/news/bolt-calls-for-dialogue-with-auaton-shutdown/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-11T09:25:37.000Z",
+    "excerpt": "Ahead of a planned October 12 indefinite strike by the Amalgamated Union of App-based Transporters of Nigeria (AUATON),…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "4bf1063515",
+    "title": "Zenith Bank’s foreign subsidiaries post N166 billion pre-tax profit in H1 2026",
+    "url": "https://nairametrics.com/2026/10/11/zenith-banks-foreign-subsidiaries-post-n166-billion-pre-tax-profit-in-h1-2026/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-11T08:12:34.000Z",
+    "excerpt": "Zenith Bank Plc’s non-Nigerian subsidiaries recorded a combined profit before tax (PBT) of N166.09 billion in the first half of 2026, as its international operations continued to contribute to the group’s earnings. The post Zenith Bank’s foreign subsidiaries post N166 billion pre-tax profit in H1…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b46912425a",
+    "title": "Dangote Group projects crude oil production to rise to 1.72 million bpd in Q4 2026",
+    "url": "https://nairametrics.com/2026/10/11/dangote-group-projects-crude-oil-production-to-rise-to-1-72-million-bpd-in-q4-2026/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-11T07:56:27.000Z",
+    "excerpt": "Nigeria’s crude oil production is projected to rise to 1.72 million barrels per day (bpd) in the fourth quarter of 2026, with average output expected to reach 1.62 million bpd for the full year, according to Dangote Group. The post Dangote Group projects crude oil production to rise to 1.72 million…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c8a9114a20",
+    "title": "NUPRC identifies 788,000 bpd of shut-in oil production for restoration",
+    "url": "https://nairametrics.com/2026/10/11/nuprc-identifies-788000-bpd-of-shut-in-oil-production-for-restoration/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-11T07:47:06.000Z",
+    "excerpt": "The Nigerian Upstream Petroleum Regulatory Commission (NUPRC) says it has identified more than 788,000 barrels per day (bpd) of shut-in oil production across 63 operators that it is targeting for restoration as part of efforts to increase Nigeria’s crude oil output. The post NUPRC identifies 788,000…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "5ba2f85e7e",
+    "title": "Descript: Brand Design Lead",
+    "url": "https://weworkremotely.com/remote-jobs/descript-brand-design-lead",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:31:11.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> San Francisco, CA or Remote, US </p> <h2>About the Role</h2> <p>Descript helps creators and companies tell stories through video. The creative team ensures that our brand lives up to the ethos of our customers. We ship work that’s brave, creative, and a bit…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9aa78f43c6",
+    "title": "Stripe: Account Executive, Product Sales - Tax",
+    "url": "https://weworkremotely.com/remote-jobs/stripe-account-executive-product-sales-tax",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:31:07.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> US-Remote </p> <h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c8ed843abe",
+    "title": "Vercel: Software Engineer - Data Platform",
+    "url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-data-platform",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:31:07.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - United States </p> <div class=\"content-intro\"><h2>About Vercel:</h2> <p><span>Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "a2cd407af7",
+    "title": "Descript: Applied Research Scientist, AI Research",
+    "url": "https://weworkremotely.com/remote-jobs/descript-applied-research-scientist-ai-research",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:31:07.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> San Francisco, CA or Remote, US </p> <p>Descript's Research team builds the models behind the product's most distinctive features: Video Regenerate and lipsync, video translation, zero-shot voice and roomtone cloning, and Studio Sound. We don't build…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "64dd5dfbd7",
+    "title": "Maven Clinic: Customer Success Director",
+    "url": "https://weworkremotely.com/remote-jobs/maven-clinic-customer-success-director",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:31:07.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote </p> <div class=\"content-intro\"><p>Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2b721e3974",
+    "title": "Upstart: Art Director, Performance",
+    "url": "https://weworkremotely.com/remote-jobs/upstart-art-director-performance",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:31:07.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> United States | Remote </p> <div class=\"content-intro\"><p><strong>About Upstart</strong></p> <p>At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "962ae0dad6",
+    "title": "Vercel: Software Engineer, Backend",
+    "url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-backend",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:31:07.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - United States </p> <div class=\"content-intro\"><h2>About Vercel:</h2> <p><span>Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "fa559ea36e",
+    "title": "Zscaler: Account Executive, Enterprise - NY/NJ",
+    "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-ny-nj",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:31:07.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - New York, USA </p> <div class=\"content-intro\"><p>Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6980887cf4",
+    "title": "Sezzle: Chargeback Operations Intern",
+    "url": "https://weworkremotely.com/remote-jobs/sezzle-chargeback-operations-intern",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:30:57.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Argentina, Remote </p> <p><strong>About Sezzle:</strong></p> <p>With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e959a82db0",
+    "title": "Upstart: Art Director, Brand Social",
+    "url": "https://weworkremotely.com/remote-jobs/upstart-art-director-brand-social",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-11T07:30:57.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> United States | Remote </p> <div class=\"content-intro\"><p><strong>About Upstart</strong></p> <p>At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6c51045512",
+    "title": "Foreign investor participation in Nigerian stocks plunges to paltry 4.89% in August",
+    "url": "https://nairametrics.com/2026/10/11/foreign-investor-participation-in-nigerian-stocks-plunges-to-paltry-4-89-in-august/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-11T06:31:37.000Z",
+    "excerpt": "Foreign investors accounted for just 4.89% of equity transactions on the Nigerian Exchange (NGX) in August 2026, the lowest monthly participation share recorded this year, as foreign trading declined to N62.03 billion. The post Foreign investor participation in Nigerian stocks plunges to paltry…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "35dc91695d",
+    "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-10T22:10:17.000Z",
+    "excerpt": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or […]",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d05facb80f",
+    "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+    "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-10T21:47:51.000Z",
+    "excerpt": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e77e9ae834",
+    "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+    "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-10T18:52:07.000Z",
+    "excerpt": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an…",
+    "tag": "Design & Social",
+    "cta": {
+      "label": "Design assets",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "409662059a",
+    "title": "Meet 10 entrepreneurs building the tech and businesses behind Africa’s digital music economy",
+    "url": "https://technext24.com/social-tech/10-digital-africa-music-entrepreneurs/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-10T18:18:30.000Z",
+    "excerpt": "African music has travelled far beyond the continent, with Afrobeats, Amapiano and other homegrown sounds reaching audiences through…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "c5505408a0",
+    "title": "OPay makes $90.9 million profit in six months as it files for a US IPO",
+    "url": "https://technext24.com/news/opay-makes-90-9-million-profit-in-6-months/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-10T18:07:31.000Z",
+    "excerpt": "OPay, one of Nigeria’s leading fintechs, has revealed strong financial performance as it moves closer to potentially listing…",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "2e8e3f1e78",
+    "title": "Beginner’s Guide to Cloud Mining in 2026: How to Mine Bitcoin and Dogecoin Without Your Own Mining Rig",
+    "url": "https://ventureburn.com/beginners-guide-to-cloud-mining-in-2026-how-to-mine-bitcoin-and-dogecoin-without-your-own-mining-rig/",
+    "source": "Ventureburn",
+    "kind": "news",
+    "date": "2026-10-10T16:41:30.000Z",
+    "excerpt": "Want to mine Bitcoin or Dogecoin without buying equipment, dealing with fan noise, or keeping machines cool? Online mining services let you participate without running a mining rig at home. The post Beginner’s Guide to Cloud Mining in 2026: How to Mine Bitcoin and Dogecoin Without Your Own Mining…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "0decde66c5",
+    "title": "Anthropic is cutting off its internal evaluations from the internet",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-10T14:41:16.000Z",
+    "excerpt": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "a893947d30",
+    "title": "Here are the top AI agents that can live in your text messages",
+    "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-10T14:00:00.000Z",
+    "excerpt": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "a58b3d5ac5",
+    "title": "The Nigerian founders who turned travel frustrations into a fintech",
+    "url": "https://techcabal.com/2026/10/10/timon-founders-and-visa-hurdles/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-10T13:49:42.000Z",
+    "excerpt": "Facing a backlog at the American Embassy in Lagos that threatened to run out of time for their interview window, Ayorinde and his team scrambled for help. Investor Kola Aina of Ventures Platform, which had backed the startup, intervened, according to Ayorinde, reaching out to contacts who could help…",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "44bdda7d66",
+    "title": "OPay files for US IPO, considers secondary listing in Nigeria",
+    "url": "https://thecondia.com/opay-files-for-us-ipo/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-10T13:23:44.000Z",
+    "excerpt": "OPay has filed for an IPO in the US, as it considers a potential secondary listing on the Nigerian Exchange.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "56010ca706",
+    "title": "Binance Launches $200K STABLE Trading Competition with New Multiplier Mechanics",
+    "url": "https://ventureburn.com/binance-stable-trading-competition/",
+    "source": "Ventureburn",
+    "kind": "news",
+    "date": "2026-10-10T08:39:06.000Z",
+    "excerpt": "Binance just kicked off a fresh trading competition, dangling a $200,000 prize pot for anyone engaging with the STABLE token. Running from October 9 through October 23, 2026, the event The post Binance Launches $200K STABLE Trading Competition with New Multiplier Mechanics appeared first on…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "923b6f410c",
+    "title": "BREAKING; Zenith Bank H1 2026 pre-tax profit rises 1.9% to N637.6 billion",
+    "url": "https://nairametrics.com/2026/10/10/zenith-bank-h1-2026-pre-tax-profit-rises-1-9-to-n637-6-billion/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-10T02:40:12.000Z",
+    "excerpt": "Zenith Bank Plc reported a profit before tax of N637.6 billion for the half-year ended June 30, 2026, a 1.9% increase from N625.6 billion in the same period of 2025. The post BREAKING; Zenith Bank H1 2026 pre-tax profit rises 1.9% to N637.6 billion appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c846ac12f4",
+    "title": "WomanKind Creative Grant 2027",
+    "url": "https://opportunitydesk.org/2026/10/10/womankind-creative-grant-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-10T01:13:48.000Z",
+    "excerpt": "Deadline: November 1, 2026 Applications for the WomanKind Creative Grant 2027 are now open. The WomanKind Creative Grant provides early-stage women’s health companies with the strategic branding and design support they need to build trust, communicate their vision, and accelerate their impact. Every…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "8333e57732",
+    "title": "Yves Rocher Foundation Terre de Femmes International Award 2027 (€10,000 grant)",
+    "url": "https://opportunitydesk.org/2026/10/10/terre-de-femmes-international-award-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-10T00:43:59.000Z",
+    "excerpt": "Deadline: November 30, 2026 Applications are open for the Yves Rocher Foundation Terre de Femmes International Award 2027. This new edition of the thematic Terre de Femmes International Award will reward a project led by a woman or a group of women committed to an initiative that places trees at the…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "cf5de6151a",
+    "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+    "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-10T00:18:32.000Z",
+    "excerpt": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+>>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
     "id": "ac2c548222",
     "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
     "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
@@ -690,6 +1218,21 @@
     "take": ""
   },
   {
+    "id": "f41ad5d351",
+    "title": "Glovo Nigeria’s managing director steps down after three years",
+    "url": "https://thecondia.com/lamide-akinola-glovo-nigeria-md-steps-down/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-06T11:14:44.000Z",
+    "excerpt": "Lamide Akinola, Glovo Nigeria's managing director, moves on after a three-year tenure.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
     "id": "d1be949c15",
     "title": "Who owns the wealth beneath your feet? The AI engine exposing Nigeria’s ‘hidden' miners",
     "url": "https://techcabal.com/2026/10/06/who-is-mining-your-land-minetrix-ai/",
@@ -701,6 +1244,66 @@
     "cta": {
       "label": "Custom software",
       "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e666905641",
+    "title": "Tech events you shouldn’t miss this October",
+    "url": "https://thecondia.com/events-in-october-for-tech-workers/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-06T10:17:31.000Z",
+    "excerpt": "A list of events tech professionals and enthusiasts could attend in October 2026.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "de28c6dcff",
+    "title": "Lagos Life: The Nigerian Developer Behind The Game That Hit 1M Users in Three Days",
+    "url": "https://thecondia.com/shalom-mathew-lagos-life/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-06T09:49:37.000Z",
+    "excerpt": "Nigerian developer Shalom Mathew built Lagos Life in under 12 hours. The game hit 1M users in three days and is now becoming a gaming company.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "6e7397f811",
+    "title": "Adora Nwodo on building a career in tech, losing a dream job, and starting again",
+    "url": "https://thecondia.com/adora-nwodo-level-up/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-05T09:00:00.000Z",
+    "excerpt": "Adora Nwodo started coding at seven. Now, with over 10 years building an engineering career, she talks about the skills, privileges, sacrifices, and challenges in her journey.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "23a8b84c79",
+    "title": "Leatherback rebrands to Foren two months after Zedcrest acquisition",
+    "url": "https://thecondia.com/leatherback-rebrands-to-foren/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-05T08:00:00.000Z",
+    "excerpt": "Two months after getting acquired by Zedcrest Group, Leatherback is rebranding to Foren, targeting businesses that need cross-border financial services.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
     },
     "take": ""
   },
@@ -791,6 +1394,36 @@
     "cta": {
       "label": "Need a website for your application?",
       "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "bd0e7dd42f",
+    "title": "Africa’s AI policy cannot be separated from its industrial policy",
+    "url": "https://thecondia.com/ai-africa-industrial-policy/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-03T11:56:44.000Z",
+    "excerpt": "Africa’s AI future will depend on more than technology. Investments in infrastructure, skills and strong institutions will determine who benefits and who is left behind.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "5315931fcf",
+    "title": "Different Ways to Use ChatGPT For Free Without Paying A Subscription",
+    "url": "https://thecondia.com/how-to-use-chatgpt-for-free/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-03T10:13:17.000Z",
+    "excerpt": "Know the different ways to use ChatGPT for free without paying for a personal subscription.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
     },
     "take": ""
   },

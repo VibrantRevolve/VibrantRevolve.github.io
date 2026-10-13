@@ -1,14 +1,58 @@
 {
+<<<<<<< HEAD
  "updated": "2026-10-09T23:08:44.577Z",
  "basedOn": 44,
+=======
+ "updated": "2026-10-12T09:36:54.945Z",
+ "basedOn": 131,
+>>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
+<<<<<<< HEAD
    "score": 7.63,
    "headline": "Principal Solutions Engineer, Emerging Technologies",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies"
+=======
+   "score": 15.91,
+   "headline": "Descript: Brand Design Lead",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/descript-brand-design-lead"
+  },
+  {
+   "topic": "Business",
+   "hashtag": "#Business",
+   "score": 12.8,
+   "headline": "Sterling cuts bloated share count by 90%, resets price to N77",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/11/sterling-cuts-bloated-share-count-by-90-resets-price-to-n77/"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 9.12,
+   "headline": "OPay files for US IPO, considers secondary listing in Nigeria",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/opay-files-for-us-ipo/"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 8.6,
+   "headline": "Learning to use local AI is exciting, overwhelming, and frustrating",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
+  },
+  {
+   "topic": "Opay",
+   "hashtag": "#Opay",
+   "score": 7.88,
+   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
+>>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
   },
   {
    "topic": "Business",
@@ -29,7 +73,11 @@
   {
    "topic": "Manager",
    "hashtag": "#Manager",
+<<<<<<< HEAD
    "score": 5.72,
+=======
+   "score": 7.71,
+>>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
    "headline": "Group Product Manager, AI-Native Data Warehouse",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse"
@@ -37,6 +85,7 @@
   {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
+<<<<<<< HEAD
    "score": 5.45,
    "headline": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
    "source": "The Verge",
@@ -65,10 +114,33 @@
    "headline": "AI is making it easier to build games in Africa. Making money is still the hard part",
    "source": "Benjamin Dada",
    "url": "https://thecondia.com/ai-african-game-development-monetisation/"
+=======
+   "score": 7.11,
+   "headline": "Anthropic is cutting off its internal evaluations from the internet",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
+  },
+  {
+   "topic": "Ipo",
+   "hashtag": "#Ipo",
+   "score": 6.17,
+   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 5.9,
+   "headline": "Bolt calls for dialogue with AUATON ahead of October 12 app shutdown/indefinite strike",
+   "source": "Technext",
+   "url": "https://technext24.com/news/bolt-calls-for-dialogue-with-auaton-shutdown/"
+>>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
   },
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
+<<<<<<< HEAD
    "score": 4.57,
    "headline": "Principal Solutions Engineer, Emerging Technologies",
    "source": "Jobicy",
@@ -89,16 +161,43 @@
    "headline": "NGX recovers N208 billion as MTN, Oando shares lift market",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/09/ngx-recovers-n208-billion-as-mtn-oando-shares-lift-market/"
+=======
+   "score": 5.67,
+   "headline": "Vercel: Software Engineer - Data Platform",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-data-platform"
+  },
+  {
+   "topic": "Moove",
+   "hashtag": "#Moove",
+   "score": 4.74,
+   "headline": "How Moove raised over $710 million before exiting Nigeria",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/09/how-moove-raised-over-710-million-before-exiting-nigeria/"
+  },
+  {
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 4.67,
+   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
+>>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
   },
   {
    "topic": "Lagos Life",
    "hashtag": "#LagosLife",
+<<<<<<< HEAD
    "score": 3.12,
+=======
+   "score": 4.61,
+>>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
    "headline": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
    "source": "WeeTracker",
    "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/"
   },
   {
+<<<<<<< HEAD
    "topic": "Viral",
    "hashtag": "#Viral",
    "score": 2.95,
@@ -113,15 +212,33 @@
    "headline": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
    "source": "TechCrunch",
    "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/"
+=======
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 4.44,
+   "headline": "WomanKind Creative Grant 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/10/womankind-creative-grant-2027/"
+>>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
   }
  ],
  "tags": [
   "AI & Automation",
   "Business",
+<<<<<<< HEAD
   "Grants & Funding",
   "Jobs",
   "Tech News",
   "Security",
   "Naija Startups"
+=======
+  "AI & Automation",
+  "Tech News",
+  "Jobs",
+  "Design & Social",
+  "Payments",
+  "Naija Startups",
+  "Grants & Funding"
+>>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
  ]
 }
