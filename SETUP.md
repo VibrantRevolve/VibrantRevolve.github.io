@@ -65,3 +65,21 @@ The blog reads `blog/posts.json`. If a git merge leaves lines like `<<<<<<< HEAD
 
 ## The installable app
 Visitors can install VibrantRevolve from the "Install the app" button (footer, desktop header, search menu) or the install bar shown on a second visit. Where the browser cannot offer a one-tap install, the button shows steps for that browser. The free tools are saved on first visit and work offline.
+
+## If `assets/data/trends.json` shows `<<<<<<<` markers
+Same cause as the blog: two automated branches (`news/drafts` and `main`) both changed a generated file. The site now tolerates it (the Post Maker reads the first side), but fix the file by re-running the news workflow so `build-trends.mjs` regenerates it. Close stale `news/drafts` PRs instead of resolving by hand, and don't edit generated files in `assets/data/` or `blog/posts.json` while a PR is open.
+
+## Email with EmailJS (contact form and payment confirmations)
+Free plan is enough to start. Everything below is public, so it is safe in `assets/js/site-config.js`.
+1. Sign up at emailjs.com. **Email Services > Add New Service** (Gmail is easiest), connect your mailbox, and copy the **Service ID** (looks like `service_xxxx`).
+2. **Email Templates > Create New Template** for the contact form. Set "To email" to your own address and "Reply to" to `{{from_email}}`. In the body use `{{from_name}}`, `{{from_email}}` and `{{message}}`. Save and copy the **Template ID** (`template_xxxx`).
+3. **Account > General**: copy your **Public Key**.
+4. In `site-config.js` fill in `emailjsPublicKey`, `emailjsServiceId`, `emailjsTemplateId`, then publish.
+5. Optional second template for payment confirmations: "To email" = `{{user_email}}`, body uses `{{service_name}}`, `{{amount}}`, `{{payment_method}}`, `{{tracking_id}}`, `{{transaction_id}}`. Both forms currently share the one template ID, so for payments either make one template that fits both or ask me to add a separate `emailjsPaymentTemplateId`.
+6. In EmailJS **Account > Security**, restrict the key to your domain, and test from the live site.
+Note: if `studioAiUrl` is set and the Worker has Resend configured, the contact form uses the Worker first and EmailJS is only the fallback. With nothing configured it opens the visitor's mail app.
+
+## Studio Status, Project Estimator and Website Audit
+- **Studio Status**: the green "Taking new projects" line in the footer and the home hero reads `assets/data/status.json`. Change `state` (`open`, `limited` or `full`), `headline`, `slots` and `reply`, then publish. Keep it honest and update it when your workload changes.
+- **Project Estimator** (`/tools/estimator/`): base prices come from `assets/js/pricing-data.js`, so it always matches the Pricing page. Extras and the Naira rate (`NGN`) are at the top of `assets/js/tool-estimate.js`.
+- **Website Audit** (`/tools/website-audit/`): needs the Cloudflare Worker (`studioAiUrl` set) and a redeploy of `workers/studio-ai` (`npx wrangler deploy`). It uses no AI credits. It only fetches public http(s) pages, blocks private and local addresses, and is limited to 8 audits per 10 minutes per visitor.

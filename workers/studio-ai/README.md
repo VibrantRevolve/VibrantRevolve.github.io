@@ -55,3 +55,6 @@ Model names were checked against the Workers AI catalogue in October 2026. Cloud
 | Voice (MP3) | MeloTTS (many languages), then Aura-1 (English only) |
 
 A model that errors, is retired or is not on your account is skipped silently and the next one answers. The Worker understands the different answer formats the models use. Change any list with the variables `TEXT_MODELS`, `STT_MODELS`, `TTS_MODELS`, `IMG_MODELS` (comma separated model names). If every model fails, the website falls back to its built-in templates, so visitors still get a result.
+
+## Website audit task
+`POST {task:"audit", url:"example.com"}` fetches the public page and returns `{score, scores, checks[], ms, kb}`. No AI is used. It only accepts public http(s) addresses on ports 80/443 (no localhost, IP addresses, internal names or logins), reads at most 1.5 MB, and is limited to 8 requests per 10 minutes per visitor. Redeploy with `npx wrangler deploy` after updating `worker.js`.

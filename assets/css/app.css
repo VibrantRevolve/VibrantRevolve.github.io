@@ -142,3 +142,9 @@ button:active,.btn-primary:active,.btn-secondary:active,.tb:active,.hub-card:act
 .is-app .site-header,.is-app header.header{padding-top:env(safe-area-inset-top)}
 @media (prefers-reduced-motion:reduce){.vr-installbar,.vr-sheet-box,.vr-toast{transition:none;animation:none}}
 @media print{.vr-installbar,.vr-sheet,.vr-toast{display:none!important}}
+
+/* Install item inside the phone menus (the header App button is hidden under 1024px) */
+.vr-navapp-li{display:none}
+@media (max-width:1023px){.vr-navapp-li{display:list-item}}
+@media (min-width:1024px){#mobileNav .vr-navapp{display:none}}
+.is-app .vr-navapp,.is-app .vr-navapp-li{display:none!important}

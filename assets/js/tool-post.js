@@ -162,7 +162,7 @@
   ['sp-cat', 'sp-city'].forEach((id) => $('#' + id).addEventListener('input', caption));
   $('#sp-recap').onclick = () => { bump++; caption(); };
   $('#sp-capcopy').onclick = (e) => K.copy($('#sp-cap').value, e.currentTarget, 'Copied');
-  fetch('/assets/data/trends.json').then((r) => (r.ok ? r.json() : null)).then((d) => { if (d && d.topics) { trendTopics = d.topics.slice(0, 10); const u = new Date(d.updated); $('#sp-trend-date').textContent = isNaN(u) ? '' : 'Updated ' + u.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }); } chips(); caption(); }).catch(() => { chips(); caption(); });
+  fetch('/assets/data/trends.json').then((r) => (r.ok ? r.text() : null)).then((t) => { if (!t) return null; try { return JSON.parse(t); } catch (e) { try { return JSON.parse(t.replace(/^<<<<<<<[^\n]*\n([\s\S]*?)^=======\n[\s\S]*?^>>>>>>>[^\n]*\n/gm, '$1')); } catch (e2) { return null; } } }).then((d) => { if (d && d.topics) { trendTopics = d.topics.slice(0, 10); const u = new Date(d.updated); $('#sp-trend-date').textContent = isNaN(u) ? '' : 'Updated ' + u.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }); } chips(); caption(); }).catch(() => { chips(); caption(); });
   /* ---- optional AI (needs the Cloudflare Worker) ---- */
   K.whenAI(() => {
     const details = () => [$('#sp-head').value, $('#sp-body').value, $('#sp-cat').value, $('#sp-city').value].filter(Boolean).join('. ');

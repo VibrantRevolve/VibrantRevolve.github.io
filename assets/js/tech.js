@@ -28,7 +28,7 @@
   }
   function status() {
     const ft = $('.site-footer, footer.footer'); if (!ft || $('.tx-status')) return false; const f = $('.footer-brand', ft) || $('.footer-bottom', ft) || ft; const s = document.createElement('div'); s.className = 'tx-status';
-    const tick = () => { let t = ''; try { t = new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Africa/Lagos' }); } catch (e) {} s.textContent = 'All systems operational · Lagos ' + t + ' WAT'; }; tick(); setInterval(tick, 30000); f.appendChild(s); return true;
+    const tick = () => { let t = ''; try { t = new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Africa/Lagos' }); } catch (e) {} s.textContent = 'Lagos, Nigeria · ' + t + ' WAT'; }; tick(); setInterval(tick, 30000); f.appendChild(s); return true;
   }
   function init() { eyebrows(); hero(); glow(); let n = 0; const iv = setInterval(() => { if (status() || ++n > 40) clearInterval(iv); }, 250); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();

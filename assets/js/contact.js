@@ -13,7 +13,7 @@ const ContactManager = {
     // EmailJS init (key should come from env, this is placeholder)
     if (window.emailjs) {
       // In production, load from secure endpoint or env
-      emailjs.init("CnB0xCvycunmgJ5OH"); 
+      emailjs.init((window.VR_CONFIG || {}).emailjsPublicKey || '');
     }
 
     this.guard(form);
@@ -100,7 +100,7 @@ const ContactManager = {
   }
 };
 
-const EMAILJS_SERVICE = 'service_4vc302d', EMAILJS_TEMPLATE = 'template_51idxwf';
+const EMAILJS_SERVICE = (window.VR_CONFIG || {}).emailjsServiceId || '', EMAILJS_TEMPLATE = (window.VR_CONFIG || {}).emailjsTemplateId || '';
 async function sendContact(form) {
   const url = (window.VR_CONFIG || {}).studioAiUrl;
   if (url) {
@@ -115,7 +115,7 @@ async function sendContact(form) {
     } catch (err) { if (err && /human|check your details/.test(err.message)) throw err; }
     // Worker not ready or unreachable: fall through to the older routes below
   }
-  if (EMAILJS_SERVICE.includes('YOUR_') || !window.emailjs) {
+  if (!EMAILJS_SERVICE || !EMAILJS_TEMPLATE || !((window.VR_CONFIG || {}).emailjsPublicKey) || !window.emailjs) {
     const body = [...new FormData(form).entries()].filter(([k]) => k !== 'website' && k !== 'cf-turnstile-response').map(([k, v]) => k + ': ' + v).join('\n');
     window.location.href = 'mailto:vr@vibrantrevolve.com?subject=' + encodeURIComponent('Website enquiry') + '&body=' + encodeURIComponent(body);
     return;

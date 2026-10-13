@@ -20,7 +20,7 @@ async function aiRun(env, list, input) {
 }
 const sha = async (s) => [...new Uint8Array(await crypto.subtle.digest('SHA-1', new TextEncoder().encode(s)))].map((x) => x.toString(16).padStart(2, '0')).join('');
 
-const LIMITS = { chat: 20, contact: 5, pay: 20, image: 6, rewrite: 30, def: 40 }, WINDOW = 10 * 60 * 1000;      // best-effort per-isolate limiter. Also add a Cloudflare rate-limit rule.
+const LIMITS = { chat: 20, contact: 5, pay: 20, image: 6, rewrite: 30, audit: 8, def: 40 }, WINDOW = 10 * 60 * 1000;      // best-effort per-isolate limiter. Also add a Cloudflare rate-limit rule.
 const hits = new Map();
 
 const clean = (v, n) => String(v == null ? '' : v).replace(/[\u0000-\u001f<>`]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, n);
@@ -137,6 +137,83 @@ function parse(r) {
   try { return JSON.parse(sl); } catch { return JSON.parse(fixJson(sl)); }
 }
 
+
+// ---------- Website audit: fetches a public page and checks it. No AI needed. ----------
+function auditUrl(raw) {
+  let s = String(raw || '').trim().slice(0, 300); if (!s) return null;
+  if (!/^https?:\/\//i.test(s)) s = 'https://' + s;
+  let u; try { u = new URL(s); } catch { return null; }
+  const h = u.hostname.toLowerCase();
+  if (!/^https?:$/.test(u.protocol) || u.username || u.password) return null;
+  if (u.port && u.port !== '80' && u.port !== '443') return null;
+  if (!h.includes('.') || /^[\d.]+$/.test(h) || h.includes(':') || h === 'localhost' || /\.(local|internal|localhost|lan|home|corp|test|invalid)$/.test(h)) return null;
+  return u;
+}
+async function grab(u, ms, cap) {
+  const t0 = Date.now();
+  const r = await fetch(u.href, { redirect: 'follow', headers: { 'User-Agent': 'Mozilla/5.0 (compatible; VibrantRevolveAudit/1.0; +https://vibrantrevolve.com)', Accept: 'text/html,*/*;q=0.8' }, signal: AbortSignal.timeout(ms) });
+  const ttfb = Date.now() - t0;
+  const fin = auditUrl(r.url); if (!fin) throw new Error('redirect');
+  let text = '', bytes = 0;
+  if (cap && r.body) {
+    const rd = r.body.getReader(), dec = new TextDecoder(); const parts = [];
+    for (;;) { const { done, value } = await rd.read(); if (done) break; bytes += value.length; parts.push(dec.decode(value, { stream: true })); if (bytes >= cap) { try { await rd.cancel(); } catch {} break; } }
+    text = parts.join('');
+  }
+  return { r, ttfb, bytes, text, final: fin };
+}
+async function audit(raw) {
+  const u = auditUrl(raw); if (!u) return { error: 'url' };
+  let g; try { g = await grab(u, 9000, 1500000); } catch { return { error: 'unreachable' }; }
+  const { r, text, final } = g, H = (n) => r.headers.get(n) || '';
+  const ct = H('content-type'); if (ct && !/html/i.test(ct)) return { error: 'notpage' };
+  const tag = (re) => { const m = text.match(re); return m ? m[1] : ''; };
+  const head = (text.match(/<head[\s\S]*?<\/head>/i) || [''])[0] || text.slice(0, 20000);
+  const title = tag(/<title[^>]*>([\s\S]*?)<\/title>/i).replace(/\s+/g, ' ').trim();
+  const meta = (n) => { const m = head.match(new RegExp('<meta[^>]+(?:name|property)=["\']' + n + '["\'][^>]*>', 'i')); const c = m && m[0].match(/content=["']([^"']*)["']/i); return c ? c[1].trim() : ''; };
+  const desc = meta('description'), h1 = (text.match(/<h1[\s>]/gi) || []).length;
+  const imgs = text.match(/<img\b[^>]*>/gi) || [], noAlt = imgs.filter((i) => !/\balt=/i.test(i)).length;
+  const lazy = imgs.filter((i) => /loading=["']lazy["']/i.test(i)).length, modern = imgs.filter((i) => /\.(webp|avif)(\?|["'\s])/i.test(i)).length;
+  const scripts = text.match(/<script\b[^>]*>/gi) || [], blocking = (head.match(/<script\b[^>]*>/gi) || []).filter((x) => /\bsrc=/i.test(x) && !/\b(defer|async|type=["']module["'])/i.test(x)).length;
+  const https = final.protocol === 'https:', mixed = https ? (text.match(/(?:src|href)=["']http:\/\/(?!www\.w3\.org)/gi) || []).length : 0;
+  const origin = final.origin, ok = (p) => fetch(origin + p, { redirect: 'follow', signal: AbortSignal.timeout(4000), headers: { 'User-Agent': 'VibrantRevolveAudit/1.0' } }).then(async (x) => x.ok && !/text\/html/i.test(x.headers.get('content-type') || '') ? (await x.text()).slice(0, 4000) : '').catch(() => '');
+  const [robots, sitemap] = await Promise.all([ok('/robots.txt'), ok('/sitemap.xml')]);
+  const kb = Math.round(g.bytes / 1024), enc = H('content-encoding');
+  const C = [];   // [cat, id, level(ok|warn|bad), label, tip]
+  const add = (cat, id, lvl, label, tip) => C.push({ cat, id, level: lvl, label, tip: lvl === 'ok' ? '' : tip });
+  const L = (n, lo, hi) => (n >= lo && n <= hi ? 'ok' : n ? 'warn' : 'bad');
+  add('Search', 'title', title ? L(title.length, 15, 65) : 'bad', title ? 'Page title: "' + title.slice(0, 70) + '"' : 'No page title', 'Write a clear title of 15 to 65 characters with your main keyword and brand.');
+  add('Search', 'desc', desc ? L(desc.length, 70, 170) : 'bad', desc ? 'Meta description (' + desc.length + ' characters)' : 'No meta description', 'Add a 70 to 160 character description. It is the text people see in Google results.');
+  add('Search', 'h1', h1 === 1 ? 'ok' : h1 ? 'warn' : 'bad', h1 === 1 ? 'One main heading (H1)' : h1 ? h1 + ' H1 headings found' : 'No H1 heading', 'Use exactly one H1 that says what the page is about.');
+  add('Search', 'canon', /<link[^>]+rel=["']canonical["']/i.test(head) ? 'ok' : 'warn', 'Canonical link', 'Add a canonical link so search engines know the main address of the page.');
+  add('Search', 'lang', /<html[^>]+\blang=/i.test(text.slice(0, 2000)) ? 'ok' : 'warn', 'Page language set', 'Add lang="en" (or your language) to the html tag.');
+  add('Search', 'alt', !imgs.length ? 'ok' : noAlt === 0 ? 'ok' : noAlt / imgs.length < .2 ? 'warn' : 'bad', imgs.length ? (imgs.length - noAlt) + ' of ' + imgs.length + ' images have an alt attribute' : 'No images to check', 'Give every image an alt attribute. Describe meaningful images, and leave it empty (alt="") for pure decoration.');
+  add('Search', 'share', meta('og:title') && meta('og:image') ? 'ok' : 'warn', 'Social share preview (Open Graph)', 'Add og:title and og:image so links look good on WhatsApp, X and LinkedIn.');
+  add('Search', 'robots', robots ? 'ok' : 'warn', 'robots.txt found', 'Add a robots.txt file at the root of your site.');
+  add('Search', 'sitemap', sitemap && /<urlset|<sitemapindex/i.test(sitemap) ? 'ok' : 'warn', 'sitemap.xml found', 'Add a sitemap.xml and submit it in Google Search Console.');
+  add('Mobile', 'viewport', /<meta[^>]+name=["']viewport["']/i.test(head) ? 'ok' : 'bad', 'Mobile viewport set', 'Add <meta name="viewport" content="width=device-width, initial-scale=1>. Without it phones show a tiny desktop page.');
+  add('Mobile', 'icon', /<link[^>]+rel=["'][^"']*icon/i.test(head) ? 'ok' : 'warn', 'Favicon and app icon', 'Add a favicon so your site is recognisable in tabs and bookmarks.');
+  add('Mobile', 'theme', meta('theme-color') ? 'ok' : 'warn', 'Theme colour for phone browsers', 'Add a theme-color meta tag to match your brand.');
+  add('Speed', 'ttfb', g.ttfb < 800 ? 'ok' : g.ttfb < 1800 ? 'warn' : 'bad', 'Server response ' + g.ttfb + ' ms', 'Aim for under 800 ms. Better hosting or a CDN usually fixes this.');
+  add('Speed', 'size', kb < 120 ? 'ok' : kb < 400 ? 'warn' : 'bad', 'Page HTML ' + kb + ' KB' + (g.bytes >= 1500000 ? '+' : ''), 'Keep the HTML light. Remove unused code and heavy inline data.');
+  add('Speed', 'gzip', /gzip|br|zstd/i.test(enc) ? 'ok' : 'warn', enc ? 'Compression: ' + enc : 'No compression', 'Turn on gzip or Brotli on your host. It makes pages download much faster.');
+  add('Speed', 'blocking', blocking === 0 ? 'ok' : blocking < 3 ? 'warn' : 'bad', blocking ? blocking + ' scripts block the page from showing' : 'No render-blocking scripts', 'Add defer or async to scripts in the head.');
+  add('Speed', 'scripts', scripts.length <= 15 ? 'ok' : scripts.length <= 30 ? 'warn' : 'bad', scripts.length + ' script tags', 'Fewer scripts means a faster page. Remove widgets you do not use.');
+  add('Speed', 'imgs', !imgs.length ? 'ok' : (lazy + (imgs.length < 4 ? imgs.length : 0)) / imgs.length >= .4 || imgs.length < 4 ? (modern / imgs.length >= .4 || imgs.length < 3 ? 'ok' : 'warn') : 'warn', imgs.length ? lazy + ' lazy-loaded, ' + modern + ' WebP/AVIF of ' + imgs.length + ' images' : 'No images', 'Use WebP images and add loading="lazy" to images below the first screen.');
+  add('Safety', 'https', https ? 'ok' : 'bad', https ? 'Served over HTTPS' : 'Not using HTTPS', 'Install an SSL certificate. Browsers warn visitors on plain HTTP sites.');
+  add('Safety', 'hsts', H('strict-transport-security') ? 'ok' : 'warn', 'HSTS header', 'Add Strict-Transport-Security so browsers always use HTTPS.');
+  add('Safety', 'nosniff', H('x-content-type-options') ? 'ok' : 'warn', 'X-Content-Type-Options header', 'Add X-Content-Type-Options: nosniff.');
+  add('Safety', 'mixed', mixed === 0 ? 'ok' : 'bad', mixed ? mixed + ' insecure (http) files on a secure page' : 'No mixed content', 'Change http:// links for images, scripts and styles to https://.');
+  const contact = /href=["'](?:tel:|mailto:|https?:\/\/(?:wa\.me|api\.whatsapp\.com)\/)/i.test(text), form = /<form\b/i.test(text) || /href=["'][^"']*contact/i.test(text);
+  add('Customers', 'contact', contact ? 'ok' : 'bad', contact ? 'Phone, email or WhatsApp link found' : 'No tap-to-call, email or WhatsApp link', 'Put a WhatsApp or call button where visitors can see it without scrolling.');
+  add('Customers', 'form', form ? 'ok' : 'warn', 'Contact form or contact page', 'Add a simple enquiry form or a clear Contact page.');
+  const cats = {}; const pts = { ok: 1, warn: .5, bad: 0 };
+  C.forEach((c) => { const k = cats[c.cat] || (cats[c.cat] = { s: 0, n: 0 }); k.s += pts[c.level]; k.n++; });
+  const scores = {}; let tot = 0, n = 0; Object.keys(cats).forEach((k) => { scores[k] = Math.round(cats[k].s / cats[k].n * 100); });
+  C.forEach((c) => { tot += pts[c.level]; n++; });
+  return { url: final.href, ms: g.ttfb, kb, score: Math.round(tot / n * 100), scores, checks: C, status: r.status };
+}
+
 export default {
   async fetch(req, env) {
     const origin = req.headers.get('Origin') || '';
@@ -152,7 +229,7 @@ export default {
 
     let body; try { body = await req.json(); } catch { return json({ ok: false, error: 'bad json' }, 400, cors); }
     const task = body && body.task;
-    const bucket = task === 'chat' ? 'chat' : task === 'contact' ? 'contact' : task === 'verify-payment' ? 'pay' : task === 'image' ? 'image' : task === 'rewrite' ? 'rewrite' : 'def';
+    const bucket = task === 'chat' ? 'chat' : task === 'contact' ? 'contact' : task === 'verify-payment' ? 'pay' : task === 'image' ? 'image' : task === 'rewrite' ? 'rewrite' : task === 'audit' ? 'audit' : 'def';
     if (!(keyed && task === 'rewrite')) {
       const ip = req.headers.get('CF-Connecting-IP') || 'x', now = Date.now(), k = ip + '|' + bucket;
       const rec = (hits.get(k) || []).filter((t) => now - t < WINDOW);
@@ -174,6 +251,12 @@ export default {
         if (first) { try { await caches.default.put(first, new Response(JSON.stringify({ reply }), { headers: { 'Cache-Control': 'max-age=3600' } })); } catch (e) { /* cache is optional */ } }
         return json({ ok: true, data: { reply }, reply }, 200, cors);
       } catch { return json({ ok: false, error: 'failed' }, 502, cors); }
+    }
+
+    if (task === 'audit') {
+      const a = await audit(body.url);
+      if (a.error) return json({ ok: false, error: a.error }, a.error === 'url' ? 400 : 422, cors);
+      return json({ ok: true, data: a }, 200, cors);
     }
 
     if (task === 'rewrite') {

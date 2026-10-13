@@ -11,8 +11,9 @@ const PaymentManager = {
     // Placeholders below - replace with real keys before going live
     paystackKey: 'YOUR_PAYSTACK_PUBLIC_KEY',
     flutterwaveKey: 'YOUR_FLUTTERWAVE_PUBLIC_KEY',
-    emailjsServiceId: 'YOUR_SERVICE_ID',
-    emailjsTemplateId: 'YOUR_TEMPLATE_ID'
+    emailjsServiceId: (window.VR_CONFIG || {}).emailjsServiceId || '',
+    emailjsTemplateId: (window.VR_CONFIG || {}).emailjsTemplateId || '',
+    emailjsPublicKey: (window.VR_CONFIG || {}).emailjsPublicKey || ''
   },
 
   init() {
@@ -47,7 +48,7 @@ const PaymentManager = {
     const placeholders = [];
     if (this.config.paystackKey.includes('YOUR_')) placeholders.push('Paystack');
     if (this.config.flutterwaveKey.includes('YOUR_')) placeholders.push('Flutterwave');
-    if (this.config.emailjsServiceId.includes('YOUR_')) placeholders.push('EmailJS');
+    if (!this.config.emailjsServiceId) placeholders.push('EmailJS');
 
     const isDev = ['localhost','127.0.0.1'].includes(location.hostname);
     if (placeholders.length > 0 && isDev) {
@@ -328,7 +329,7 @@ const PaymentManager = {
     }
 
     // Skip if EmailJS not configured
-    if (this.config.emailjsServiceId.includes('YOUR_')) {
+    if (!this.config.emailjsServiceId || !this.config.emailjsTemplateId || !this.config.emailjsPublicKey) {
       console.warn('EmailJS not configured - skipping confirmation email');
       return;
     }
@@ -340,7 +341,7 @@ const PaymentManager = {
       payment_method: method,
       tracking_id: this.data.tracking,
       transaction_id: transactionId || 'N/A'
-    }).then(() => {
+    }, this.config.emailjsPublicKey).then(() => {
       console.log('Confirmation email sent');
     }).catch(err => {
       console.error('Email failed:', err);

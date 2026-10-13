@@ -97,6 +97,14 @@
     if (host && !$('.vr-install')) { const b = document.createElement('button'); b.type = 'button'; b.className = 'vr-install show'; b.innerHTML = ico(I.dl).replace('<svg', '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"') + ' Install the app'; b.onclick = install; host.appendChild(b); }
     const h = $('.header-actions'), nl = $('.nav-links');
     if ((h || nl) && !$('.vr-appbtn')) { const b = document.createElement('button'); b.type = 'button'; b.className = 'vr-appbtn show'; b.setAttribute('aria-label', 'Install the VibrantRevolve app'); b.title = 'Install the app'; b.innerHTML = ico(I.dl) + '<span>App</span>'; b.onclick = install; if (h) h.insertBefore(b, h.firstChild); else nl.insertBefore(b, $('.nav-cta', nl) || null); }
+    // Phone menus: the header App button is hidden under 1024px, so put an "Install the app" item inside the menus too.
+    if (!$('.vr-navapp')) {
+      const go = (e) => { e.preventDefault(); const mn = $('#mobileNav'); if (mn) mn.classList.remove('open'); const hb = $('.hamburger.open, .hamburger[aria-expanded="true"]'); if (hb) hb.click(); install(); };
+      const mn = $('#mobileNav');
+      if (mn) { const a = document.createElement('a'); a.href = '#'; a.className = 'vr-navapp'; a.textContent = 'Install the app'; a.onclick = go; mn.insertBefore(a, $('.nav-cta', mn) || null); }
+      const ul = $('#navbar ul');
+      if (ul) { const li = document.createElement('li'); li.className = 'vr-navapp-li'; li.innerHTML = '<a href="#" class="nav-link vr-navapp">Install the app</a>'; li.firstChild.onclick = go; ul.insertBefore(li, $('.nav-book', ul) || null); }
+    }
   };
   // Friendly install bar: after a little engagement, never in the app, snoozed for 14 days after "x"
   function maybeBar() {
