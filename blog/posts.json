@@ -1,7 +1,620 @@
 [
   {
-<<<<<<< HEAD
-=======
+    "id": "26271f2fe3",
+    "title": "MA Board Outlines Global Connectivity Priorities with Implications for Africa",
+    "url": "https://www.techinafrica.com/ma-board-outlines-global-connectivity-priorities-with-implications-for-africa/",
+    "source": "Tech in Africa",
+    "kind": "news",
+    "date": "2026-10-13T13:29:33.000Z",
+    "excerpt": "The GSMA Board met in New Delhi, India last week to set out priorities for the next era of connectivity. Much has changed since the Board last met in India 10 years ago. India today is a leader in mobile connectivity, with 1.2 billion active connections, 450 million of which are 5G,underpinning…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "115d8a1de8",
+    "title": "Where to preorder the new Apple TV 4K",
+    "url": "https://www.theverge.com/gadgets/1009921/apple-tv-4k-2026-preorder-buy",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-13T13:26:40.000Z",
+    "excerpt": "Apple debuted its latest Apple TV 4K - its first in four years - and it'll be available starting Friday, November 13th. It's powerful, with the A19 chip (the now-discontinued 2022 model has the A15 Bionic), and it features better wireless connectivity than its predecessor, too. Siri AI is a big part…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "016589b0b2",
+    "title": "India delays digital payments fee rollout amid retailer pushback",
+    "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-13T13:25:05.000Z",
+    "excerpt": "The NPCI, which operates the UPI network, said it was postponing the planned October 15 rollout of the 0.4% fee due to the festive shopping season.",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "de48459db6",
+    "title": "Apple launches a new Apple TV 4K with Siri AI and remote-free voice commands",
+    "url": "https://techcrunch.com/2026/10/13/apple-launches-a-new-apple-tv-4k-with-siri-ai-and-remote-free-commands/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-13T13:16:11.000Z",
+    "excerpt": "The new Apple TV 4K costs $299, comes with Siri AI, and will be available on November 13.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9e66aec604",
+    "title": "NIBSS adopts jPOS technology for National Payment Stack",
+    "url": "https://nairametrics.com/2026/10/13/nibss-adopts-jpos-technology-for-national-payment-stack/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-13T13:14:06.000Z",
+    "excerpt": "The Nigeria Inter-Bank Settlement System (NIBSS) has adopted payment processing technology from Transactility Inc. to develop its National Payment Stack (NPS), a next-generation instant payments platform designed to support Nigeria’s evolving payments ecosystem. The post NIBSS adopts jPOS technology…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "fdbf25594c",
+    "title": "AFRICA FINANCE IN BRIEF: Weaker currencies, richer billionaires, bigger bank bets",
+    "url": "https://businessday.ng/africa/article/africa-finance-in-brief-weaker-currencies-richer-billionaires-bigger-bank-bets/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-13T13:06:34.000Z",
+    "excerpt": "Africa’s financial landscape is showing contrasting signals, with 12 of 17 major currencies weakening against the dollar in September even",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "aba4e20057",
+    "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+    "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-13T13:00:00.000Z",
+    "excerpt": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d3d7d6aa60",
+    "title": "The new Apple TV 4K has built-in microphones so you can talk to Siri AI",
+    "url": "https://www.theverge.com/tech/1009663/apple-tv-4k-siri-ai-microphones-4th-gen-announced",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-13T13:00:00.000Z",
+    "excerpt": "Apple is introducing a refreshed Apple TV 4K today with a pair of interesting new hardware features: far-field microphones to talk to Siri hands-free and Find My built into the remote. The fourth-gen Apple TV 4K, announced at Apple's Welcome Home event in New York City, is the first model to support…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "05da67d9d3",
+    "title": "Apple announces the HomePod Mini 2, but it isn’t ready for Siri AI at launch",
+    "url": "https://www.theverge.com/tech/1009672/homepod-mini-2-announced-apple-siri-ai",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-13T13:00:00.000Z",
+    "excerpt": "Apple is announcing the long-awaited HomePod Mini 2 with a new chip that can power Siri AI - but support for those new AI features won't be available at launch. The speaker is also getting a new sound glow feature that syncs its LED lights with a song's album art, and it can now be […]",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "dabd38ebc2",
+    "title": "The new Apple Home Collection includes a video doorbell, smart lock, and more",
+    "url": "https://www.theverge.com/tech/1009680/apple-home-collection-doorbell-lock-camera-smart-home-announced",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-13T13:00:00.000Z",
+    "excerpt": "Apple has partnered with LG Electronics and Schneider Electric to launch the Apple Home Collection, an assortment of smart home devices meant to be easy to set up and use. The collection is something of a smart home starter pack, including security cameras, a video doorbell, a door lock, and two…",
+    "tag": "Security",
+    "cta": {
+      "label": "Talk to us",
+      "href": "/contact/"
+    },
+    "take": ""
+  },
+  {
+    "id": "8f2679f3e7",
+    "title": "Elgato takes on DJI with a tiny wireless mic for creators on the go",
+    "url": "https://www.theverge.com/tech/1009752/elgato-wave-go-microphone-creators-pricing-release-date",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-13T13:00:00.000Z",
+    "excerpt": "Elgato already dominates the market for hardware built for creators that use powerful desktop PCs, and it's now turning its attention to creators on the go with its first wireless microphone. The $99.99 Wave Go clips onto your clothes just like DJI's Mic Mini, with hands-free recording for vlogging…",
+    "tag": "Design & Social",
+    "cta": {
+      "label": "Design assets",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "1284581975",
+    "title": "Everything Apple launched at its ‘Welcome Home’ event",
+    "url": "https://www.theverge.com/tech/1009816/apple-smart-home-event-homeview-homepod-mini-roundup",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-13T13:00:00.000Z",
+    "excerpt": "Apple unveiled a slate of new smart home gadgets at its aptly named \"Welcome Home\" event today, including its first (and highly anticipated) smart home hub. That flagship announcement came alongside much-needed refreshes for Apple's HomePod Mini and TV 4K devices, and a selection of new smart home…",
+    "tag": "Security",
+    "cta": {
+      "label": "Talk to us",
+      "href": "/contact/"
+    },
+    "take": ""
+  },
+  {
+    "id": "abfb3ce653",
+    "title": "LekkeSlaap Acquired by South African Investors as Co-Founders Exit Travel Technology Business",
+    "url": "https://www.techinafrica.com/lekkeslaap-acquired-by-south-african-investors-as-co-founders-exit-travel-technology-business/",
+    "source": "Tech in Africa",
+    "kind": "news",
+    "date": "2026-10-13T12:41:17.000Z",
+    "excerpt": "South African accommodation booking platform LekkeSlaap has been acquired by a consortium of local investors, marking a significant ownership transition for one of the country’s established travel technology businesses. The acquisition was jointly led by private investment firms Bellair Road…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "fe05934c01",
+    "title": "Giraffe Bio aims its bespoke biomolecules at the looming copper shortage",
+    "url": "https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-13T12:40:00.000Z",
+    "excerpt": "As AI data centers and EVs drive up demand for copper, Giraffe Bio has unearthed a $6.4 million seed round to help miners extract more of the mineral.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9a70a74a7f",
+    "title": "eTranzact board reshaped as Trademarks acquires controlling stake",
+    "url": "https://nairametrics.com/2026/10/13/etranzact-board-reshaped-as-trademarks-acquires-controlling-stake/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-13T12:28:52.000Z",
+    "excerpt": "eTranzact International Plc has reshaped its board following Trademarks Global Concepts Limited’s acquisition of a controlling 56.18% stake in the company. The post eTranzact board reshaped as Trademarks acquires controlling stake appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "53e88b2a13",
+    "title": "Global Investigative Journalism Conference (GIJC) Fellowship 2027 (Funded)",
+    "url": "https://opportunitydesk.org/2026/10/13/global-investigative-journalism-conference-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-13T12:23:04.000Z",
+    "excerpt": "Deadline: January 31, 2027 Applications are open for the Global Investigative Journalism Conference (GIJC) Fellowship 2027. The 15th Global Investigative Journalism Conference (GIJC) will be held in Rotterdam, The Netherlands, from October 19 – 23, 2027, and is being co-hosted by GIJN and De…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "de28c6de3b",
+    "title": "New Money Market Fund opens to investors with minimum N10,000 subscription",
+    "url": "https://nairametrics.com/2026/10/13/new-money-market-fund-opens-to-investors-with-minimum-n10000-subscription/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-13T12:15:27.000Z",
+    "excerpt": "Berkshire Asset Management Limited has opened subscriptions for its N2 billion Money Market Fund, allowing retail and institutional investors to participate with a minimum investment of N10,000. The post New Money Market Fund opens to investors with minimum N10,000 subscription appeared first on…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6f3674a6c3",
+    "title": "United Nations Regional Course in International Law for Africa 2027 (Funding available)",
+    "url": "https://opportunitydesk.org/2026/10/13/united-nations-regional-course-in-international-law-for-africa-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-13T12:13:14.000Z",
+    "excerpt": "Deadline: October 30, 2026 Applications are open for the United Nations Regional Course in International Law for Africa 2027. The United Nations Regional Course in International Law for Africa is organized by the Codification Division of the United Nations Office of Legal Affairs in cooperation with…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f166a622da",
+    "title": "PAC Holdings hosts corporate cocktail reception to advance Brazil-Africa business and investment connections",
+    "url": "https://nairametrics.com/2026/10/13/pac-holdings-hosts-corporate-cocktail-reception-to-advance-brazil-africa-business-and-investment-connections/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-13T12:07:09.000Z",
+    "excerpt": "PanAfrican Capital Holdings Limited (“PAC Holdings”), in partnership with the Embassy of Brazil in Nigeria and the Brazil Africa Institute, hosted a Corporate Cocktail Reception in Abuja to strengthen business, investment and institutional connections between Brazil and Africa. Held ahead of the…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "8b3824c4bc",
+    "title": "Lagos Consumer Agency to sanction businesses ignoring complaints",
+    "url": "https://nairametrics.com/2026/10/13/lagos-consumer-agency-to-sanction-businesses-ignoring-complaints/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-13T11:17:28.000Z",
+    "excerpt": "The Lagos State Consumer Protection Agency (LASCOPA) has warned that it will sanction businesses that fail to attend consumer complaint mediation sessions. The post Lagos Consumer Agency to sanction businesses ignoring complaints appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e8dfbd913b",
+    "title": "Formula 1 returns to Africa after 33 years with 10-year Rwanda Grand Prix deal",
+    "url": "https://nairametrics.com/2026/10/13/formula-1-returns-to-africa-after-33-years-with-10-year-rwanda-grand-prix-deal/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-13T11:10:40.000Z",
+    "excerpt": "Formula 1 has announced a 10-year agreement to return to Africa, with Rwanda selected to host the African Grand Prix from the early 2030s. The post Formula 1 returns to Africa after 33 years with 10-year Rwanda Grand Prix deal appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "16c04404b4",
+    "title": "The CBN’s rate reset: easing with discipline",
+    "url": "https://nairametrics.com/2026/10/13/the-cbns-rate-reset-easing-with-discipline/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-13T11:07:57.000Z",
+    "excerpt": "The decision by the Central Bank of Nigeria (CBN) on September 22, 2026 to reduce the Monetary Policy Rate (MPR) by 350 basis points, from 26.5 per cent to 23 per cent, was the right call. The post The CBN’s rate reset: easing with discipline appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ade54daae3",
+    "title": "South Africa’s Reserve Bank appoints fintech Wise as an authorised dealer in FX",
+    "url": "https://thecondia.com/wise-gets-fx-regulatory-approval/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-13T10:08:40.000Z",
+    "excerpt": "SARB has formally appointed Wise as a Category Two Authorised Dealer in foreign exchange with limited authority.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "e7900df73d",
+    "title": "Staff Software Engineer",
+    "url": "https://jobicy.com/jobs/155199-staff-software-engineer-8",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:48:23.000Z",
+    "excerpt": "About Solace Healthcare in the U.S. is fundamentally broken. The system is so complex that 88% of U.S. adults do not have the health literacy necessary to navigate it without...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6abc754191",
+    "title": "Senior Backend Engineer",
+    "url": "https://jobicy.com/jobs/155200-senior-backend-engineer-10",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:48:23.000Z",
+    "excerpt": "About Solace Healthcare in the U.S. is fundamentally broken. The system is so complex that 88% of U.S. adults do not have the health literacy necessary to navigate it without...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9fcfee67e4",
+    "title": "Performance Creative Manager",
+    "url": "https://jobicy.com/jobs/155204-performance-creative-manager",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:48:23.000Z",
+    "excerpt": "About Solace Healthcare in the U.S. is fundamentally broken. The system is so complex that 88% of U.S. adults do not have the health literacy necessary to navigate it without...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6566a49906",
+    "title": "Senior Full Stack Engineer",
+    "url": "https://jobicy.com/jobs/155195-senior-full-stack-engineer-7",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:48:22.000Z",
+    "excerpt": "About Solace Healthcare in the U.S. is fundamentally broken. The system is so complex that 88% of U.S. adults do not have the health literacy necessary to navigate it without...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c4b3b0ce3f",
+    "title": "Technical Lead (Engineering)",
+    "url": "https://jobicy.com/jobs/155201-technical-lead-engineering",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:48:22.000Z",
+    "excerpt": "About Solace Healthcare in the U.S. is fundamentally broken. The system is so complex that 88% of U.S. adults do not have the health literacy necessary to navigate it without...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f7c1dd6e12",
+    "title": "Senior Platform Engineer",
+    "url": "https://jobicy.com/jobs/155202-senior-platform-engineer-4",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:48:22.000Z",
+    "excerpt": "About Solace Healthcare in the U.S. is fundamentally broken. The system is so complex that 88% of U.S. adults do not have the health literacy necessary to navigate it without...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d9e19dc904",
+    "title": "Full Stack Engineer",
+    "url": "https://jobicy.com/jobs/155189-full-stack-engineer-3",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:45:53.000Z",
+    "excerpt": "Infisical is the open source security infrastructure platform that engineers use for secrets management, certificates, and privileged access management. We help developers and organizations securely manage billions of secrets every...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c2d106d0b4",
+    "title": "Partner Growth Manager (LATAM)",
+    "url": "https://jobicy.com/jobs/155188-partner-growth-manager-latam",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:45:52.000Z",
+    "excerpt": "LOCATION:The Partner Growth Manager (LATAM) is a remote, work from home position, as are all positions at Acceleration Partners (a structure central to our culture and our vision to change...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f998e79477",
+    "title": "Lead Front-end Engineer (Javascript) – Digital Agency – Buenos Aires, Argentina.",
+    "url": "https://jobicy.com/jobs/155191-lead-front-end-engineer-javascript-digital-agency-buenos-aires-argentina",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:45:52.000Z",
+    "excerpt": "About Truelogic At Truelogic we are a leading provider of nearshore staff augmentation services headquartered in New York. For over two decades, we’ve been delivering top-tier technology solutions to companies...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9d19c242f2",
+    "title": "Technical Program Manager",
+    "url": "https://jobicy.com/jobs/155193-technical-program-manager-7",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-13T09:45:52.000Z",
+    "excerpt": "Back in 2012, we were a group of engineers and designers who decided we wanted to build things, so we did. Able started as an engineering and product hub building...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "a2a3e8f23e",
+    "title": "Kuunda completes $5 million secondary share sale as digital lending business scales",
+    "url": "https://thecondia.com/kuunda-secondary-share-sale/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-13T06:33:17.000Z",
+    "excerpt": "Kuunda has completed a $5 million secondary share sale as its digital lending business expands, giving early investors liquidity and returns.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "7954638982",
+    "title": "OPay targets $500M US IPO as H1 profit jumps 319%",
+    "url": "https://thecondia.com/opay-targets-500m-us-ipo/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-12T18:18:35.000Z",
+    "excerpt": "OPay targets $500 million through a proposed New York IPO as revenue rises 136.5% and first half 2026 net profit jumps to $90.9 million.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "3ff2e58f6b",
+    "title": "TikTok users in northern Nigeria turn to VPNs as access disruption sparks legal challenge",
+    "url": "https://thecondia.com/tiktok-disruption-northern-nigeria/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-12T16:23:47.000Z",
+    "excerpt": "TikTok users in northern Nigeria are turning to VPNs amid unexplained access disruptions, as a court case challenges the restrictions affecting four states.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "2c41051bc1",
+    "title": "Echidna Global Scholars Visiting Fellowship 2027 ($26,500 stipend)",
+    "url": "https://opportunitydesk.org/2026/10/12/echidna-global-scholars-visiting-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-12T13:18:48.000Z",
+    "excerpt": "Deadline: December 1, 2026 Applications are open for the Echidna Global Scholars Visiting Fellowship 2027. The Echidna Global Scholars Program at the Center for Universal Education (CUE) at Brookings seeks to catalyze and amplify the impact of local leaders working to advance gender-transformative…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b82dd3bb87",
+    "title": "Branco Weiss Fellowship – Society in Science 2027 (up to CHF600,000)",
+    "url": "https://opportunitydesk.org/2026/10/12/branco-weiss-fellowship-society-in-science-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-12T13:03:35.000Z",
+    "excerpt": "Deadline: January 15, 2027 Applications are open for the Branco Weiss Fellowship – Society in Science 2027. The Branco Weiss Fellowship – Society in Science is a community of exceptional young scientists who share a passion for taking research beyond the mainstream. Fellows are given the means to…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "8e7cb7c361",
+    "title": "UNICEF Venture Funding Opportunity for Femtech Solutions 2026 (up to $100,000)",
+    "url": "https://opportunitydesk.org/2026/10/12/unicef-venture-funding-opportunity-for-femtech-solutions-2026/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-12T12:15:38.000Z",
+    "excerpt": "Deadline: November 4, 2026 UNICEF Femtech Ventures is seeking applications to join its second annual cohort of companies using frontier technologies to build open-source solutions for the health, wellbeing, and sexual and reproductive health and rights of girls and women. UNICEF Femtech Ventures is…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "3e0f9acf3e",
+    "title": "True Story Award 2027 for Journalists ($20,000 prize)",
+    "url": "https://opportunitydesk.org/2026/10/12/true-story-award-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-12T10:55:23.000Z",
+    "excerpt": "Deadline: October 31, 2026 Applications are open for the True Story Award 2027. This international award for journalists from around the world is presented at the opening of the True Story Festival. The True Story Award recognises written reports by journalists from around the world that stand out…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "30ef3bb7a2",
+    "title": "Level Up: Titilayo Oluwatosin on product marketing, positioning, and GTM strategy",
+    "url": "https://thecondia.com/titilayo-oluwatosin-fintech-product-marketing/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-12T09:15:00.000Z",
+    "excerpt": "Titilayo Oluwatosin shares insights on fintech product marketing, building in-house teams, product positioning, and driving growth across markets.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
     "id": "c575d48f5d",
     "title": "Sterling cuts bloated share count by 90%, resets price to N77",
     "url": "https://nairametrics.com/2026/10/11/sterling-cuts-bloated-share-count-by-90-resets-price-to-n77/",
@@ -527,7 +1140,6 @@
     "take": ""
   },
   {
->>>>>>> b58d583a029c66b2ff09a3e163bca1afe45dfb32
     "id": "ac2c548222",
     "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
     "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
@@ -1180,6 +1792,51 @@
     "kind": "startups",
     "date": "2026-10-08T14:34:03.000Z",
     "excerpt": "Lagos Life game went viral by turning everyday Nigerian life into a product people wanted to play, share and pay for.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "ff9c754395",
+    "title": "Moove reportedly exits Nigeria after 6 years, offers ₦35B to customers",
+    "url": "https://thecondia.com/moove-reportedly-exits-nigeria-after-6-years/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-08T14:24:43.000Z",
+    "excerpt": "The move comes weeks after Uber ended its operations in Nigeria on September 2 after 12 years, a development that put Moove's original model under pressure.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "b26686390f",
+    "title": "NeoFleet Capital raises $4m pre-seed to fund taxi fleets across Africa and the Global South",
+    "url": "https://thecondia.com/neofleet-capital-raises-pre-seed/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-08T13:19:38.000Z",
+    "excerpt": "Mobility fintech NeoFleet Capital has secured a $4 million pre-seed round to expand its taxi fleet financing model and build infrastructure.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "e2d978f162",
+    "title": "What if the 39.6M small businesses in Nigeria use AI",
+    "url": "https://thecondia.com/smes-use-ai-in-business-africa/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-08T09:30:00.000Z",
+    "excerpt": "This programme launched to teach small and medium enterprise business owners how to use AI in their business",
     "tag": "Naija Startups",
     "cta": {
       "label": "Brand your startup",
