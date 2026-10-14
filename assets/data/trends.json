@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-13T06:39:10.828Z",
- "basedOn": 95,
+ "updated": "2026-10-13T13:30:24.566Z",
+ "basedOn": 137,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 9.63,
-   "headline": "Descript: Brand Design Lead",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/descript-brand-design-lead"
+   "score": 16.93,
+   "headline": "Staff Software Engineer",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/155199-staff-software-engineer-8"
+  },
+  {
+   "topic": "Apple",
+   "hashtag": "#Apple",
+   "score": 14.95,
+   "headline": "Where to preorder the new Apple TV 4K",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/gadgets/1009921/apple-tv-4k-2026-preorder-buy"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 8.22,
-   "headline": "Sterling cuts bloated share count by 90%, resets price to N77",
+   "score": 14.19,
+   "headline": "NIBSS adopts jPOS technology for National Payment Stack",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/11/sterling-cuts-bloated-share-count-by-90-resets-price-to-n77/"
+   "url": "https://nairametrics.com/2026/10/13/nibss-adopts-jpos-technology-for-national-payment-stack/"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 12.98,
+   "headline": "Staff Software Engineer",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/155199-staff-software-engineer-8"
   },
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 7.18,
-   "headline": "Learning to use local AI is exciting, overwhelming, and frustrating",
+   "score": 11.68,
+   "headline": "Where to preorder the new Apple TV 4K",
    "source": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
+   "url": "https://www.theverge.com/gadgets/1009921/apple-tv-4k-2026-preorder-buy"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 9.42,
+   "headline": "South Africa’s Reserve Bank appoints fintech Wise as an authorised dealer in FX",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/wise-gets-fx-regulatory-approval/"
   },
   {
    "topic": "Opay",
    "hashtag": "#Opay",
-   "score": 6.82,
-   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
+   "score": 8.87,
+   "headline": "OPay targets $500M US IPO as H1 profit jumps 319%",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/opay-targets-500m-us-ipo/"
+  },
+  {
+   "topic": "Siri",
+   "hashtag": "#Siri",
+   "score": 8.36,
+   "headline": "Apple launches a new Apple TV 4K with Siri AI and remote-free voice commands",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/13/apple-launches-a-new-apple-tv-4k-with-siri-ai-and-remote-free-commands/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 7.97,
+   "headline": "Global Investigative Journalism Conference (GIJC) Fellowship 2027 (Funded)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/13/global-investigative-journalism-conference-fellowship-2027/"
+  },
+  {
+   "topic": "Ipo",
+   "hashtag": "#Ipo",
+   "score": 7.42,
+   "headline": "OPay targets $500M US IPO as H1 profit jumps 319%",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/opay-targets-500m-us-ipo/"
+  },
+  {
+   "topic": "Fellowship",
+   "hashtag": "#Fellowship",
+   "score": 6.92,
+   "headline": "Global Investigative Journalism Conference (GIJC) Fellowship 2027 (Funded)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/13/global-investigative-journalism-conference-fellowship-2027/"
   },
   {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 6.24,
+   "score": 6,
    "headline": "Anthropic is cutting off its internal evaluations from the internet",
    "source": "The Verge",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
   },
   {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 5.52,
-   "headline": "OPay files for US IPO, considers secondary listing in Nigeria",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/opay-files-for-us-ipo/"
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 5.97,
+   "headline": "Performance Creative Manager",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/155204-performance-creative-manager"
   },
   {
-   "topic": "Ipo",
-   "hashtag": "#Ipo",
-   "score": 5.31,
-   "headline": "OPay discloses $532.9 million short-term investment portfolio ahead of US IPO",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/11/opay-discloses-532-9-million-short-term-investment-portfolio-ahead-of-us-ipo/"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 3.98,
-   "headline": "WomanKind Creative Grant 2027",
+   "topic": "Funded",
+   "hashtag": "#Funded",
+   "score": 5.03,
+   "headline": "Global Investigative Journalism Conference (GIJC) Fellowship 2027 (Funded)",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/10/womankind-creative-grant-2027/"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 3.9,
-   "headline": "Vercel: Software Engineer - Data Platform",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-data-platform"
-  },
-  {
-   "topic": "Descript",
-   "hashtag": "#Descript",
-   "score": 3.76,
-   "headline": "Descript: Brand Design Lead",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/descript-brand-design-lead"
-  },
-  {
-   "topic": "Vercel",
-   "hashtag": "#Vercel",
-   "score": 3.76,
-   "headline": "Vercel: Software Engineer - Data Platform",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-data-platform"
-  },
-  {
-   "topic": "Upstart",
-   "hashtag": "#Upstart",
-   "score": 3.76,
-   "headline": "Upstart: Art Director, Performance",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/upstart-art-director-performance"
-  },
-  {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 3.55,
-   "headline": "Bolt calls for dialogue with AUATON ahead of October 12 app shutdown/indefinite strike",
-   "source": "Technext",
-   "url": "https://technext24.com/news/bolt-calls-for-dialogue-with-auaton-shutdown/"
-  },
-  {
-   "topic": "N77",
-   "hashtag": "#N77",
-   "score": 3.43,
-   "headline": "Sterling cuts bloated share count by 90%, resets price to N77",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/11/sterling-cuts-bloated-share-count-by-90-resets-price-to-n77/"
+   "url": "https://opportunitydesk.org/2026/10/13/global-investigative-journalism-conference-fellowship-2027/"
   }
  ],
  "tags": [
-  "Business",
-  "AI & Automation",
   "Tech News",
-  "Jobs",
-  "Design & Social",
+  "AI & Automation",
   "Payments",
-  "Naija Startups",
-  "Grants & Funding"
+  "Business",
+  "Security",
+  "Design & Social",
+  "Grants & Funding",
+  "Naija Startups"
  ]
 }
