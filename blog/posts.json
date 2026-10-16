@@ -1,5 +1,560 @@
 [
   {
+    "id": "a505249fd2",
+    "title": "Isaac Sesi: The Ghanaian engineer learning that invention is only half the battle",
+    "url": "https://techcabal.com/2026/10/16/199840-isaac-sesi-ghanaian-learning/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-16T10:35:27.000Z",
+    "excerpt": "Isaac Sesi spoke to TechCabal on his journey building tools to help farmers reduce post-harvest losses, improve soil health, and increase productivity.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "115264c684",
+    "title": "How SlowCo is building a fun ‘third space’ for burnt-out Lagos tech founders with Padel-and-house-party",
+    "url": "https://technext24.com/reviews/slowco-third-space-lagos-tech-founders/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-16T10:08:16.000Z",
+    "excerpt": "Across two Friday nights in September, SlowCo’s padel court in Ikoyi and then a living room full of…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "1eb6e42e64",
+    "title": "NGX takes Dangote Refinery IPO beyond Nigeria, target investors in 3 African countries",
+    "url": "https://nairametrics.com/2026/10/16/ngx-takes-dangote-refinery-ipo-beyond-nigeria-target-investors-in-3-african-countries/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-16T10:06:11.000Z",
+    "excerpt": "The Nigerian Exchange Group (NGX Group) is taking the Dangote Petroleum Refinery and Petrochemicals FZE's $1.6 billion (N2.15 trillion) initial public offering (IPO) to investors in Egypt, Ethiopia and Botswana as it seeks to expand cross-border participation in the share sale and deepen integration…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "7039f948d4",
+    "title": "Western open-weight models still can’t beat China",
+    "url": "https://restofworld.org/2026/china-open-weight-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World",
+    "kind": "news",
+    "date": "2026-10-16T10:00:00.000Z",
+    "excerpt": "Chinese open-weight AI models offer high capability at significantly lower costs than U.S. frontier systems, but face monetization and compute challenges, experts said at a Rest of World event in San Francisco.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "4e99b8cd8d",
+    "title": "Is Your Organization Messing Up AI Adoption?",
+    "url": "https://smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/",
+    "source": "Smashing Magazine",
+    "kind": "news",
+    "date": "2026-10-16T10:00:00.000Z",
+    "excerpt": "What can digital transformation teach us about AI adoption? Paul Boag revisits his book Digital Adaptation to show how lessons from the past can help organizations navigate the challenges of AI today. - AI - Workflow - Business",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "5ea5f88c2c",
+    "title": "Top 10 most affordable states to live in Nigeria as inflation falls to 14.63% in September 2026",
+    "url": "https://nairametrics.com/2026/10/16/top-10-most-affordable-states-to-live-in-nigeria-as-inflation-falls-to-14-63-in-september-2026/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-16T09:26:15.000Z",
+    "excerpt": "An analysis of the September 2026 Consumer Price Index (CPI) data from the National Bureau of Statistics (NBS) reveals that several northern states recorded some of the lowest inflation rates in the country, providing relative relief to residents after months of elevated consumer prices. The post…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "75c8997fbd",
+    "title": "Vuyani Jarana: How a boy fascinated by radios became a champion of rural connectivity",
+    "url": "https://techcabal.com/2026/10/16/vuyani-jarana-township-connectivity/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-16T09:18:54.000Z",
+    "excerpt": "As the youngest child in a household without a breadwinner, he felt responsible for helping support his family.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "9c463d6b9d",
+    "title": "FG proposes N85 million mortgage ceiling, targets 5,000 mortgages by 2028",
+    "url": "https://nairametrics.com/2026/10/16/fg-proposes-n85-million-mortgage-ceiling-targets-5000-mortgages-by-2028/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-16T09:00:08.000Z",
+    "excerpt": "The Federal Government is proposing to increase the maximum mortgage loan available to Nigerians from N50 million to N85 million as part of efforts to expand access to homeownership and improve housing finance. The post FG proposes N85 million mortgage ceiling, targets 5,000 mortgages by 2028…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "03304a4e78",
+    "title": "Africa’s jobs problem is bigger than unemployment",
+    "url": "https://techcabal.com/2026/10/16/africas-jobs-unemployment-rate/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-16T08:31:39.000Z",
+    "excerpt": "With more than a third of employed Africans living in working poverty and 84.4% working informally, having a job does not necessarily mean earning enough to escape poverty or access social protection.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "d34333c0fc",
+    "title": "South Africa’s digital jobs drive faces a $152 million funding test",
+    "url": "https://techcabal.com/2026/10/16/south-africa-152m-digital-skills-jobs/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-16T08:26:08.000Z",
+    "excerpt": "The estimate raises a central question about why resources that could be mobilised from existing funds are not reaching more young people.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "d7e1357ba0",
+    "title": "Atiku goes digital",
+    "url": "https://technext24.com/newsletters/atiku-goes-digital/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-16T08:19:50.000Z",
+    "excerpt": "",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "2809148a77",
+    "title": "United Nigeria Airlines targets N20 billion in first domestic operator commercial paper",
+    "url": "https://nairametrics.com/2026/10/16/united-nigeria-airlines-targets-n20-billion-in-first-domestic-operator-commercial-paper/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-16T08:16:51.000Z",
+    "excerpt": "United Nigeria Airlines Company Limited is planning to raise N20 billion through its debut commercial paper issuance, becoming the first domestic airline in Nigeria to tap the short-term debt market, as it seeks to strengthen its finances and fund an expansion of its flight operations. The post…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f56e244726",
+    "title": "Vodacom to keep 15% Safaricom stake pending Court of Appeal’s ruling on $1.9 billion deal",
+    "url": "https://technext24.com/news/vodacom-keeps-15-safaricom-pending-ruling/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-16T08:15:30.000Z",
+    "excerpt": "African telecom operator Vodacom Group has said the latest court ruling allows it to keep the additional 15%…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "709495123d",
+    "title": "Meet 10 CEOs behind major companies that have exited Nigeria since 2022",
+    "url": "https://nairametrics.com/2026/10/16/meet-10-ceos-behind-major-companies-that-have-exited-nigeria-since-2022/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-16T08:14:58.000Z",
+    "excerpt": "Here are 10 executives and founders associated with notable corporate exits and shutdowns in Nigeria between 2022 and 2026. The post Meet 10 CEOs behind major companies that have exited Nigeria since 2022 appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "895a3e77d0",
+    "title": "From Credibility to Enduring Value: How Building Anap Jets with Atedo Peterside Helped Shape the DAM Framework",
+    "url": "https://nairametrics.com/2026/10/16/from-credibility-to-enduring-value-how-building-anap-jets-with-atedo-peterside-helped-shape-the-dam-framework/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-16T08:04:28.000Z",
+    "excerpt": "Throughout my career, much of my work has involved building businesses from the ground up, entering new markets and creating new opportunities. I have done this as part of founding management teams, within established organizations and through entrepreneurial ventures of my own. When I joined Anap…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "a63d38b123",
+    "title": "Turning Nigeria’s Agricultural Promise into Food Security: The Power of Innovation for Nutrition",
+    "url": "https://nairametrics.com/2026/10/16/turning-nigerias-agricultural-promise-into-food-security-the-power-of-innovation-for-nutrition/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-16T07:55:19.000Z",
+    "excerpt": "On 16 October, Nigeria marks World Food Day against an uncomfortable backdrop of numbers. The latest Cadre Harmonisé analysis, conducted by the Federal Ministry of Agriculture and Food Security with the Food and Agriculture Organisation and the World Food Programme, projects that 34.7 million…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "a18a40b4aa",
+    "title": "CPPE warns rising energy costs could reverse Nigeria’s disinflation gains",
+    "url": "https://nairametrics.com/2026/10/16/cppe-warns-rising-energy-costs-could-reverse-nigerias-disinflation-gains/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-16T07:34:49.000Z",
+    "excerpt": "The Centre for the Promotion of Private Enterprise (CPPE) has warned that rising energy costs could reverse Nigeria’s recent disinflation gains, despite headline inflation easing to 14.63% in September 2026. The post CPPE warns rising energy costs could reverse Nigeria’s disinflation gains appeared…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2a395cdf84",
+    "title": "PagerDuty: Senior Solutions Consultant",
+    "url": "https://weworkremotely.com/remote-jobs/pagerduty-senior-solutions-consultant",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:31:07.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote (USA - Boston, MA) </p> <div class=\"content-intro\"><p>PagerDuty, Inc. (NYSE: PD) is the global leader in AI-first digital operations. By automatically detecting, diagnosing, and remediating issues, the PagerDuty Platform orchestrates AI agents and automated…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b4354bc087",
+    "title": "BeyondTrust: eLearning Developer",
+    "url": "https://weworkremotely.com/remote-jobs/beyondtrust-elearning-developer",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:31:07.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote United States </p> <p>BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio.</p> <p>Our culture of flexibility, trust, and continual learning means you…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "73f3f16743",
+    "title": "Zscaler: Account Executive - Enterprise, Wisconsin",
+    "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-wisconsin",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:31:00.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - Wisconsin, USA </p> <div class=\"content-intro\"><p>Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9fe7f6ca60",
+    "title": "PagerDuty: Senior Director, Solutions Consulting",
+    "url": "https://weworkremotely.com/remote-jobs/pagerduty-senior-director-solutions-consulting",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:31:00.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote (USA) </p> <div class=\"content-intro\"><p>PagerDuty, Inc. (NYSE: PD) is the global leader in AI-first digital operations. By automatically detecting, diagnosing, and remediating issues, the PagerDuty Platform orchestrates AI agents and automated workflows…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2c4742cf2b",
+    "title": "BeyondTrust: Cloud Network Engineer",
+    "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cloud-network-engineer",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:31:00.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote United States </p> <p>BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio.</p> <p>Our culture of flexibility, trust, and continual learning means you…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "fc174135bd",
+    "title": "Maven Clinic: Director, Marketing Operations",
+    "url": "https://weworkremotely.com/remote-jobs/maven-clinic-director-marketing-operations",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:31:00.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> New York, NY; Remote, US (Hub cities) </p> <div class=\"content-intro\"><p>Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "0127953478",
+    "title": "Airtable: Sales Manager, Strategic Accounts",
+    "url": "https://weworkremotely.com/remote-jobs/airtable-sales-manager-strategic-accounts",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:31:00.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - US </p> <p>Airtable helps organizations build the applications and workflows they need to run their most important business processes, without being constrained by off-the-shelf software. Its flexible platform combines a relational database, custom…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f6d0ab735c",
+    "title": "Clover Health: Contract Technical Recruiter",
+    "url": "https://weworkremotely.com/remote-jobs/clover-health-contract-technical-recruiter",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:31:00.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - USA </p> <p>Clover Health’s People Operations team is the strategic force behind our human capital management. We attract and recruit top talent and we’re proud of our data-driven approach to talent engagement and feel privileged to support our global…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "5e3d49c7c0",
+    "title": "Zscaler: Account Executive, Enterprise - Southern CA",
+    "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-southern-ca",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:30:52.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - California, USA </p> <div class=\"content-intro\"><p>Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "7509c03928",
+    "title": "EBANX: [Talent pool] Key Account Managment Specialist",
+    "url": "https://weworkremotely.com/remote-jobs/ebanx-talent-pool-key-account-managment-specialist",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-16T07:30:50.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> London l Remote </p> <p>&nbsp;</p> <p>EBANX is a global fintech founded in 2012 with a mission to be the leading payments partner in rising markets. With its own technology and infrastructure, combined with in-depth knowledge of the Latin American market, EBANX…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ee5f6d9502",
+    "title": "Andrew Milne, the fintech founder who helped bring credit to small businesses, dies at 54",
+    "url": "https://techcabal.com/2026/10/16/andrew-milne-dies-at-54/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-16T07:17:33.000Z",
+    "excerpt": "“Andy was an energetic and resilient leader,” Kuunda said in a statement. “He was much loved and deeply respected by everyone who worked alongside him.”",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "f4da390de9",
+    "title": "Moniepoint’s UK accounts reveal a profitable tech business and a loss-making payments operation",
+    "url": "https://thecondia.com/moniepoint-uk-accounts-tech-payments/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-16T07:00:00.000Z",
+    "excerpt": "Moniepoint Technologies UK Ltd earned £2.06 million in 2025 after a substantial loss the previous year. A separate UK entity reported a loss and received further capital support, offering a glimpse into the different businesses behind the fintech’s international operations.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "0ed137d101",
+    "title": "African Peacebuilding and Developmental Dynamics (APDD) Individual Research Fellowships 2027",
+    "url": "https://opportunitydesk.org/2026/10/16/apdd-individual-research-fellowships-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-16T06:51:43.000Z",
+    "excerpt": "Deadline: January 15, 2027 Applications are open for the African Peacebuilding and Developmental Dynamics (APDD) Individual Research Fellowships 2027. Since its inception in 2012, the Individual Research Fellowship (IRF) has served as a vehicle for enhancing the quality and visibility of independent…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "7c2447dc0c",
+    "title": "WWF Russell E. Train Fellowships 2027 (up to $15,000)",
+    "url": "https://opportunitydesk.org/2026/10/16/wwf-russell-e-train-fellowships-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-16T06:18:55.000Z",
+    "excerpt": "Deadline: December 15, 2026 Applications are open for the WWF Russell E. Train Fellowships 2027. EFN invites applications from the current and next generation of conservation scientists, leaders, and practitioners to pursue graduate level studies (master’s degree) focused on dimensions of…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "cea25426f1",
+    "title": "Nauta Secures €60M for Sixth Fund to Back European Tech Startups",
+    "url": "https://ventureburn.com/nauta-secures-60m-sixth-european-tech-fund-launch/",
+    "source": "Ventureburn",
+    "kind": "news",
+    "date": "2026-10-16T06:16:35.000Z",
+    "excerpt": "Nauta Secures €60M First Close for Fund VI Nauta Capital has raised €60 million in the first close of its sixth venture capital fund. The €60m fund was announced on The post Nauta Secures €60M for Sixth Fund to Back European Tech Startups appeared first on Ventureburn .",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "2d50c034b9",
+    "title": "👨🏿‍🚀TechCabal Daily – Egypt makes room for MNT-Halan",
+    "url": "https://techcabal.com/2026/10/16/techcabal-daily-egypt-makes-room-for-mnt-halan/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-16T06:09:33.000Z",
+    "excerpt": "IPO fever for MNT-Halan || Ethiopia keys into PAPSS’s vision || South Africa is rethinking AI policy || Who secured the bag? 💰",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d0c65eb9c4",
+    "title": "Mastercard, Qatar Holding sell down Airtel Money stakes as London listing values firm at $7bn",
+    "url": "https://thecondia.com/mastercard-qatar-airtel-ipo-participation/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-15T16:09:28.000Z",
+    "excerpt": "Airtel Money began trading on the London Stock Exchange on Wednesday under the ticker AMC, after an IPO priced at £1.96 ($2.60) a share.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "32aea9a0f2",
+    "title": "How FNB digital banking is changing the way South Africans bank",
+    "url": "https://thecondia.com/fnb-digital-banking-changing-how-south-africans-bank/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-15T14:31:01.000Z",
+    "excerpt": "FNB is bringing more services together to change how South Africans bank, from WhatsApp eWallet and eBucks to My Advisor and FNB Connect.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "c204ce9d20",
+    "title": "25 UN Administration and Facilities Management Jobs Currently Open – October 15, 2026",
+    "url": "https://opportunitydesk.org/2026/10/15/25-un-administration-and-facilities-management-jobs-currently-open-october-15-2026/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-15T13:59:31.000Z",
+    "excerpt": "1. Programme Management Assistant, G-6 – United Nations Joint Staff Pension Fund, New York, USAThe United Nations Joint Staff Pension Fund is recruiting a Programme Management Assistant to support its pension administration activities. The position contributes to the coordination of programme work,…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "53eadbc6cd",
+    "title": "Nithio makes second African e-mobility bet, backing profitable Nigerian EV startup MAX",
+    "url": "https://thecondia.com/nithio-max-5m-series-b-investment/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-15T12:19:56.000Z",
+    "excerpt": "Nithio has invested in Nigerian electric mobility company MAX, extending its Series B3 round to $29 million.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
     "id": "1fc813e118",
     "title": "African startups raise $2.49B in 9 months as Q3 rebounds",
     "url": "https://techcabal.com/2026/10/15/african-startups-raise-2-49b-in-9-months/",
@@ -2441,561 +2996,6 @@
     "cta": {
       "label": "Get a business website",
       "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "d07dddd55d",
-    "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-09T19:09:44.000Z",
-    "excerpt": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "85eb02af79",
-    "title": "Principal Solutions Engineer, Emerging Technologies",
-    "url": "https://jobicy.com/jobs/154951-principal-solutions-engineer-emerging-technologies",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:42:48.000Z",
-    "excerpt": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "c3b61c6769",
-    "title": "Group Product Manager, AI-Native Data Warehouse",
-    "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:42:48.000Z",
-    "excerpt": "About Juniper Square Private markets are one of the largest, most complex, and most underserved corners of global finance. Our mission at Juniper Square is to unlock their full potential....",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "deb7dd8d7d",
-    "title": "Senior Manager Implementation and Onboarding",
-    "url": "https://jobicy.com/jobs/154954-senior-manager-implementation-and-onboarding",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:42:48.000Z",
-    "excerpt": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "e8c55563a4",
-    "title": "Principal Engineer, Product Engineering",
-    "url": "https://jobicy.com/jobs/154957-principal-engineer-product-engineering",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:42:47.000Z",
-    "excerpt": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "1c473ab768",
-    "title": "Client Success Manager (Small-Market)",
-    "url": "https://jobicy.com/jobs/154948-client-success-manager-small-market",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:42:46.000Z",
-    "excerpt": "What you’ll be part of Garner is on a mission to transform the U.S. healthcare system — and we’re the only proven player doing exactly that. We partner with employers...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "79cfe48c72",
-    "title": "Freelance Copywriter, Pregnancy & Baby",
-    "url": "https://jobicy.com/jobs/154950-freelance-copywriter-pregnancy-baby",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:42:45.000Z",
-    "excerpt": "Who We Are Good Inside is redefining parenting – not as something that should “just come naturally,” but as a skill to learn and practice. Founded by Dr. Becky Kennedy...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "fcbd006b88",
-    "title": "Dangote Group projects naira at N1,330/$ by year-end, N1,385/$ average for 2026",
-    "url": "https://nairametrics.com/2026/10/09/dangote-group-projects-naira-at-n1330-by-year-end-n1385-average-for-2026-2/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-09T18:35:27.000Z",
-    "excerpt": "The naira is projected to trade at around N1,330 per dollar in the fourth quarter of 2026, with a full-year average of about N1,385/$, as rising foreign reserves, returning portfolio inflows and lower fuel import requirements support the currency. The post Dangote Group projects naira at N1,330/$ by…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f11f2c288c",
-    "title": "Nikon microscopic video competition winner disqualified for using generative AI",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-09T18:06:57.000Z",
-    "excerpt": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr. Ning Xu claimed to show \"tiny, hair-like structures called cilia moving in the…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "cd77a76635",
-    "title": "AI Engineer, GTM",
-    "url": "https://jobicy.com/jobs/154946-ai-engineer-gtm",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:01:43.000Z",
-    "excerpt": "Cresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b838fb3122",
-    "title": "Regional Sales Manager (Southern NSW)",
-    "url": "https://jobicy.com/jobs/154941-regional-sales-manager-southern-nsw",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:01:41.000Z",
-    "excerpt": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "3035f21fad",
-    "title": "Enterprise Sales Manager (Brisbane)",
-    "url": "https://jobicy.com/jobs/154943-enterprise-sales-manager-brisbane",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:01:41.000Z",
-    "excerpt": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "585631282a",
-    "title": "Territory Manager (South Dakota)",
-    "url": "https://jobicy.com/jobs/154947-territory-manager-south-dakota",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-09T18:01:41.000Z",
-    "excerpt": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "48c4d773c2",
-    "title": "Five months after running out of capital, Chimoney gets a new owner",
-    "url": "https://techcabal.com/2026/10/09/chimoney-capitalsage-close-deal/",
-    "source": "TechCabal",
-    "kind": "news",
-    "date": "2026-10-09T17:59:44.000Z",
-    "excerpt": "The transaction completes an unexpected turnaround for the Techstars-backed startup, which informed customers in May that it had stopped processing new transactions and integrations, citing insufficient capital.",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "5510b50b98",
-    "title": "NBET begins N729 billion debt settlement for GenCos, gas suppliers",
-    "url": "https://nairametrics.com/2026/10/09/nbet-begins-n729-billion-debt-settlement-for-gencos-gas-suppliers/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-09T17:58:15.000Z",
-    "excerpt": "The Nigerian Bulk Electricity Trading Plc (NBET) has commenced the settlement of N729 billion in outstanding debts owed to participating electricity Generation Companies (GenCos) and their associated gas suppliers. The post NBET begins N729 billion debt settlement for GenCos, gas suppliers appeared…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "6f4110ebee",
-    "title": "The Samsung Galaxy S26 Ultra is down to $950 after Prime Day",
-    "url": "https://www.theverge.com/gadgets/1008857/samsung-galaxy-s26-ultra-deal-sale",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-09T17:41:24.000Z",
-    "excerpt": "Amazon has the Samsung Galaxy S26 Ultra in black with 256GB of storage discounted to $949.99, a healthy discount from its usual price of $1,399.99. This phone’s standout feature is the adjustable privacy display, which can hide your entire screen, or just portions of it, from onlookers and…",
-    "tag": "Security",
-    "cta": {
-      "label": "Talk to us",
-      "href": "/contact/"
-    },
-    "take": ""
-  },
-  {
-    "id": "0af18c8cf5",
-    "title": "Chowdeck hits 100 million items delivered in 5 years",
-    "url": "https://technext24.com/news/chowdeck-hits-100-m-items-delivered-in-5-years/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-09T17:31:57.000Z",
-    "excerpt": "Chowdeck has achieved a remarkable milestone by delivering over 100 million items through more than 30 million deliveries,…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "fd6b62e24c",
-    "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-    "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-09T16:56:42.000Z",
-    "excerpt": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "304a6e3180",
-    "title": "We can’t help treating AI like it’s human. But should we?",
-    "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-09T16:40:14.000Z",
-    "excerpt": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "ab7f6215d4",
-    "title": "Stop waiting to feel rich before you build wealth",
-    "url": "https://technext24.com/opinion/stop-waiting-feel-rich-before-you-build-wealth/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-09T16:27:39.000Z",
-    "excerpt": "By Gloria Onosode, Director, Enterprise Sales, FairMoney Business...",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "02677c6e98",
-    "title": "AI is making it easier to build games in Africa. Making money is still the hard part",
-    "url": "https://thecondia.com/ai-african-game-development-monetisation/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-09T16:00:00.000Z",
-    "excerpt": "AI is transforming African game development, but local studios must turn viral hits into sustainable businesses?",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "b7942fed5b",
-    "title": "a16z’s Olivia Moore on the state of consumer AI",
-    "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-09T15:43:33.000Z",
-    "excerpt": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "8acd0cdd29",
-    "title": "UN Voluntary Fund for Indigenous Peoples 2027",
-    "url": "https://opportunitydesk.org/2026/10/09/un-voluntary-fund-for-indigenous-peoples-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-09T14:40:24.000Z",
-    "excerpt": "Deadline: November 8, 2026 Applications are open for the UN Voluntary Fund for Indigenous Peoples 2027. The United Nations Voluntary Fund for Indigenous Peoples is pleased to invite applications from representatives of Indigenous Peoples to attend the 26th session of the UN Permanent Forum on…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "dbdb92a9b2",
-    "title": "World Bank Group Government Analytics Fellowship 2027",
-    "url": "https://opportunitydesk.org/2026/10/09/world-bank-group-government-analytics-fellowship-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-09T11:01:57.000Z",
-    "excerpt": "Deadline: November 16, 2026 Do you want to lead change and drive innovation within your government? The World Bank invites dedicated public servants to apply for the 2027 Government Analytics Fellowship. The Government Analytics Fellowship aims to strengthen the capacity of government officials to…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "c7edafb898",
-    "title": "Local investors acquire South African travel tech platform LekkeSlaap",
-    "url": "https://thecondia.com/local-investors-acquire-lekkeslaap-travel-tech/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-09T11:00:00.000Z",
-    "excerpt": "A consortium of local investors has acquired LekkeSlaap, a South African travel startup. The financial terms of the deal remain undisclosed.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "b1e60bea4b",
-    "title": "Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation",
-    "url": "https://weetracker.com/2026/10/09/vatar-raises-500k-10m-valuation-lagos-life/",
-    "source": "WeeTracker",
-    "kind": "startups",
-    "date": "2026-10-09T09:15:07.000Z",
-    "excerpt": "Vatar Inc., the company behind viral Nigerian browser game Lagos Life, has raised The post Nigerian Gaming Startup Vatar, Makers Of Lagos Life, Raises USD 500 K At USD 10 M Valuation appeared first on WeeTracker .",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "e213696df8",
-    "title": "Inside Flutterwave CEO Olugbenga Agboola’s startup portfolio",
-    "url": "https://thecondia.com/olugbenga-agboola-startup-investments-resilience17/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-09T08:21:00.000Z",
-    "excerpt": "Olugbenga Agboola’s Resilience17 portfolio spans fintech and startups in healthcare, defence, aviation, media and more across Africa.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "625cfb55d0",
-    "title": "Company behind viral Nigerian game Lagos Life raises $500k",
-    "url": "https://thecondia.com/vatar-lagos-life-raises-500000-pre-seed/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-09T07:36:40.000Z",
-    "excerpt": "Vatar, the company behind viral Nigerian browser game Lagos Life, has raised $500,000 in an angel round that values it at $10 million.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "01f16d0055",
-    "title": "WISE EdTech Accelerator 2026-2027",
-    "url": "https://opportunitydesk.org/2026/10/08/wise-edtech-accelerator-2026-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-08T19:24:09.000Z",
-    "excerpt": "Deadline: October 31, 2026 Applications are open for the WISE EdTech Accelerator 2026-2027. Since its inception, the WISE EdTech Accelerator has supported edtech founders from around the world in building and scaling innovative solutions to key challenges in education. Each year, WISE delivers a…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "6706d1e9c9",
-    "title": "Atlantic Fellows for Social and Economic Equity (AFSEE) Programme 2027-2028 (Fully-funded)",
-    "url": "https://opportunitydesk.org/2026/10/08/afsee-programme-2027-2028/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-08T19:05:12.000Z",
-    "excerpt": "Deadline: January 11, 2027 Applications are open for the Atlantic Fellows for Social and Economic Equity (AFSEE) Programme 2027-2028. Policymakers, researchers, activists, practitioners, artists, and movement-builders from around the world are invited to apply to the innovative, fully-funded, and…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "1d55049f4f",
-    "title": "Gloria’s Foundation Fellowship 2027 ($5,000 stipend)",
-    "url": "https://opportunitydesk.org/2026/10/08/gloria-foundation-fellowship-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-08T18:46:10.000Z",
-    "excerpt": "Deadline: November 1, 2026 Applications are open for the Gloria’s Foundation Fellowship 2027. The Gloria’s Foundation will select two Fellows for a one-year fellowship, which will take place January – December 2027. This program will offer tools, resources, and a safe and inspiring space for work…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f1ff05dca8",
-    "title": "Moove Quits Nigeria, Its Birthplace, As Global Ambitions Trump Difficult Home Market",
-    "url": "https://weetracker.com/2026/10/08/moove-quits-nigeria-global-pivot/",
-    "source": "WeeTracker",
-    "kind": "startups",
-    "date": "2026-10-08T18:29:01.000Z",
-    "excerpt": "Moove, the mobility fintech founded in Lagos in 2020, announced on Thursday it The post Moove Quits Nigeria, Its Birthplace, As Global Ambitions Trump Difficult Home Market appeared first on WeeTracker .",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "9225190f5d",
-    "title": "M-KOPA’s KilpiTek Oy acquisition brings its device-locking advantage in-house",
-    "url": "https://thecondia.com/mkopa-acquires-kilipitek-oy-for-8m/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-08T16:22:54.000Z",
-    "excerpt": "M-KOPA, a Pan-African pay-as-you-go financing company, acquired Finnish communications company KilpiTek Oy for $8 million in March 2026.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "4ae84e065d",
-    "title": "What Lagos Life Game Teaches us About Building Products That Go Viral and Make Money",
-    "url": "https://thecondia.com/lagos-life-game-viral-money/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-08T14:34:03.000Z",
-    "excerpt": "Lagos Life game went viral by turning everyday Nigerian life into a product people wanted to play, share and pay for.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "ff9c754395",
-    "title": "Moove reportedly exits Nigeria after 6 years, offers ₦35B to customers",
-    "url": "https://thecondia.com/moove-reportedly-exits-nigeria-after-6-years/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-08T14:24:43.000Z",
-    "excerpt": "The move comes weeks after Uber ended its operations in Nigeria on September 2 after 12 years, a development that put Moove's original model under pressure.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "b26686390f",
-    "title": "NeoFleet Capital raises $4m pre-seed to fund taxi fleets across Africa and the Global South",
-    "url": "https://thecondia.com/neofleet-capital-raises-pre-seed/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-08T13:19:38.000Z",
-    "excerpt": "Mobility fintech NeoFleet Capital has secured a $4 million pre-seed round to expand its taxi fleet financing model and build infrastructure.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "e2d978f162",
-    "title": "What if the 39.6M small businesses in Nigeria use AI",
-    "url": "https://thecondia.com/smes-use-ai-in-business-africa/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-08T09:30:00.000Z",
-    "excerpt": "This programme launched to teach small and medium enterprise business owners how to use AI in their business",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
     },
     "take": ""
   }
