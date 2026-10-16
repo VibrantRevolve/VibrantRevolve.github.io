@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-16T10:38:27.322Z",
+ "updated": "2026-10-16T17:11:52.888Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 30.05,
+   "score": 28.6,
    "headline": "Africa’s jobs problem is bigger than unemployment",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/10/16/africas-jobs-unemployment-rate/"
@@ -13,7 +13,7 @@
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 24.21,
+   "score": 23.1,
    "headline": "NGX takes Dangote Refinery IPO beyond Nigeria, target investors in 3 African countries",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/16/ngx-takes-dangote-refinery-ipo-beyond-nigeria-target-investors-in-3-african-countries/"
@@ -21,7 +21,7 @@
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 14.42,
+   "score": 13.67,
    "headline": "Isaac Sesi: The Ghanaian engineer learning that invention is only half the battle",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/10/16/199840-isaac-sesi-ghanaian-learning/"
@@ -29,7 +29,7 @@
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 13.19,
+   "score": 12.61,
    "headline": "Western open-weight models still can’t beat China",
    "source": "Rest of World",
    "url": "https://restofworld.org/2026/china-open-weight-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds"
@@ -37,7 +37,7 @@
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 12.01,
+   "score": 11.48,
    "headline": "Moniepoint’s UK accounts reveal a profitable tech business and a loss-making payments operation",
    "source": "Benjamin Dada",
    "url": "https://thecondia.com/moniepoint-uk-accounts-tech-payments/"
@@ -45,7 +45,7 @@
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 10.65,
+   "score": 10.18,
    "headline": "Isaac Sesi: The Ghanaian engineer learning that invention is only half the battle",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/10/16/199840-isaac-sesi-ghanaian-learning/"
@@ -53,31 +53,31 @@
   {
    "topic": "Opay",
    "hashtag": "#Opay",
-   "score": 9.91,
+   "score": 9.55,
    "headline": "OPay crowned the Digital Bank and Financial Inclusion Leader at BAFI 2026",
    "source": "Technext",
    "url": "https://technext24.com/sponsored/opay-wins-bafi-awards-2026/"
   },
   {
-   "topic": "Enterprise",
-   "hashtag": "#Enterprise",
-   "score": 8.73,
-   "headline": "Zscaler: Account Executive - Enterprise, Wisconsin",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-wisconsin"
-  },
-  {
    "topic": "Apple",
    "hashtag": "#Apple",
-   "score": 8.7,
+   "score": 8.37,
    "headline": "Where to preorder the new Apple TV 4K",
    "source": "The Verge",
    "url": "https://www.theverge.com/gadgets/1009921/apple-tv-4k-2026-preorder-buy"
   },
   {
+   "topic": "Enterprise",
+   "hashtag": "#Enterprise",
+   "score": 8.27,
+   "headline": "Zscaler: Account Executive - Enterprise, Wisconsin",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-wisconsin"
+  },
+  {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 8.63,
+   "score": 8.21,
    "headline": "Airtable: Sales Manager, Strategic Accounts",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/airtable-sales-manager-strategic-accounts"
@@ -85,7 +85,7 @@
   {
    "topic": "Lattice",
    "hashtag": "#Lattice",
-   "score": 8.02,
+   "score": 7.64,
    "headline": "Lattice: Senior Software Engineer, Infrastructure Platform",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/lattice-senior-software-engineer-infrastructure-platform"
@@ -93,7 +93,7 @@
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 7.87,
+   "score": 7.52,
    "headline": "African Peacebuilding and Developmental Dynamics (APDD) Individual Research Fellowships 2027",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/10/16/apdd-individual-research-fellowships-2027/"
@@ -101,7 +101,7 @@
   {
    "topic": "Microsoft",
    "hashtag": "#Microsoft",
-   "score": 7.65,
+   "score": 7.32,
    "headline": "Big Walk skipped Xbox to boycott Microsoft’s involvement with Israel",
    "source": "The Verge",
    "url": "https://www.theverge.com/games/1011785/big-walk-house-house-microsoft-xbox-bds-boycott"
@@ -109,7 +109,7 @@
   {
    "topic": "Ipo",
    "hashtag": "#Ipo",
-   "score": 7.36,
+   "score": 7.08,
    "headline": "NGX takes Dangote Refinery IPO beyond Nigeria, target investors in 3 African countries",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/10/16/ngx-takes-dangote-refinery-ipo-beyond-nigeria-target-investors-in-3-african-countries/"
