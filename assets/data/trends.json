@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-15T14:32:00.265Z",
+ "updated": "2026-10-16T10:38:27.322Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 25.8,
-   "headline": "Egear : Senior Google Ads Media Buyer / Performance Marketing Lead",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/egear-senior-google-ads-media-buyer-performance-marketing-lead-1"
+   "score": 30.05,
+   "headline": "Africa’s jobs problem is bigger than unemployment",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/16/africas-jobs-unemployment-rate/"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 21.27,
-   "headline": "How CBN rebuilt MPC credibility after Nigeria’s currency crisis",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/business-economy/article/how-cbn-rebuilt-mpc-credibility-after-nigerias-currency-crisis/"
+   "score": 24.21,
+   "headline": "NGX takes Dangote Refinery IPO beyond Nigeria, target investors in 3 African countries",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/16/ngx-takes-dangote-refinery-ipo-beyond-nigeria-target-investors-in-3-african-countries/"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 14.42,
+   "headline": "Isaac Sesi: The Ghanaian engineer learning that invention is only half the battle",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/16/199840-isaac-sesi-ghanaian-learning/"
   },
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 14.02,
-   "headline": "What the West can learn from AI optimists in the rest of the world",
+   "score": 13.19,
+   "headline": "Western open-weight models still can’t beat China",
    "source": "Rest of World",
-   "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds"
+   "url": "https://restofworld.org/2026/china-open-weight-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 13.97,
-   "headline": "Andrew Milne, co-founder and co-CEO of Kuunda, dies at 54",
+   "score": 12.01,
+   "headline": "Moniepoint’s UK accounts reveal a profitable tech business and a loss-making payments operation",
    "source": "Benjamin Dada",
-   "url": "https://thecondia.com/andrew-milne-kuunda-co-founder-ceo-dies/"
+   "url": "https://thecondia.com/moniepoint-uk-accounts-tech-payments/"
   },
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 11.92,
-   "headline": "Dayroom: Nigerian engineer rivals Slack and Microsoft Teams with new AI workspace",
-   "source": "Technext",
-   "url": "https://technext24.com/news/dayroom-rivals-slack-microsoft-teams-workspace/"
-  },
-  {
-   "topic": "Manager",
-   "hashtag": "#Manager",
-   "score": 11.47,
-   "headline": "Dropbox: GTM Readiness Manager",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/dropbox-gtm-readiness-manager"
+   "score": 10.65,
+   "headline": "Isaac Sesi: The Ghanaian engineer learning that invention is only half the battle",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/16/199840-isaac-sesi-ghanaian-learning/"
   },
   {
    "topic": "Opay",
    "hashtag": "#Opay",
-   "score": 11.19,
+   "score": 9.91,
    "headline": "OPay crowned the Digital Bank and Financial Inclusion Leader at BAFI 2026",
    "source": "Technext",
    "url": "https://technext24.com/sponsored/opay-wins-bafi-awards-2026/"
   },
   {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 10.46,
-   "headline": "African startups raise $2.49B in 9 months as Q3 rebounds",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/15/african-startups-raise-2-49b-in-9-months/"
+   "topic": "Enterprise",
+   "hashtag": "#Enterprise",
+   "score": 8.73,
+   "headline": "Zscaler: Account Executive - Enterprise, Wisconsin",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-wisconsin"
   },
   {
    "topic": "Apple",
    "hashtag": "#Apple",
-   "score": 9.91,
+   "score": 8.7,
    "headline": "Where to preorder the new Apple TV 4K",
    "source": "The Verge",
    "url": "https://www.theverge.com/gadgets/1009921/apple-tv-4k-2026-preorder-buy"
   },
   {
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 8.63,
+   "headline": "Airtable: Sales Manager, Strategic Accounts",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/airtable-sales-manager-strategic-accounts"
+  },
+  {
    "topic": "Lattice",
    "hashtag": "#Lattice",
-   "score": 9.45,
+   "score": 8.02,
    "headline": "Lattice: Senior Software Engineer, Infrastructure Platform",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/lattice-senior-software-engineer-infrastructure-platform"
   },
   {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 7.87,
+   "headline": "African Peacebuilding and Developmental Dynamics (APDD) Individual Research Fellowships 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/16/apdd-individual-research-fellowships-2027/"
+  },
+  {
    "topic": "Microsoft",
    "hashtag": "#Microsoft",
-   "score": 8.88,
+   "score": 7.65,
    "headline": "Big Walk skipped Xbox to boycott Microsoft’s involvement with Israel",
    "source": "The Verge",
    "url": "https://www.theverge.com/games/1011785/big-walk-house-house-microsoft-xbox-bds-boycott"
   },
   {
-   "topic": "Cbn",
-   "hashtag": "#Cbn",
-   "score": 8.05,
-   "headline": "How CBN rebuilt MPC credibility after Nigeria’s currency crisis",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/business-economy/article/how-cbn-rebuilt-mpc-credibility-after-nigerias-currency-crisis/"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 7.98,
-   "headline": "Harrison Middleton University (HMU) Fellowship in Ideas 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/15/hmu-fellowship-in-ideas-2027/"
-  },
-  {
    "topic": "Ipo",
    "hashtag": "#Ipo",
-   "score": 7.12,
-   "headline": "👨🏿‍🚀TechCabal Daily – Dangote IPO heads south",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/15/techcabal-daily-dangote-ipo-heads-south/"
+   "score": 7.36,
+   "headline": "NGX takes Dangote Refinery IPO beyond Nigeria, target investors in 3 African countries",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/16/ngx-takes-dangote-refinery-ipo-beyond-nigeria-target-investors-in-3-african-countries/"
   }
  ],
  "tags": [
   "Tech News",
-  "Design & Social",
-  "Grants & Funding",
-  "AI & Automation",
   "Business",
-  "Naija Startups",
+  "AI & Automation",
   "Jobs",
-  "Payments"
+  "Payments",
+  "Naija Startups",
+  "Grants & Funding",
+  "Design & Social"
  ]
 }
