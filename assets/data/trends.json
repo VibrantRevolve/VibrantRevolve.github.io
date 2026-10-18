@@ -1,35 +1,51 @@
 {
- "updated": "2026-10-17T12:02:34.764Z",
+ "updated": "2026-10-18T10:20:35.706Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 29.62,
-   "headline": "Legion: Principal Product Manager, Agentic AI",
+   "score": 29.6,
+   "headline": "Lithic: Senior Software Engineer, Product Platform",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/legion-principal-product-manager-agentic-ai"
+   "url": "https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-product-platform"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 24,
-   "headline": "Renaissance Capital raises Dangote Refinery valuation to N700.41 per share",
+   "score": 24.09,
+   "headline": "Nigeria’s inflation mirage: Food prices fall, but core pressures mount",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/17/renaissance-capital-raises-dangote-refinery-valuation-to-n700-41-per-share/"
+   "url": "https://nairametrics.com/2026/10/18/nigerias-inflation-mirage-food-prices-fall-but-core-pressures-mount/"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 13.79,
-   "headline": "inDrive’s terms say it cannot be liable for the safety of drivers, riders and goods",
-   "source": "Technext",
-   "url": "https://technext24.com/explainer/indrive-zero-liability-to-drivers-and-riders/"
+   "score": 14.15,
+   "headline": "8 Common Crypto Perpetual Futures Trading Platforms in 2026 for Passive Income and Easy Setup",
+   "source": "Ventureburn",
+   "url": "https://ventureburn.com/8-common-crypto-perpetual-futures-trading-platforms-in-2026-for-passive-income-and-easy-setup/"
   },
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 12.32,
+   "score": 12.42,
+   "headline": "Meta removes language that raised scraping and AI training concerns",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 9.43,
+   "headline": "Lithic: Senior Software Engineer, Product Platform",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-product-platform"
+  },
+  {
+   "topic": "Apple",
+   "hashtag": "#Apple",
+   "score": 8.8,
    "headline": "Apple’s updated App Store rules go after ‘nudify’ AI apps",
    "source": "The Verge",
    "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment"
@@ -37,92 +53,76 @@
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 11.86,
+   "score": 8.7,
    "headline": "What a doctor’s typing speed reveals about Africa’s voice AI gap",
    "source": "Benjamin Dada",
    "url": "https://thecondia.com/intron-african-language-voice-ai/"
   },
   {
-   "topic": "Manager",
-   "hashtag": "#Manager",
-   "score": 10.07,
-   "headline": "Legion: Principal Product Manager, Agentic AI",
+   "topic": "Payments",
+   "hashtag": "#Payments",
+   "score": 8.51,
+   "headline": "Airbnb: Engineering Manager, Payments",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/legion-principal-product-manager-agentic-ai"
+   "url": "https://weworkremotely.com/remote-jobs/airbnb-engineering-manager-payments"
   },
   {
-   "topic": "Apple",
-   "hashtag": "#Apple",
-   "score": 10.01,
-   "headline": "Apple’s updated App Store rules go after ‘nudify’ AI apps",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment"
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 8.28,
+   "headline": "Airbnb: Engineering Manager, Payments",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/airbnb-engineering-manager-payments"
   },
   {
    "topic": "Beyondtrust",
    "hashtag": "#Beyondtrust",
-   "score": 9.67,
+   "score": 8.04,
    "headline": "BeyondTrust: Enterprise Account Manager - Riyadh (Saudi National)",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager-riyadh-saudi-national"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 9.21,
-   "headline": "Expel: Senior Detection & Response Engineer",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer"
-  },
-  {
-   "topic": "Enterprise",
-   "hashtag": "#Enterprise",
-   "score": 8.94,
-   "headline": "BeyondTrust: Enterprise Account Manager - Riyadh (Saudi National)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager-riyadh-saudi-national"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 8.47,
-   "headline": "Apply Now: Allianz x Social Shifters MoveNow Social Innovation Challenge 2026 | $90,000 in Funding for Young Innovators",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/16/allianz-x-social-shifters-movenow-social-innovation-challenge-2026-for-young-innovators/"
   },
   {
    "topic": "Account",
    "hashtag": "#Account",
-   "score": 7.34,
-   "headline": "Customer.io: Mid-Market Account Executive, EMEA",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/customer-io-mid-market-account-executive-emea"
+   "score": 7.89,
+   "headline": "TikTok permanently bans ‘Musk’ documentary advertising account",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/"
   },
   {
-   "topic": "October",
-   "hashtag": "#October",
-   "score": 6.81,
-   "headline": "Eight stocks lead brokers’ October consensus Buy list",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/17/eight-stocks-lead-brokers-october-consensus-buy-list/"
+   "topic": "Enterprise",
+   "hashtag": "#Enterprise",
+   "score": 7.55,
+   "headline": "BeyondTrust: Enterprise Account Manager - Riyadh (Saudi National)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager-riyadh-saudi-national"
   },
   {
-   "topic": "Lattice",
-   "hashtag": "#Lattice",
-   "score": 6.74,
-   "headline": "Lattice: Senior Software Engineer, Infrastructure Platform",
+   "topic": "Senior",
+   "hashtag": "#Senior",
+   "score": 6.69,
+   "headline": "Lithic: Senior Software Engineer, Product Platform",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/lattice-senior-software-engineer-infrastructure-platform"
+   "url": "https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-product-platform"
+  },
+  {
+   "topic": "Ceo",
+   "hashtag": "#Ceo",
+   "score": 6.63,
+   "headline": "Replit makes OpenAI its default over Anthropic, CEO says",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
   }
  ],
  "tags": [
-  "Payments",
   "Business",
   "Jobs",
-  "Tech News",
   "AI & Automation",
   "Design & Social",
-  "Naija Startups",
-  "Grants & Funding"
+  "Web",
+  "Tech News",
+  "Payments",
+  "Naija Startups"
  ]
 }
