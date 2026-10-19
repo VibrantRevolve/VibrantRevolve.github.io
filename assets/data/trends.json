@@ -1,75 +1,91 @@
 {
- "updated": "2026-10-18T10:46:48.746Z",
+ "updated": "2026-10-19T12:02:29.311Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 29.5,
-   "headline": "Lithic: Senior Software Engineer, Product Platform",
+   "score": 32.26,
+   "headline": "BDF EXPERTS: SAP Berater FI/CO (M/W/D)",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-product-platform"
+   "url": "https://weworkremotely.com/remote-jobs/bdf-experts-sap-berater-fi-co-m-w-d"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 24.01,
-   "headline": "Nigeria’s inflation mirage: Food prices fall, but core pressures mount",
+   "score": 25.02,
+   "headline": "Why creating NARE risks derailing Nigeria’s electricity momentum",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/18/nigerias-inflation-mirage-food-prices-fall-but-core-pressures-mount/"
+   "url": "https://nairametrics.com/2026/10/19/why-creating-nare-risks-derailing-nigerias-electricity-momentum/"
+  },
+  {
+   "topic": "Proxify",
+   "hashtag": "#Proxify",
+   "score": 24.55,
+   "headline": "Proxify AB: Senior Salesforce CRM Developer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-salesforce-crm-developer-1"
+  },
+  {
+   "topic": "Senior",
+   "hashtag": "#Senior",
+   "score": 16.06,
+   "headline": "Proxify AB: Senior Salesforce CRM Developer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-salesforce-crm-developer-1"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 14.1,
-   "headline": "8 Common Crypto Perpetual Futures Trading Platforms in 2026 for Passive Income and Easy Setup",
-   "source": "Ventureburn",
-   "url": "https://ventureburn.com/8-common-crypto-perpetual-futures-trading-platforms-in-2026-for-passive-income-and-easy-setup/"
-  },
-  {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 12.38,
-   "headline": "Meta removes language that raised scraping and AI training concerns",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+   "score": 13.98,
+   "headline": "The Next Wave: Are layoffs good for AI’s business?",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/19/are-layoffs-good-for-ais-business/"
   },
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 9.39,
-   "headline": "Lithic: Senior Software Engineer, Product Platform",
+   "score": 12.58,
+   "headline": "Proxify AB: Senior QA Automation Engineer",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-product-platform"
+   "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-qa-automation-engineer-1"
   },
   {
-   "topic": "Apple",
-   "hashtag": "#Apple",
-   "score": 8.78,
-   "headline": "Apple’s updated App Store rules go after ‘nudify’ AI apps",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment"
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 10.86,
+   "headline": "Will developing nations be able to handle millions of AI agents?",
+   "source": "Rest of World",
+   "url": "https://restofworld.org/2026/meta-muse-openai-dots-ai-agents-global-south/?utm_source=rss&utm_medium=rss&utm_campaign=feeds"
+  },
+  {
+   "topic": "Azure",
+   "hashtag": "#Azure",
+   "score": 8.18,
+   "headline": "Proxify AB: Senior DevOps Engineer (Azure)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-devops-engineer-azure-9"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 8.68,
-   "headline": "What a doctor’s typing speed reveals about Africa’s voice AI gap",
+   "score": 7.38,
+   "headline": "The power of being seen: How Ore Badmus built a career across acting, dance and tech",
    "source": "Benjamin Dada",
-   "url": "https://thecondia.com/intron-african-language-voice-ai/"
+   "url": "https://thecondia.com/the-power-of-being-seen-ore-badmus-career/"
   },
   {
-   "topic": "Payments",
-   "hashtag": "#Payments",
-   "score": 8.48,
-   "headline": "Airbnb: Engineering Manager, Payments",
+   "topic": "Developer",
+   "hashtag": "#Developer",
+   "score": 7.21,
+   "headline": "Proxify AB: Senior Salesforce CRM Developer",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/airbnb-engineering-manager-payments"
+   "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-salesforce-crm-developer-1"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 8.26,
+   "score": 7.02,
    "headline": "Airbnb: Engineering Manager, Payments",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/airbnb-engineering-manager-payments"
@@ -77,52 +93,36 @@
   {
    "topic": "Beyondtrust",
    "hashtag": "#Beyondtrust",
-   "score": 8.01,
+   "score": 6.74,
    "headline": "BeyondTrust: Enterprise Account Manager - Riyadh (Saudi National)",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager-riyadh-saudi-national"
+  },
+  {
+   "topic": "Billion",
+   "hashtag": "#Billion",
+   "score": 6.19,
+   "headline": "Elon Musk pledges $10.5 billion in SpaceX shares to American children in 2027",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/19/elon-musk-pledges-10-5-billion-in-spacex-shares-to-american-children-in-2027/"
   },
   {
    "topic": "Account",
    "hashtag": "#Account",
-   "score": 7.86,
+   "score": 6.16,
    "headline": "TikTok permanently bans ‘Musk’ documentary advertising account",
    "source": "TechCrunch",
    "url": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/"
-  },
-  {
-   "topic": "Enterprise",
-   "hashtag": "#Enterprise",
-   "score": 7.53,
-   "headline": "BeyondTrust: Enterprise Account Manager - Riyadh (Saudi National)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager-riyadh-saudi-national"
-  },
-  {
-   "topic": "Senior",
-   "hashtag": "#Senior",
-   "score": 6.67,
-   "headline": "Lithic: Senior Software Engineer, Product Platform",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-product-platform"
-  },
-  {
-   "topic": "Ceo",
-   "hashtag": "#Ceo",
-   "score": 6.61,
-   "headline": "Replit makes OpenAI its default over Anthropic, CEO says",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
   }
  ],
  "tags": [
+  "Grants & Funding",
   "Business",
-  "Jobs",
-  "AI & Automation",
-  "Design & Social",
-  "Web",
   "Tech News",
   "Payments",
-  "Naija Startups"
+  "Jobs",
+  "AI & Automation",
+  "Naija Startups",
+  "Design & Social"
  ]
 }
