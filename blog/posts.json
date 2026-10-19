@@ -1,5 +1,485 @@
 [
   {
+    "id": "d935d3e380",
+    "title": "IDA Startup Grant 2026-2027 (DKK 25,000 prize)",
+    "url": "https://opportunitydesk.org/2026/10/19/ida-startup-grant-2026/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-19T11:55:35.000Z",
+    "excerpt": "Deadline: November 13, 2026 Applications are open for the IDA Startup Grant 2026. IDA and their partner Heyfunding have joined forces to support entrepreneurship in Denmark through the IDA Startup Grant. STEM startups have enormous potential to drive innovation and create the solutions of tomorrow.…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "344a25b86a",
+    "title": "Why creating NARE risks derailing Nigeria’s electricity momentum",
+    "url": "https://nairametrics.com/2026/10/19/why-creating-nare-risks-derailing-nigerias-electricity-momentum/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-19T11:54:07.000Z",
+    "excerpt": "Nigeria is at an important inflection point in its electricity-sector reform journey. The post Why creating NARE risks derailing Nigeria’s electricity momentum appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "5bc6edd2f8",
+    "title": "The Next Wave: Are layoffs good for AI’s business?",
+    "url": "https://techcabal.com/2026/10/19/are-layoffs-good-for-ais-business/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-19T11:50:05.000Z",
+    "excerpt": "Cet article est aussi disponible en français First published on October 18, 2026 Microsoft ADC offices at Dunhill Towers in Nairobi, Kenya. Image: TechCabal Microsoft has shut its Africa Development Centre (ADC) in Nairobi, Kenya, leaving more than 400 engineers without jobs, following the closure…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "3bcb54962c",
+    "title": "Elon Musk pledges $10.5 billion in SpaceX shares to American children in 2027",
+    "url": "https://nairametrics.com/2026/10/19/elon-musk-pledges-10-5-billion-in-spacex-shares-to-american-children-in-2027/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-19T11:46:10.000Z",
+    "excerpt": "American billionaire and SpaceX founder Elon Musk has announced plans to distribute one share of his aerospace company to every child in the United States in 2027, a proposed giveaway estimated at $10.5 billion. The post Elon Musk pledges $10.5 billion in SpaceX shares to American children in 2027…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "7d6d53adb6",
+    "title": "Coronation Merchant Bank Named Nigeria’s Best Sales and Trading Team at Euromoney Markets Awards 2026",
+    "url": "https://nairametrics.com/2026/10/19/coronation-merchant-bank-named-nigerias-best-sales-and-trading-team-at-euromoney-markets-awards-2026/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-19T11:45:35.000Z",
+    "excerpt": "Coronation Merchant Bank has been named Nigeria’s Best Sales and Trading Team at the Euromoney Markets Awards 2026, recognising the strength of its Global Markets & Treasury franchise and its contribution to Nigeria’s financial markets. The award recognises the Bank’s work in delivering fixed income…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6d451ea4f9",
+    "title": "Are non-resident e-commerce platforms a significant source of revenue loss for Nigeria?",
+    "url": "https://businessday.ng/life/article/are-non-resident-e-commerce-platforms-a-significant-source-of-revenue-loss-for-nigeria/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-19T11:44:46.000Z",
+    "excerpt": "A recent dispute at Lagos Trade Fair Complex involving local importers and distributors and Chinese companies has brought a longstanding",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "bf249119e8",
+    "title": "Young Nigerians question gains of Tinubu’s economic reforms",
+    "url": "https://nairametrics.com/2026/10/19/young-nigerians-question-gains-of-tinubus-economic-reforms/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-19T11:42:02.000Z",
+    "excerpt": "Young Nigerian finance and legal professionals have questioned whether the Bola Tinubu administration's economic reforms have translated into The post Young Nigerians question gains of Tinubu’s economic reforms appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9d28ba2c93",
+    "title": "Top 5 Nollywood films breaking December’s box office tradition",
+    "url": "https://businessday.ng/uncategorized/article/top-5-nollywood-films-breaking-decembers-box-office-tradition/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-19T11:36:29.000Z",
+    "excerpt": "Five Nollywood films released outside the December festive season have earned hundreds of millions of naira at the Nigerian box",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ddb26e50d5",
+    "title": "Globus Bank pushes export financing, local manufacturing to unlock trade potential",
+    "url": "https://businessday.ng/companies/article/globus-bank-pushes-export-financing-local-manufacturing-to-unlock-trade-potential/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-19T11:28:03.000Z",
+    "excerpt": "Globus Bank has called for increased export financing and local manufacturing to boost Nigeria’s non-oil exports, as stakeholders seek to",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b78e83c540",
+    "title": "Power outages hit parts of Lagos, Abuja as DisCos cite grid shortfall",
+    "url": "https://nairametrics.com/2026/10/19/power-outages-hit-parts-of-lagos-abuja-as-discos-cite-grid-shortfall/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-19T11:06:55.000Z",
+    "excerpt": "Parts of Lagos and Abuja are experiencing electricity supply disruptions, with Ikeja Electric and Abuja Electricity Distribution Company (AEDC) attributing the outages to reduced power allocation from the national grid and technical faults, respectively. The post Power outages hit parts of Lagos,…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "335603d271",
+    "title": "Tech Trivia with Elizabeth Ogunseye, Co-founder at Subify Technologies",
+    "url": "https://technext24.com/women-in-tech/tech-trivia-with-elizabeth-cmo-subify/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-19T10:16:46.000Z",
+    "excerpt": "This is Technext’s weekly Women-in-tech trivia, a close-up series that spotlights the lives and personalities of female tech enthusiasts, professionals, and founders. A new edition drops every Monday.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "fe83485641",
+    "title": "Nigeria’s financial inclusion is growing, but access to credit still lags",
+    "url": "https://techcabal.com/2026/10/19/credit-access-lags-financial-inclusion/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-19T10:10:50.000Z",
+    "excerpt": "For lenders, they must determine whether a borrower earns enough to repay, whether that income can be verified, what other financial obligations the borrower has, and how likely they are to meet the repayment schedule. As a result, people can participate in the formal financial system and still…",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "1f418e8db5",
+    "title": "BDF EXPERTS: SAP Berater FI/CO (M/W/D)",
+    "url": "https://weworkremotely.com/remote-jobs/bdf-experts-sap-berater-fi-co-m-w-d",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T10:01:21.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Germany Düsseldorf </p> <p>Werde zum Architekten digitaler Finanzwelten – und gestalte mit uns die Zukunft! Zahlen sind Deine Leidenschaft, die Financial Supply Chain und SAP FI/CO Dein Spielfeld? Perfekt! Denn als Consultant wirst Du:</p> <h2>Aufgaben</h2>…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "3e6b84130b",
+    "title": "Will developing nations be able to handle millions of AI agents?",
+    "url": "https://restofworld.org/2026/meta-muse-openai-dots-ai-agents-global-south/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World",
+    "kind": "news",
+    "date": "2026-10-19T10:00:00.000Z",
+    "excerpt": "It may be some time before AI agents can fully navigate the complexities and cultural nuances of developing nations.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "bc3600b232",
+    "title": "Proxify AB: Senior Salesforce CRM Developer",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-salesforce-crm-developer-1",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T09:34:23.000Z",
+    "excerpt": "<img src=\"https://we-work-remotely.imgix.net/logos/0084/0935/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" /> <p> <strong>Headquarters:</strong> Sweden <br /><strong>URL:</strong> <a href=\"http://career.proxify.io\">http://career.proxify.io</a> </p> <div> <h3><strong>The…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c588a3c7fe",
+    "title": "Proxify AB: Senior QA Automation Engineer",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-qa-automation-engineer-1",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T09:33:08.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Sweden <br /><strong>URL:</strong> <a href=\"http://career.proxify.io\">http://career.proxify.io</a> </p> <h3><strong>The Role:</strong></h3> <p>&nbsp;</p> <p>We are looking for a Senior QA Automation Engineer to join one of our high-growth client teams as the…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "1f3e721081",
+    "title": "Proxify AB: Senior Platform Engineer",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-platform-engineer-1",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T09:31:57.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Sweden <br /><strong>URL:</strong> <a href=\"http://career.proxify.io\">http://career.proxify.io</a> </p> <div> <h3><strong>The Role:</strong></h3> <p>&nbsp;</p> <p>We are looking for a Senior Platform Engineer on behalf of our client to build, scale, and maintain an…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "92d9d63737",
+    "title": "Proxify AB: Senior Magento Developer",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-magento-developer-5",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T09:30:20.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Sweden <br /><strong>URL:</strong> <a href=\"http://career.proxify.io\">http://career.proxify.io</a> </p> <h4><strong>The Role:</strong></h4> <div>&nbsp;</div> <div> <p>We are looking for a Senior Adobe Commerce Developer<strong>&nbsp;</strong>to architect and build…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "215686e6af",
+    "title": "Proxify AB: Senior Fullstack Developer (React.js / Node.js)",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-5",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T09:29:00.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Sweden <br /><strong>URL:</strong> <a href=\"http://career.proxify.io\">http://career.proxify.io</a> </p> <h3><strong>The Role:</strong></h3> <p><strong>&nbsp;</strong></p> <p>We are looking for a Senior Fullstack Developer skilled in React.js and Node.js for one of…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e990d7e8df",
+    "title": "Proxify AB: Senior DevOps Engineer (Azure)",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-devops-engineer-azure-9",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T09:27:34.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Sweden <br /><strong>URL:</strong> <a href=\"http://career.proxify.io\">http://career.proxify.io</a> </p> <div> <h3>The Role:</h3> <p>We are looking for a Senior Azure DevOps Engineer for one of our clients who would be responsible for ensuring the reliability,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "096b75bd04",
+    "title": "Proxify AB: Senior Data Engineer (Azure)",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-azure-4",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T09:25:58.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Sweden <br /><strong>URL:</strong> <a href=\"http://career.proxify.io\">http://career.proxify.io</a> </p> <div> <h3><strong>The Role:</strong></h3> <p>&nbsp;</p> <p>We are looking for a Senior Data Engineer with deep expertise in Microsoft Azure to join our…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "207bf866af",
+    "title": "Proxify AB: Senior Cloud Engineer (Azure)",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-cloud-engineer-azure-1",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T09:24:44.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Sweden <br /><strong>URL:</strong> <a href=\"http://career.proxify.io\">http://career.proxify.io</a> </p> <div> <h3><strong>The Role:</strong></h3> <p>&nbsp;</p> <p>We are looking for a Senior Cloud Engineer specializing in Microsoft Azure on behalf of our client to…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b065bceb00",
+    "title": "Proxify AB: Senior Backend Developer (Python)",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-11",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-19T09:21:57.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Sweden <br /><strong>URL:</strong> <a href=\"http://career.proxify.io\">http://career.proxify.io</a> </p> <h3><strong>The Role:</strong></h3> <p>&nbsp;</p> <p>We are looking for a Senior Python Developer for one of our clients. You are a perfect candidate if you are…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "79faaa5f07",
+    "title": "The power of being seen: How Ore Badmus built a career across acting, dance and tech",
+    "url": "https://thecondia.com/the-power-of-being-seen-ore-badmus-career/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-19T09:00:00.000Z",
+    "excerpt": "From acting to tech, Ore Badmus shares how career pivots, starting over in the UK and embracing visibility, shaped her professional journey.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "f75b4367dc",
+    "title": "Popular but struggling",
+    "url": "https://technext24.com/newsletters/popular-but-struggling/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-19T07:00:00.000Z",
+    "excerpt": "",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "2e63aa7baa",
+    "title": "👨🏿‍🚀TechCabal Daily – A bigger piece of Cairo",
+    "url": "https://techcabal.com/2026/10/19/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-a-bigger-piece-of-cairo/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-19T06:15:42.000Z",
+    "excerpt": "In today's edition: Unbranded ATMs in SA || Banque du Caire could raise IPO stake to 45% || Vodacom keeps Safaricom stake—for now || Ghana eyes VAT revenue from foreign digital services",
+    "tag": "Design & Social",
+    "cta": {
+      "label": "Design assets",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "ccdc7bd140",
+    "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
+    "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-18T22:20:53.000Z",
+    "excerpt": "Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the system violated the…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c16cb3b58a",
+    "title": "Apple HomeView vs Amazon Echo Show: which smart display is worth buying?",
+    "url": "https://thecondia.com/apple-homeview-vs-amazon-echo-show/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-18T17:17:42.000Z",
+    "excerpt": "Apple HomeView takes on Amazon Echo Show with Siri AI, smart home controls and a personalised experience. But is it worth the higher price?",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "6a083a36de",
+    "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+    "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-18T16:30:00.000Z",
+    "excerpt": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "4f21f10df7",
+    "title": "TechCrunch Mobility: Rivian’s next act",
+    "url": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-18T16:05:00.000Z",
+    "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "4f5bd0962d",
+    "title": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
+    "url": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-18T15:00:00.000Z",
+    "excerpt": "The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It runs identical software, but ships in a design with two-stage triggers, a bigger eight-inch IPS screen (1080p and up to 120Hz versus 800p and 90Hz in the Deck OLED), and it’s got double the RAM and storage […]",
+    "tag": "Design & Social",
+    "cta": {
+      "label": "Design assets",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "127aa8585b",
+    "title": "Podcasts and livestreaming offer Nigerian creators the next growth frontier… with little pay",
+    "url": "https://technext24.com/social-tech/podcasts-streaming-creators-growth-frontier/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-18T11:55:44.000Z",
+    "excerpt": "In July 2025, more than 1,400 people gathered in London to watch two Nigerian women talk. There was…",
+    "tag": "Design & Social",
+    "cta": {
+      "label": "Design assets",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
     "id": "f4812614be",
     "title": "Nigeria’s inflation mirage: Food prices fall, but core pressures mount",
     "url": "https://nairametrics.com/2026/10/18/nigerias-inflation-mirage-food-prices-fall-but-core-pressures-mount/",
@@ -266,6 +746,21 @@
     "cta": {
       "label": "Get a business website",
       "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "42ea678ad0",
+    "title": "What Is Polymarket? Project, Token, Airdrop, Roadmap Explained",
+    "url": "https://ventureburn.com/what-is-polymarket/",
+    "source": "Ventureburn",
+    "kind": "news",
+    "date": "2026-10-17T22:00:38.000Z",
+    "excerpt": "Polymarket is gaining popularity fast as one of the most-discussed sites in decentralized prediction markets. Built on blockchain technology, it allows users to trade with cryptocurrency on real-world events, from The post What Is Polymarket? Project, Token, Airdrop, Roadmap Explained appeared first…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
     },
     "take": ""
   },
@@ -2501,501 +2996,6 @@
     "cta": {
       "label": "Need a standout CV?",
       "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "dbbc3acd17",
-    "title": "Yubico Inc.: Enterprise Account Director, West",
-    "url": "https://weworkremotely.com/remote-jobs/yubico-inc-enterprise-account-director-west",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-14T07:30:48.000Z",
-    "excerpt": "<p> <strong>Headquarters:</strong> San Franciscio Bay Area Remote </p> <div class=\"content-intro\"><h3><strong>Meet Yubico</strong></h3> <p>Yubico is a global leader in identity security and creator of the YubiKey, the original hardware-backed passkey. We are publicly traded on Nasdaq Stockholm; our…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b74dcb0b12",
-    "title": "5G share rises 60% as 3G declines in Nigeria’s telecom market",
-    "url": "https://thecondia.com/5g-growth-rate-in-nigeria/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-14T06:37:46.000Z",
-    "excerpt": "Nigeria's 5G has grown the fastest among mobile network generations between June 2025 and August 2026.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "0c5555e957",
-    "title": "Tech’s rescue mission",
-    "url": "https://technext24.com/news/techs-rescue-mission/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-14T06:37:18.000Z",
-    "excerpt": "",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "2bc511080f",
-    "title": "👨🏿‍🚀TechCabal Daily – Microsoft closes a Window in Nairobi",
-    "url": "https://techcabal.com/2026/10/14/techcabal-daily-microsoft-closes-a-window-in-nairobi/",
-    "source": "TechCabal",
-    "kind": "news",
-    "date": "2026-10-14T06:15:15.000Z",
-    "excerpt": "In today's edition: Microsoft shuts down Nairobi hub || UK fintech Wise receives licence confirmation || iOCO profit jumps 39% || CashAfrica, Chicken Republic partner",
-    "tag": "Payments",
-    "cta": {
-      "label": "Ecommerce storefront",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "39f2ea931d",
-    "title": "PalmPay Named Digital Payments Platform of the Year at Business Day BAFI Awards 2026",
-    "url": "https://technext24.com/news/palmpay-digital-payments-platform-of-the-year/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-14T05:59:15.000Z",
-    "excerpt": "PalmPay, has been named Digital Payments Platform of the Year at the 2026 BusinessDay Banks and Other Financial…",
-    "tag": "Payments",
-    "cta": {
-      "label": "Ecommerce storefront",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "85b762ae39",
-    "title": "Airtel’s virtual card will test Safaricom’s grip on Kenya’s online payments",
-    "url": "https://techcabal.com/2026/10/14/airtel-money-virtual-card-kenya/",
-    "source": "TechCabal",
-    "kind": "news",
-    "date": "2026-10-14T05:59:00.000Z",
-    "excerpt": "Airtel Mobile Commerce plans to launch a virtual payment card in Kenya, setting up a new contest with Safaricom over international online spending.",
-    "tag": "Payments",
-    "cta": {
-      "label": "Ecommerce storefront",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "018d1b6a77",
-    "title": "Justice Department says North Koreans have infiltrated dozens of U.S. companies",
-    "url": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-14T01:30:42.000Z",
-    "excerpt": "U.S. authorities warn that sanctioned hackers are increasingly targeting Americans to act as facilitators between breached U.S. companies and Pyongyang.",
-    "tag": "Security",
-    "cta": {
-      "label": "Talk to us",
-      "href": "/contact/"
-    },
-    "take": ""
-  },
-  {
-    "id": "314375845b",
-    "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-    "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-13T23:05:34.000Z",
-    "excerpt": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "66c9ddf4b2",
-    "title": "Suki Secures $90 Million to Expand Its Healthcare AI Platform",
-    "url": "https://ventureburn.com/suki-secures-90m-healthcare-ai-platform/",
-    "source": "Ventureburn",
-    "kind": "news",
-    "date": "2026-10-13T22:45:15.000Z",
-    "excerpt": "Suki Secures $90 Million to Advance Healthcare AI Suki has secured $90 million in Series E financing to accelerate growth and expand its healthcare AI platform. The round attracted new The post Suki Secures $90 Million to Expand Its Healthcare AI Platform appeared first on Ventureburn .",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "a526d4cb5a",
-    "title": "OPay’s Lending Business Has Quietly Overtaken Its Payments Empire As IPO Nears",
-    "url": "https://weetracker.com/2026/10/13/opay-lending-overtakes-payments-ipo/",
-    "source": "WeeTracker",
-    "kind": "startups",
-    "date": "2026-10-13T15:47:23.000Z",
-    "excerpt": "OPay has established its place as Nigeria’s ubiquitous payments app for a good The post OPay’s Lending Business Has Quietly Overtaken Its Payments Empire As IPO Nears appeared first on WeeTracker .",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "6557dd16c4",
-    "title": "Africa Bitcoin Corporation loses two-thirds of its board as the founder’s shareholder group moves in",
-    "url": "https://thecondia.com/africa-bitcoin-corporation-board-resignations/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-13T15:31:10.000Z",
-    "excerpt": "Four Africa Bitcoin Corporation directors resign, including interim CEO Stafford Masie, following a shareholder revolt led by founder Warren Wheatley’s WGW Capital",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "11030d9193",
-    "title": "Microsoft’s Nairobi shake up puts Silicon Savannah’s ambitions to the test",
-    "url": "https://thecondia.com/microsoft-nairobi-adc-silicon-savannah/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-13T14:55:31.000Z",
-    "excerpt": "Microsoft’s reported plans to close its Nairobi engineering operations have raised fresh questions about Kenya’s Silicon Savannah ambitions. As engineers face uncertainty and AI reshapes software development, local technology leaders argue that African businesses must build the capacity to retain…",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "e69a2e67c4",
-    "title": "UNDP Africa Pan-African MineTech Exploration Technology Pre-Incubation Programme 2027",
-    "url": "https://opportunitydesk.org/2026/10/13/undp-africa-pan-african-minetech-exploration-technology-pre-incubation-programme-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-13T14:51:08.000Z",
-    "excerpt": "Deadline: October 16, 2026 Applications are open for the UNDP Africa Pan-African MineTech Exploration Technology Pre-Incubation Programme 2027. The timbuktoo MineTech Hub, together with the United Nations Development Programme and ecosystem partners across Botswana, Liberia, Malawi, Nigeria, Zambia…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "4faa80e144",
-    "title": "CashAfrica partners with Chicken Republic to drive tap-to-pay adoption in Nigeria",
-    "url": "https://thecondia.com/cashafrica-chicken-republic-tap-to-pay-nigeria/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-13T13:39:12.000Z",
-    "excerpt": "CashAfrica is taking tap-to-pay to Chicken Republic’s 350 outlets. Its CEO says contactless could go mainstream in Nigeria in eight months.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "26271f2fe3",
-    "title": "MA Board Outlines Global Connectivity Priorities with Implications for Africa",
-    "url": "https://www.techinafrica.com/ma-board-outlines-global-connectivity-priorities-with-implications-for-africa/",
-    "source": "Tech in Africa",
-    "kind": "news",
-    "date": "2026-10-13T13:29:33.000Z",
-    "excerpt": "The GSMA Board met in New Delhi, India last week to set out priorities for the next era of connectivity. Much has changed since the Board last met in India 10 years ago. India today is a leader in mobile connectivity, with 1.2 billion active connections, 450 million of which are 5G,underpinning…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "115d8a1de8",
-    "title": "Where to preorder the new Apple TV 4K",
-    "url": "https://www.theverge.com/gadgets/1009921/apple-tv-4k-2026-preorder-buy",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-13T13:26:40.000Z",
-    "excerpt": "Apple debuted its latest Apple TV 4K - its first in four years - and it'll be available starting Friday, November 13th. It's powerful, with the A19 chip (the now-discontinued 2022 model has the A15 Bionic), and it features better wireless connectivity than its predecessor, too. Siri AI is a big part…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "016589b0b2",
-    "title": "India delays digital payments fee rollout amid retailer pushback",
-    "url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-13T13:25:05.000Z",
-    "excerpt": "The NPCI, which operates the UPI network, said it was postponing the planned October 15 rollout of the 0.4% fee due to the festive shopping season.",
-    "tag": "Payments",
-    "cta": {
-      "label": "Ecommerce storefront",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "de48459db6",
-    "title": "Apple launches a new Apple TV 4K with Siri AI and remote-free voice commands",
-    "url": "https://techcrunch.com/2026/10/13/apple-launches-a-new-apple-tv-4k-with-siri-ai-and-remote-free-commands/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-13T13:16:11.000Z",
-    "excerpt": "The new Apple TV 4K costs $299, comes with Siri AI, and will be available on November 13.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "9e66aec604",
-    "title": "NIBSS adopts jPOS technology for National Payment Stack",
-    "url": "https://nairametrics.com/2026/10/13/nibss-adopts-jpos-technology-for-national-payment-stack/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-13T13:14:06.000Z",
-    "excerpt": "The Nigeria Inter-Bank Settlement System (NIBSS) has adopted payment processing technology from Transactility Inc. to develop its National Payment Stack (NPS), a next-generation instant payments platform designed to support Nigeria’s evolving payments ecosystem. The post NIBSS adopts jPOS technology…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "fdbf25594c",
-    "title": "AFRICA FINANCE IN BRIEF: Weaker currencies, richer billionaires, bigger bank bets",
-    "url": "https://businessday.ng/africa/article/africa-finance-in-brief-weaker-currencies-richer-billionaires-bigger-bank-bets/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-10-13T13:06:34.000Z",
-    "excerpt": "Africa’s financial landscape is showing contrasting signals, with 12 of 17 major currencies weakening against the dollar in September even",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "aba4e20057",
-    "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
-    "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-13T13:00:00.000Z",
-    "excerpt": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "d3d7d6aa60",
-    "title": "The new Apple TV 4K has built-in microphones so you can talk to Siri AI",
-    "url": "https://www.theverge.com/tech/1009663/apple-tv-4k-siri-ai-microphones-4th-gen-announced",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-13T13:00:00.000Z",
-    "excerpt": "Apple is introducing a refreshed Apple TV 4K today with a pair of interesting new hardware features: far-field microphones to talk to Siri hands-free and Find My built into the remote. The fourth-gen Apple TV 4K, announced at Apple's Welcome Home event in New York City, is the first model to support…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "05da67d9d3",
-    "title": "Apple announces the HomePod Mini 2, but it isn’t ready for Siri AI at launch",
-    "url": "https://www.theverge.com/tech/1009672/homepod-mini-2-announced-apple-siri-ai",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-13T13:00:00.000Z",
-    "excerpt": "Apple is announcing the long-awaited HomePod Mini 2 with a new chip that can power Siri AI - but support for those new AI features won't be available at launch. The speaker is also getting a new sound glow feature that syncs its LED lights with a song's album art, and it can now be […]",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "dabd38ebc2",
-    "title": "The new Apple Home Collection includes a video doorbell, smart lock, and more",
-    "url": "https://www.theverge.com/tech/1009680/apple-home-collection-doorbell-lock-camera-smart-home-announced",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-13T13:00:00.000Z",
-    "excerpt": "Apple has partnered with LG Electronics and Schneider Electric to launch the Apple Home Collection, an assortment of smart home devices meant to be easy to set up and use. The collection is something of a smart home starter pack, including security cameras, a video doorbell, a door lock, and two…",
-    "tag": "Security",
-    "cta": {
-      "label": "Talk to us",
-      "href": "/contact/"
-    },
-    "take": ""
-  },
-  {
-    "id": "8f2679f3e7",
-    "title": "Elgato takes on DJI with a tiny wireless mic for creators on the go",
-    "url": "https://www.theverge.com/tech/1009752/elgato-wave-go-microphone-creators-pricing-release-date",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-13T13:00:00.000Z",
-    "excerpt": "Elgato already dominates the market for hardware built for creators that use powerful desktop PCs, and it's now turning its attention to creators on the go with its first wireless microphone. The $99.99 Wave Go clips onto your clothes just like DJI's Mic Mini, with hands-free recording for vlogging…",
-    "tag": "Design & Social",
-    "cta": {
-      "label": "Design assets",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "1284581975",
-    "title": "Everything Apple launched at its ‘Welcome Home’ event",
-    "url": "https://www.theverge.com/tech/1009816/apple-smart-home-event-homeview-homepod-mini-roundup",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-13T13:00:00.000Z",
-    "excerpt": "Apple unveiled a slate of new smart home gadgets at its aptly named \"Welcome Home\" event today, including its first (and highly anticipated) smart home hub. That flagship announcement came alongside much-needed refreshes for Apple's HomePod Mini and TV 4K devices, and a selection of new smart home…",
-    "tag": "Security",
-    "cta": {
-      "label": "Talk to us",
-      "href": "/contact/"
-    },
-    "take": ""
-  },
-  {
-    "id": "abfb3ce653",
-    "title": "LekkeSlaap Acquired by South African Investors as Co-Founders Exit Travel Technology Business",
-    "url": "https://www.techinafrica.com/lekkeslaap-acquired-by-south-african-investors-as-co-founders-exit-travel-technology-business/",
-    "source": "Tech in Africa",
-    "kind": "news",
-    "date": "2026-10-13T12:41:17.000Z",
-    "excerpt": "South African accommodation booking platform LekkeSlaap has been acquired by a consortium of local investors, marking a significant ownership transition for one of the country’s established travel technology businesses. The acquisition was jointly led by private investment firms Bellair Road…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "fe05934c01",
-    "title": "Giraffe Bio aims its bespoke biomolecules at the looming copper shortage",
-    "url": "https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-13T12:40:00.000Z",
-    "excerpt": "As AI data centers and EVs drive up demand for copper, Giraffe Bio has unearthed a $6.4 million seed round to help miners extract more of the mineral.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "9a70a74a7f",
-    "title": "eTranzact board reshaped as Trademarks acquires controlling stake",
-    "url": "https://nairametrics.com/2026/10/13/etranzact-board-reshaped-as-trademarks-acquires-controlling-stake/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-13T12:28:52.000Z",
-    "excerpt": "eTranzact International Plc has reshaped its board following Trademarks Global Concepts Limited’s acquisition of a controlling 56.18% stake in the company. The post eTranzact board reshaped as Trademarks acquires controlling stake appeared first on Nairametrics .",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "53e88b2a13",
-    "title": "Global Investigative Journalism Conference (GIJC) Fellowship 2027 (Funded)",
-    "url": "https://opportunitydesk.org/2026/10/13/global-investigative-journalism-conference-fellowship-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-13T12:23:04.000Z",
-    "excerpt": "Deadline: January 31, 2027 Applications are open for the Global Investigative Journalism Conference (GIJC) Fellowship 2027. The 15th Global Investigative Journalism Conference (GIJC) will be held in Rotterdam, The Netherlands, from October 19 – 23, 2027, and is being co-hosted by GIJN and De…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "de28c6de3b",
-    "title": "New Money Market Fund opens to investors with minimum N10,000 subscription",
-    "url": "https://nairametrics.com/2026/10/13/new-money-market-fund-opens-to-investors-with-minimum-n10000-subscription/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-13T12:15:27.000Z",
-    "excerpt": "Berkshire Asset Management Limited has opened subscriptions for its N2 billion Money Market Fund, allowing retail and institutional investors to participate with a minimum investment of N10,000. The post New Money Market Fund opens to investors with minimum N10,000 subscription appeared first on…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "6f3674a6c3",
-    "title": "United Nations Regional Course in International Law for Africa 2027 (Funding available)",
-    "url": "https://opportunitydesk.org/2026/10/13/united-nations-regional-course-in-international-law-for-africa-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-13T12:13:14.000Z",
-    "excerpt": "Deadline: October 30, 2026 Applications are open for the United Nations Regional Course in International Law for Africa 2027. The United Nations Regional Course in International Law for Africa is organized by the Codification Division of the United Nations Office of Legal Affairs in cooperation with…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f166a622da",
-    "title": "PAC Holdings hosts corporate cocktail reception to advance Brazil-Africa business and investment connections",
-    "url": "https://nairametrics.com/2026/10/13/pac-holdings-hosts-corporate-cocktail-reception-to-advance-brazil-africa-business-and-investment-connections/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-13T12:07:09.000Z",
-    "excerpt": "PanAfrican Capital Holdings Limited (“PAC Holdings”), in partnership with the Embassy of Brazil in Nigeria and the Brazil Africa Institute, hosted a Corporate Cocktail Reception in Abuja to strengthen business, investment and institutional connections between Brazil and Africa. Held ahead of the…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
     },
     "take": ""
   }
