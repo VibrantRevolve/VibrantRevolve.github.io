@@ -1,5 +1,410 @@
 [
   {
+    "id": "5180572baa",
+    "title": "Bard Santner wants to turn Zimbabwe’s diaspora remittances into a banking business",
+    "url": "https://techcabal.com/2026/10/21/bard-santner-diaspora-remittances/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-21T11:06:26.000Z",
+    "excerpt": "Bard Santner is using its new microfinance banking licence to expand beyond remittances into savings, lending and financial services for Zimbabwe’s diaspora, targeting a $2.45 billion market.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "862b85a88c",
+    "title": "SpaceX posts $14.58 billion Q3 revenue on surging AI sales as Musk confirms Tesla merger",
+    "url": "https://technext24.com/reviews/spacex-ai-revenue-q3-2026-tesla-merger/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-21T10:55:33.000Z",
+    "excerpt": "SpaceX’s third-quarter 2026 results, reported after the bell on October 20, mark the moment the company stopped being…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d50780c05b",
+    "title": "Rising transport costs push South Africa inflation to three-month high",
+    "url": "https://businessday.ng/africa/article/rising-transport-costs-push-south-africa-inflation-to-three-month-high/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-21T10:44:24.000Z",
+    "excerpt": "South Africa’s annual inflation rate rose for a second consecutive month in September, as a sharp increase in fuel prices",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "491fa6d75a",
+    "title": "Elax Energy Raises €30 Million to Turn Water Heaters Into Smart Grid Batteries",
+    "url": "https://ventureburn.com/elax-energy-raises-30-million-water-heaters-grid-batteries/",
+    "source": "Ventureburn",
+    "kind": "news",
+    "date": "2026-10-21T10:27:52.000Z",
+    "excerpt": "You probably have never looked at your water heater and thought it could be a revolutionary grid battery. Yet, that unassuming metal cylinder is exactly why Elax Energy raises €30 The post Elax Energy Raises €30 Million to Turn Water Heaters Into Smart Grid Batteries appeared first on Ventureburn .",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "ced31dffda",
+    "title": "France targets Stablecoins with 31.4% tax as global trading volumes surge",
+    "url": "https://technext24.com/crypto/france-stablecoin-tax-capital-gains/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-21T08:27:57.000Z",
+    "excerpt": "For five years, Paris sold itself as Europe’s undisputed cryptocurrency capital. President Emmanuel Macron’s administration courted global exchanges,…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "5609892388",
+    "title": "LemFi expands beyond money transfers, launches credit and eSIM services in over 100 destinations",
+    "url": "https://technext24.com/news/lemfi-launches-saving-credit-esim-service/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-21T08:21:43.000Z",
+    "excerpt": "LemFi is expanding beyond international money transfers with new savings and credit products in the UK and eSIM…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "0ebf129b9d",
+    "title": "African VC is getting more selective. This investor shares what it takes to get an investor’s attention",
+    "url": "https://thecondia.com/eunice-ajim-african-vc-ai-enabled-software/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-21T08:00:10.000Z",
+    "excerpt": "Eunice Ajim explains why she is backing AI-enabled software in Africa, becoming more selective, and navigating a tougher venture capital market.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "030658f344",
+    "title": "Africa’s tech industry doesn’t have an innovation problem. It has an execution challenge- by Charles Olanrewaju",
+    "url": "https://technext24.com/opinion/africas-tech-problem-charles-olanrewaju/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-21T08:00:02.000Z",
+    "excerpt": "Africa’s technology ecosystem has spent the past decade demonstrating its capacity to generate ambitious ideas, attract investment and…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "86c9312a9f",
+    "title": "Upsun: Product Manager",
+    "url": "https://weworkremotely.com/remote-jobs/upsun-product-manager",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:25.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote • Germany, Canada, France, Spain or the UK </p> <h1><span><strong>About Upsun (formerly Platform.sh)&nbsp;</strong></span></h1> <p><span>Upsun is the cloud application platform humans and robots love. It is built for today’s hybrid teams, where AI agents…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "650d0e34c4",
+    "title": "Duolingo: Director of Ad Sales - West",
+    "url": "https://weworkremotely.com/remote-jobs/duolingo-director-of-ad-sales-west",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:25.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - California </p> <p>Our mission at Duolingo is to develop the best education in the world and make it universally available. It’s a big mission, and that’s where you come in!</p> <p>At Duolingo, you’ll join a team that cares about educating our users,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "bc4d643772",
+    "title": "Ritual: Core Protocol Engineer",
+    "url": "https://weworkremotely.com/remote-jobs/ritual-core-protocol-engineer",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:25.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote </p> <div class=\"content-intro\"><h3>About Ritual&nbsp;</h3> <p>Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. The Ritual chain is the first blockchain custom-built to support AI-native operations,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f3f84ed2bf",
+    "title": "Ping Identity: Chief of Staff, CCO",
+    "url": "https://weworkremotely.com/remote-jobs/ping-identity-chief-of-staff-cco",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:16.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> USA - Remote </p> <div class=\"content-intro\"><p><strong>About Ping Identity:&nbsp;</strong></p> <p>At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "0492284dbe",
+    "title": "Cribl: Cloud Partner Sales Manager (Northeast)",
+    "url": "https://weworkremotely.com/remote-jobs/cribl-cloud-partner-sales-manager-northeast",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:15.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - Philadelphia, Pennsylvania </p> <div class=\"content-intro\"><p>Join the company that’s building the telemetry infrastructure for the AI era. At Cribl, we partner with IT and Security teams at many of the world’s biggest enterprises, including half of the…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9bacd44cf2",
+    "title": "Upsun: Director, Product-Led Growth",
+    "url": "https://weworkremotely.com/remote-jobs/upsun-director-product-led-growth",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:15.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote • Anywhere </p> <h1><span><strong>About Upsun</strong></span></h1> <p><span>Upsun is the cloud application platform humans and robots love. It’s built for hybrid teams, where AI agents write and test code and people focus on the problems that really matter.…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "8d08355f83",
+    "title": "Duolingo: Ad Sales Lead - West",
+    "url": "https://weworkremotely.com/remote-jobs/duolingo-ad-sales-lead-west",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:15.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote - California </p> <p>Our mission at Duolingo is to develop the best education in the world and make it universally available. It’s a big mission, and that’s where you come in!</p> <p>At Duolingo, you’ll join a team that cares about educating our users,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "4324518c3c",
+    "title": "Ritual: Controller",
+    "url": "https://weworkremotely.com/remote-jobs/ritual-controller",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:15.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote </p> <div class=\"content-intro\"><h3>About Ritual&nbsp;</h3> <p>Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. The Ritual chain is the first blockchain custom-built to support AI-native operations,…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b53b36f11d",
+    "title": "Asana: Enterprise Account Executive, Federal Civilian",
+    "url": "https://weworkremotely.com/remote-jobs/asana-enterprise-account-executive-federal-civilian",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:15.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> US DC - Remote </p> <p><span>Asana's Vertical Go-to-Market team is looking for a driven, entrepreneurial, customer-centric, impact-oriented enterprise sales professional who holds themselves accountable to achieving results</span><span>. You will join a dedicated…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ecfc973022",
+    "title": "Asana: Customer Enablement Manager",
+    "url": "https://weworkremotely.com/remote-jobs/asana-customer-enablement-manager",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-21T07:31:11.000Z",
+    "excerpt": "<p> <strong>Headquarters:</strong> Remote </p> <p>As a Customer Enablement Manager, you will partner with complex enterprise customers to transform how work gets done across their organizations. You will own a portfolio of strategic customers, providing a variety of enablement activities, including…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "40d96a4c7a",
+    "title": "UK may extend BBC licence fee to Netflix and YouTube viewers",
+    "url": "https://technext24.com/news/bbc-licence-fee-to-netflix-and-youtube-viewers/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-21T07:23:25.000Z",
+    "excerpt": "The UK government is reportedly considering extending the BBC licence fee to online streaming services such as Netflix,…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "abdb46cc7c",
+    "title": "INEC’s Identity Loophole",
+    "url": "https://technext24.com/news/inecs-identity-loophole/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-21T06:45:21.000Z",
+    "excerpt": "",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "c451de01b4",
+    "title": "Nigeria is phasing out 3G, while 2G is yet alive, and 5G lags below 5%",
+    "url": "https://technext24.com/reviews/nigeria-is-phasing-out-3g-while-5g-lags/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-21T06:36:17.000Z",
+    "excerpt": "According to a recent GSMA report, 57% of all mobile connections globally are expected to run on the…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "f017d3fb4b",
+    "title": "👨🏿‍🚀TechCabal Daily – A MNT of fresh air",
+    "url": "https://techcabal.com/2026/10/21/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-a-mnt-of-fresh-air/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-21T06:10:20.000Z",
+    "excerpt": "In today's edition: MNT-Halan share price rises 6.6% || Netflix lays off Africa content boss || Trading for NCBA shares suspended || Spiro launches e-bikes in Ghana",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "6559d9cb2b",
+    "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-20T23:04:19.000Z",
+    "excerpt": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d4e57614c3",
+    "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+    "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-20T23:01:23.000Z",
+    "excerpt": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9ac936c959",
+    "title": "Jane Street Graduate Research Fellowship (GRF) 2027",
+    "url": "https://opportunitydesk.org/2026/10/20/jane-street-graduate-research-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-20T20:30:11.000Z",
+    "excerpt": "Deadline: November 13, 2026 Applications are open for the Jane Street Graduate Research Fellowship (GRF) 2027. The Jane Street Graduate Research Fellowship (GRF) supports exceptional doctoral students currently pursuing a PhD in electrical engineering and computer science, mathematics, physics, or…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9d282a209a",
+    "title": "U.S. Bank Discover Us: Finance & Banking Fellowship 2026",
+    "url": "https://opportunitydesk.org/2026/10/20/discover-us-finance-banking-fellowship-2026/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-20T20:17:56.000Z",
+    "excerpt": "Deadline: October 30, 2026 Are you interested in the banking and finance industry, but not sure what career path to take or where to start? Curious about what it’s like to work at a Fortune 500 company and have a passion for advancing diverse communities? Apply for the U.S. Bank Discover Us: Finance…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "a84e251348",
+    "title": "MNT-Halan shares jump 18% on Egyptian stock market debut after $150m IPO",
+    "url": "https://thecondia.com/mnt-halan-shares-jump-egypt-ipo/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-20T13:43:58.000Z",
+    "excerpt": "MNT-Halan shares rose 18% on their Egyptian Exchange debut after a $150 million IPO drew heavy demand, valuing its listed Egyptian business at about $745 million.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
     "id": "f604f97a9c",
     "title": "UK says stronger capital markets could unlock investment, jobs in Nigeria",
     "url": "https://nairametrics.com/2026/10/20/uk-says-stronger-capital-markets-could-unlock-investment-jobs-in-nigeria/",
@@ -2648,411 +3053,6 @@
     "cta": {
       "label": "Need a website for your application?",
       "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "53eadbc6cd",
-    "title": "Nithio makes second African e-mobility bet, backing profitable Nigerian EV startup MAX",
-    "url": "https://thecondia.com/nithio-max-5m-series-b-investment/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-15T12:19:56.000Z",
-    "excerpt": "Nithio has invested in Nigerian electric mobility company MAX, extending its Series B3 round to $29 million.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "1fc813e118",
-    "title": "African startups raise $2.49B in 9 months as Q3 rebounds",
-    "url": "https://techcabal.com/2026/10/15/african-startups-raise-2-49b-in-9-months/",
-    "source": "TechCabal",
-    "kind": "news",
-    "date": "2026-10-15T10:36:04.000Z",
-    "excerpt": "African startups raised $2.49B across 315 deals in the first 9 months of 2026. Discover Q3 funding trends, top markets, and major fund closes.",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "ba54c79d71",
-    "title": "Big Walk skipped Xbox to boycott Microsoft’s involvement with Israel",
-    "url": "https://www.theverge.com/games/1011785/big-walk-house-house-microsoft-xbox-bds-boycott",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-15T10:05:07.000Z",
-    "excerpt": "Big Walk's co-op multiplayer walking adventure has proved popular since launching in August, but Xbox players have been excluded from the fun - and now the game's creators have explained why. Developer House House said in a blog post that it decided not to release Big Walk on Xbox consoles in…",
-    "tag": "Design & Social",
-    "cta": {
-      "label": "Design assets",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "cd1149fadd",
-    "title": "LincRide launches WhatsApp ride-hailing in Lagos with 3,000+ drivers and commission from 2.5%",
-    "url": "https://technext24.com/sponsored/lincride-launches-whatsapp-ride-hailing-lagos/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-15T10:03:14.000Z",
-    "excerpt": "Lagos commuters can now book a car in minutes by sending a WhatsApp message, while drivers keep more of every fare with commission as low as 2.5%.",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "ed5d51038f",
-    "title": "Harrison Middleton University (HMU) Fellowship in Ideas 2027",
-    "url": "https://opportunitydesk.org/2026/10/15/hmu-fellowship-in-ideas-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-15T10:03:06.000Z",
-    "excerpt": "Deadline: November 15, 2026 Applications for the Harrison Middleton University (HMU) Fellowship in Ideas 2027 are now open. The HMU Fellowship in Ideas is a writing and discussion project in the humanities designed for a recent university graduate from any field who has an interest in the…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "ae8053d8e1",
-    "title": "What the West can learn from AI optimists in the rest of the world",
-    "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World",
-    "kind": "news",
-    "date": "2026-10-15T10:00:00.000Z",
-    "excerpt": "The developing world’s enthusiastic adoption of AI and necessity-driven innovations offer lessons for an anxiety-ridden West.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "0688c83a9d",
-    "title": "How CBN rebuilt MPC credibility after Nigeria’s currency crisis",
-    "url": "https://businessday.ng/business-economy/article/how-cbn-rebuilt-mpc-credibility-after-nigerias-currency-crisis/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-10-15T09:59:22.000Z",
-    "excerpt": "The Central Bank of Nigeria (CBN) strengthened the role of independent-minded external members of its Monetary Policy Committee (MPC) to",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b6e97b6494",
-    "title": "Foreign reserves figure corrected after CBN admits website glitch",
-    "url": "https://businessday.ng/business-economy/article/foreign-reserves-figure-corrected-after-cbn-admits-website-glitch/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-10-15T09:55:44.000Z",
-    "excerpt": "Nigeria’s foreign exchange reserves stood at $55.07 billion as of October 9, following a correction by the Central Bank of",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "afb05934d7",
-    "title": "Fresh petition seeks Atiku’s prosecution over financial crime allegations",
-    "url": "https://businessday.ng/politics/article/fresh-petition-seeks-atikus-prosecution-over-financial-crime-allegations/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-10-15T09:37:06.000Z",
-    "excerpt": "The Economic and Financial Crimes Commission (EFCC) has reopened its investigation into allegations of financial crimes against Atiku Abubakar, former",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "e0f7638234",
-    "title": "‘We use AI to help people navigate the platform, not make clinical decisions,’ says MyTherapist.ng co-founder",
-    "url": "https://technext24.com/interview/mytherapist-ng-ai-not-clinical-decisions/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-15T09:35:54.000Z",
-    "excerpt": "MyTherapist.ng, a Nigerian therapy platform that uses AI to help people find and prepare for therapy, says it…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "8cfe8386f4",
-    "title": "Andrew Milne, co-founder and co-CEO of Kuunda, dies at 54",
-    "url": "https://thecondia.com/andrew-milne-kuunda-co-founder-ceo-dies/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-15T09:27:37.000Z",
-    "excerpt": "Andrew Milne, co-founder and co-CEO of Kuunda, a B2B lending-as-a-service fintech, has died at age 54 on 13th October, 2026",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "85271c9ba1",
-    "title": "Cardoso says $55.1 billion reserves protect Nigerians from global shocks",
-    "url": "https://nairametrics.com/2026/10/15/cardoso-says-55-1-billion-reserves-protect-nigerians-from-global-shocks/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-15T09:19:44.000Z",
-    "excerpt": "The Governor of the Central Bank of Nigeria (CBN), Olayemi Cardoso, has said Nigeria’s foreign exchange reserves provide a buffer against global economic shocks, helping to protect ordinary Nigerians from external pressures. The post Cardoso says $55.1 billion reserves protect Nigerians from global…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "6f9c66f5cd",
-    "title": "Nigerian stocks dip in mid-October, but bull market remains intact",
-    "url": "https://nairametrics.com/2026/10/15/nigerian-stocks-dip-in-mid-october-but-bull-market-remains-intact/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-15T09:06:54.000Z",
-    "excerpt": "The Nigerian equities market was marginally bullish on Wednesday, reversing two consecutive days of declines amid a broad-based rally across mid and small-cap stocks. The post Nigerian stocks dip in mid-October, but bull market remains intact appeared first on Nairametrics .",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "e5cc5f8cdf",
-    "title": "Dayroom: Nigerian engineer rivals Slack and Microsoft Teams with new AI workspace",
-    "url": "https://technext24.com/news/dayroom-rivals-slack-microsoft-teams-workspace/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-15T08:57:36.000Z",
-    "excerpt": "A Nigerian engineer has launched Dayroom, an AI-native workspace that goes head-to-head with Slack, Microsoft Teams and Google…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "da66e61785",
-    "title": "Egear : Senior Google Ads Media Buyer / Performance Marketing Lead",
-    "url": "https://weworkremotely.com/remote-jobs/egear-senior-google-ads-media-buyer-performance-marketing-lead-1",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-15T08:42:17.000Z",
-    "excerpt": "<p> <strong>Headquarters:</strong> Florida, USA <br /><strong>URL:</strong> <a href=\"https://egearmedia.com/\">https://egearmedia.com/</a> </p> <p><strong>ABOUT US</strong><br>We run DTC ecommerce offers across health, smart devices, and outdoor products. Google Ads is our primary acquisition…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "6fb57288d7",
-    "title": "OPay crowned the Digital Bank and Financial Inclusion Leader at BAFI 2026",
-    "url": "https://technext24.com/sponsored/opay-wins-bafi-awards-2026/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-15T08:40:31.000Z",
-    "excerpt": "OPay, a leading digital bank in Nigeria, has won two prestigious awards at the 14th BusinessDay Banks and…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "49efd6448d",
-    "title": "10 ways running a POS business has made Nigerian women tech-savvy",
-    "url": "https://technext24.com/women-in-tech/pos-business-made-women-tech-savvy/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-15T08:12:57.000Z",
-    "excerpt": "It is 2026. You will hardly walk through a busy Nigerian market or street without spotting a kiosk…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "c769bf1ffc",
-    "title": "From Stability to Growth: What the CBN’s Reset Now Demands of the Nigerian Market",
-    "url": "https://nairametrics.com/2026/10/15/from-stability-to-growth-what-the-cbns-reset-now-demands-of-the-nigerian-market/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-15T08:01:41.000Z",
-    "excerpt": "The cut from 26.5% to 23% is the clearest signal yet that Nigeria’s era of very tight money is easing. But the benefits will not arrive evenly, and those who reposition early stand to gain the most For months, the Central Bank of Nigeria’s benchmark rate had been a number everyone quoted, but few…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "5db7e723ec",
-    "title": "Celebrations Cards and Gifts Limited Strengthens Board with Independent Directors as 37-Year Heritage Brand Enters Next Phase of Growth",
-    "url": "https://nairametrics.com/2026/10/15/celebrations-cards-and-gifts-limited-strengthens-board-with-independent-directors-as-37-year-heritage-brand-enters-next-phase-of-growth/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-15T08:00:17.000Z",
-    "excerpt": "For 37 years, Celebrations Cards and Gifts Limited has helped Nigerians mark life’s most meaningful moments. Today, the legacy retail and corporate gifting brand announces the strategic expansion of its Board of Directors, welcoming three highly accomplished independent members to guide its next…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "5c543022dd",
-    "title": "Universal Music Group announces fresh layoffs amid $270 million cost-cutting programme",
-    "url": "https://nairametrics.com/2026/10/15/universal-music-group-announces-fresh-layoffs-amid-270-million-cost-cutting-programme/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-15T07:57:36.000Z",
-    "excerpt": "Universal Music Group (UMG), the world's largest music company, has begun another round of layoffs affecting senior executives across its operations in the United States and Europe as it continues implementing a €250 million ($270 million) annual cost-cutting programme. The post Universal Music…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f875066421",
-    "title": "Lattice: Senior Software Engineer, Infrastructure Platform",
-    "url": "https://weworkremotely.com/remote-jobs/lattice-senior-software-engineer-infrastructure-platform",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-15T07:31:21.000Z",
-    "excerpt": "<p> <strong>Headquarters:</strong> Remote - Canada </p> <h2><strong>This is Engineering at Lattice</strong></h2> <p>Lattice’s Engineering team is continuously working to better both our product and our craft. We use a modern, cutting-edge tech stack and love experimenting with new technologies. We…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "983a3e1189",
-    "title": "Upgrade: Développeur(-euse) Expérience IA (IA conversationnelle)",
-    "url": "https://weworkremotely.com/remote-jobs/upgrade-developpeur-euse-experience-ia-ia-conversationnelle",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-15T07:31:21.000Z",
-    "excerpt": "<p> <strong>Headquarters:</strong> Canada (Remote) </p> <p><em>Upgrade aide ses clients à avancer dans la bonne direction grâce à des produits financiers abordables et responsables. Depuis 2017, nous avons aidé plus de 7,5 millions de clients à accéder à plus de 42 milliards de dollars en crédit à…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "1a9a66c059",
-    "title": "Dropbox: GTM Readiness Manager",
-    "url": "https://weworkremotely.com/remote-jobs/dropbox-gtm-readiness-manager",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-15T07:31:21.000Z",
-    "excerpt": "<p> <strong>Headquarters:</strong> Remote - Canada: Select locations </p> <h2 class=\"p1\"><span class=\"s1\">Role Description</span></h2> <p><span class=\" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qoxwovoz80zfz73zz75zz76zbexz75zhz122zz71zyolz72zbfz82zz76z87z90zez72zuz65z\">As a </span><span class=\"…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "834f86a3d8",
-    "title": "StockX: Category Manager - Apparel",
-    "url": "https://weworkremotely.com/remote-jobs/stockx-category-manager-apparel",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-15T07:31:21.000Z",
-    "excerpt": "<p> <strong>Headquarters:</strong> Remote, USA </p> <div class=\"content-intro\"><p><strong>Help empower our global customers to connect to culture through their passions.</strong></p></div><h3><strong>Why you’ll love this role:</strong></h3> <p>StockX is the world’s leading marketplace for current…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "1f55c73d7f",
-    "title": "Lattice: Senior Contracts Manager",
-    "url": "https://weworkremotely.com/remote-jobs/lattice-senior-contracts-manager",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-15T07:31:16.000Z",
-    "excerpt": "<p> <strong>Headquarters:</strong> Remote - US </p> <h2><strong>This is Legal at Lattice</strong></h2> <p>The Lattice Legal team is looking for an experienced, business-minded Senior Contracts Manager to help lead our commercial contracting function. In this role, you will independently manage a…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "15d6fa0c82",
-    "title": "StockX: Category Manager",
-    "url": "https://weworkremotely.com/remote-jobs/stockx-category-manager",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-15T07:31:14.000Z",
-    "excerpt": "<p> <strong>Headquarters:</strong> Remote, USA </p> <div class=\"content-intro\"><p><strong>Help empower our global customers to connect to culture through their passions.</strong></p></div><h3><strong>Why you'll love this role</strong></h3> <p>StockX has redefined the global marketplace for culture —…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "752f11faca",
-    "title": "Databricks: Enterprise Account Executive - China",
-    "url": "https://weworkremotely.com/remote-jobs/databricks-enterprise-account-executive-china",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-15T07:31:14.000Z",
-    "excerpt": "<p> <strong>Headquarters:</strong> Remote - China </p> <p>SLSQ427R594<br><br>As an Enterprise Account Executive in Databricks, you are an enterprise sales professional experienced in selling to Enterprise accounts in Greater China region. You know how to sell innovation and change through customer…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
     },
     "take": ""
   }
