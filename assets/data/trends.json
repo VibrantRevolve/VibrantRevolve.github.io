@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-22T12:15:27.909Z",
+ "updated": "2026-10-23T10:58:22.488Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 31.5,
-   "headline": "Commercial Account Executive",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/156274-commercial-account-executive-4"
+   "score": 31.7,
+   "headline": "OnTheGoSystems: Head of Content and Editorial",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/onthegosystems-head-of-content-and-editorial"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 20.58,
-   "headline": "CIS, ASHON laud Nigeria’s capital market gains, back N750trn market cap target",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/companies/article/cis-ashon-laud-nigerias-capital-market-gains-back-n750trn-market-cap-target/"
+   "score": 21.58,
+   "headline": "CBN bills surge to N5.6 trillion, drive 74% of money supply increase in September",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/23/cbn-bills-surge-to-n5-6-trillion-drive-74-of-money-supply-increase-in-september/"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 17.5,
-   "headline": "Following Technext’s report, inDrive is reviewing its Terms of Use to take more responsibility",
+   "score": 16.54,
+   "headline": "BTC vs WBTC: What’s the Difference?",
    "source": "Technext",
-   "url": "https://technext24.com/news/technext-report-indrive-reviewing-terms-of-use/"
+   "url": "https://technext24.com/crypto/btc-vs-wbtc-whats-the-difference/"
   },
   {
    "topic": "Proxify",
    "hashtag": "#Proxify",
-   "score": 14.17,
+   "score": 12.5,
    "headline": "Proxify AB: Senior Salesforce CRM Developer",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-salesforce-crm-developer-1"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 11.65,
-   "headline": "DeepSeek Raises $15 Billion To Scale and Challenge OpenAI and Anthropic Dominance",
-   "source": "Ventureburn",
-   "url": "https://ventureburn.com/deepseek-raises-15-billion-challenge-us-ai-labs/"
-  },
-  {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 11.12,
-   "headline": "Snr. Marketing Manager, Enterprise ABM – EMEA",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/156271-snr-marketing-manager-enterprise-abm-emea-2"
+   "score": 12.11,
+   "headline": "Ping Identity: Channel Account Manager",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/ping-identity-channel-account-manager-1"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 11.95,
+   "headline": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 9.98,
+   "headline": "50 Scholarships, Grants, Fellowships and Other Opportunities Currently Open – October 22, 2026",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/22/50-scholarships-grants-fellowships-and-other-opportunities-currently-open-october-22-2026/"
   },
   {
    "topic": "Director",
    "hashtag": "#Director",
-   "score": 11.04,
+   "score": 8.96,
    "headline": "Director of Strategic Affairs, EMEA",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/156268-director-of-strategic-affairs-emea"
   },
   {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 8.75,
+   "headline": "Discord: QA/DevOps Engineer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/discord-qa-devops-engineer"
+  },
+  {
    "topic": "Senior",
    "hashtag": "#Senior",
-   "score": 9.57,
+   "score": 8.01,
    "headline": "B2B Senior Site Reliability Engineer",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/156267-b2b-senior-site-reliability-engineer"
   },
   {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 9.4,
-   "headline": "B2B Senior Site Reliability Engineer",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/156267-b2b-senior-site-reliability-engineer"
+   "topic": "Fellowship",
+   "hashtag": "#Fellowship",
+   "score": 7.64,
+   "headline": "AIRC Non-Resident Research Fellowship in AI and Social Sciences 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/22/airc-non-resident-research-fellowship-in-ai-and-social-sciences-2027/"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 7.35,
+   "headline": "DramaBox Pricing in Nigeria: Subscription Costs, Coins and Rewards",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/dramabox-prices-nigeria/"
   },
   {
    "topic": "Emea",
    "hashtag": "#Emea",
-   "score": 9.25,
+   "score": 6.55,
    "headline": "Snr. Marketing Manager, Enterprise ABM – EMEA",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/156271-snr-marketing-manager-enterprise-abm-emea-2"
   },
   {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 8.95,
-   "headline": "Call for Proposals: Commonwealth Blue Charter Incubator Round II (up to £50,000)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/22/commonwealth-blue-charter-incubator-round-ii/"
-  },
-  {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 7.95,
-   "headline": "CDC Public Health Informatics Fellowship Program 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/21/cdc-public-health-informatics-fellowship-program-2027/"
-  },
-  {
-   "topic": "Ceo",
-   "hashtag": "#Ceo",
-   "score": 7.39,
-   "headline": "Adewale Yusuf steps down as CEO of AltSchool Africa",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/adewale-yusuf-steps-down-as-ceo-of-altschool-africa/"
-  },
-  {
-   "topic": "Customer",
-   "hashtag": "#Customer",
-   "score": 7.15,
-   "headline": "Customer Success Manager – Dutch & English Speaker",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/156273-customer-success-manager-dutch-english-speaker"
+   "topic": "Techcabal Daily",
+   "hashtag": "#TechcabalDaily",
+   "score": 6.14,
+   "headline": "👨🏿‍🚀TechCabal Daily – Equity, but make it liquid",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/23/techcabal-daily-equity-but-make-it-liquid/"
   }
  ],
  "tags": [
-  "Tech News",
   "Business",
-  "Grants & Funding",
-  "AI & Automation",
-  "Web",
   "Naija Startups",
   "Jobs",
-  "Security"
+  "Tech News",
+  "Payments",
+  "AI & Automation",
+  "Design & Social",
+  "Grants & Funding"
  ]
 }
