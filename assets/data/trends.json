@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-23T11:04:56.249Z",
+ "updated": "2026-10-24T10:14:35.001Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 31.68,
-   "headline": "OnTheGoSystems: Head of Content and Editorial",
+   "score": 31.78,
+   "headline": "Carrot: Medical Expert, Fertility (Contractor)",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/onthegosystems-head-of-content-and-editorial"
+   "url": "https://weworkremotely.com/remote-jobs/carrot-medical-expert-fertility-contractor"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 21.56,
-   "headline": "CBN bills surge to N5.6 trillion, drive 74% of money supply increase in September",
+   "score": 22.19,
+   "headline": "Nigerian Bonny Light hits $115 a barrel as Strait of Hormuz attacks surge",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/23/cbn-bills-surge-to-n5-6-trillion-drive-74-of-money-supply-increase-in-september/"
+   "url": "https://nairametrics.com/2026/10/24/nigerian-bonny-light-hits-115-a-barrel-as-strait-of-hormuz-attacks-surge/"
+  },
+  {
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 17.42,
+   "headline": "Anthropic: Community Engagement Manager, Data Centers (Indiana & Kentucky)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centers-indiana-kentucky"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 16.53,
-   "headline": "BTC vs WBTC: What’s the Difference?",
+   "score": 14.77,
+   "headline": "Stanbic IBTC profit surges 33% to ₦370.4bn as electronic banking fees fall",
    "source": "Technext",
-   "url": "https://technext24.com/crypto/btc-vs-wbtc-whats-the-difference/"
+   "url": "https://technext24.com/news/stanbic-ibtc-profit-electronic-banking-fees/"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 12.87,
+   "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
   },
   {
    "topic": "Proxify",
    "hashtag": "#Proxify",
-   "score": 12.5,
+   "score": 11.16,
    "headline": "Proxify AB: Senior Salesforce CRM Developer",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-salesforce-crm-developer-1"
   },
   {
-   "topic": "Manager",
-   "hashtag": "#Manager",
-   "score": 12.1,
-   "headline": "Ping Identity: Channel Account Manager",
+   "topic": "Director",
+   "hashtag": "#Director",
+   "score": 10.47,
+   "headline": "Cribl: Director, Product Management (Security)",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/ping-identity-channel-account-manager-1"
-  },
-  {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 11.94,
-   "headline": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+   "url": "https://weworkremotely.com/remote-jobs/cribl-director-product-management-security"
   },
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 9.97,
-   "headline": "50 Scholarships, Grants, Fellowships and Other Opportunities Currently Open – October 22, 2026",
+   "score": 9.92,
+   "headline": "MATTER Groundwork Innovator Accelerator 2027",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/22/50-scholarships-grants-fellowships-and-other-opportunities-currently-open-october-22-2026/"
+   "url": "https://opportunitydesk.org/2026/10/23/matter-groundwork-innovator-accelerator-2027/"
   },
   {
-   "topic": "Director",
-   "hashtag": "#Director",
-   "score": 8.96,
-   "headline": "Director of Strategic Affairs, EMEA",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/156268-director-of-strategic-affairs-emea"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 8.75,
-   "headline": "Discord: QA/DevOps Engineer",
+   "topic": "Anthropic",
+   "hashtag": "#Anthropic",
+   "score": 8.91,
+   "headline": "Anthropic: Community Engagement Manager, Data Centers (Indiana & Kentucky)",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/discord-qa-devops-engineer"
-  },
-  {
-   "topic": "Senior",
-   "hashtag": "#Senior",
-   "score": 8.01,
-   "headline": "B2B Senior Site Reliability Engineer",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/156267-b2b-senior-site-reliability-engineer"
-  },
-  {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 7.64,
-   "headline": "AIRC Non-Resident Research Fellowship in AI and Social Sciences 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/22/airc-non-resident-research-fellowship-in-ai-and-social-sciences-2027/"
-  },
-  {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 7.35,
-   "headline": "DramaBox Pricing in Nigeria: Subscription Costs, Coins and Rewards",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/dramabox-prices-nigeria/"
+   "url": "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centers-indiana-kentucky"
   },
   {
    "topic": "Emea",
    "hashtag": "#Emea",
-   "score": 6.54,
-   "headline": "Snr. Marketing Manager, Enterprise ABM – EMEA",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/156271-snr-marketing-manager-enterprise-abm-emea-2"
+   "score": 8.23,
+   "headline": "Jumio: Customer Success Manager, EMEA",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/jumio-customer-success-manager-emea"
   },
   {
-   "topic": "Techcabal Daily",
-   "hashtag": "#TechcabalDaily",
-   "score": 6.13,
-   "headline": "👨🏿‍🚀TechCabal Daily – Equity, but make it liquid",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/23/techcabal-daily-equity-but-make-it-liquid/"
+   "topic": "Carrot",
+   "hashtag": "#Carrot",
+   "score": 8.21,
+   "headline": "Carrot: Medical Expert, Fertility (Contractor)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/carrot-medical-expert-fertility-contractor"
+  },
+  {
+   "topic": "Openai",
+   "hashtag": "#Openai",
+   "score": 7.67,
+   "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+  },
+  {
+   "topic": "Fellowship",
+   "hashtag": "#Fellowship",
+   "score": 7.48,
+   "headline": "Columbia University Italian Academy Fellowship Program 2027-2028",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/23/columbia-university-italian-academy-fellowship-2027-2028/"
+  },
+  {
+   "topic": "Senior",
+   "hashtag": "#Senior",
+   "score": 6.9,
+   "headline": "Gusto, Inc.: Senior Product Design Manager, Payroll",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/gusto-inc-senior-product-design-manager-payroll"
   }
  ],
  "tags": [
   "Business",
-  "Naija Startups",
   "Jobs",
-  "Tech News",
-  "Payments",
   "AI & Automation",
+  "Web",
   "Design & Social",
+  "Payments",
+  "Tech News",
   "Grants & Funding"
  ]
 }
