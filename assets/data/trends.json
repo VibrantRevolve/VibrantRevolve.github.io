@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-24T11:13:41.961Z",
+ "updated": "2026-10-25T10:39:39.883Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 31.55,
-   "headline": "Carrot: Medical Expert, Fertility (Contractor)",
+   "score": 31.59,
+   "headline": "Keeper Security: Communications Intern",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/carrot-medical-expert-fertility-contractor"
+   "url": "https://weworkremotely.com/remote-jobs/keeper-security-communications-intern"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 22.03,
-   "headline": "Nigerian Bonny Light hits $115 a barrel as Strait of Hormuz attacks surge",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/24/nigerian-bonny-light-hits-115-a-barrel-as-strait-of-hormuz-attacks-surge/"
+   "score": 22.16,
+   "headline": "Quest Merchant Bank commits to deepening capacity for value creation",
+   "source": "BusinessDay",
+   "url": "https://businessday.ng/life/article/quest-merchant-bank-commits-to-deepening-capacity-for-value-creation/"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 17.28,
+   "score": 14.53,
    "headline": "Anthropic: Community Engagement Manager, Data Centers (Indiana & Kentucky)",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centers-indiana-kentucky"
   },
   {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 13.84,
+   "headline": "Blue Planet III is keeping the rough edges in the age of AI",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+  },
+  {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 14.67,
+   "score": 12.26,
    "headline": "Stanbic IBTC profit surges 33% to ₦370.4bn as electronic banking fees fall",
    "source": "Technext",
    "url": "https://technext24.com/news/stanbic-ibtc-profit-electronic-banking-fees/"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 12.78,
-   "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+   "topic": "Emea",
+   "hashtag": "#Emea",
+   "score": 9.61,
+   "headline": "Keeper Security: Bilingual Channel Sales Engineer, French (EMEA)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/keeper-security-bilingual-channel-sales-engineer-french-emea"
   },
   {
-   "topic": "Proxify",
-   "hashtag": "#Proxify",
-   "score": 11.11,
-   "headline": "Proxify AB: Senior Salesforce CRM Developer",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-salesforce-crm-developer-1"
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 9.28,
+   "headline": "IDM-Africa Fellowship Programme 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/24/idm-africa-fellowship-programme-2027/"
+  },
+  {
+   "topic": "Anthropic",
+   "hashtag": "#Anthropic",
+   "score": 9.03,
+   "headline": "Anthropic STEM Fellowship 2027 (up to $167,000)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/24/anthropic-stem-fellowship-2027/"
   },
   {
    "topic": "Director",
    "hashtag": "#Director",
-   "score": 10.4,
+   "score": 8.96,
    "headline": "Cribl: Director, Product Management (Security)",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/cribl-director-product-management-security"
   },
   {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 9.86,
-   "headline": "MATTER Groundwork Innovator Accelerator 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/23/matter-groundwork-innovator-accelerator-2027/"
-  },
-  {
-   "topic": "Anthropic",
-   "hashtag": "#Anthropic",
-   "score": 8.84,
-   "headline": "Anthropic: Community Engagement Manager, Data Centers (Indiana & Kentucky)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centers-indiana-kentucky"
-  },
-  {
-   "topic": "Emea",
-   "hashtag": "#Emea",
-   "score": 8.17,
-   "headline": "Jumio: Customer Success Manager, EMEA",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/jumio-customer-success-manager-emea"
-  },
-  {
-   "topic": "Carrot",
-   "hashtag": "#Carrot",
-   "score": 8.14,
-   "headline": "Carrot: Medical Expert, Fertility (Contractor)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/carrot-medical-expert-fertility-contractor"
-  },
-  {
    "topic": "Openai",
    "hashtag": "#Openai",
-   "score": 7.6,
-   "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+   "score": 8.66,
+   "headline": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
    "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+   "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
   },
   {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 7.44,
-   "headline": "Columbia University Italian Academy Fellowship Program 2027-2028",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/23/columbia-university-italian-academy-fellowship-2027-2028/"
-  },
-  {
-   "topic": "Senior",
-   "hashtag": "#Senior",
-   "score": 6.87,
-   "headline": "Gusto, Inc.: Senior Product Design Manager, Payroll",
+   "topic": "Executive",
+   "hashtag": "#Executive",
+   "score": 7.58,
+   "headline": "Databricks: Enterprise Account Executive, Federal Civilian",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/gusto-inc-senior-product-design-manager-payroll"
+   "url": "https://weworkremotely.com/remote-jobs/databricks-enterprise-account-executive-federal-civilian"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 7.35,
+   "headline": "PlanetScale: Software Engineer - PlanetScale Postgres",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/planetscale-software-engineer-planetscale-postgres"
+  },
+  {
+   "topic": "Lead",
+   "hashtag": "#Lead",
+   "score": 7.32,
+   "headline": "Gemini: Lead, Technical Compliance",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/gemini-lead-technical-compliance"
+  },
+  {
+   "topic": "Account",
+   "hashtag": "#Account",
+   "score": 7.13,
+   "headline": "Databricks: Enterprise Account Executive, Federal Civilian",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/databricks-enterprise-account-executive-federal-civilian"
   }
  ],
  "tags": [
   "Business",
   "Jobs",
   "AI & Automation",
-  "Web",
   "Design & Social",
+  "Grants & Funding",
+  "Web",
   "Payments",
-  "Tech News",
-  "Grants & Funding"
+  "Tech News"
  ]
 }
