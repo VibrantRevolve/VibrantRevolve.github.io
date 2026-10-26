@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-25T10:56:47.394Z",
+ "updated": "2026-10-26T12:12:36.097Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 31.52,
-   "headline": "Keeper Security: Communications Intern",
+   "score": 30.83,
+   "headline": "MapTiler: Head of Design | Maps Platform (Remote in Europe)",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/keeper-security-communications-intern"
+   "url": "https://weworkremotely.com/remote-jobs/maptiler-head-of-design-maps-platform-remote-in-europe"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 22.12,
-   "headline": "Quest Merchant Bank commits to deepening capacity for value creation",
+   "score": 22.4,
+   "headline": "Klump shuts down as Nigeria’s standalone BNPL model shifts to embedded finance",
    "source": "BusinessDay",
-   "url": "https://businessday.ng/life/article/quest-merchant-bank-commits-to-deepening-capacity-for-value-creation/"
+   "url": "https://businessday.ng/technology/article/klump-shuts-down-as-nigerias-standalone-bnpl-model-shifts-to-embedded-finance/"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 14.5,
-   "headline": "Anthropic: Community Engagement Manager, Data Centers (Indiana & Kentucky)",
+   "score": 18.55,
+   "headline": "Mercury: Customer Support Manager - Risk",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centers-indiana-kentucky"
-  },
-  {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 13.81,
-   "headline": "Blue Planet III is keeping the rough edges in the age of AI",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+   "url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-manager-risk"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 12.24,
-   "headline": "Stanbic IBTC profit surges 33% to ₦370.4bn as electronic banking fees fall",
+   "score": 16.56,
+   "headline": "Binance Launches $1.7M Halloween Pumpkin Frenzy Trading Campaign",
+   "source": "Ventureburn",
+   "url": "https://ventureburn.com/binance-halloween-pumpkin-frenzy/"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 12.1,
+   "headline": "Dochase unveils RETAIN AI agent that cuts ad campaign planning to minutes with as low as ₦30,000",
    "source": "Technext",
-   "url": "https://technext24.com/news/stanbic-ibtc-profit-electronic-banking-fees/"
+   "url": "https://technext24.com/news/dochase-unveils-retain-ai-brandcom-awards-2026/"
   },
   {
    "topic": "Emea",
    "hashtag": "#Emea",
-   "score": 9.59,
-   "headline": "Keeper Security: Bilingual Channel Sales Engineer, French (EMEA)",
+   "score": 10.74,
+   "headline": "Datadog: Principal GSI Partner Manager - Accenture (EMEA)",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/keeper-security-bilingual-channel-sales-engineer-french-emea"
+   "url": "https://weworkremotely.com/remote-jobs/datadog-principal-gsi-partner-manager-accenture-emea"
   },
   {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 9.26,
-   "headline": "IDM-Africa Fellowship Programme 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/24/idm-africa-fellowship-programme-2027/"
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 9.29,
+   "headline": "Reddit: Frontend Engineer, Ads",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/reddit-frontend-engineer-ads"
+  },
+  {
+   "topic": "Director",
+   "hashtag": "#Director",
+   "score": 8.28,
+   "headline": "Ping Identity: Director, Partner Operations",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/ping-identity-director-partner-operations"
   },
   {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 9.01,
+   "score": 7.6,
    "headline": "Anthropic STEM Fellowship 2027 (up to $167,000)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/10/24/anthropic-stem-fellowship-2027/"
   },
   {
-   "topic": "Director",
-   "hashtag": "#Director",
-   "score": 8.95,
-   "headline": "Cribl: Director, Product Management (Security)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/cribl-director-product-management-security"
-  },
-  {
    "topic": "Openai",
    "hashtag": "#Openai",
-   "score": 8.64,
+   "score": 7.27,
    "headline": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
    "source": "TechCrunch",
    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
   },
   {
-   "topic": "Executive",
-   "hashtag": "#Executive",
-   "score": 7.56,
-   "headline": "Databricks: Enterprise Account Executive, Federal Civilian",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/databricks-enterprise-account-executive-federal-civilian"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 7.34,
-   "headline": "PlanetScale: Software Engineer - PlanetScale Postgres",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/planetscale-software-engineer-planetscale-postgres"
-  },
-  {
    "topic": "Lead",
    "hashtag": "#Lead",
-   "score": 7.31,
-   "headline": "Gemini: Lead, Technical Compliance",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/gemini-lead-technical-compliance"
+   "score": 7.04,
+   "headline": "Tech Trivia with Motunrayo Olaleye, Product and Operations Lead at Gopaddi",
+   "source": "Technext",
+   "url": "https://technext24.com/women-in-tech/tech-trivia-with-motunrayo-at-gopaddi/"
   },
   {
-   "topic": "Account",
-   "hashtag": "#Account",
-   "score": 7.12,
-   "headline": "Databricks: Enterprise Account Executive, Federal Civilian",
+   "topic": "Head",
+   "hashtag": "#Head",
+   "score": 6.52,
+   "headline": "MapTiler: Head of Design | Maps Platform (Remote in Europe)",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/databricks-enterprise-account-executive-federal-civilian"
+   "url": "https://weworkremotely.com/remote-jobs/maptiler-head-of-design-maps-platform-remote-in-europe"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 6.34,
+   "headline": "Treasure Okure’s journey from UNILAG law student to marketing PiggyVest",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/treasure-okure-journey-level-up/"
+  },
+  {
+   "topic": "Product",
+   "hashtag": "#Product",
+   "score": 5.92,
+   "headline": "Tech Trivia with Motunrayo Olaleye, Product and Operations Lead at Gopaddi",
+   "source": "Technext",
+   "url": "https://technext24.com/women-in-tech/tech-trivia-with-motunrayo-at-gopaddi/"
   }
  ],
  "tags": [
-  "Business",
   "Jobs",
-  "AI & Automation",
-  "Design & Social",
-  "Grants & Funding",
-  "Web",
+  "Tech News",
   "Payments",
-  "Tech News"
+  "Business",
+  "AI & Automation",
+  "Naija Startups",
+  "Design & Social",
+  "Grants & Funding"
  ]
 }
