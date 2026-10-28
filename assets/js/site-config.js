@@ -20,6 +20,11 @@ window.VR_CONFIG = {
   emailjsPublicKey: "CnB0xCvycunmgJ5OH",
   emailjsServiceId: "service_4vc302d",
   emailjsTemplateId: "template_51idxwf",
+  // Public checkout keys (never the secret ones). "" = that method is hidden and checkout falls back to WhatsApp.
+  paystackPublicKey: "",
+  flutterwavePublicKey: "",
+  // Optional: Google Appointment Schedule / Calendly link for /book/. "" = the page shows a "request a time" form that sends to WhatsApp.
+  bookingUrl: "",
   currency: "USD",
   whatsapp: "2349012739299",
   supportEmail: "vr@vibrantrevolve.com"

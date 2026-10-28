@@ -36,3 +36,8 @@ yarn-debug.log*
 # Testing
 coverage/
 .nyc_output/
+
+# Wrangler / Cloudflare local state (contains account IDs)
+.wrangler/
+**/.wrangler/
+.dev.vars

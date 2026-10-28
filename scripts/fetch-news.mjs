@@ -12,13 +12,16 @@ let posts = [];
 try { posts = parsePosts(await readFile(POSTS, 'utf8')); } catch {}
 const seen = new Set(posts.map((p) => p.url));
 
-const clean = (s = '') => s
-  .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-  .replace(/<[^>]+>/g, ' ')
+const decode = (s) => s
   .replace(/&#(\d+);/g, (m, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (m, n) => String.fromCodePoint(parseInt(n, 16)))
-  .replace(/&nbsp;/g, ' ').replace(/&#8217;|&rsquo;/g, "'").replace(/&#8220;|&#8221;|&quot;/g, '"')
-  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
-  .replace(/\s+/g, ' ').trim();
+  .replace(/&nbsp;/g, ' ').replace(/&rsquo;/g, "'").replace(/&quot;/g, '"')
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+// Feeds often ship entity-encoded HTML (&lt;img ...&gt;). Strip tags, decode, and repeat until stable so no markup survives.
+const clean = (s = '') => {
+  let t = String(s).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
+  for (let i = 0; i < 4; i++) { const n = decode(t.replace(/<[^>]+>/g, ' ')); if (n === t) break; t = n; }
+  return t.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+};
 
 const field = (block, name) => {
   const m = block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`, 'i'));

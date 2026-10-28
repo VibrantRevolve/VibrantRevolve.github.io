@@ -149,43 +149,29 @@
         </div>
 
         <div class="scheduler-body">
-          <!-- Google Appointment Scheduling iframe -->
-          <!-- 
-            INSTRUCTIONS: Replace YOUR_GOOGLE_SCHEDULER_LINK with your actual link.
+          <!-- Shown only when bookingUrl is set in assets/js/site-config.js (Google Appointment Schedule, Calendly, etc.) -->
+          <iframe id="schedulerFrame" class="scheduler-iframe" title="Book an appointment with VibrantRevolve" loading="lazy" allow="fullscreen" hidden></iframe>
 
-            To get your link:
-            1. Go to https://calendar.google.com
-            2. Click your calendar → Settings and sharing
-            3. Scroll to "Appointment schedules" → "Create appointment schedule"
-            4. Set title: "Discovery Call with VibrantRevolve"
-            5. Set duration: 15 minutes
-            6. Set your availability (e.g., Mon-Fri 9am-5pm)
-            7. Save and copy the booking page URL
-            8. Paste it below in the src attribute
-          -->
-          <iframe 
-            id="schedulerFrame"
-            class="scheduler-iframe"
-            src="https://calendar.app.google/YOUR_GOOGLE_SCHEDULER_LINK"
-            title="Book an appointment with VibrantRevolve"
-            loading="lazy"
-            allow="fullscreen"
-          ></iframe>
-
-          <!-- Fallback if iframe fails to load -->
-          <div id="schedulerFallback" class="scheduler-fallback">
-            <i class="fas fa-calendar-times" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
-            <h3>Calendar Loading...</h3>
-            <p style="margin-bottom: 1.5rem;">If the calendar doesn't appear, please use one of these options:</p>
-            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-              <a href="https://calendar.app.google/YOUR_GOOGLE_SCHEDULER_LINK" target="_blank" class="btn btn-primary">
-                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Open in New Tab
-              </a>
-              <a href="https://wa.me/2349012739299?text=Hi%2C%20I%20want%20to%20book%20a%20discovery%20call" target="_blank" class="btn btn-secondary" style="background: #25d366; color: white; border-color: #25d366;">
-                <i class="fab fa-whatsapp" aria-hidden="true"></i> Book via WhatsApp
-              </a>
+          <form id="requestForm" class="scheduler-fallback active" style="max-width:520px;margin:0 auto;text-align:left">
+            <h3 style="text-align:center;margin-bottom:.5rem">Pick a time that suits you</h3>
+            <p style="text-align:center;margin-bottom:1.5rem;color:var(--text-muted)">Tell us when you are free and we will confirm on WhatsApp, usually within 24 hours.</p>
+            <label for="bk-name" style="display:block;margin-bottom:.35rem">Your name</label>
+            <input id="bk-name" required autocomplete="name" style="width:100%;padding:.8rem;margin-bottom:1rem;background:var(--bg-secondary);color:var(--text-primary);border:1px solid var(--border-color);border-radius:var(--radius-sm)">
+            <label for="bk-day" style="display:block;margin-bottom:.35rem">Preferred day</label>
+            <input id="bk-day" type="date" required style="width:100%;padding:.8rem;margin-bottom:1rem;background:var(--bg-secondary);color:var(--text-primary);border:1px solid var(--border-color);border-radius:var(--radius-sm)">
+            <label for="bk-time" style="display:block;margin-bottom:.35rem">Time of day (Lagos, WAT)</label>
+            <select id="bk-time" style="width:100%;padding:.8rem;margin-bottom:1rem;background:var(--bg-secondary);color:var(--text-primary);border:1px solid var(--border-color);border-radius:var(--radius-sm)">
+              <option>Morning (9am to 12pm)</option><option>Afternoon (12pm to 4pm)</option><option>Evening (4pm to 7pm)</option>
+            </select>
+            <label for="bk-topic" style="display:block;margin-bottom:.35rem">What is it about?</label>
+            <select id="bk-topic" style="width:100%;padding:.8rem;margin-bottom:1.5rem;background:var(--bg-secondary);color:var(--text-primary);border:1px solid var(--border-color);border-radius:var(--radius-sm)">
+              <option>A new website</option><option>An online store</option><option>Software or automation</option><option>Branding</option><option>Partnership or investment</option><option>Something else</option>
+            </select>
+            <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center">
+              <button type="submit" class="btn btn-primary"><i class="fab fa-whatsapp" aria-hidden="true"></i> Request on WhatsApp</button>
+              <a class="btn btn-secondary" id="bk-mail" href="mailto:vr@vibrantrevolve.com?subject=Discovery%20call%20request"><i class="fas fa-envelope" aria-hidden="true"></i> Email instead</a>
             </div>
-          </div>
+          </form>
         </div>
 
         <div class="scheduler-info">
@@ -227,32 +213,27 @@
   <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
 
   <script>
-    // Check if iframe loaded successfully
-    const frame = document.getElementById('schedulerFrame');
-    const fallback = document.getElementById('schedulerFallback');
-
-    // If still placeholder URL, show fallback immediately
-    if (frame.src.includes('YOUR_GOOGLE_SCHEDULER_LINK')) {
-      frame.style.display = 'none';
-      fallback.classList.add('active');
-      fallback.querySelector('h3').textContent = 'Book Your Discovery Call';
-      fallback.querySelector('p').textContent = 'Online booking is opening soon. Message us on WhatsApp or email to pick a time.';
-      const nt = fallback.querySelector('a[href*="calendar.app.google"]'); if (nt) nt.style.display = 'none';
-    }
-
-    // Timeout fallback after 5 seconds
-    setTimeout(() => {
-      try {
-        // If iframe is empty or failed to load
-        if (!frame.contentWindow || frame.contentWindow.location.href === 'about:blank') {
-          frame.style.display = 'none';
-          fallback.classList.add('active');
-        }
-      } catch (e) {
-        // Cross-origin error means it loaded (different domain)
-        console.log('Google Scheduler loaded successfully');
+    document.addEventListener('DOMContentLoaded', function () {
+      var cfg = window.VR_CONFIG || {};
+      var frame = document.getElementById('schedulerFrame');
+      var form = document.getElementById('requestForm');
+      var wa = String(cfg.whatsapp || '2349012739299').replace(/\D/g, '');
+      if (cfg.bookingUrl) { frame.src = cfg.bookingUrl; frame.hidden = false; form.classList.remove('active'); return; }
+      var day = document.getElementById('bk-day');
+      day.min = new Date().toISOString().slice(0, 10);
+      function text() {
+        return 'Hi VibrantRevolve, I would like a free discovery call.\nName: ' + document.getElementById('bk-name').value +
+          '\nDay: ' + day.value + '\nTime: ' + document.getElementById('bk-time').value +
+          '\nTopic: ' + document.getElementById('bk-topic').value;
       }
-    }, 5000);
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        window.open('https://wa.me/' + wa + '?text=' + encodeURIComponent(text()), '_blank', 'noopener');
+      });
+      document.getElementById('bk-mail').addEventListener('click', function (e) {
+        e.currentTarget.href = 'mailto:vr@vibrantrevolve.com?subject=' + encodeURIComponent('Discovery call request') + '&body=' + encodeURIComponent(text());
+      });
+    });
   </script>
 </body>
 </html>

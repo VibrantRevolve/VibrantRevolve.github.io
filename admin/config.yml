@@ -2,9 +2,9 @@
 # OAuth proxy (free on Cloudflare Workers) and put its URL in base_url.
 backend:
   name: github
-  repo: YOUR_GITHUB_USER/VibrantRevolve.github.io
+  repo: VibrantRevolve/VibrantRevolve.github.io
   branch: main
-  base_url: https://YOUR-OAUTH-PROXY.example.workers.dev
+  # base_url: <your GitHub OAuth proxy URL>   # uncomment once the proxy is deployed (see SETUP.md)
 media_folder: assets/images/img
 public_folder: /assets/images/img
 collections:

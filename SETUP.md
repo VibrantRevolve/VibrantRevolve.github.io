@@ -83,3 +83,18 @@ Note: if `studioAiUrl` is set and the Worker has Resend configured, the contact 
 - **Studio Status**: the green "Taking new projects" line in the footer and the home hero reads `assets/data/status.json`. Change `state` (`open`, `limited` or `full`), `headline`, `slots` and `reply`, then publish. Keep it honest and update it when your workload changes.
 - **Project Estimator** (`/tools/estimator/`): base prices come from `assets/js/pricing-data.js`, so it always matches the Pricing page. Extras and the Naira rate (`NGN`) are at the top of `assets/js/tool-estimate.js`.
 - **Website Audit** (`/tools/website-audit/`): needs the Cloudflare Worker (`studioAiUrl` set) and a redeploy of `workers/studio-ai` (`npx wrangler deploy`). It uses no AI credits. It only fetches public http(s) pages, blocks private and local addresses, and is limited to 8 audits per 10 minutes per visitor.
+
+
+## Go-live checklist (what the site needs from you)
+
+Everything below is optional until you want that feature. Empty values are safe: the feature hides itself or falls back to WhatsApp / email.
+
+1. **Payments**: put your *public* keys in `assets/js/site-config.js` (`paystackPublicKey`, `flutterwavePublicKey`). PayPal: set `paypalClientId` in the same file. Never commit secret keys.
+2. **Booking**: set `bookingUrl` in `site-config.js` (Google Appointment Schedule or Calendly). Until then `/book/` shows a request-a-time form that opens WhatsApp.
+3. **Contact form email**: `emailjsServiceId`, `emailjsTemplateId`, `emailjsPublicKey` in `site-config.js`. Both the homepage and `/contact/` read them. Until set, the form opens the visitor's email app.
+4. **Bot protection**: create a Cloudflare Turnstile widget and set `turnstileSiteKey`; set the secret on the Worker.
+5. **CMS (`/admin`)**: deploy a GitHub OAuth proxy, then uncomment `base_url` in `admin/config.yml`.
+6. **Analytics**: add a Cloudflare Web Analytics token, then copy monthly numbers into `assets/data/metrics.json`. Any metric left `null` is hidden on `/investors/`.
+7. **Testimonials**: add real, named clients to `assets/data/testimonials.json` as `{ "items": [ { "name": "", "role": "", "quote": "", "url": "" } ] }`. While the list is empty the section and its nav link stay hidden.
+8. **Pricing**: after editing `assets/js/pricing-data.js`, run `node scripts/prerender-pricing.mjs` so the static HTML matches.
+9. **Never commit** `.wrangler/` or `.dev.vars` (now in `.gitignore`). If a Cloudflare account ID or email was ever pushed, consider it public.

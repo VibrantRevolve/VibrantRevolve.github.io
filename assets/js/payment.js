@@ -7,10 +7,10 @@
 const PaymentManager = {
   data: null,
   config: {
-    // These should come from environment variables or secure backend
-    // Placeholders below - replace with real keys before going live
-    paystackKey: 'YOUR_PAYSTACK_PUBLIC_KEY',
-    flutterwaveKey: 'YOUR_FLUTTERWAVE_PUBLIC_KEY',
+    // Public keys only. Set them in assets/js/site-config.js (paystackPublicKey / flutterwavePublicKey).
+    // Empty = that method is hidden and checkout falls back to WhatsApp.
+    paystackKey: (window.VR_CONFIG || {}).paystackPublicKey || '',
+    flutterwaveKey: (window.VR_CONFIG || {}).flutterwavePublicKey || '',
     emailjsServiceId: (window.VR_CONFIG || {}).emailjsServiceId || '',
     emailjsTemplateId: (window.VR_CONFIG || {}).emailjsTemplateId || '',
     emailjsPublicKey: (window.VR_CONFIG || {}).emailjsPublicKey || ''
@@ -43,22 +43,22 @@ const PaymentManager = {
 
   },
 
-  // Warn developer if keys are still placeholders
+  // Warn developer if keys are not set
   checkPlaceholderKeys() {
     const placeholders = [];
-    if (this.config.paystackKey.includes('YOUR_')) placeholders.push('Paystack');
-    if (this.config.flutterwaveKey.includes('YOUR_')) placeholders.push('Flutterwave');
+    if (!this.config.paystackKey) placeholders.push('Paystack');
+    if (!this.config.flutterwaveKey) placeholders.push('Flutterwave');
     if (!this.config.emailjsServiceId) placeholders.push('EmailJS');
 
     const isDev = ['localhost','127.0.0.1'].includes(location.hostname);
     if (placeholders.length > 0 && isDev) {
       console.warn('PAYMENT KEYS NOT CONFIGURED:', placeholders.join(', '));
-      console.warn('   Replace placeholders in assets/js/payment.js before going live.');
+      console.warn('   Add the public keys in assets/js/site-config.js before going live.');
 
       // Show warning banner on page for developer
       const banner = document.createElement('div');
       banner.style.cssText = 'background: #dc3545; color: white; padding: 1rem; text-align: center; font-weight: 600; position: sticky; top: 0; z-index: 10002;';
-      banner.innerHTML = `Payment not configured: ${placeholders.join(', ')} keys are still placeholders. <a href="#" onclick="this.parentElement.remove(); return false;" style="color: white; text-decoration: underline;">Dismiss</a>`;
+      banner.innerHTML = `Payment not configured: ${placeholders.join(', ')} keys are not set. <a href="#" onclick="this.parentElement.remove(); return false;" style="color: white; text-decoration: underline;">Dismiss</a>`;
       document.body.insertBefore(banner, document.body.firstChild);
     }
   },
@@ -184,7 +184,7 @@ const PaymentManager = {
     const btn = document.getElementById('paystack-button');
     if (!btn) return;
 
-    if (this.config.paystackKey.includes('YOUR_')) { const c = btn.closest('.card'); if (c) c.style.display = 'none'; return; }
+    if (!this.config.paystackKey) { const c = btn.closest('.card'); if (c) c.style.display = 'none'; return; }
 
     // Check if Paystack loaded
     if (!window.PaystackPop) {
@@ -195,7 +195,7 @@ const PaymentManager = {
     }
 
     // Check if key is placeholder
-    if (this.config.paystackKey.includes('YOUR_')) {
+    if (!this.config.paystackKey) {
       btn.disabled = true;
       btn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Not Configured';
       btn.title = 'Paystack key needs to be configured by the developer';
@@ -245,7 +245,7 @@ const PaymentManager = {
     const btn = document.getElementById('flutterwave-button');
     if (!btn) return;
 
-    if (this.config.flutterwaveKey.includes('YOUR_')) { const c = btn.closest('.card'); if (c) c.style.display = 'none'; return; }
+    if (!this.config.flutterwaveKey) { const c = btn.closest('.card'); if (c) c.style.display = 'none'; return; }
 
     // Check if Flutterwave loaded
     if (!window.FlutterwaveCheckout) {
@@ -256,7 +256,7 @@ const PaymentManager = {
     }
 
     // Check if key is placeholder
-    if (this.config.flutterwaveKey.includes('YOUR_')) {
+    if (!this.config.flutterwaveKey) {
       btn.disabled = true;
       btn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Not Configured';
       btn.title = 'Flutterwave key needs to be configured by the developer';
