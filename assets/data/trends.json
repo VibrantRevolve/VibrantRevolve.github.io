@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-26T12:21:43.077Z",
+ "updated": "2026-10-28T00:27:26.439Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 30.8,
+   "score": 24.52,
    "headline": "MapTiler: Head of Design | Maps Platform (Remote in Europe)",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/maptiler-head-of-design-maps-platform-remote-in-europe"
@@ -13,7 +13,7 @@
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 22.37,
+   "score": 17.63,
    "headline": "Klump shuts down as Nigeria’s standalone BNPL model shifts to embedded finance",
    "source": "BusinessDay",
    "url": "https://businessday.ng/technology/article/klump-shuts-down-as-nigerias-standalone-bnpl-model-shifts-to-embedded-finance/"
@@ -21,7 +21,7 @@
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 18.53,
+   "score": 14.66,
    "headline": "Mercury: Customer Support Manager - Risk",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-manager-risk"
@@ -29,7 +29,7 @@
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 16.54,
+   "score": 13.24,
    "headline": "Binance Launches $1.7M Halloween Pumpkin Frenzy Trading Campaign",
    "source": "Ventureburn",
    "url": "https://ventureburn.com/binance-halloween-pumpkin-frenzy/"
@@ -37,7 +37,7 @@
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 12.09,
+   "score": 9.78,
    "headline": "Dochase unveils RETAIN AI agent that cuts ad campaign planning to minutes with as low as ₦30,000",
    "source": "Technext",
    "url": "https://technext24.com/news/dochase-unveils-retain-ai-brandcom-awards-2026/"
@@ -45,7 +45,7 @@
   {
    "topic": "Emea",
    "hashtag": "#Emea",
-   "score": 10.73,
+   "score": 8.55,
    "headline": "Datadog: Principal GSI Partner Manager - Accenture (EMEA)",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/datadog-principal-gsi-partner-manager-accenture-emea"
@@ -53,7 +53,7 @@
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 9.27,
+   "score": 7.19,
    "headline": "Reddit: Frontend Engineer, Ads",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/reddit-frontend-engineer-ads"
@@ -61,7 +61,7 @@
   {
    "topic": "Director",
    "hashtag": "#Director",
-   "score": 8.27,
+   "score": 6.66,
    "headline": "Ping Identity: Director, Partner Operations",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/ping-identity-director-partner-operations"
@@ -69,7 +69,7 @@
   {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 7.59,
+   "score": 6.22,
    "headline": "Anthropic STEM Fellowship 2027 (up to $167,000)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/10/24/anthropic-stem-fellowship-2027/"
@@ -77,7 +77,7 @@
   {
    "topic": "Openai",
    "hashtag": "#Openai",
-   "score": 7.27,
+   "score": 5.93,
    "headline": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
    "source": "TechCrunch",
    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
@@ -85,34 +85,34 @@
   {
    "topic": "Lead",
    "hashtag": "#Lead",
-   "score": 7.03,
+   "score": 5.58,
    "headline": "Tech Trivia with Motunrayo Olaleye, Product and Operations Lead at Gopaddi",
    "source": "Technext",
    "url": "https://technext24.com/women-in-tech/tech-trivia-with-motunrayo-at-gopaddi/"
   },
   {
-   "topic": "Head",
-   "hashtag": "#Head",
-   "score": 6.51,
-   "headline": "MapTiler: Head of Design | Maps Platform (Remote in Europe)",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/maptiler-head-of-design-maps-platform-remote-in-europe"
-  },
-  {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 6.33,
+   "score": 5.07,
    "headline": "Treasure Okure’s journey from UNILAG law student to marketing PiggyVest",
    "source": "Benjamin Dada",
    "url": "https://thecondia.com/treasure-okure-journey-level-up/"
   },
   {
-   "topic": "Product",
-   "hashtag": "#Product",
-   "score": 5.91,
-   "headline": "Tech Trivia with Motunrayo Olaleye, Product and Operations Lead at Gopaddi",
-   "source": "Technext",
-   "url": "https://technext24.com/women-in-tech/tech-trivia-with-motunrayo-at-gopaddi/"
+   "topic": "Head",
+   "hashtag": "#Head",
+   "score": 5,
+   "headline": "MapTiler: Head of Design | Maps Platform (Remote in Europe)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/maptiler-head-of-design-maps-platform-remote-in-europe"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 4.85,
+   "headline": "IDM-Africa Fellowship Programme 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/10/24/idm-africa-fellowship-programme-2027/"
   }
  ],
  "tags": [
