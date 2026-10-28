@@ -76,7 +76,7 @@ FACTS:
 - Digital products can be refunded within 7 days if they do not work as described and we cannot fix them. Services are agreed in writing before a project starts. The full policy has the details.
 - You can reach us on WhatsApp or by email at vr@vibrantrevolve.com. We are based in Lagos.
 - You can book a discovery call from the booking page. If it is not available yet, message us on WhatsApp and we will agree a time.
-- We have built sites such as Aithan Distributors, Martie-D Enterprises, BookNugget, MarvsFoods and Mourine Momo LUX Rug. You can see them in the portfolio.
+- We have built sites such as Aithan Distributors, Osca Complement Services, Martie-D Enterprises, BookNugget, MarvsFoods and Mourine Momo LUX Rug. You can see them in the portfolio.
 - Try our free Brand Studio: enter your business name and get a colour palette, fonts, taglines and a logo mark in seconds.
 - Our Tech Radar blog posts tech news and funding or grant opportunities. Always confirm deadlines on the official page before applying.`;
 

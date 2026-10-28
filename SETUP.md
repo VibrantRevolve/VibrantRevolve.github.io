@@ -98,3 +98,11 @@ Everything below is optional until you want that feature. Empty values are safe:
 7. **Testimonials**: add real, named clients to `assets/data/testimonials.json` as `{ "items": [ { "name": "", "role": "", "quote": "", "url": "" } ] }`. While the list is empty the section and its nav link stay hidden.
 8. **Pricing**: after editing `assets/js/pricing-data.js`, run `node scripts/prerender-pricing.mjs` so the static HTML matches.
 9. **Never commit** `.wrangler/` or `.dev.vars` (now in `.gitignore`). If a Cloudflare account ID or email was ever pushed, consider it public.
+
+## Security headers and compression (GitHub Pages cannot set these itself)
+
+If vibrantrevolve.com is proxied through Cloudflare (orange cloud in DNS):
+1. **Rules > Transform Rules > Modify Response Header > Create rule**, apply to all requests, then *Set static*: `X-Content-Type-Options` = `nosniff` (optionally also `X-Frame-Options` = `SAMEORIGIN`, `Referrer-Policy` = `strict-origin-when-cross-origin`).
+2. **Speed > Optimization > Content Optimization**: make sure Brotli is on.
+
+If the domain is not proxied through Cloudflare, put it behind Cloudflare (free plan) or move hosting to Cloudflare Pages, which reads the `_headers` file in this repo.
