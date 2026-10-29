@@ -1,5 +1,575 @@
 [
   {
+    "id": "2a86024d43",
+    "title": "Binance Launches P2P Merchant Referral Program for CIS and CEE Markets",
+    "url": "https://ventureburn.com/binance-p2p-merchant-referral-program/",
+    "source": "Ventureburn",
+    "kind": "news",
+    "date": "2026-10-29T12:13:39.000Z",
+    "excerpt": "Binance introduces a new P2P merchant referral program offering up to 100 USDC in rewards for users across CIS and CEE regions. The post Binance Launches P2P Merchant Referral Program for CIS and CEE Markets appeared first on Ventureburn .",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "ec8ce37ca2",
+    "title": "NEM Insurance reports N31.02 billion pre-tax profit in 9M 2026, up 31%",
+    "url": "https://nairametrics.com/2026/10/29/nem-insurance-reports-n31-02-billion-pre-tax-profit-in-9m-2026-up-31/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-29T11:49:29.000Z",
+    "excerpt": "NEM Insurance Plc recorded a 30.54% increase in pre-tax profit to N31.02 billion for the nine months ended September 30, 2026, compared with N23.77 billion in the corresponding period of 2025, supported by stronger insurance operations and investment gains. The post NEM Insurance reports N31.02…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2652cd8a25",
+    "title": "Nigeria has changed its economic policies. Where are the results?",
+    "url": "https://businessday.ng/uncategorized/article/nigeria-has-changed-its-economic-policies-where-are-the-results/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-29T11:39:04.000Z",
+    "excerpt": "Nigeria’s economic reforms will ultimately be judged not by the policies the government announces, but by whether businesses can produce",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "70f587e8c5",
+    "title": "Nigeria’s 25% tax rate trails African peers",
+    "url": "https://businessday.ng/business-economy/article/nigerias-25-tax-rate-trails-african-peers/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-29T11:35:28.000Z",
+    "excerpt": "Nigeria’s new 25 percent personal income tax rate has sparked debate over whether workers will pay more or less tax",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ce494e085d",
+    "title": "Magna matches 26 Nigerian startups with 16 investors amid funding concentration",
+    "url": "https://businessday.ng/technology/article/magna-matches-26-nigerian-startups-with-16-investors-amid-funding-concentration/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-29T11:34:17.000Z",
+    "excerpt": "Magna Collective, an innovation intelligence firm, has matched 26 Nigerian startups with 16 venture investors in a targeted funding initiative",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "68753d3559",
+    "title": "Seplat Energy’s 9M pre-tax profit rises 52.75% to N1.34 trillion, declares dividend.",
+    "url": "https://nairametrics.com/2026/10/29/seplat-energys-9m-pre-tax-profit-rises-52-75-to-n1-34-trillion-declares-dividend/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-29T11:19:36.000Z",
+    "excerpt": "Seplat Energy Plc reported a pre-tax profit of N1.34 trillion in its unaudited financial results for the nine months ended 30 September 2026, representing an increase of 52.75% from N878.99 billion recorded in the corresponding period of 2025. The post Seplat Energy’s 9M pre-tax profit rises 52.75%…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d9ac0b9541",
+    "title": "Zichis’ 9M 2026 pre-tax profit jumps 179% to N561.32 million as revenue hits N1.22 billion",
+    "url": "https://nairametrics.com/2026/10/29/zichis-9m-2026-pre-tax-profit-jumps-179-to-n561-32-million-as-revenue-hits-n1-22-billion/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-29T11:14:28.000Z",
+    "excerpt": "Zichis Agro-Allied Industries Plc (ZAAI) recorded a 179.21% increase in pre-tax profit to N561.32 million for the nine months ended September 30, 2026, compared with N201.04 million in the corresponding period of 2025. The post Zichis’ 9M 2026 pre-tax profit jumps 179% to N561.32 million as revenue…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "a819341832",
+    "title": "Qatar’s Barzan Holdings seeks to deepen defense partnerships with Nigeria",
+    "url": "https://nairametrics.com/2026/10/29/qatars-barzan-holdings-seeks-to-deepen-defense-partnerships-with-nigeria/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-29T11:07:57.000Z",
+    "excerpt": "Qatar’s Barzan Holdings has said it is working to deepen defense partnership with Nigeria even as considers opportunities to supply defense equipment and develop commercial relationships. The post Qatar’s Barzan Holdings seeks to deepen defense partnerships with Nigeria appeared first on…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2f1ed7329a",
+    "title": "MeCure Industries’ 9M 2026 pre-tax profit rises 35.71% to N8.64 billion",
+    "url": "https://nairametrics.com/2026/10/29/mecure-industries-9m-2026-pre-tax-profit-rises-35-71-to-n8-64-billion/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-29T10:58:37.000Z",
+    "excerpt": "MeCure Industries Plc has released its unaudited financial results for the nine months ended 30 September 2026, reporting a pre-tax profit of N8.64 billion. The post MeCure Industries’ 9M 2026 pre-tax profit rises 35.71% to N8.64 billion appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6e8728f68b",
+    "title": "AUATON demands improved safety from inDrive after driver robbed by riders at gunpoint",
+    "url": "https://technext24.com/news/auaton-demands-improved-safety-from-indrive/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-29T10:23:36.000Z",
+    "excerpt": "The Amalgamated Union of App-based Transporters of Nigeria (AUATON) is demanding improved safety from inDrive after a driver…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "bc739d4c57",
+    "title": "Columbia HBCU Fellowship Program Fall 2027",
+    "url": "https://opportunitydesk.org/2026/10/29/columbia-hbcu-fellowship-program-fall-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-29T10:18:24.000Z",
+    "excerpt": "Deadline: January 7, 2027 Applications are open for the Columbia HBCU Fellowship Program Fall 2027. Open to seniors and recent graduates of Historically Black Colleges & Universities (HBCUs) as defined by the U.S. Department of Education, the Columbia HBCU Fellowship Program prepares talented,…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6844a76491",
+    "title": "Best Site to Sell Bitcoin in Nigeria: A Security Checklist Before You Choose",
+    "url": "https://technext24.com/sponsored/best-site-to-sell-bitcoin-in-nigeria/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-29T10:00:51.000Z",
+    "excerpt": "Selling Bitcoin in Nigeria involves more than finding a platform with a good rate. You also need to…",
+    "tag": "Security",
+    "cta": {
+      "label": "Talk to us",
+      "href": "/contact/"
+    },
+    "take": ""
+  },
+  {
+    "id": "9cd5509199",
+    "title": "AI has come for Arizona’s water",
+    "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-29T10:00:04.000Z",
+    "excerpt": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that…",
+    "tag": "Web",
+    "cta": {
+      "label": "Website templates",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "6410e8e679",
+    "title": "Why Africa needs its own AI off switch",
+    "url": "https://restofworld.org/2026/africa-sovereign-ai-off-switch/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World",
+    "kind": "news",
+    "date": "2026-10-29T10:00:00.000Z",
+    "excerpt": "Africa must develop AI systems with local control to protect critical infrastructure such as mobile money networks from growing AI-powered cyberthreats.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e40c9f5315",
+    "title": "Heinrich Böll Foundation Feminist Futures Fellowship 2027",
+    "url": "https://opportunitydesk.org/2026/10/29/heinrich-boll-foundation-feminist-futures-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-29T09:59:52.000Z",
+    "excerpt": "Deadline: November 2, 2026 Applications are open for the Heinrich Böll Foundation Feminist Futures Fellowship 2027. The Heinrich Böll Foundation’s (HBS), Washington DC Office is pleased to announce the fifth iteration of its CSW Fellowship. The fellowship aims to support feminist experts from the…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f01c1c57c2",
+    "title": "Casap Raises $56 Million To Help Banks Stop First-Party Fraud Using AI",
+    "url": "https://ventureburn.com/casap-raises-56-million-banks-stop-first-party-fraud/",
+    "source": "Ventureburn",
+    "kind": "news",
+    "date": "2026-10-29T09:54:45.000Z",
+    "excerpt": "Banks are facing an increasing number of fraud cases coming from their own customers, not hackers. Now Casap raises $56 million to help banks fight back. The New York startup The post Casap Raises $56 Million To Help Banks Stop First-Party Fraud Using AI appeared first on Ventureburn .",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "47ff703bd4",
+    "title": "Hans De Wit Fellowship 2027 (stipend available)",
+    "url": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-29T09:45:48.000Z",
+    "excerpt": "Deadline: November 15, 2026 Applications are open for the Hans De Wit Fellowship 2027. Partially funded with seed funding generously donated by World Education Services, the Hans de Wit Fellowship was established in 2022 to support the academic mobility of early career researchers in the field of…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c41936da36",
+    "title": "Payment providers must look beyond transactions, fintech executives say",
+    "url": "https://techcabal.com/2026/10/29/payment-providers-must-look-beyond-transactions-fintech-executives-say/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-29T09:39:55.000Z",
+    "excerpt": "Payment providers must help businesses manage cash flow, understand customers and reduce fraud as accepting digital payments becomes only the first step in adopting technology.",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "d6a171c7c0",
+    "title": "Paystack’s Akinlade puts business infrastructure at centre of next growth phase",
+    "url": "https://techcabal.com/2026/10/29/paystack-looks-beyond-payments/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-29T09:14:38.000Z",
+    "excerpt": "Paystack will look beyond payment acceptance to address more of businesses’ financial needs as it enters its second decade, co-founder and chief executive Shola Akinlade said at Moonshot 2026 in Lagos.",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "a6b3e6ea4d",
+    "title": "Nigeria’s securities exchange urges founders to list on local bourse",
+    "url": "https://techcabal.com/2026/10/29/nigeria-sec-founders-list-local-bourse/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-29T09:03:48.000Z",
+    "excerpt": "Nigeria’s securities regulator has urged local founders to look closer to home for capital, arguing that crowdfunding and debt markets can offer a route to an eventual stock market listing. Emomotimi Agama, director-general of the Securities and Exchange Commission, told Moonshot by TechCabal in…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "3e4d852a9a",
+    "title": "With Paycheck, Grey expands beyond payments into credit, cards and savings",
+    "url": "https://thecondia.com/grey-launches-paycheck/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-29T08:57:20.000Z",
+    "excerpt": "The fintech will now extend loans to its customers while providing savings will see it generate more value from its customer base.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "9e357c1200",
+    "title": "Partner Account Manager",
+    "url": "https://jobicy.com/jobs/157807-partner-account-manager",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:44:46.000Z",
+    "excerpt": "Apollo.io is the leading go-to-market solution for revenue teams, trusted by over 500,000 companies and millions of users globally, from rapidly growing startups to some of the world’s largest enterprises....",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "1c876792d9",
+    "title": "Director of GTM Data, Processes, and AI Enablement",
+    "url": "https://jobicy.com/jobs/157806-director-of-gtm-data-processes-and-ai-enablement",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:44:24.000Z",
+    "excerpt": "MaintainX is a leading mobile-first work execution platform for industrial and frontline teams. More than 13,000 customers, including Duracell, McDonald’s, Shell, DHL and Volvo, use MaintainX to cut unplanned downtime...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2f98ef852f",
+    "title": "Principal Engineer, Applied AI (Fullstack/Backend)",
+    "url": "https://jobicy.com/jobs/157805-principal-engineer-applied-ai-fullstack-backend",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:44:22.000Z",
+    "excerpt": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2cf0bd122e",
+    "title": "Product Manager",
+    "url": "https://jobicy.com/jobs/157803-product-manager-9",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:44:19.000Z",
+    "excerpt": "Thumbtack helps millions of people confidently care for their homes. Thumbtack is the one app you need to take care of and improve your home — from personalized guidance to...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6587bf68cd",
+    "title": "Field Marketing Manager",
+    "url": "https://jobicy.com/jobs/157799-field-marketing-manager-3",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:44:15.000Z",
+    "excerpt": "MaintainX is a leading mobile-first work execution platform for industrial and frontline teams. More than 13,000 customers, including Duracell, McDonald’s, Shell, DHL and Volvo, use MaintainX to cut unplanned downtime...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "14763b337f",
+    "title": "Staff Analyst, Product & Marketing",
+    "url": "https://jobicy.com/jobs/157798-staff-analyst-product-marketing",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:44:13.000Z",
+    "excerpt": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2c85553bc3",
+    "title": "Poor network: Reps give MTN, Airtel, Globacom CEOs till Nov 4 to appear, threaten arrest",
+    "url": "https://technext24.com/news/reps-give-mtn-airtel-ceos-till-nov-4-to-appear/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-29T08:30:06.000Z",
+    "excerpt": "The House of Reps has now given Chief Executive Officers (CEOs) of MTN, Airtel, Globacom, Mafab and others…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "cdbae774eb",
+    "title": "ProvidusUnity Bank enables Google Pay for eligible Mastercard holders",
+    "url": "https://technext24.com/news/providusunity-bank-enables-google-pay/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-29T08:29:44.000Z",
+    "excerpt": "ProvidusUnity Bank has enabled Google Pay for eligible customers holding its Mastercard cards, allowing them to make payments…",
+    "tag": "Payments",
+    "cta": {
+      "label": "Ecommerce storefront",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "63a39accf8",
+    "title": "Talent Nation Secures Pre-Seed Funding to Train One Million African AI Engineers",
+    "url": "https://www.techinafrica.com/talent-nation-secures-pre-seed-funding-to-train-one-million-african-ai-engineers/",
+    "source": "Tech in Africa",
+    "kind": "news",
+    "date": "2026-10-29T08:25:20.000Z",
+    "excerpt": "African artificial intelligence talent development startup Talent Nation has secured pre-seed funding to expand its training programmes and connect skilled African AI engineers with international technology companies. The investment round was co-led by Africa-focused venture capital firm Enza…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "1c8bf2b558",
+    "title": "Staff, Escalations Manager",
+    "url": "https://jobicy.com/jobs/157796-staff-escalations-manager",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:10:18.000Z",
+    "excerpt": "Who we are At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b3f1b668d4",
+    "title": "Software Development Engineer",
+    "url": "https://jobicy.com/jobs/157793-software-development-engineer",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:09:34.000Z",
+    "excerpt": "Who we are At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "50c4d2464f",
+    "title": "Senior Software Engineer",
+    "url": "https://jobicy.com/jobs/157787-senior-software-engineer-18",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:08:57.000Z",
+    "excerpt": "Who we are At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "6d46b4f06d",
+    "title": "Staff DevOps Engineer",
+    "url": "https://jobicy.com/jobs/157784-staff-devops-engineer-4",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-10-29T08:08:37.000Z",
+    "excerpt": "Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "05493f62eb",
+    "title": "Iyin Aboyeji helped build 2 unicorns, now he wants to tackle Africa’s jobs crisis",
+    "url": "https://thecondia.com/iyin-aboyeji-takes-on-african-youth-unemployment/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-29T08:00:00.000Z",
+    "excerpt": "After helping build African unicorns, Iyin Aboyeji is shifting from funding startups to building businesses he hopes can tackle the continent’s jobs crisis.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "049b08a184",
+    "title": "How to set up Google Pay and Google Wallet in Nigeria and which banks support it",
+    "url": "https://thecondia.com/google-pay-nigeria-setup-and-supported-banks/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-29T01:07:47.000Z",
+    "excerpt": "Google Pay and Google Wallet are now in Nigeria. Here’s how to set them up and which banks support them.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "c88e3a4ef3",
+    "title": "Instagram wants you to watch longer videos, putting it in direct competition with YouTube",
+    "url": "https://thecondia.com/instagram-90-minute-video-challenge-youtube/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-28T20:34:57.000Z",
+    "excerpt": "Instagram wants a share of the time viewers spend on YouTube, but can its new 90-minute videos give it a real chance to compete?",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "85cc2cca6c",
+    "title": "Is Google Wallet and Pay launch in Nigeria a game changer?",
+    "url": "https://thecondia.com/google-wallet-pay-nigeria-contactless-launch/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-28T16:20:37.000Z",
+    "excerpt": "Google Wallet and Pay have launched in Nigeria. Here is how smartphone biometrics and tokenisation could solve Nigeria’s 10-year contactless payment problem and shift users away from bank transfers.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
     "id": "58cec9b86b",
     "title": "Amazon’s first digital picture frame lets you add voice notes to photos",
     "url": "https://www.theverge.com/tech/1019626/amazon-alexa-plus-photo-digital-picture-frame-smart-speaker",
@@ -2489,576 +3059,6 @@
     "kind": "jobs",
     "date": "2026-10-23T07:31:20.000Z",
     "excerpt": "Headquarters: Abu Dhabi, UAE; APAC - Remote About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "763d221b4a",
-    "title": "👨🏿‍🚀TechCabal Daily – Equity, but make it liquid",
-    "url": "https://techcabal.com/2026/10/23/techcabal-daily-equity-but-make-it-liquid/",
-    "source": "TechCabal",
-    "kind": "news",
-    "date": "2026-10-23T06:16:31.000Z",
-    "excerpt": "In today's edition: Flutterwave lets employees borrow against equity || CANAL+’s MultiChoice problem || South Africa wants telcos sharing || Who secured the bag? 💰",
-    "tag": "Payments",
-    "cta": {
-      "label": "Ecommerce storefront",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "072c8a0f70",
-    "title": "BONK, Zcash, Hyperliquid, Fartcoin, & PEPS: Comparing Tokens and Presale Flip Potential",
-    "url": "https://ventureburn.com/bonk-zcash-hyperliquid-fartcoin-peps-comparing-tokens-and-presale-flip-potential/",
-    "source": "Ventureburn",
-    "kind": "news",
-    "date": "2026-10-23T04:45:03.000Z",
-    "excerpt": "Bonk Inu (BONK), HyperLiquid (HYPE), FARTCOIN, ZCash (ZEC), and Peptide Swap (PEPS) are attracting attention in the digital asset market ahead of the 2026 holiday season. Bullish momentum is sweeping The post BONK, Zcash, Hyperliquid, Fartcoin, & PEPS: Comparing Tokens and Presale Flip Potential…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "94cd4ca5fb",
-    "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
-    "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-23T04:00:00.000Z",
-    "excerpt": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "085ba153da",
-    "title": "Left alone with nothing to do, AI agents started playing",
-    "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-23T00:45:37.000Z",
-    "excerpt": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "515bea56e5",
-    "title": "Etsy is cracking down on AI slop listings",
-    "url": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-23T00:09:58.000Z",
-    "excerpt": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "e1ac4e4598",
-    "title": "As blockchain investing falls out of vogue, a16z Crypto rebrands as a16z Frontier",
-    "url": "https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-22T22:34:54.000Z",
-    "excerpt": "The digital asset unit, helmed by Chris Dixon, broadens its scope.",
-    "tag": "Design & Social",
-    "cta": {
-      "label": "Design assets",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "d73c3fbf5a",
-    "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-22T22:08:24.000Z",
-    "excerpt": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "1437b0ebe8",
-    "title": "Canva’s first AI image model plans designs before generating them",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-22T21:51:25.000Z",
-    "excerpt": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "90f1feaf05",
-    "title": "50 Scholarships, Grants, Fellowships and Other Opportunities Currently Open – October 22, 2026",
-    "url": "https://opportunitydesk.org/2026/10/22/50-scholarships-grants-fellowships-and-other-opportunities-currently-open-october-22-2026/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-22T16:01:34.000Z",
-    "excerpt": "1. Maria Rosario Lazzati Niada Scholarship for Afghan Women 2027-2028 The Maria Rosario Lazzati Niada Scholarship supports Afghan women who already hold a university degree and want to pursue a two-year master’s programme at the Geneva Graduate Institute. The scholarship is designed to widen access…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b9be609b25",
-    "title": "SCOOP: Lagos Life’s parent company is in talks to raise a $2.5 million pre-seed round",
-    "url": "https://thecondia.com/lagos-lifes-parent-company-in-talks-to-raise-pre-seed/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-22T15:01:23.000Z",
-    "excerpt": "Vatar, the company behind Lagos Life, is seeking $2.5 million in pre-seed funding after its virtual game attracted 10 million players.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "a8570a3d55",
-    "title": "PICS Climate Internship Grant 2027 (up to $15,000)",
-    "url": "https://opportunitydesk.org/2026/10/22/pics-climate-internship-grant-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-22T14:07:29.000Z",
-    "excerpt": "Deadline: November 20, 2026 Does your organization need assistance with its climate-related goals? Apply for the PICS Climate Internship Grant 2027. The PICS Climate Internship Program helps organizations in British Columbia reach their climate goals while giving university students in…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "623a14d021",
-    "title": "AIRC Non-Resident Research Fellowship in AI and Social Sciences 2027",
-    "url": "https://opportunitydesk.org/2026/10/22/airc-non-resident-research-fellowship-in-ai-and-social-sciences-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-22T13:36:07.000Z",
-    "excerpt": "Deadline: October 25, 2026 Applications are open for the AIRC Non-Resident Research Fellowship in AI and Social Sciences 2027. Artificial intelligence is reshaping how people work, learn, communicate, make decisions and interact with institutions. Understanding these changes requires more than…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "02789f742c",
-    "title": "New York City Urban Fellows Program 2027-2028 (stipend available)",
-    "url": "https://opportunitydesk.org/2026/10/22/new-york-city-urban-fellows-program-2027-2028/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-22T12:49:34.000Z",
-    "excerpt": "Deadline: January 11, 2027 Applications are open for the New York City Urban Fellows Program 2027-2028. The Urban Fellows Program is a highly selective, nine-month fellowship which combines work in Mayoral offices and City agencies with volunteer service opportunities and a seminar series that…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "6fce2df719",
-    "title": "Following Technext’s report, inDrive is reviewing its Terms of Use to take more responsibility",
-    "url": "https://technext24.com/news/technext-report-indrive-reviewing-terms-of-use/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-22T11:00:00.000Z",
-    "excerpt": "Following an analysis by Technext of inDrive’s Terms of Use, which found that the e-hailing company excludes itself…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "52a18d862a",
-    "title": "CIS, ASHON laud Nigeria’s capital market gains, back N750trn market cap target",
-    "url": "https://businessday.ng/companies/article/cis-ashon-laud-nigerias-capital-market-gains-back-n750trn-market-cap-target/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-10-22T10:53:41.000Z",
-    "excerpt": "The Chartered Institute of Stockbrokers (CIS) and the Association of Securities Dealing Houses of Nigeria (ASHON) have hailed the Nigerian",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b03fd4e41a",
-    "title": "Otu presents N987.8bn Cross River 2027 fiscal estimates",
-    "url": "https://businessday.ng/news/article/otu-presents-n987-8bn-cross-river-2027-fiscal-estimates/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-10-22T10:51:06.000Z",
-    "excerpt": "…Earmarks N708.4bn for capital projects Governor Bassey Otu of Cross River State, on Wednesday, presented a proposed N987.8 billion budget",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "67b512d1a7",
-    "title": "CANAL+ faces a South African turnaround test as MultiChoice revenue falls 3%",
-    "url": "https://techcabal.com/2026/10/22/canal-plus-africa-growth-south-africa/",
-    "source": "TechCabal",
-    "kind": "news",
-    "date": "2026-10-22T10:49:54.000Z",
-    "excerpt": "CANAL+ is banking on new DStv packages and stronger content to revive MultiChoice in South Africa after revenue fell 3% in the nine months to September 2026.",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "a8e01c15b7",
-    "title": "One platform, many realities: Yango’s playbook for scaling across Africa",
-    "url": "https://techcabal.com/2026/10/22/yango-scaling-across-fragmented-markets/",
-    "source": "TechCabal",
-    "kind": "news",
-    "date": "2026-10-22T10:26:58.000Z",
-    "excerpt": "Adeniyi Adebayo, Yango’s Chief Business Officer speaks on scaling digital services across fragmented African markets.",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "161985736a",
-    "title": "Call for Proposals: Commonwealth Blue Charter Incubator Round II (up to £50,000)",
-    "url": "https://opportunitydesk.org/2026/10/22/commonwealth-blue-charter-incubator-round-ii/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-22T09:54:46.000Z",
-    "excerpt": "Deadline: December 11, 2026 Proposals are invited for the Commonwealth Blue Charter Incubator Round II. Addressing major ocean challenges and building a stronger pipeline for sustainable blue economies requires ambitious, government-led projects that can develop and test solutions, strengthen…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "bf443311d8",
-    "title": "A Fresh Start with ViaBTC: New Users Get 50% Off Mining Pool Fees for 30 Days",
-    "url": "https://technext24.com/sponsored/viabtc-new-users-get-50-off-mining-pool-fees/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-22T09:33:07.000Z",
-    "excerpt": "ViaBTC, a leading global cryptocurrency mining pool, has announced “A Fresh Start with ViaBTC,” a promotion for new…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "47842d24dd",
-    "title": "Naira holds at N1,497/€ as French debt crisis drags euro down",
-    "url": "https://nairametrics.com/2026/10/22/naira-holds-at-n1497-e-as-french-debt-crisis-drags-euro-down/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-22T09:32:47.000Z",
-    "excerpt": "The Naira kept its value gains against the European common currency as the European currency plunged lower after France's debt yields broke above 5%. The post Naira holds at N1,497/€ as French debt crisis drags euro down appeared first on Nairametrics .",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "74de80da4f",
-    "title": "Airbnb bars hosts from making guests wash dishes or strip beds from November 20",
-    "url": "https://technext24.com/news/airbnb-updates-house-rules-policy-from-nov-20/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-22T09:25:43.000Z",
-    "excerpt": "Airbnb has updated its house rules policy, barring hosts from requiring guests to wash dishes, strip beds, start…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "6e008fd8f1",
-    "title": "Nigeria’s Interest Rate Reset: What the Reduction in MPR Means for Businesses",
-    "url": "https://nairametrics.com/2026/10/22/nigerias-interest-rate-reset-what-the-reduction-in-mpr-means-for-businesses/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-22T09:19:11.000Z",
-    "excerpt": "Nigeria’s decision to reduce its Monetary Policy Rate (MPR) from 26.5 per cent to 23 per cent represents a significant shift in the country’s monetary policy direction, with important implications for businesses, investors and the wider economy. While the reduction does not automatically translate…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "e638490643",
-    "title": "SEC targets African listings as Nigeria eyes ₦750tn capital market",
-    "url": "https://technext24.com/news/sec-targets-african-listings-750tn-market/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-22T09:09:51.000Z",
-    "excerpt": "Nigeria’s Securities and Exchange Commission (SEC) plans to introduce a framework to make it easier for companies across…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "aca3d7844d",
-    "title": "How Nigeria Can Attract Private Capital for Reliable, Affordable Electricity",
-    "url": "https://nairametrics.com/2026/10/22/how-nigeria-can-attract-private-capital-for-reliable-affordable-electricity/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-22T09:02:12.000Z",
-    "excerpt": "A food seller has to choose between buying fuel for her generator and restocking her freezer with fish and chicken. If she buys fuel, she has less to restock with. If she restocks, a power cut can spoil what she bought. For a business operating on a small margin, unreliable electricity can turn an…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b9f72e3a2e",
-    "title": "DeepSeek Raises $15 Billion To Scale and Challenge OpenAI and Anthropic Dominance",
-    "url": "https://ventureburn.com/deepseek-raises-15-billion-challenge-us-ai-labs/",
-    "source": "Ventureburn",
-    "kind": "news",
-    "date": "2026-10-22T08:47:04.000Z",
-    "excerpt": "In the last few weeks, we’ve seen massive developments from the frontier models. DeepSeek, which rattled Wall Street in 2025 with a cheap, surprisingly capable AI model, has completed a The post DeepSeek Raises $15 Billion To Scale and Challenge OpenAI and Anthropic Dominance appeared first on…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "5094eea53d",
-    "title": "Germany tightens B1 language test requirements for migrants from November 1",
-    "url": "https://nairametrics.com/2026/10/22/germany-tightens-b1-language-test-requirements-for-migrants-from-november-1/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-22T08:42:54.000Z",
-    "excerpt": "Germany is set to introduce stricter assessment requirements for immigrants taking the Deutsch-Test für Zuwanderer (DTZ), effective November 1, 2026, as part of measures aimed at strengthening language proficiency standards and curbing examination fraud. The post Germany tightens B1 language test…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f962a08cbe",
-    "title": "ABC Transport announces Kabiru Yusuf’s resignation after 20 years on board",
-    "url": "https://nairametrics.com/2026/10/22/abc-transport-announces-kabiru-yusufs-resignation-after-20-years-on-board/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-22T08:35:55.000Z",
-    "excerpt": "ABC Transport Plc has announced the resignation of Alhaji Kabiru Yusuf as a Non-Executive Director, ending his 20-year tenure on the company’s board. The post ABC Transport announces Kabiru Yusuf’s resignation after 20 years on board appeared first on Nairametrics .",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b74cece2e6",
-    "title": "PHP2Shell: All you need to know about the security flaws putting websites at risk and how to fix them",
-    "url": "https://technext24.com/reviews/php2shell-security-flaws-websites-how-to-fix/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-10-22T08:01:35.000Z",
-    "excerpt": "PHP has released emergency security updates for two critical flaws that could let hackers run malicious code on…",
-    "tag": "Web",
-    "cta": {
-      "label": "Website templates",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "045041cb9d",
-    "title": "Fatu Ogwuche launches Tech This Week to bring African tech builders closer to audiences",
-    "url": "https://thecondia.com/fatu-ogwuche-launches-tech-this-week/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-10-22T08:00:00.000Z",
-    "excerpt": "Fatu Ogwuche launches Tech This Week, a live show giving African tech founders a platform to explain industry trends, share insights and engage audiences.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "bc79fc303b",
-    "title": "Commercial Account Executive",
-    "url": "https://jobicy.com/jobs/156274-commercial-account-executive-4",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-22T07:48:27.000Z",
-    "excerpt": "Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f4bb8cb969",
-    "title": "Snr. Marketing Manager, Enterprise ABM – EMEA",
-    "url": "https://jobicy.com/jobs/156271-snr-marketing-manager-enterprise-abm-emea-2",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-22T07:48:25.000Z",
-    "excerpt": "Hi, I’m Harriet, Ashby’s VP Marketing. I joined Ashby in August 2022 to lead the Marketing function. My career journey has been anything but linear starting out as a yoga...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "ef4338afc0",
-    "title": "Mid-Market Implementation Specialist – EMEA",
-    "url": "https://jobicy.com/jobs/156266-mid-market-implementation-specialist-emea",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-22T07:48:23.000Z",
-    "excerpt": "High Touch Implementation Specialist Hi, I’m Daryl and I’m the Manager of Mid-Market Implementations at Ashby. One of my favorite aspects of Ashby is our operating principle of Continuous Improvement....",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "02493ffafd",
-    "title": "B2B Senior Site Reliability Engineer",
-    "url": "https://jobicy.com/jobs/156267-b2b-senior-site-reliability-engineer",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-22T07:48:23.000Z",
-    "excerpt": "At Jamf, we believe in an open, flexible culture based on respect and trust. Our track record and thriving work environment all stem from the freedom we grant ourselves to...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "7312bde21d",
-    "title": "Customer Success Manager – Dutch & English Speaker",
-    "url": "https://jobicy.com/jobs/156273-customer-success-manager-dutch-english-speaker",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-22T07:48:22.000Z",
-    "excerpt": "At Instructure, we believe in the power of people to grow and succeed throughout their lives. Our goal is to amplify that power by creating intuitive products that simplify learning...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "cd3481b70b",
-    "title": "Technical Customer Support Associate (Night Weekend and Bank Holiday Shifts)",
-    "url": "https://jobicy.com/jobs/156272-technical-customer-support-associate-night-weekend-and-bank-holiday-shifts",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-22T07:48:21.000Z",
-    "excerpt": "At Jamf, we believe in an open, flexible culture based on respect and trust. Our track record and thriving work environment all stem from the freedom we grant ourselves to...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b8afcdc943",
-    "title": "Customer Success Manager (Europe)",
-    "url": "https://jobicy.com/jobs/156275-customer-success-manager-europe",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-22T07:48:20.000Z",
-    "excerpt": "About Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "5880a59c57",
-    "title": "Director of Strategic Affairs, EMEA",
-    "url": "https://jobicy.com/jobs/156268-director-of-strategic-affairs-emea",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-10-22T07:48:17.000Z",
-    "excerpt": "At Instructure, we believe in the power of people to grow and succeed throughout their lives. Our goal is to amplify that power by creating intuitive products that simplify learning...",
     "tag": "Jobs",
     "cta": {
       "label": "Need a standout CV?",
