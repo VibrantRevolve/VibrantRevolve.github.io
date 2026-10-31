@@ -1,5 +1,530 @@
 [
   {
+    "id": "1278f0f1b5",
+    "title": "How Vectar Energy moved from selling solar generators to building carbon-market infrastructure",
+    "url": "https://techcabal.com/2026/10/31/vectar-energy-day-1-1000/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-31T11:12:35.000Z",
+    "excerpt": "Vectar Energy is a climate finance company that began as a maker of solar-powered portable power stations and now brings small solar projects together to access carbon markets they could not enter on their own.",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "1d78b10819",
+    "title": "Stablecoins gain ground in African trade but face hurdles to wider use",
+    "url": "https://techcabal.com/2026/10/31/stablecoins-face-hurdles-to-wider-use/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-10-31T11:10:42.000Z",
+    "excerpt": "Stablecoins are giving African businesses an alternative way to pay overseas suppliers, but costs, security concerns and fragmented blockchain networks remain obstacles to wider use, industry executives told Moonshot by TechCabal in Lagos.",
+    "tag": "Security",
+    "cta": {
+      "label": "Talk to us",
+      "href": "/contact/"
+    },
+    "take": ""
+  },
+  {
+    "id": "a3737247b7",
+    "title": "Why OPay IPO sale was halted after debut on NYSE",
+    "url": "https://nairametrics.com/2026/10/31/why-opay-ipo-sale-was-halted-after-debut-on-nyse/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-31T10:36:25.000Z",
+    "excerpt": "OPay Limited has explained why its planned initial public offering (IPO) on the New York Stock Exchange (NYSE) was halted, citing a regulatory inquiry involving a foreign jurisdiction. The post Why OPay IPO sale was halted after debut on NYSE appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b6105b52a9",
+    "title": "Konga Launches Yakata Black Friday 2026 with Deals, Giveaways and SUV Prize",
+    "url": "https://nairametrics.com/2026/10/31/konga-launches-yakata-black-friday-2026-with-deals-giveaways-and-suv-prize/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-31T10:20:35.000Z",
+    "excerpt": "Konga has officially launched its highly anticipated Yakata Black Friday 2026 campaign, bringing Nigerians a month of incredible deals, exclusive brand offers, exciting giveaways and a chance to win a brand-new SUV simply by shopping on the Konga app. Running from November 1 to 30, the campaign is…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "3b8f92ae89",
+    "title": "Dual listings playbook raises hard questions for OPay",
+    "url": "https://businessday.ng/companies/article/dual-listings-playbook-raises-hard-questions-for-opay/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-10-31T10:13:38.000Z",
+    "excerpt": "When OPay Limited announced it was terminating its underwriting agreement and shelving its planned New York Stock Exchange (NYSE) initial",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "9ac73ace83",
+    "title": "Rev360: Reimagining Tax Administration for a Digital Nigeria",
+    "url": "https://nairametrics.com/2026/10/31/rev360-reimagining-tax-administration-for-a-digital-nigeria/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-31T10:07:51.000Z",
+    "excerpt": "For many taxpayers, the true measure of an effective tax system is not the complexity of its laws or the sophistication of its technology, but a much simpler question: how easy is it to comply? This question is central to the Nigeria Revenue Service’s (NRS) ongoing transformation of tax…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f34256e205",
+    "title": "EXCLUSIVE: Dangote Refinery IPO records 1.55 million online subscribers, total retail count could reach five million",
+    "url": "https://nairametrics.com/2026/10/31/exclusive-dangote-refinery-ipo-records-1-55-million-online-subscribers-total-retail-count-could-reach-five-million/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-31T09:57:40.000Z",
+    "excerpt": "Dangote Refinery’s initial public offering (IPO) attracted more than N860 billion in online retail subscriptions from about 1.55 million unique online subscribers, with total retail participation potentially reaching five million once offline subscriptions are collated. Nairametrics gathered the…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "371b80ae18",
+    "title": "Airtel Nigeria rolls out Open Network initiative to address service quality issues",
+    "url": "https://nairametrics.com/2026/10/31/airtel-nigeria-rolls-out-open-network-initiative-to-address-service-quality-issues/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-31T09:13:51.000Z",
+    "excerpt": "Airtel Nigeria has launched an Open Network initiative that will allow subscribers to view network infrastructure around their locations, monitor the status of network sites and report service quality issues directly through the MyAirtel app. The initiative aims to improve transparency, strengthen…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b5881769c9",
+    "title": "UAC’s 9M pre-tax profit jumps 262.5% to N37.69bn as revenue triples",
+    "url": "https://nairametrics.com/2026/10/31/uacs-9m-pre-tax-profit-jumps-262-5-to-n37-69bn-as-revenue-triples/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-31T09:10:53.000Z",
+    "excerpt": "UAC of Nigeria Plc reported a pre-tax profit of N37.69 billion for the nine months ended September 2026, up 262.5% from N10.40 billion in the corresponding period of 2025. The post UAC’s 9M pre-tax profit jumps 262.5% to N37.69bn as revenue triples appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "15f70ee0f5",
+    "title": "NAHCO’s nine-month pre-tax profit rises 18.39% to N21.24 billion",
+    "url": "https://nairametrics.com/2026/10/31/nahcos-nine-month-pre-tax-profit-rises-18-39-to-n21-24-billion/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-10-31T08:51:43.000Z",
+    "excerpt": "Nigerian Aviation Handling Company Plc (NAHCO) has released its unaudited financial results for the nine months ended September 30, 2026, reporting a pre-tax profit of N21.24 billion, representing an 18.39% increase from N17.94 billion in the corresponding period of 2025. The post NAHCO’s nine-month…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "c504779093",
+    "title": "A Spark Of Color In November’s Gray (2026 Wallpapers Edition)",
+    "url": "https://smashingmagazine.com/2026/10/desktop-wallpaper-calendars-november-2026/",
+    "source": "Smashing Magazine",
+    "kind": "news",
+    "date": "2026-10-31T08:00:00.000Z",
+    "excerpt": "Let’s kick of November with a new collection of desktop wallpapers! Designed by creatives from across the globe, the wallpapers come in a variety of screen resolutions and can be downloaded for free. Enjoy!",
+    "tag": "Design & Social",
+    "cta": {
+      "label": "Design assets",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "095879cfe9",
+    "title": "OPay withdraws planned $304M US IPO after foreign inquiry",
+    "url": "https://thecondia.com/opay-withdraws-304m-us-ipo-unnamed-foreign-inquiry/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-31T07:45:30.000Z",
+    "excerpt": "OPay Limited has withdrawn its planned New York Stock Exchange listing, citing an inquiry in a foreign jurisdiction it has not named. Reuters reported that the company had priced 16 million shares at $19 each, valuing it at about $4 billion.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "a59a514691",
+    "title": "Dropbox: Backend Product Software Engineer",
+    "url": "https://weworkremotely.com/remote-jobs/dropbox-backend-product-software-engineer-1",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:12.000Z",
+    "excerpt": "Headquarters: Remote - Mexico Role Description As a Product Engineer at Dropbox, you will play a pivotal role in shaping the future of collaboration and file sharing. Your responsibilities will revolve around developing and enhancing our suite of Dropbox Products to deliver exceptional user…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "07ca8812c9",
+    "title": "Bybit: Client Service Analyst - P2P",
+    "url": "https://weworkremotely.com/remote-jobs/bybit-client-service-analyst-p2p",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:02.000Z",
+    "excerpt": "Headquarters: APAC - Remote About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f327341b1d",
+    "title": "Rubrik Job Board: Account Executive, NAS Product Specialist",
+    "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-account-executive-nas-product-specialist",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:02.000Z",
+    "excerpt": "Headquarters: Remote Central US About the Team & Role Rubrik's Product Line Sales organization drives focused growth across Rubrik's specialized workloads, including our Unstructured data protection and security portfolio. This team partners closely with core Account Executives, Sales Engineers, and…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "eba8b14fd3",
+    "title": "Dropbox: Backend Product Software Engineer",
+    "url": "https://weworkremotely.com/remote-jobs/dropbox-backend-product-software-engineer",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:02.000Z",
+    "excerpt": "Headquarters: Remote - Mexico Role Description As a Product Engineer at Dropbox, you will play a pivotal role in shaping the future of collaboration and file sharing. Your responsibilities will revolve around developing and enhancing our suite of Dropbox Products to deliver exceptional user…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ffc988915f",
+    "title": "Coinbase: Capacity Planning Lead",
+    "url": "https://weworkremotely.com/remote-jobs/coinbase-capacity-planning-lead",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:02.000Z",
+    "excerpt": "Headquarters: Remote - USA Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "55bfc2e055",
+    "title": "Ritual: Distributed Systems Engineer",
+    "url": "https://weworkremotely.com/remote-jobs/ritual-distributed-systems-engineer",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:02.000Z",
+    "excerpt": "Headquarters: Remote About Ritual Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. The Ritual chain is the first blockchain custom-built to support AI-native operations, designed from the ground up to enable a new class of applications at the…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "1d9f9fd503",
+    "title": "Bybit: Client Service Analyst - Livechat (Turkish required)",
+    "url": "https://weworkremotely.com/remote-jobs/bybit-client-service-analyst-livechat-turkish-required",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:02.000Z",
+    "excerpt": "Headquarters: Europe - Remote; Istanbul, Turkey About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "de1d6327e0",
+    "title": "Coinbase: Broker Dealer Operations, Senior Associate",
+    "url": "https://weworkremotely.com/remote-jobs/coinbase-broker-dealer-operations-senior-associate",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:02.000Z",
+    "excerpt": "Headquarters: Remote - USA Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b8a1a8b4fb",
+    "title": "GitLab: Backend Engineer, Knowledge Graph",
+    "url": "https://weworkremotely.com/remote-jobs/gitlab-backend-engineer-knowledge-graph",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:02.000Z",
+    "excerpt": "Headquarters: Remote, Canada; Remote, United States GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "7d9d268a17",
+    "title": "GitLab: Associate Renewals Manager, SMB",
+    "url": "https://weworkremotely.com/remote-jobs/gitlab-associate-renewals-manager-smb",
+    "source": "We Work Remotely",
+    "kind": "jobs",
+    "date": "2026-10-31T07:31:02.000Z",
+    "excerpt": "Headquarters: Remote, Canada; Remote, United States GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than…",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "7f24265d36",
+    "title": "OPay suspends trading on the New York Stock Exchange over regulatory review",
+    "url": "https://technext24.com/news/opay-suspends-trading-nyse-regulatory-review/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-10-31T06:51:27.000Z",
+    "excerpt": "OPay has announced it will not begin trading on the New York Stock Exchange as previously scheduled because of…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "6336aff37e",
+    "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+    "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-31T01:20:05.000Z",
+    "excerpt": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "d32a73c825",
+    "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+    "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-30T23:21:23.000Z",
+    "excerpt": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "43523836c6",
+    "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+    "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-30T22:56:13.000Z",
+    "excerpt": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "011fdc062b",
+    "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+    "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-10-30T22:32:53.000Z",
+    "excerpt": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for…",
+    "tag": "Web",
+    "cta": {
+      "label": "Website templates",
+      "href": "/store/"
+    },
+    "take": ""
+  },
+  {
+    "id": "6198118eee",
+    "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+    "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-30T21:54:34.000Z",
+    "excerpt": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "632ce12363",
+    "title": "Applebee’s exposed customers’ personal data after leaving database password in app",
+    "url": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-30T21:48:53.000Z",
+    "excerpt": "EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data.",
+    "tag": "Security",
+    "cta": {
+      "label": "Talk to us",
+      "href": "/contact/"
+    },
+    "take": ""
+  },
+  {
+    "id": "0806533d8a",
+    "title": "Last-minute Halloween costumes for tech nerds",
+    "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-30T21:26:59.000Z",
+    "excerpt": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "f1f6194d20",
+    "title": "Cracks are emerging in the AI spending boom",
+    "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-10-30T21:17:40.000Z",
+    "excerpt": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ba19040d93",
+    "title": "Iyinoluwa Aboyeji-backed Talent Nation Bags Pre-Seed Funding To Raise 1M African AI Engineers",
+    "url": "https://weetracker.com/2026/10/30/talent-nation-raises-pre-seed-funding-aboyeji/",
+    "source": "WeeTracker",
+    "kind": "startups",
+    "date": "2026-10-30T14:52:28.000Z",
+    "excerpt": "Talent Nation, a Nigerian AI engineering talent platform co-founded by serial entrepreneur Iyinoluwa The post Iyinoluwa Aboyeji-backed Talent Nation Bags Pre-Seed Funding To Raise 1M African AI Engineers appeared first on WeeTracker .",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "137e035e0a",
+    "title": "FirstBank partners electronics retailer Pointek to push its BNPL product",
+    "url": "https://thecondia.com/firstbank-pointek-firstease-bnpl-phones-laptops/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-10-30T14:00:16.000Z",
+    "excerpt": "FirstBank has partnered with Pointek to offer phones, laptops and appliances on its FirstEase BNPL product. Repayment runs up to six months at 3% interest.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "53371778c9",
+    "title": "Global Burden of Disease (GBD) Fellowship 2027",
+    "url": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-30T13:30:21.000Z",
+    "excerpt": "Deadline: December 21, 2026 Applications are open for the Global Burden of Disease (GBD) Fellowship 2027. The GBD Fellowship is an early-career, cohort-based postdoctoral training program at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington in Seattle. It is…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "716f5f3753",
+    "title": "Morgan Stanley Sustainable Finance Fellowship Program 2027 (Paid)",
+    "url": "https://opportunitydesk.org/2026/10/30/morgan-stanley-sustainable-finance-fellowship-program-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-10-30T12:50:05.000Z",
+    "excerpt": "Deadline: November 13, 2026 Applications are invited for the Morgan Stanley Sustainable Finance Fellowship Program 2027. The Sustainable Finance Summer Fellowship provides a unique opportunity to work with Morgan Stanley teams that seek to drive capital toward investments that promote sustainable…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
     "id": "ba541d2be0",
     "title": "DAW launches continental ecosystem to scale African women entrepreneurs across borders",
     "url": "https://businessday.ng/briefs/article/1212812/",
@@ -2471,598 +2996,6 @@
     "cta": {
       "label": "Get a business website",
       "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "d61434cc6a",
-    "title": "FMDQ turnover hits N551.23 trillion in nine months as FX, OMO lead",
-    "url": "https://nairametrics.com/2026/10/24/fmdq-turnover-hits-n551-23-trillion-in-nine-months-as-fx-omo-lead/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-24T19:19:09.000Z",
-    "excerpt": "Trading turnover on the FMDQ Exchange reached N551.23 trillion in the first nine months of 2026, equivalent to $403.08 billion, with foreign exchange and Open Market Operations (OMO) bills accounting for nearly two-thirds of market activity. The post FMDQ turnover hits N551.23 trillion in nine…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b0af889ad0",
-    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-    "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-24T19:00:00.000Z",
-    "excerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "52cf9a73ed",
-    "title": "Big Tech and authoritarian states: Belarus",
-    "url": "https://globalvoices.org/2026/10/24/big-tech-and-authoritarian-states-belarus/",
-    "source": "Global Voices",
-    "kind": "news",
-    "date": "2026-10-24T18:11:42.000Z",
-    "excerpt": "In the latest GV podcast, we discussed why Russia restricts access to many social media services, while Belarus does not impose comparable restrictions; censorship, surveillance, and digital authoritarianism — Belarusian style.",
-    "tag": "Design & Social",
-    "cta": {
-      "label": "Design assets",
-      "href": "/store/"
-    },
-    "take": "",
-    "body": [
-      "A Global Voices video podcast on the state of digital repression in Belarus",
-      "Originally published on Global Voices",
-      "Interviewer: Daria Dergacheva | Guest: Mikhail Doroshevich.",
-      "This post is part of Global Voices’ October 2026 Spotlight series, “ Big Tech and Authoritarianism .” In this Spotlight, we explore how Big Tech facilitates and hinders authoritarian governments and practices, and how these choices influence the Global South. You can support this coverage by donating here .",
-      "There are more autocracies in the world in 2026 than there are democracies. Some researchers identify digital authoritarianism as the use of digital technology by regimes to surveil, repress, and manipulate domestic and foreign populations. Others argue that the same practices are also carried out by hybrid and democratic regimes. However, they can not execute them without major tech companies becoming complicit , with or without their knowledge.",
-      "Typically, when speaking about digital authoritarianism, academics and media talk about China and Russia (and occasionally Iran and Syria). However, countries such as Belarus (or Eritrea, Nicaragua, Afghanistan, Myanmar) that consistently rank as more authoritarian than China are rarely discussed.",
-      "Global Voices invited an expert on Belarusian internet, digital rights and media, Mikhail Doroshevich , on the GV video podcast “Big Tech and Authoritarian States.” We discussed why Belarusian dictator Alexander Lukashenka’s regime is not blocking Western social media platforms, how the internet and self-censorship are weaponized, and how platforms help the regime to spread its propaganda.",
-      "You can view and listen to the podcast in Russian on our YouTube Channel and read the translated transcript below:",
-      "Daria Dergacheva (DD): Hello, dear viewers. My name is Daria Dergacheva, and welcome to another Global Voices video podcast. Today we are discussing Big Tech and authoritarian states. Our guest is Mikhail Doroshevich, who works on digital issues in Belarus. We will speak in Russian, but an English translation and subtitles will be available. Please leave your questions in the comments and like the video.",
-      "Mikhail, welcome. Please tell us a little about yourself. This is the second Global Voices video podcast I have hosted, and today we want to focus on Belarus.",
-      "Mikhail Doroshevich (MD): I can describe myself very briefly, in one sentence: I am a researcher who has been studying the Belarusian internet for more than 30 years. A well-known political scientist once introduced me in a publication as a “veteran of the Belarusian internet.” Since then, I have jokingly used that description myself. But let us talk about something more interesting.",
-      "DD: Being a veteran of the Belarusian internet is interesting in itself! I would also like to talk about its history and what is happening now. I recently saw an article from Carnegie suggesting that the internet in Belarus remains considerably more open than in Russia. I find this paradox fascinating. How does the Belarusian regime deal with Western, Chinese, and Russian platforms?",
-      "MD: That is quite a complicated technical question. In infrastructural terms, the Belarusian internet has always been more restricted than the Russian internet. By infrastructure, I mean connectivity and connections to the global internet. Since the 1990s, Russian internet providers and mobile telecommunications companies have had their own international connections. Belarus, by contrast, has always had a vulnerable infrastructure.",
-      "International connections were controlled by state-owned companies, including the national operator. Private providers and mobile operators never had their own independent international connections. Yet today Russia restricts access to many social media services, from LinkedIn onwards, while Belarus does not impose comparable restrictions on those platforms. So Belarus historically had greater technical constraints, and shutdowns regularly accompanied political campaigns. Blocking websites and resources designated as extremist or terrorist is still widespread and ongoing. But Belarus has not followed the path Russia has taken in recent years. Their technological approaches have diverged.",
-      "DD: Do you think the platforms comply with [blocking or takedown] requests from the Belarusian state? Why is this happening?",
-      "MD: We would have to look at the platforms’ annual transparency reports. Of course the state sends requests. As far as I recall, both Meta and Google have reported receiving requests from Belarus. Whether and how they respond is another matter. That is a question for the platforms themselves. Belarus also faces restrictions imposed by technology companies. For example, some artificial intelligence services are unavailable to Belarusian users.",
-      "MD: That is OpenAI. Yes, OpenAI’s services are unavailable.",
-      "DD: In April, YouTube removed Belarusian television channels that had previously been available. Has anything changed since then, or do they remain removed? And why did the government apparently not react?",
-      "MD: The government did react. Additional channels were affected in September, with one taken down literally during a live broadcast. It is important to understand that YouTube does not simply switch a channel off without a process. It has a three-strikes system, and these channels had received strikes. They knew about them, not least because they were creating alternative channels. They tried to move their content and audiences to alternatives both in April and in September. The September ban suggests that the enforcement was connected to ownership rather than only to content. Our hypothesis about the April removals was that they were content-related: The television channels’ YouTube accounts probably violated several platform rules. Strikes can be contested after a period of time, but that involves a legal or formal procedure.",
-      "DD: So the government has not restricted YouTube in retaliation for the removal of state-media channels?",
-      "MD: No. Many other state-owned Belarusian media outlets continue to operate on YouTube and upload hundreds of videos each month. Some of the channels that were removed are trying to move their content to Rutube [a Russian video platform]. Belarus also has a domestic video platform, but neither comes close to YouTube in technical capabilities, functionality, or usage.",
-      "DD: Why do you think Lukashenko’s government has not entered into the same direct confrontation with platforms as Putin’s government? Why does it not block Western platforms? And Russian platforms such as VKontakte still work, correct?",
-      "MD: Of course they do. The authorities themselves use these platforms. That brings us back to the previous question: Why block the platforms on which they operate?",
-      "DD: Have Google or Meta services blocked state-supported media or other accounts associated with the Belarusian authorities?",
-      "MD: There have been removals following user complaints, affecting both state and independent media, but only for short periods.",
-      "DD: So there have been no major conflicts with Western, Russian, or Chinese platforms?",
-      "MD: I doubt that Chinese domestic platforms are widely used in Belarus, apart from among Chinese citizens living there. TikTok is a different case: it is not available inside China itself.",
-      "DD: Are people in Belarus punished for posts, likes, and similar activity?",
-      "MD: Yes, and it is terrible. Large numbers of people are continually subjected to repression for likes or comments . They receive actual prison sentences and fines. Unfortunately, the practice continues.",
-      "DD: Which social networks provide the information used in these cases? Are people punished for activity on Instagram, Facebook, or YouTube?",
-      "DD: Where do the authorities get information about users?",
-      "MD: They use, for example, Russian tools for social profiling.",
-      "DD: So you believe this is external monitoring?",
-      "MD: I do not think the platforms are doing the monitoring. The authorities monitor users themselves, identify them, and punish them. People are also punished for subscriptions to channels discovered during searches of their devices.",
-      "DD: For example, subscribing to NEXTA [a progressive, exiled Russian-language media site] could lead to punishment?",
-      "DD: What sort of sentences do people receive?",
-      "MD: They can be enormous and appalling. Even a minimum sentence would be a deeply troubling precedent in itself.",
-      "DD: So people practice self-censorship: they avoid liking, reposting, or writing things?",
-      "MD: Of course. It is a matter of personal safety and, unfortunately, part of everyday life in Belarus. But it is important to understand that avoiding these activities does not necessarily make people safer. Nor does it improve national security. What increases is repression. The costs of these measures are unjustifiable: they do not make life in Belarus safer or more peaceful.",
-      "If there were some sort of social contract in which restrictions led to fewer crimes or greater security, that would at least be an argument. But that is not what happens. People face severe financial penalties and restrictions for likes and reposts. You know how these platforms work: someone can accidentally like something while scrolling. People of all ages are affected, from young people to the elderly. Older users may be especially vulnerable to accidental interactions. And if we look at online fraud and other cybercrime, even official statistics show that these problems are not decreasing.",
-      "Restricting access to information resources does not reduce cybercrime. Preventive measures, media literacy, and education would do much more to protect people from criminals. Those would be more important and meaningful goals.",
-      "DD: As far as I know, Russia actively uses social media platforms, including Western ones, to spread disinformation or propaganda, whichever term you prefer. Does Belarus do the same?",
-      "MD: If Belarusian state actors are active on these platforms, then, as you can imagine, they do.",
-      "DD: Do you mean through official accounts, or also through trolls?",
-      "MD: There is an important distinction here. State news agencies and state-owned media generally observe certain boundaries in their written website publications, even when they present events in a particular way. You do not usually see direct hate speech or doxxing in those articles.",
-      "Unfortunately, television material is different. The proportion of such content is much higher in videos than in official written publications. So the same outlet might have a relatively restrained website, with its own preferred formulations, while its YouTube channel contains doxxing, hate speech, and other unacceptable material.",
-      "Then there is a third layer: individual, highly toxic channels, which are not meaningfully restricted and can behave much more aggressively.",
-      "DD: Do you mean individual propagandists, like those in Russia? Are they mostly funded by the state?",
-      "MD: They presumably receive their salaries from their state-owned employers. Whether they make these videos during working hours is something we do not know. But they certainly do not hold back in their language.",
-      "DD: What technologies are used to monitor people, including facial recognition and internet surveillance? Are they Western, Chinese, Russian, or domestically developed?",
-      "MD: I cannot tell you the exact manufacturers or versions of the software being used. More technically informed specialists would need to answer that. But we regularly see cases in which software developed in democratic countries, not only authoritarian ones, ends up being used in such systems. Unfortunately, when funding is available, companies enter tenders, and the products that meet the purchaser’s requirements are selected and deployed.",
-      "DD: Could this be investigated through publicly available procurement information?",
-      "MD: I do not follow Belarusian procurement tenders for facial recognition or monitoring systems. That is a separate specialization. There is also a conceptual problem: If a system uses TCP/IP, does that make it Western, Chinese, or Russian technology? TCP/IP itself was not developed in Russia or China.",
-      "DD: I know, for example, that many cameras in Moscow are Chinese, and Huawei servers are widely used in some parts of the infrastructure.",
-      "MD: That distinction is tricky. Look at where your phone was manufactured. Even if its brand is not associated with China, the device may have been made there.",
-      "DD: Of course. In the European Union, there are restrictions on using equipment from certain Chinese companies. I do not know the precise situation in the United States or Canada.",
-      "MD: Yes, Belarusian mobile operators use such equipment, and that is a significant issue. There is a similar problem with access to AI models. When Belarusians cannot use certain services, they may turn to Chinese or Russian models, which are censored and limited in various ways. One positive exception is Google’s Gemini, which is available in Belarus.",
-      "DD: What about Llama ? It is open source.",
-      "MD: Yes, but there are questions about its capabilities. We return again to education and skills. People need to know how to use and maintain these models. Open source does not mean free to operate. Running and maintaining a model can be more expensive than simply using a proprietary service.",
-      "DD: Remind me why OpenAI and Anthropic do not operate in Belarus. Is it a matter of company policy?"
-    ],
-    "author": "Daria Dergacheva",
-    "license": {
-      "name": "CC BY 3.0",
-      "url": "https://creativecommons.org/licenses/by/3.0/"
-    }
-  },
-  {
-    "id": "7498f57778",
-    "title": "IDM-Africa Fellowship Programme 2027",
-    "url": "https://opportunitydesk.org/2026/10/24/idm-africa-fellowship-programme-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-24T16:15:44.000Z",
-    "excerpt": "Deadline: October 30, 2026 Applications are open for the IDM-Africa Fellowship Programme 2027. IDM-Africa invites applications from early- and mid-career scientists in sub-Saharan Africa (SSA) for its annual Fellowship Programme in infectious-disease modelling. The Fellowship supports scientists…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "e5f52c2c08",
-    "title": "Anthropic STEM Fellowship 2027 (up to $167,000)",
-    "url": "https://opportunitydesk.org/2026/10/24/anthropic-stem-fellowship-2027/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-10-24T16:03:54.000Z",
-    "excerpt": "Deadline: October 28, 2026 Applications are open for the Anthropic STEM Fellowship 2027. The Anthropic STEM Fellows Program brings researchers and experts from across science and engineering into Anthropic for four months to take on the grand challenges of their fields with Claude. Working in small…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "772b89f0c9",
-    "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
-    "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-24T15:30:00.000Z",
-    "excerpt": "Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last major software scare.",
-    "tag": "Web",
-    "cta": {
-      "label": "Website templates",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "110fd09f65",
-    "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-24T15:00:00.000Z",
-    "excerpt": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f683a118b8",
-    "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
-    "url": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-24T14:15:00.000Z",
-    "excerpt": "The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display.",
-    "tag": "Design & Social",
-    "cta": {
-      "label": "Design assets",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "0d4ae8a7dd",
-    "title": "Here are the top AI agents that can live in your text messages",
-    "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-24T14:00:00.000Z",
-    "excerpt": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "fccc36c874",
-    "title": "It’s time to find a new browser",
-    "url": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-24T12:00:00.000Z",
-    "excerpt": "Hi, friends! Welcome to Installer No. 149, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, happy It Actually Feels Like Fall Now At Least In My Neighborhood), and also you can read all the old editions at the Installer homepage.) This week, I've been reading…",
-    "tag": "Web",
-    "cta": {
-      "label": "Website templates",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "fe821b35d9",
-    "title": "Nigerian Bonny Light hits $115 a barrel as Strait of Hormuz attacks surge",
-    "url": "https://nairametrics.com/2026/10/24/nigerian-bonny-light-hits-115-a-barrel-as-strait-of-hormuz-attacks-surge/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-24T10:08:59.000Z",
-    "excerpt": "Nigerian Bonny Light last traded at N115 a barrel while West Texas Intermediate settled at $103 a barrel on supply-side concerns. The post Nigerian Bonny Light hits $115 a barrel as Strait of Hormuz attacks surge appeared first on Nairametrics .",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "43ebdcd43f",
-    "title": "Netherlands to introduce new rules for employers sponsoring foreign workers from November 1",
-    "url": "https://nairametrics.com/2026/10/24/netherlands-to-introduce-new-rules-for-employers-sponsoring-foreign-workers-from-november-1/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-24T09:34:31.000Z",
-    "excerpt": "The Netherlands is set to introduce new immigration compliance rules for employers sponsoring foreign workers from November 1, 2026, allowing companies to correct certain administrative violations before facing financial penalties. The post Netherlands to introduce new rules for employers…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "907e8b7e7d",
-    "title": "Access Holdings has built scale; now comes the test of creating value",
-    "url": "https://nairametrics.com/2026/10/24/access-holdings-has-built-scale-now-comes-the-test-of-creating-value/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-24T09:27:59.000Z",
-    "excerpt": "After two decades of acquisition-led growth, one of Africa's most widely spread banking groups has made returns, not reach, its measure of success. The post Access Holdings has built scale; now comes the test of creating value appeared first on Nairametrics .",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "a9c250deda",
-    "title": "Sahara Group Foudation deepens sustainable waste management with new Go-Recycling Hub at Sam Ethnan Air Force Base",
-    "url": "https://nairametrics.com/2026/10/24/sahara-group-foudation-deepens-sustainable-waste-management-with-new-go-recycling-hub-at-sam-ethnan-air-force-base/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-24T09:21:53.000Z",
-    "excerpt": "Sahara Group Foundation, the social impact vehicle of Sahara Group, has commissioned its 23rd Sahara Go Recycling Hub at Sam Ethnan Air Force Base in Ikeja, Lagos, reinforcing its commitment to environmental sustainability, community empowerment and inclusive economic growth. The post Sahara Group…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "2074ebfbc8",
-    "title": "Best performing Nigerian stocks for the week ended October 23, 2026",
-    "url": "https://nairametrics.com/2026/10/24/best-performing-nigerian-stocks-for-the-week-ended-october-23-2026/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-24T08:54:38.000Z",
-    "excerpt": "Nigerian equities closed lower for a fourth straight week, with the benchmark NGX All-Share Index (ASI) declining 317.46 points, or 0.13%, to 247,222.27 from 247,539.73 points, as losses in insurance, oil and gas and banking stocks outweighed industrial goods. The post Best performing Nigerian…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "0edb098b82",
-    "title": "Nigeria’s Ebola case linked to virus found in Kenya’s index case, Pate says",
-    "url": "https://nairametrics.com/2026/10/24/nigerias-ebola-case-linked-to-virus-found-in-kenyas-index-case-pate-says/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-10-24T08:43:20.000Z",
-    "excerpt": "Genomic analysis of Nigeria’s imported Ebola virus disease (EVD) case has shown that the virus appears closely related to the one identified in Kenya’s index case, the Federal Government has said. The post Nigeria’s Ebola case linked to virus found in Kenya’s index case, Pate says appeared first on…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "bd26d09169",
-    "title": "NEPC pushes Ebonyi products for global markets, urges quality certification",
-    "url": "https://businessday.ng/news/article/nepc-pushes-ebonyi-products-for-global-markets-urges-quality-certification/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-10-24T08:12:45.000Z",
-    "excerpt": "From rice and cassava to palm oil, processed foods and solid minerals, Ebonyi State has a range of products with",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b8ef4c4d6d",
-    "title": "N1.6trn private investment follows N671bn public gas infrastructure funding",
-    "url": "https://businessday.ng/news/article/n1-6trn-private-investment-follows-n671bn-public-gas-infrastructure-funding/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-10-24T08:08:14.000Z",
-    "excerpt": "About N1.6 trillion in private investment has followed N671 billion in public funding for gas infrastructure in Nigeria, highlighting the",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "0e590a6b7b",
-    "title": "Carrot: Medical Expert, Fertility (Contractor)",
-    "url": "https://weworkremotely.com/remote-jobs/carrot-medical-expert-fertility-contractor",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:04.000Z",
-    "excerpt": "Headquarters: Remote About Carrot: Carrot is the leading global…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "8cd2a6c72c",
-    "title": "Cribl: Director, Product Management (Security)",
-    "url": "https://weworkremotely.com/remote-jobs/cribl-director-product-management-security",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:04.000Z",
-    "excerpt": "Headquarters: Remote - United States Join the company that’s building the telemetry infrastructure for the AI era. At Cribl, we partner with IT and Security teams at many of the world’s biggest enterprises, including half of the Fortune 100, to…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "084436cd48",
-    "title": "Anthropic: Community Engagement Manager, Data Centers (Indiana & Kentucky)",
-    "url": "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centers-indiana-kentucky",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:04.000Z",
-    "excerpt": "Headquarters: Remote-Friendly, United States About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f6717e7e7e",
-    "title": "Jumio: Customer Success Manager, EMEA",
-    "url": "https://weworkremotely.com/remote-jobs/jumio-customer-success-manager-emea",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:04.000Z",
-    "excerpt": "Headquarters: Austria (remote); UK (remote) Role Purpose: The Senior Customer Success Manager will own a portfolio of enterprise and mid-market accounts across EMEA. This is not a relationship management role — it is a value…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "3c4502ce12",
-    "title": "Gusto, Inc.: Senior Product Design Manager, Payroll",
-    "url": "https://weworkremotely.com/remote-jobs/gusto-inc-senior-product-design-manager-payroll",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:04.000Z",
-    "excerpt": "Headquarters: Denver, CO - Hybrid; New York, NY - Hybrid; San Francisco, CA - Hybrid; Toronto, Ontario - Remote About Gusto At Gusto, we're on a mission to grow the small business economy. We handle…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "5e6e51f9ca",
-    "title": "StockX: Category Manager - Trading Cards",
-    "url": "https://weworkremotely.com/remote-jobs/stockx-category-manager-trading-cards",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:04.000Z",
-    "excerpt": "Headquarters: Remote, USA Help empower our global customers to connect to culture through their passions. Why you’ll love this role: StockX is the world’s leading marketplace for current…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "a2f542327c",
-    "title": "Anthropic: Anthropic STEM Fellow",
-    "url": "https://weworkremotely.com/remote-jobs/anthropic-anthropic-stem-fellow",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:03.000Z",
-    "excerpt": "Headquarters: Remote-Friendly, United States; San Francisco, CA About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "941e85aecf",
-    "title": "Carrot: Lead Product Management",
-    "url": "https://weworkremotely.com/remote-jobs/carrot-lead-product-management",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:03.000Z",
-    "excerpt": "Headquarters: Remote About Carrot: Carrot is the leading global…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "9470416c51",
-    "title": "BeyondTrust: Federal Account Manager, Combatant Commands",
-    "url": "https://weworkremotely.com/remote-jobs/beyondtrust-federal-account-manager-combatant-commands",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:03.000Z",
-    "excerpt": "Headquarters: Remote United States BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and continual learning means you…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "bde81299b7",
-    "title": "StockX: Category Manager - Sneakers",
-    "url": "https://weworkremotely.com/remote-jobs/stockx-category-manager-sneakers",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-10-24T07:31:03.000Z",
-    "excerpt": "Headquarters: Remote, USA Help empower our global customers to connect to culture through their passions. Why you’ll love this role: StockX is the world’s leading marketplace for current…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "b15a6fb967",
-    "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-    "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-23T23:05:49.000Z",
-    "excerpt": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f9113fa394",
-    "title": "OpenAI now trains its frontier AI models with no internet access",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-23T21:11:07.000Z",
-    "excerpt": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting…",
-    "tag": "Web",
-    "cta": {
-      "label": "Website templates",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "1c79499c7e",
-    "title": "Google and Elba Hope Foundation Launch $1 Million AI Initiative for African Creators",
-    "url": "https://www.techinafrica.com/google-and-elba-hope-foundation-launch-1-million-ai-initiative-for-african-creators/",
-    "source": "Tech in Africa",
-    "kind": "news",
-    "date": "2026-10-23T20:20:55.000Z",
-    "excerpt": "Google and the Elba Hope Foundation, established by British actor Idris Elba, have partnered on a $1 million initiative aimed at expanding access to artificial intelligence tools for creative professionals across Africa. The programme is designed to support approximately 100,000 creators in…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "7e37b601af",
-    "title": "Cassava Technologies Expands AI Infrastructure with NVIDIA Nemotron Models",
-    "url": "https://www.techinafrica.com/cassava-technologies-expands-ai-infrastructure-with-nvidia-nemotron-models/",
-    "source": "Tech in Africa",
-    "kind": "news",
-    "date": "2026-10-23T20:12:47.000Z",
-    "excerpt": "African technology company Cassava Technologies has expanded its artificial intelligence infrastructure by incorporating NVIDIA’s Nemotron AI models into its AI Factory, a move intended to increase access to advanced AI capabilities for businesses and developers across the continent. The…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f490e9c8ed",
-    "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-10-23T19:32:39.000Z",
-    "excerpt": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "0931d3afc7",
-    "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-    "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-10-23T19:06:23.000Z",
-    "excerpt": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "c3aa2fd898",
-    "title": "Bringing post-quantum cryptography to geographically fenced key management",
-    "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-    "source": "Cloudflare Blog",
-    "kind": "news",
-    "date": "2026-10-23T18:06:56.000Z",
-    "excerpt": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
-    "tag": "Design & Social",
-    "cta": {
-      "label": "Design assets",
-      "href": "/store/"
     },
     "take": ""
   }

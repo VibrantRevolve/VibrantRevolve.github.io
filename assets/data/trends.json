@@ -1,128 +1,128 @@
 {
- "updated": "2026-10-30T12:08:43.362Z",
+ "updated": "2026-10-31T11:38:58.765Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 30.38,
-   "headline": "Strategic Account Manager, Firefox Enterprise",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/157955-strategic-account-manager-firefox-enterprise"
+   "score": 30.87,
+   "headline": "Dropbox: Backend Product Software Engineer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/dropbox-backend-product-software-engineer-1"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 23.99,
-   "headline": "DAW launches continental ecosystem to scale African women entrepreneurs across borders",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/briefs/article/1212812/"
-  },
-  {
-   "topic": "Manager",
-   "hashtag": "#Manager",
-   "score": 17.07,
-   "headline": "Strategic Account Manager, Firefox Enterprise",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/157955-strategic-account-manager-firefox-enterprise"
-  },
-  {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 16.53,
-   "headline": "MTN CEO Ralph Mupita says device affordability challenges will not deter company’s investment drive",
-   "source": "Technext",
-   "url": "https://technext24.com/news/device-affordability-not-deter-investment-mtn/"
+   "score": 24.22,
+   "headline": "Why OPay IPO sale was halted after debut on NYSE",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/31/why-opay-ipo-sale-was-halted-after-debut-on-nyse/"
   },
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 13.15,
-   "headline": "Staff Solutions Engineer",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/157949-staff-solutions-engineer"
+   "score": 18.52,
+   "headline": "Dropbox: Backend Product Software Engineer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/dropbox-backend-product-software-engineer-1"
   },
   {
-   "topic": "Million",
-   "hashtag": "#Million",
-   "score": 11.82,
-   "headline": "Dangote’s fuel exports overtake domestic supply, hit 54.63 million litres daily",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/30/dangotes-fuel-exports-overtake-domestic-supply-hit-54-63-million-litres-daily/"
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 15.43,
+   "headline": "How Vectar Energy moved from selling solar generators to building carbon-market infrastructure",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/31/vectar-energy-day-1-1000/"
+  },
+  {
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 12.74,
+   "headline": "GitLab: Associate Renewals Manager, SMB",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/gitlab-associate-renewals-manager-smb"
   },
   {
    "topic": "Product",
    "hashtag": "#Product",
-   "score": 11.37,
-   "headline": "Staff Product Manager, Enterprise Deployment Solutions | UK | Remote",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/157954-staff-product-manager-enterprise-deployment-solutions-uk-remote"
-  },
-  {
-   "topic": "Staff",
-   "hashtag": "#Staff",
-   "score": 10.64,
-   "headline": "Staff Product Manager, Enterprise Deployment Solutions | UK | Remote",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/157954-staff-product-manager-enterprise-deployment-solutions-uk-remote"
-  },
-  {
-   "topic": "Remote",
-   "hashtag": "#Remote",
-   "score": 9.48,
-   "headline": "Staff Product Manager, Enterprise Deployment Solutions | UK | Remote",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/157954-staff-product-manager-enterprise-deployment-solutions-uk-remote"
+   "score": 12.32,
+   "headline": "Dropbox: Backend Product Software Engineer",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/dropbox-backend-product-software-engineer-1"
   },
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 9.41,
-   "headline": "Green Global Fellowship 2027 for Emerging Leaders",
+   "score": 10.42,
+   "headline": "Global Burden of Disease (GBD) Fellowship 2027",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/"
+   "url": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/"
+  },
+  {
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 9.96,
+   "headline": "EXCLUSIVE: Dangote Refinery IPO records 1.55 million online subscribers, total retail count could reach five million",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/31/exclusive-dangote-refinery-ipo-records-1-55-million-online-subscribers-total-retail-count-could-reach-five-million/"
+  },
+  {
+   "topic": "Opay",
+   "hashtag": "#Opay",
+   "score": 9.11,
+   "headline": "Why OPay IPO sale was halted after debut on NYSE",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/31/why-opay-ipo-sale-was-halted-after-debut-on-nyse/"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 7.98,
-   "headline": "Exclusive: CredPal launches Atom, an investment platform, as it expands beyond buy now, pay later",
+   "score": 8.9,
+   "headline": "OPay withdraws planned $304M US IPO after foreign inquiry",
    "source": "Benjamin Dada",
-   "url": "https://thecondia.com/credpal-launches-atom-expands-into-investment/"
+   "url": "https://thecondia.com/opay-withdraws-304m-us-ipo-unnamed-foreign-inquiry/"
   },
   {
-   "topic": "Enterprise",
-   "hashtag": "#Enterprise",
-   "score": 7.63,
-   "headline": "Strategic Account Manager, Firefox Enterprise",
+   "topic": "Staff",
+   "hashtag": "#Staff",
+   "score": 8.8,
+   "headline": "Staff Product Manager, Enterprise Deployment Solutions | UK | Remote",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/157955-strategic-account-manager-firefox-enterprise"
+   "url": "https://jobicy.com/jobs/157954-staff-product-manager-enterprise-deployment-solutions-uk-remote"
   },
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 7.62,
-   "headline": "Maine’s data center revolt will decide who controls the Senate",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers"
+   "score": 8.64,
+   "headline": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
   },
   {
-   "topic": "Billion",
-   "hashtag": "#Billion",
-   "score": 7.17,
-   "headline": "Presco Plc Delivers 8.5% Profit Growth to ₦151.5 Billion Despite Global Geopolitical Tensions and Domestic Edible Oil Business Pressures",
+   "topic": "Profit",
+   "hashtag": "#Profit",
+   "score": 7.91,
+   "headline": "UAC’s 9M pre-tax profit jumps 262.5% to N37.69bn as revenue triples",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/30/presco-plc-delivers-8-5-profit-growth-to-%e2%82%a6151-5-billion-despite-global-geopolitical-tensions-and-domestic-edible-oil-business-pressures/"
+   "url": "https://nairametrics.com/2026/10/31/uacs-9m-pre-tax-profit-jumps-262-5-to-n37-69bn-as-revenue-triples/"
+  },
+  {
+   "topic": "Remote",
+   "hashtag": "#Remote",
+   "score": 7.79,
+   "headline": "Staff Product Manager, Enterprise Deployment Solutions | UK | Remote",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/157954-staff-product-manager-enterprise-deployment-solutions-uk-remote"
   }
  ],
  "tags": [
-  "Business",
-  "AI & Automation",
   "Tech News",
-  "Web",
-  "Jobs",
+  "Security",
+  "Business",
+  "Design & Social",
   "Naija Startups",
-  "Grants & Funding",
-  "Security"
+  "Jobs",
+  "AI & Automation",
+  "Web"
  ]
 }
