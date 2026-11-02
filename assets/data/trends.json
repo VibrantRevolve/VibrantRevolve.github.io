@@ -1,51 +1,59 @@
 {
- "updated": "2026-11-01T17:38:22.189Z",
+ "updated": "2026-11-02T14:41:41.520Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 27.23,
-   "headline": "Senior Professional Services Engineer",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/158368-senior-professional-services-engineer"
+   "score": 30.53,
+   "headline": "Resolv.Global: Seasonal Customer Care Representative",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/resolv-global-seasonal-customer-care-representative"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 23.88,
-   "headline": "Linkage Assurance grows assets to over N100bn as nine-month profit climbs 31%",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/insurance/article/linkage-assurance-grows-assets-to-over-n100bn-as-nine-month-profit-climbs-31/"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 17.09,
-   "headline": "Senior Professional Services Engineer",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/158368-senior-professional-services-engineer"
-  },
-  {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 15.12,
-   "headline": "Build for Nigeria’s worst day, says OPay COO Dotun Adekunle",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/01/build-for-nigerias-worst-day-says-opay-coo-dotun-adekunle/"
-  },
-  {
-   "topic": "Product",
-   "hashtag": "#Product",
-   "score": 11.93,
-   "headline": "Senior Product Manager, Billing Engine & Platforms Monetization",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/158365-senior-product-manager-billing-engine-platforms-monetization"
+   "score": 24.84,
+   "headline": "CBN pumps N3.20 trillion into banking system as debt repayments outpace auctions",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/02/cbn-pumps-n3-20-trillion-into-banking-system-as-debt-repayments-outpace-auctions/"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 11.31,
+   "score": 16.87,
+   "headline": "Smartsheet: Senior Channel Account Manager",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/smartsheet-senior-channel-account-manager"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 15.69,
+   "headline": "Smartsheet: Principal Software Engineer (Remote Eligible in Bulgaria)",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/smartsheet-principal-software-engineer-remote-eligible-in-bulgaria"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 13.26,
+   "headline": "Swoop launches Legends to help Lagos food vendors with insights, visibility and freebies",
+   "source": "Technext",
+   "url": "https://technext24.com/news/swoop-launches-legends-help-lagos-food-vendors/"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 10.8,
+   "headline": "OpenAI is finally merging ChatGPT’s chat and Work tabs",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
+  },
+  {
+   "topic": "Product",
+   "hashtag": "#Product",
+   "score": 9.13,
    "headline": "Senior Product Manager, Billing Engine & Platforms Monetization",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/158365-senior-product-manager-billing-engine-platforms-monetization"
@@ -53,76 +61,68 @@
   {
    "topic": "Binance",
    "hashtag": "#Binance",
-   "score": 11.03,
+   "score": 8.99,
    "headline": "Binance resumes withdrawals starting with Bitcoin",
    "source": "Technext",
    "url": "https://technext24.com/news/binance-resumes-withdrawals-with-bitcoin/"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 9.81,
-   "headline": "Data centers are now a midterm issue, even in Brooklyn",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/"
+   "topic": "Billion",
+   "hashtag": "#Billion",
+   "score": 8.14,
+   "headline": "UK Development Finance Institution BII earmarks $3 billion for Africa’s frontier markets",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/02/uk-development-finance-institution-bii-earmarks-3-billion-for-africas-frontier-markets/"
   },
   {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 8.64,
-   "headline": "Global Burden of Disease (GBD) Fellowship 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/"
+   "topic": "Profit",
+   "hashtag": "#Profit",
+   "score": 7.87,
+   "headline": "Foods power Unilever Nigeria’s profit growth as Personal Care sales slide",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/02/foods-power-unilever-nigerias-profit-growth-as-personal-care-sales-slide/"
+  },
+  {
+   "topic": "Mtn",
+   "hashtag": "#Mtn",
+   "score": 7.42,
+   "headline": "Airtel’s Vittal, MTN’s Mupita re-elected to GSMA leadership as board prioritises fight against scams",
+   "source": "Technext",
+   "url": "https://technext24.com/news/airtel-mtn-leaders-re-elected-to-gsma-board/"
   },
   {
    "topic": "Trainers Network",
    "hashtag": "#TrainersNetwork",
-   "score": 8.33,
+   "score": 7.09,
    "headline": "AI Trainers Network – Greek",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/158367-ai-trainers-network-greek"
   },
   {
-   "topic": "Million",
-   "hashtag": "#Million",
-   "score": 8.16,
-   "headline": "EXCLUSIVE: Dangote Refinery IPO records 1.55 million online subscribers, total retail count could reach five million",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/31/exclusive-dangote-refinery-ipo-records-1-55-million-online-subscribers-total-retail-count-could-reach-five-million/"
+   "topic": "Payments",
+   "hashtag": "#Payments",
+   "score": 7.01,
+   "headline": "Bamboo’s ₦99bn Dangote Refinery IPO subscriptions put fintech ahead of major banks",
+   "source": "Technext",
+   "url": "https://technext24.com/fintech/bamboo-99bn-dangote-ipo-fintech-tops-banks/"
   },
   {
-   "topic": "Opay",
-   "hashtag": "#Opay",
-   "score": 7.94,
-   "headline": "Build for Nigeria’s worst day, says OPay COO Dotun Adekunle",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/01/build-for-nigerias-worst-day-says-opay-coo-dotun-adekunle/"
-  },
-  {
-   "topic": "Profit",
-   "hashtag": "#Profit",
-   "score": 7.92,
-   "headline": "Linkage Assurance grows assets to over N100bn as nine-month profit climbs 31%",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/insurance/article/linkage-assurance-grows-assets-to-over-n100bn-as-nine-month-profit-climbs-31/"
-  },
-  {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 7.85,
-   "headline": "Is MTN Nigeria’s ₦95.5bn fintech sale really a win?",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/mtn-nigeria-momo-fintech-valuation-explained/"
+   "topic": "Data",
+   "hashtag": "#Data",
+   "score": 6.82,
+   "headline": "MTN Nigeria’s airtime and data lending revenue rebounds with 78.5% surge in Q3’26",
+   "source": "Technext",
+   "url": "https://technext24.com/news/mtn-nigerias-airtime-data-lending-78-5-surge/"
   }
  ],
  "tags": [
   "Tech News",
-  "Design & Social",
-  "Naija Startups",
-  "Business",
-  "Jobs",
-  "AI & Automation",
   "Payments",
-  "Security"
+  "Business",
+  "Design & Social",
+  "Grants & Funding",
+  "AI & Automation",
+  "Naija Startups",
+  "Jobs"
  ]
 }
