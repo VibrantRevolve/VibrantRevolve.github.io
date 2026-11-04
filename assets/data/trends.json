@@ -1,51 +1,67 @@
 {
- "updated": "2026-11-03T13:36:16.091Z",
+ "updated": "2026-11-04T13:44:13.460Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 27.87,
-   "headline": "Senior/Lead Lifecycle Marketing Manager (Full Remote – Greece)",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/158644-senior-lead-lifecycle-marketing-manager-full-remote-greece"
+   "score": 30.67,
+   "headline": "Zanda Health: Product Owner",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/zanda-health-product-owner-1"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 25.13,
-   "headline": "Conoil’s pre-tax profit rises 218.9% to N5.98 billion in nine months of 2026",
+   "score": 25.11,
+   "headline": "Stanbic IBTC: Buy, Sell or Hold?",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/03/conoils-pre-tax-profit-rises-218-9-to-n5-98-billion-in-nine-months-of-2026/"
+   "url": "https://nairametrics.com/2026/11/04/stanbic-ibtc-buy-sell-or-hold-2/"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 18.93,
-   "headline": "Senior/Lead Lifecycle Marketing Manager (Full Remote – Greece)",
+   "score": 17.38,
+   "headline": "Onboarding Project Manager",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/158644-senior-lead-lifecycle-marketing-manager-full-remote-greece"
+   "url": "https://jobicy.com/jobs/144915-onboarding-project-manager"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 16.08,
-   "headline": "South Africa’s AGOA troubles could reach beyond exporters to its startups",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/03/south-africa-agoa-fallout-us-startups/"
+   "score": 15.47,
+   "headline": "Is APC blocking TikTok in Northern Nigeria? Here is what we found about alleged opposition gagging",
+   "source": "Technext",
+   "url": "https://technext24.com/reviews/is-apc-banning-tiktok-northern-nigeria/"
   },
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 13.26,
-   "headline": "Sales Engineer, Italy",
+   "score": 11.07,
+   "headline": "Technical Support Engineer",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/158640-sales-engineer-italy-2"
+   "url": "https://jobicy.com/jobs/158090-technical-support-engineer-5"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 9.71,
+   "headline": "Google hasn’t figured out how to make AI pay like its search engine",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3"
+  },
+  {
+   "topic": "Fellowship",
+   "hashtag": "#Fellowship",
+   "score": 8.61,
+   "headline": "Institute for Policy Integrity Economic Fellowship 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-economic-fellowship-2027/"
   },
   {
    "topic": "Senior",
    "hashtag": "#Senior",
-   "score": 9.97,
+   "score": 8.27,
    "headline": "Senior/Lead Lifecycle Marketing Manager (Full Remote – Greece)",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/158644-senior-lead-lifecycle-marketing-manager-full-remote-greece"
@@ -53,76 +69,60 @@
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 9.12,
-   "headline": "Zepz appoints Steven Eisenhauer as chief risk and compliance officer",
+   "score": 7.8,
+   "headline": "Canva slashes 22% of jobs to restructure company",
    "source": "Benjamin Dada",
-   "url": "https://thecondia.com/steven-eisenhauer-zepz-chief-risk-compliance-officer/"
+   "url": "https://thecondia.com/canva-layoffs-22-percent-restructure/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 7.59,
+   "headline": "Institute for Policy Integrity Economic Fellowship 2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-economic-fellowship-2027/"
   },
   {
    "topic": "Opay",
    "hashtag": "#Opay",
-   "score": 8.63,
+   "score": 7.35,
    "headline": "IPO postponement will not affect business operations — OPay",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/03/ipo-postponement-will-not-affect-business-operations-opay/"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 8.57,
-   "headline": "OpenAI is finally merging ChatGPT’s chat and Work tabs",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
-  },
-  {
-   "topic": "Billion",
-   "hashtag": "#Billion",
-   "score": 8.51,
-   "headline": "Conoil’s pre-tax profit rises 218.9% to N5.98 billion in nine months of 2026",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/03/conoils-pre-tax-profit-rises-218-9-to-n5-98-billion-in-nine-months-of-2026/"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 8.09,
-   "headline": "Home-Grown Solutions Agribusiness Accelerator 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/03/home-grown-solutions-agribusiness-accelerator-2027/"
-  },
-  {
    "topic": "Payments",
    "hashtag": "#Payments",
-   "score": 7.55,
-   "headline": "Digital fraud surges to 88%: The hidden security crisis chilling cross-border finance",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/03/digital-fraud-cross-border-expansion-afis/"
-  },
-  {
-   "topic": "Lagos",
-   "hashtag": "#Lagos",
-   "score": 7.52,
-   "headline": "Lagos directs telecom operators to clean up poorly maintained infrastructure",
+   "score": 6.9,
+   "headline": "Fintech apps are bringing young Nigerians into investments, but Christopher Chijioke wants more than new investors",
    "source": "Technext",
-   "url": "https://technext24.com/news/lagos-telecom-operators-clean-up-cables/"
+   "url": "https://technext24.com/news/investment-apps-christopher-chijioke-want-more/"
   },
   {
-   "topic": "Profit",
-   "hashtag": "#Profit",
-   "score": 7.44,
-   "headline": "Conoil’s pre-tax profit rises 218.9% to N5.98 billion in nine months of 2026",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/03/conoils-pre-tax-profit-rises-218-9-to-n5-98-billion-in-nine-months-of-2026/"
+   "topic": "Nigerians",
+   "hashtag": "#Nigerians",
+   "score": 6.46,
+   "headline": "Fintech apps are bringing young Nigerians into investments, but Christopher Chijioke wants more than new investors",
+   "source": "Technext",
+   "url": "https://technext24.com/news/investment-apps-christopher-chijioke-want-more/"
+  },
+  {
+   "topic": "Here",
+   "hashtag": "#Here",
+   "score": 6.4,
+   "headline": "Is APC blocking TikTok in Northern Nigeria? Here is what we found about alleged opposition gagging",
+   "source": "Technext",
+   "url": "https://technext24.com/reviews/is-apc-banning-tiktok-northern-nigeria/"
   }
  ],
  "tags": [
-  "Payments",
-  "Naija Startups",
-  "Tech News",
   "Business",
-  "Design & Social",
+  "Tech News",
   "Grants & Funding",
   "Jobs",
-  "AI & Automation"
+  "AI & Automation",
+  "Payments",
+  "Naija Startups",
+  "Design & Social"
  ]
 }
