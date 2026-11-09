@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T15:04:25.131Z",
+ "updated": "2026-11-09T22:31:56.689Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 24.85,
+   "score": 23.64,
    "headline": "OnTheGoSystems: Content Marketing Lead",
    "source": "We Work Remotely",
    "url": "https://weworkremotely.com/remote-jobs/onthegosystems-content-marketing-lead"
@@ -13,7 +13,7 @@
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 22.27,
+   "score": 21.19,
    "headline": "UN warns 2027 could break global temperature record as El Niño intensifies",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/09/un-warns-2027-could-break-global-temperature-record-as-el-nino-intensifies/"
@@ -21,7 +21,7 @@
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 14.35,
+   "score": 13.6,
    "headline": "This tech firm built the geospatial infrastructure behind Nigeria’s door-level address system",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/11/09/milsats-role-in-digital-address-system/"
@@ -29,7 +29,7 @@
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 9.83,
+   "score": 9.39,
    "headline": "MTN, Airtel, Glo and T2 Mobile take House of Representatives to court over CEO summonses",
    "source": "Benjamin Dada",
    "url": "https://thecondia.com/telecom-operators-sue-house-of-representative/"
@@ -37,7 +37,7 @@
   {
    "topic": "Lagos",
    "hashtag": "#Lagos",
-   "score": 9.21,
+   "score": 8.82,
    "headline": "Afreximbank targets $1 billion investment deals at CANEX WKND 2026 in Lagos",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/07/afreximbank-targets-1-billion-investment-deals-at-canex-wknd-2026-in-lagos/"
@@ -45,7 +45,7 @@
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 8.71,
+   "score": 8.31,
    "headline": "Collections Manager",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/160024-collections-manager"
@@ -53,7 +53,7 @@
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 8.13,
+   "score": 7.81,
    "headline": "MCW Global Young Leaders Fellowship 2027 (Funded)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/"
@@ -61,7 +61,7 @@
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 8.11,
+   "score": 7.75,
    "headline": "State of Black Entrepreneurship Fellows Program 2027 (up to $10,000)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/11/09/state-of-black-entrepreneurship-fellows-program-2027/"
@@ -69,31 +69,31 @@
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 7.47,
+   "score": 7.12,
    "headline": "Jonathan Kanter is using AI to take on Big Tech",
    "source": "The Verge",
    "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech"
   },
   {
-   "topic": "Ceo",
-   "hashtag": "#Ceo",
-   "score": 7.17,
-   "headline": "MTN, Airtel, Glo and T2 Mobile take House of Representatives to court over CEO summonses",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/telecom-operators-sue-house-of-representative/"
-  },
-  {
    "topic": "Cbn",
    "hashtag": "#Cbn",
-   "score": 7.16,
+   "score": 6.86,
    "headline": "Bigger reserves, weaker naira, CBN research points to Nigeria’s deficit problem",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/07/bigger-reserves-weaker-naira-cbn-research-points-to-nigerias-deficit-problem/"
   },
   {
+   "topic": "Ceo",
+   "hashtag": "#Ceo",
+   "score": 6.78,
+   "headline": "MTN, Airtel, Glo and T2 Mobile take House of Representatives to court over CEO summonses",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/telecom-operators-sue-house-of-representative/"
+  },
+  {
    "topic": "Million",
    "hashtag": "#Million",
-   "score": 6.62,
+   "score": 6.29,
    "headline": "Yoco secures $100 million credit to fuel its merchant lending expansion",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/11/09/yoco-payments-data-merchant-lending/"
@@ -101,7 +101,7 @@
   {
    "topic": "November",
    "hashtag": "#November",
-   "score": 6.44,
+   "score": 6.15,
    "headline": "10 Grants and Funding Opportunities Currently Open – November 7, 2026",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/11/07/10-grants-and-funding-opportunities-currently-open-november-7-2026/"
@@ -109,7 +109,7 @@
   {
    "topic": "Airtel",
    "hashtag": "#Airtel",
-   "score": 6.31,
+   "score": 5.97,
    "headline": "MTN, Airtel, Glo and T2 Mobile take House of Representatives to court over CEO summonses",
    "source": "Benjamin Dada",
    "url": "https://thecondia.com/telecom-operators-sue-house-of-representative/"
