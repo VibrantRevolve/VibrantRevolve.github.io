@@ -1,128 +1,128 @@
 {
- "updated": "2026-11-07T15:30:33.307Z",
+ "updated": "2026-11-09T15:04:25.131Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 27.28,
-   "headline": "Software Alliance Ecosystem Manager",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/159483-software-alliance-ecosystem-manager"
+   "score": 24.85,
+   "headline": "OnTheGoSystems: Content Marketing Lead",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/onthegosystems-content-marketing-lead"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 22.71,
-   "headline": "Zenith Bank awards ₦190 million to African innovators at sixth tech fair",
+   "score": 22.27,
+   "headline": "UN warns 2027 could break global temperature record as El Niño intensifies",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/07/zenith-bank-awards-%e2%82%a6190-million-to-african-innovators-at-sixth-tech-fair/"
+   "url": "https://nairametrics.com/2026/11/09/un-warns-2027-could-break-global-temperature-record-as-el-nino-intensifies/"
   },
   {
-   "topic": "Manager",
-   "hashtag": "#Manager",
-   "score": 14.12,
-   "headline": "Software Alliance Ecosystem Manager",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/159483-software-alliance-ecosystem-manager"
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 14.35,
+   "headline": "This tech firm built the geospatial infrastructure behind Nigeria’s door-level address system",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/09/milsats-role-in-digital-address-system/"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 9.83,
+   "headline": "MTN, Airtel, Glo and T2 Mobile take House of Representatives to court over CEO summonses",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/telecom-operators-sue-house-of-representative/"
   },
   {
    "topic": "Lagos",
    "hashtag": "#Lagos",
-   "score": 14.02,
+   "score": 9.21,
    "headline": "Afreximbank targets $1 billion investment deals at CANEX WKND 2026 in Lagos",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/07/afreximbank-targets-1-billion-investment-deals-at-canex-wknd-2026-in-lagos/"
   },
   {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 13.95,
-   "headline": "Qatar’s $5.5 million startup fund could open doors for African founders",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/07/qatar-startup-fund-african-tech-founders/"
-  },
-  {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 11.89,
-   "headline": "Best loan apps in Nigeria (2026): legitimate, low-interest options compared",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/loan-apps-in-nigeria/"
-  },
-  {
-   "topic": "Senior",
-   "hashtag": "#Senior",
-   "score": 11.4,
-   "headline": "Senior Software Engineer – Python/Golang – Kubernetes",
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 8.71,
+   "headline": "Collections Manager",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/159482-senior-software-engineer-python-golang-kubernetes"
+   "url": "https://jobicy.com/jobs/160024-collections-manager"
+  },
+  {
+   "topic": "Fellowship",
+   "hashtag": "#Fellowship",
+   "score": 8.13,
+   "headline": "MCW Global Young Leaders Fellowship 2027 (Funded)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 8.11,
+   "headline": "State of Black Entrepreneurship Fellows Program 2027 (up to $10,000)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/09/state-of-black-entrepreneurship-fellows-program-2027/"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 7.47,
+   "headline": "Jonathan Kanter is using AI to take on Big Tech",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech"
+  },
+  {
+   "topic": "Ceo",
+   "hashtag": "#Ceo",
+   "score": 7.17,
+   "headline": "MTN, Airtel, Glo and T2 Mobile take House of Representatives to court over CEO summonses",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/telecom-operators-sue-house-of-representative/"
   },
   {
    "topic": "Cbn",
    "hashtag": "#Cbn",
-   "score": 11.14,
+   "score": 7.16,
    "headline": "Bigger reserves, weaker naira, CBN research points to Nigeria’s deficit problem",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/07/bigger-reserves-weaker-naira-cbn-research-points-to-nigerias-deficit-problem/"
   },
   {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 9.78,
-   "headline": "Spencer Fellowship for Education Reporting 2027 (Funded)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 9.45,
-   "headline": "Call for judges : Join the OD Impact Challenge 2026 global judging panel",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel/"
-  },
-  {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 8.42,
-   "headline": "OpenAI Raises $11 Billion At a $1.25 Trillion Valuation: Why It Missed the Original Target",
-   "source": "Ventureburn",
-   "url": "https://ventureburn.com/openai-raises-11-billion-1-25-trillion-valuation-below-target/"
-  },
-  {
-   "topic": "Google",
-   "hashtag": "#Google",
-   "score": 8.03,
-   "headline": "Crusoe sells troubled Wyoming data center project to Google",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
-  },
-  {
    "topic": "Million",
    "hashtag": "#Million",
-   "score": 7.3,
-   "headline": "Zenith Bank awards ₦190 million to African innovators at sixth tech fair",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/07/zenith-bank-awards-%e2%82%a6190-million-to-african-innovators-at-sixth-tech-fair/"
+   "score": 6.62,
+   "headline": "Yoco secures $100 million credit to fuel its merchant lending expansion",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/09/yoco-payments-data-merchant-lending/"
   },
   {
-   "topic": "Openai",
-   "hashtag": "#Openai",
-   "score": 6.9,
-   "headline": "OpenAI Raises $11 Billion At a $1.25 Trillion Valuation: Why It Missed the Original Target",
-   "source": "Ventureburn",
-   "url": "https://ventureburn.com/openai-raises-11-billion-1-25-trillion-valuation-below-target/"
+   "topic": "November",
+   "hashtag": "#November",
+   "score": 6.44,
+   "headline": "10 Grants and Funding Opportunities Currently Open – November 7, 2026",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/07/10-grants-and-funding-opportunities-currently-open-november-7-2026/"
+  },
+  {
+   "topic": "Airtel",
+   "hashtag": "#Airtel",
+   "score": 6.31,
+   "headline": "MTN, Airtel, Glo and T2 Mobile take House of Representatives to court over CEO summonses",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/telecom-operators-sue-house-of-representative/"
   }
  ],
  "tags": [
-  "Business",
-  "Naija Startups",
-  "Tech News",
   "Jobs",
-  "AI & Automation",
-  "Grants & Funding",
+  "Naija Startups",
+  "Business",
+  "Payments",
   "Design & Social",
-  "Web"
+  "AI & Automation",
+  "Tech News",
+  "Grants & Funding"
  ]
 }
