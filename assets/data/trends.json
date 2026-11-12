@@ -1,128 +1,128 @@
 {
- "updated": "2026-11-11T14:47:47.464Z",
+ "updated": "2026-11-12T14:34:27.545Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 28.14,
-   "headline": "Platform Engineer",
+   "score": 27.84,
+   "headline": "Senior DevOps Engineer / Cloud Infrastructure Engineer – Cybersecurity",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/161246-platform-engineer-3"
+   "url": "https://jobicy.com/jobs/161545-senior-devops-engineer-cloud-infrastructure-engineer-cybersecurity"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 22.45,
-   "headline": "Gul Khan takes helm as Alternative Bank MD",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/companies/article/gul-khan-takes-helm-as-alternative-bank-md/"
+   "score": 22.9,
+   "headline": "FG clears 21-Month pension backlog, funds workers’ benefits until December 2029",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/12/fg-clears-21-month-pension-backlog-funds-workers-benefits-until-december-2029/"
   },
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 16.3,
-   "headline": "Africa Dyslexia Teacher Fellowship Program 2027",
+   "score": 16.92,
+   "headline": "Gratitude Network Fellowship 2027",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/"
-  },
-  {
-   "topic": "Senior",
-   "hashtag": "#Senior",
-   "score": 15.89,
-   "headline": "Mid/Senior AI Cinematic Video Editor (Freelance – Full Remote – Finland)",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/161237-mid-senior-ai-cinematic-video-editor-freelance-full-remote-finland"
-  },
-  {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 14.58,
-   "headline": "Nigeria’s active mobile subscriptions hit 200 million after NIN-SIM purge",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/11/nigerias-mobile-subscriptions/"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 13.05,
-   "headline": "Platform Engineer",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/161246-platform-engineer-3"
+   "url": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 12.64,
-   "headline": "Manager, Commercial Insights and Strategy",
+   "score": 16.12,
+   "headline": "Growth Marketing Manager (Studio)",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/161241-manager-commercial-insights-and-strategy"
+   "url": "https://jobicy.com/jobs/161543-growth-marketing-manager-studio"
+  },
+  {
+   "topic": "Senior",
+   "hashtag": "#Senior",
+   "score": 14.72,
+   "headline": "Senior DevOps Engineer / Cloud Infrastructure Engineer – Cybersecurity",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/161545-senior-devops-engineer-cloud-infrastructure-engineer-cybersecurity"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 13.45,
+   "headline": "Senior DevOps Engineer / Cloud Infrastructure Engineer – Cybersecurity",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/161545-senior-devops-engineer-cloud-infrastructure-engineer-cybersecurity"
   },
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 11.63,
-   "headline": "Africa Dyslexia Teacher Fellowship Program 2027",
+   "score": 13.16,
+   "headline": "Walk of Water Photostory Contest 2026: Out of Sight ($9,000 prize pool)",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/"
+   "url": "https://opportunitydesk.org/2026/11/12/walk-of-water-photostory-contest-2026-out-of-sight/"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 12.83,
+   "headline": "How eHealth Africa is using tech to close Nigeria’s immunisation gaps",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/12/ehealth-africa-using-tech-to-close-gaps/"
   },
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 10.42,
-   "headline": "Nvidia’s $1 trillion wipeout: What CoinCodex’s forecast says about the AI chip giant’s next move",
-   "source": "Technext",
-   "url": "https://technext24.com/reviews/nvidias-1-trillion-wipeout-coincodex-forecast/"
-  },
-  {
-   "topic": "Million",
-   "hashtag": "#Million",
-   "score": 9.72,
-   "headline": "Nigeria’s active mobile subscriptions hit 200 million after NIN-SIM purge",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/11/nigerias-mobile-subscriptions/"
-  },
-  {
-   "topic": "Lagos",
-   "hashtag": "#Lagos",
-   "score": 8.99,
-   "headline": "Access Holdings and Coronation Host Tate International Council Members and Global Acquisitions Supporters in Lagos",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/11/access-holdings-and-coronation-host-tate-international-council-members-and-global-acquisitions-supporters-in-lagos/"
+   "score": 12.73,
+   "headline": "The unfolding Jensen Huang scandal: a timeline",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 8.94,
-   "headline": "African AI startups are starved of funding. Enza Capital is betting $60 million on them",
+   "score": 10.78,
+   "headline": "Mobile money in Nigeria: MTN MoMo vs Airtel SmartCash, who wins?",
    "source": "Benjamin Dada",
-   "url": "https://thecondia.com/enza-capital-african-ai-fund/"
+   "url": "https://thecondia.com/smartcash-vs-momo-2026/"
   },
   {
-   "topic": "Global",
-   "hashtag": "#Global",
-   "score": 8.11,
-   "headline": "Access Holdings and Coronation Host Tate International Council Members and Global Acquisitions Supporters in Lagos",
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 8.98,
+   "headline": "World Bank proposes $250 million financing for Kenya’s irrigation projects",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/11/access-holdings-and-coronation-host-tate-international-council-members-and-global-acquisitions-supporters-in-lagos/"
+   "url": "https://nairametrics.com/2026/11/12/world-bank-proposes-250-million-financing-for-kenyas-irrigation-projects/"
   },
   {
-   "topic": "Remote",
-   "hashtag": "#Remote",
-   "score": 7.65,
-   "headline": "Mid/Senior AI Cinematic Video Editor (Freelance – Full Remote – Finland)",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/161237-mid-senior-ai-cinematic-video-editor-freelance-full-remote-finland"
+   "topic": "Ring",
+   "hashtag": "#Ring",
+   "score": 8.26,
+   "headline": "Ring confirms its camera drone won’t have manual controls after crashing on CBS News",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/tech/1031817/ring-drone-cam-manual-flight-controls"
+  },
+  {
+   "topic": "Mobile",
+   "hashtag": "#Mobile",
+   "score": 8.22,
+   "headline": "Nigeria’s active mobile subscriptions cross 200 million in September, highest in 2 years",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/12/nigerias-active-mobile-subscriptions-cross-200-million-in-september-highest-in-2-years/"
+  },
+  {
+   "topic": "Google",
+   "hashtag": "#Google",
+   "score": 6.93,
+   "headline": "I tried Google’s AI glasses and Meta’s finally got real competition",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/tech/1031647/google-android-xr-warby-parker-gentle-monster-hands-on"
   }
  ],
  "tags": [
-  "Grants & Funding",
-  "Tech News",
-  "Business",
   "AI & Automation",
+  "Business",
+  "Security",
+  "Design & Social",
+  "Tech News",
   "Payments",
-  "Naija Startups",
-  "Jobs",
-  "Design & Social"
+  "Grants & Funding",
+  "Jobs"
  ]
 }
