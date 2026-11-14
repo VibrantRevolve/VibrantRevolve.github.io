@@ -13,9 +13,9 @@ window.VR_CONFIG = {
   // Optional: URL of your Cloudflare Worker for the "Write with AI" buttons in Studio Tools (see workers/studio-ai/README.md). "" = buttons hidden.
   studioAiUrl: "https://vr-studio-ai.vr-studio.workers.dev/",
   // Optional: Cloudflare Turnstile SITE key (public) to protect the contact form from bots. "" = no check. Secret key goes in the Worker.
-  turnstileSiteKey: "",
+  turnstileSiteKey: "0x4AAAAAAGAtwqWXL_0BO0sJ",
   // Optional: Cloudflare Web Analytics token (dash.cloudflare.com > Analytics & Logs > Web Analytics). "" = no analytics.
-  cfAnalyticsToken: "",
+  cfAnalyticsToken: "60bb64f9f52f4f11851f1e198efd8521",
   // Optional: EmailJS (emailjs.com) so the contact form and payment confirmations send email. All three are public IDs. "" = falls back to opening the visitor's mail app.
   emailjsPublicKey: "CnB0xCvycunmgJ5OH",
   emailjsServiceId: "service_4vc302d",
