@@ -1,128 +1,128 @@
 {
- "updated": "2026-11-14T06:43:02.264Z",
+ "updated": "2026-11-14T12:56:02.833Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 25.03,
-   "headline": "OneStream Developer – Technical Lead (Philippines)",
+   "score": 28.58,
+   "headline": "Platform Engineer – FedD180/FedD181",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/161799-onestream-developer-technical-lead-philippines"
+   "url": "https://jobicy.com/jobs/162137-platform-engineer-fedd180-fedd181"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 21.37,
-   "headline": "Best performing money market funds in Nigeria as of October 2026",
+   "score": 23.15,
+   "headline": "Kenya mandates licences for crypto firms, tightens industry oversight",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/13/best-performing-money-market-funds-in-nigeria-as-of-october-2026/"
+   "url": "https://nairametrics.com/2026/11/14/kenya-mandates-licences-for-crypto-firms-tightens-industry-oversight/"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 16.49,
+   "headline": "Platform Engineer – FedD180/FedD181",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/162137-platform-engineer-fedd180-fedd181"
+  },
+  {
+   "topic": "Senior",
+   "hashtag": "#Senior",
+   "score": 13.76,
+   "headline": "Senior Software Engineer, Frontend | Product Engineering",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/162134-senior-software-engineer-frontend-product-engineering"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 12.54,
+   "headline": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 14.75,
-   "headline": "Q-CTRL Raises $290M to Scale AI-Powered Quantum Technology",
-   "source": "Ventureburn",
-   "url": "https://ventureburn.com/q-ctrl-raises-290m-quantum-technology-expansion/"
+   "score": 12.34,
+   "headline": "Chowdeck completes record 100,000 deliveries in a day during Black Friday surge",
+   "source": "Technext",
+   "url": "https://technext24.com/news/chowdeck-completes-deliveries-black-friday/"
   },
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 13.12,
+   "score": 11.9,
    "headline": "DSTI-NRF Policy Fellowship Programme 2027 (Funded)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/"
   },
   {
+   "topic": "Nvidia",
+   "hashtag": "#Nvidia",
+   "score": 11.9,
+   "headline": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+  },
+  {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 12.77,
+   "score": 11.81,
    "headline": "Territory Manager (Manawatu-Whanganui)",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/161796-territory-manager-manawatu-whanganui"
   },
   {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 11.24,
-   "headline": "Staff Security Engineer (Product & Cloud)",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/161789-staff-security-engineer-product-cloud"
-  },
-  {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 10.93,
-   "headline": "CDI Community-Based Entrepreneurship Through Acquisition (CETA) Accelerator 2027",
+   "score": 10.61,
+   "headline": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000)",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/13/ceta-accelerator-2027/"
-  },
-  {
-   "topic": "Senior",
-   "hashtag": "#Senior",
-   "score": 10.3,
-   "headline": "Netsuite Support & Optimization (PPS) Senior Consultant",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/161797-netsuite-support-optimization-pps-senior-consultant"
-  },
-  {
-   "topic": "Nvidia",
-   "hashtag": "#Nvidia",
-   "score": 9.99,
-   "headline": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/"
+   "url": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 9.57,
-   "headline": "Nvidia without Jensen Huang: What his exit means for Nigerian investors",
+   "score": 10.22,
+   "headline": "Black Friday 2026 shopping guide: Sales dates, where to shop and what to know",
    "source": "Benjamin Dada",
-   "url": "https://thecondia.com/jensen-huang-nvidia-resignation-nigerian-investors/"
+   "url": "https://thecondia.com/black-friday-2026/"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 9.17,
-   "headline": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/"
+   "topic": "Product",
+   "hashtag": "#Product",
+   "score": 9.78,
+   "headline": "Senior Software Engineer, Frontend | Product Engineering",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/162134-senior-software-engineer-frontend-product-engineering"
   },
   {
-   "topic": "Funded",
-   "hashtag": "#Funded",
-   "score": 7.91,
-   "headline": "UCLA Library Special Collections (LSC) Research Fellowships 2027 (Funded)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/12/ucla-library-special-collections-research-fellowships-2027/"
+   "topic": "Kenya",
+   "hashtag": "#Kenya",
+   "score": 9.18,
+   "headline": "Kenya mandates licences for crypto firms, tightens industry oversight",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/14/kenya-mandates-licences-for-crypto-firms-tightens-industry-oversight/"
   },
   {
    "topic": "Million",
    "hashtag": "#Million",
-   "score": 7.36,
-   "headline": "NCC turns to spectrum incentives as Nigeria’s data usage hits 1.73 million TB",
+   "score": 9.16,
+   "headline": "DBN launches $275 million climate finance programme for Nigerian MSMEs",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/13/ncc-turns-to-spectrum-incentives-as-nigerias-data-usage-hits-1-73-million-tb/"
-  },
-  {
-   "topic": "Infrastructure",
-   "hashtag": "#Infrastructure",
-   "score": 6.9,
-   "headline": "Mount Thor Raises $45M to Expand Apple Silicon AI Cloud Infrastructure",
-   "source": "Ventureburn",
-   "url": "https://ventureburn.com/mount-thor-raises-45-million-apple-silicon-ai-cloud/"
+   "url": "https://nairametrics.com/2026/11/14/dbn-launches-275-million-climate-finance-programme-for-nigerian-msmes/"
   }
  ],
  "tags": [
-  "Design & Social",
+  "Security",
   "Business",
-  "Tech News",
-  "AI & Automation",
-  "Grants & Funding",
+  "Payments",
   "Jobs",
-  "Naija Startups",
-  "Security"
+  "AI & Automation",
+  "Tech News",
+  "Web",
+  "Grants & Funding"
  ]
 }
