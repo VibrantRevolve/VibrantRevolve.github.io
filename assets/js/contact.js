@@ -81,7 +81,7 @@ const ContactManager = {
       submitBtn.textContent = 'Sending...';
     }
 
-    // Send via the Cloudflare Worker when connected, otherwise EmailJS or the mail app
+    // Send via EmailJS (to the address set in your EmailJS template), otherwise the mail app
     sendContact(form)
       .then(() => {
         if (modal) modal.style.display = 'flex';
@@ -89,7 +89,7 @@ const ContactManager = {
       })
       .catch((error) => {
         console.error('Contact error:', error);
-        alert((error && error.message && /human|check your details/.test(error.message)) ? error.message : 'Oops! Something went wrong. Please try again or email me directly at vr@vibrantrevolve.com');
+        alert('Oops! That did not send' + (error && error.text ? ' (' + String(error.text).slice(0, 90) + ')' : '') + '. Please try again or email me directly at vr@vibrantrevolve.com');
       })
       .finally(() => {
         if (submitBtn) {
@@ -102,20 +102,6 @@ const ContactManager = {
 
 const EMAILJS_SERVICE = (window.VR_CONFIG || {}).emailjsServiceId || '', EMAILJS_TEMPLATE = (window.VR_CONFIG || {}).emailjsTemplateId || '';
 async function sendContact(form) {
-  const url = (window.VR_CONFIG || {}).studioAiUrl;
-  if (url) {
-    try {
-      const f = new FormData(form);
-      const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(20000),
-        body: JSON.stringify({ task: 'contact', name: f.get('from_name'), email: f.get('from_email'), message: f.get('message'), website: f.get('website'), token: f.get('cf-turnstile-response') || '' }) });
-      const j = await r.json().catch(() => ({}));
-      // Only trust the Worker when it says it actually EMAILED us. Stored-only (or an older Worker) falls through to EmailJS below.
-      if (r.ok && j.ok && j.data && j.data.emailed === true) { try { window.turnstile && window.turnstile.reset(); } catch (e) {} return; }
-      if (j.error === 'captcha') throw new Error('Please tick the "I am human" box and send again.');
-      if (j.error !== 'unconfigured' && r.status < 500 && r.status !== 0) throw new Error('Please check your details and try again.');
-    } catch (err) { if (err && /human|check your details/.test(err.message)) throw err; }
-    // Worker not ready or unreachable: fall through to the older routes below
-  }
   if (!EMAILJS_SERVICE || !EMAILJS_TEMPLATE || !((window.VR_CONFIG || {}).emailjsPublicKey) || !window.emailjs) {
     const body = [...new FormData(form).entries()].filter(([k]) => k !== 'website' && k !== 'cf-turnstile-response').map(([k, v]) => k + ': ' + v).join('\n');
     window.location.href = 'mailto:vr@vibrantrevolve.com?subject=' + encodeURIComponent('Website enquiry') + '&body=' + encodeURIComponent(body);

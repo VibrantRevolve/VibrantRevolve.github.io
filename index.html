@@ -1000,7 +1000,9 @@ body.menu-open .vr-tabbar, body.menu-open .vt-tray, body.menu-open .vra-launch {
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
 function vrCfg() { return window.VR_CONFIG || {}; }
-function vrSend(params) {
+// Delivery: EmailJS (to the address set in your EmailJS template). Falls back to the visitor's email app if EmailJS is not configured.
+function vrSend(params) { params.user_email = params.user_email || params.to_email; return vrSendEmailJS(params); }
+function vrSendEmailJS(params) {
   var c = vrCfg();
   params.user_email = params.user_email || params.to_email; // some EmailJS templates address the mail with {{user_email}}
   if (!c.emailjsServiceId || !c.emailjsTemplateId || !c.emailjsPublicKey || !window.emailjs) {
@@ -1162,7 +1164,8 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       function(error) {
         console.error('Contact form: EmailJS send failed', error);
-        status.textContent = "Oops! That did not send. Please email vr@vibrantrevolve.com or WhatsApp +234 901 273 9299.";
+        var why = error && (error.text || error.message) ? ' (' + String(error.text || error.message).slice(0, 90) + ')' : '';
+        status.textContent = "Oops! That did not send" + why + ". Please email vr@vibrantrevolve.com or WhatsApp +234 901 273 9299.";
         status.style.color = '#ef4444';
         status.style.display = 'block';
         submitBtn.textContent = originalBtnText;

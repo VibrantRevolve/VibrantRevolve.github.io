@@ -127,3 +127,7 @@ If the domain is not proxied through Cloudflare, put it behind Cloudflare (free 
 7. If you enabled domain restrictions in EmailJS Security, allow `vibrantrevolve.com` and `www.vibrantrevolve.com`.
 8. After this update, a failed send shows a red message and logs the real reason in the browser console (F12 > Console).
 9. If you redeploy `workers/studio-ai/worker.js`, the Worker now reports honestly whether it emailed you. Until then the site always falls back to EmailJS.
+
+## Contact email
+
+All forms (homepage, /contact/, tool leads) deliver through **EmailJS**, to the address set in your EmailJS template ("To Email"). The Cloudflare Worker is not used for contact mail. Leave `turnstileSiteKey` empty: Turnstile is only checked by the Worker, so it would do nothing on these forms. The honeypot in `form-guard.js` is the bot filter.
