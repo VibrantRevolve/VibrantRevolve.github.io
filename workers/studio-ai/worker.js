@@ -293,7 +293,7 @@ export default {
       const saved = await store(env, 'lead:' + Date.now() + ':' + Math.random().toString(36).slice(2, 7), rec);
       const sent = await mail(env, subject + ' from ' + name, `<p><b>${esc(name)}</b> &lt;${esc(email)}&gt; ${esc(phone)}</p><p>${esc(message).replace(/\n/g, '<br>')}</p>`, email);
       if (!saved && !sent) return json({ ok: false, error: 'unconfigured' }, 503, cors);
-      return json({ ok: true, data: { sent: true } }, 200, cors);
+      return json({ ok: true, data: { sent: !!sent, emailed: !!sent, stored: !!saved } }, 200, cors);
     }
 
     if (task === 'verify-payment') {

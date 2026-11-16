@@ -1,7 +1,8 @@
-# Security and cache headers. Used automatically by Cloudflare Pages and Netlify.
-# GitHub Pages ignores this file; see SETUP.md for the Cloudflare rule that does the same job.
+# Used automatically by Cloudflare Pages and Netlify. GitHub Pages ignores this file;
+# SETUP.md shows the same headers as a Cloudflare Transform Rule.
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: camera=(), geolocation=(), payment=(self)
+  Permissions-Policy: camera=(), geolocation=(), payment=(self), microphone=(self)
+  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://cdn.emailjs.com https://static.cloudflareinsights.com https://challenges.cloudflare.com https://js.paystack.co https://checkout.flutterwave.com https://www.paypal.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: blob: https:; media-src 'self' blob: data: https:; connect-src 'self' https://vr-studio-ai.vr-studio.workers.dev https://api.emailjs.com https://cloudflareinsights.com https://api.paystack.co https://api.flutterwave.com https://www.paypal.com; frame-src https://challenges.cloudflare.com https://js.paystack.co https://checkout.paystack.com https://checkout.flutterwave.com https://www.paypal.com https://calendar.google.com https://calendly.com; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://wa.me

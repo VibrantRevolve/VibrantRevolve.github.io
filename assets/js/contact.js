@@ -13,7 +13,7 @@ const ContactManager = {
     // EmailJS init (key should come from env, this is placeholder)
     if (window.emailjs) {
       // In production, load from secure endpoint or env
-      emailjs.init((window.VR_CONFIG || {}).emailjsPublicKey || '');
+      emailjs.init({ publicKey: (window.VR_CONFIG || {}).emailjsPublicKey || '' });
     }
 
     this.guard(form);
@@ -109,7 +109,8 @@ async function sendContact(form) {
       const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(20000),
         body: JSON.stringify({ task: 'contact', name: f.get('from_name'), email: f.get('from_email'), message: f.get('message'), website: f.get('website'), token: f.get('cf-turnstile-response') || '' }) });
       const j = await r.json().catch(() => ({}));
-      if (r.ok && j.ok) { try { window.turnstile && window.turnstile.reset(); } catch (e) {} return; }
+      // Only trust the Worker when it says it actually EMAILED us. Stored-only (or an older Worker) falls through to EmailJS below.
+      if (r.ok && j.ok && j.data && j.data.emailed === true) { try { window.turnstile && window.turnstile.reset(); } catch (e) {} return; }
       if (j.error === 'captcha') throw new Error('Please tick the "I am human" box and send again.');
       if (j.error !== 'unconfigured' && r.status < 500 && r.status !== 0) throw new Error('Please check your details and try again.');
     } catch (err) { if (err && /human|check your details/.test(err.message)) throw err; }
@@ -120,7 +121,9 @@ async function sendContact(form) {
     window.location.href = 'mailto:vr@vibrantrevolve.com?subject=' + encodeURIComponent('Website enquiry') + '&body=' + encodeURIComponent(body);
     return;
   }
-  return emailjs.sendForm(EMAILJS_SERVICE, EMAILJS_TEMPLATE, form);
+  // Make sure the template can address the mail to you whichever field it uses.
+  ['to_email', 'user_email'].forEach((n) => { if (!form.querySelector('[name="' + n + '"]')) { const h = document.createElement('input'); h.type = 'hidden'; h.name = n; h.value = (window.VR_CONFIG || {}).supportEmail || 'vr@vibrantrevolve.com'; form.appendChild(h); } });
+  return emailjs.sendForm(EMAILJS_SERVICE, EMAILJS_TEMPLATE, form).catch((err) => { console.error('Contact form: EmailJS send failed', err); throw err; });
 }
 
 // ===== INIT =====

@@ -106,3 +106,24 @@ If vibrantrevolve.com is proxied through Cloudflare (orange cloud in DNS):
 2. **Speed > Optimization > Content Optimization**: make sure Brotli is on.
 
 If the domain is not proxied through Cloudflare, put it behind Cloudflare (free plan) or move hosting to Cloudflare Pages, which reads the `_headers` file in this repo.
+
+## Added in the November 2026 upgrade
+
+- **Analytics**: `assets/js/analytics.js` loads Cloudflare Web Analytics on every page once `cfAnalyticsToken` is set (cookieless, respects Do Not Track). Per-tool usage = page views of each `/tools/<name>/` page.
+- **Lead capture**: `assets/js/lead-capture.js` shows a once-per-session "Want this done for you?" card on all tool pages after real use. Leads arrive through the same EmailJS template as the contact form (subject/type starts with "Tool lead"). With no EmailJS keys it opens WhatsApp instead.
+- **Form protection**: `assets/js/form-guard.js` adds a honeypot and minimum-fill-time check to the homepage and `/contact/` forms. It is a light filter; add Turnstile for stronger protection.
+- **Content-Security-Policy**: `_headers` carries a *report-only* policy. Apply it as a Cloudflare Transform Rule (Modify Response Header, header name `Content-Security-Policy-Report-Only`) and browse the whole site with the browser console open. Fix any "Report Only" violations, then rename the header to `Content-Security-Policy` to enforce it. If you later add a service (new payment provider, video host), add its domain first.
+- **Privacy policy** now covers EmailJS, AI requests, tool follow-ups, analytics and the Nigeria Data Protection Act 2023. Have a Nigerian lawyer review it before relying on it.
+- **Unused images**: about 3.5 MB of files in `assets/images/img/` (e.g. `Data.png`, `book.png`) are not referenced by any page. They do not slow the site; delete them if you do not need them.
+
+## If contact messages do not arrive (EmailJS checklist)
+
+1. EmailJS dashboard > **Email History**: every attempt is listed with its error. Start here.
+2. **Email Services**: your Gmail/other service must show *Connected* (reconnect if it expired).
+3. **Email Templates** > your template > Settings: **To Email** must be an address you read, e.g. `vr@vibrantrevolve.com`, or `{{to_email}}`. **Reply To** = `{{from_email}}`.
+4. Template body should use `{{from_name}}`, `{{from_email}}`, `{{project_type}}` and `{{message}}`. The site sends all of these, plus `to_email` and `user_email`.
+5. One template currently serves the contact form, tool leads and payment confirmations. Payment confirmations send different variables (`service_name`, `amount`, ...), so consider a second template for them later.
+6. Free plan limit is about 200 emails a month; Email History shows if you hit it.
+7. If you enabled domain restrictions in EmailJS Security, allow `vibrantrevolve.com` and `www.vibrantrevolve.com`.
+8. After this update, a failed send shows a red message and logs the real reason in the browser console (F12 > Console).
+9. If you redeploy `workers/studio-ai/worker.js`, the Worker now reports honestly whether it emailed you. Until then the site always falls back to EmailJS.

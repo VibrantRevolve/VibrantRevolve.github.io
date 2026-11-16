@@ -527,6 +527,8 @@ body.menu-open .vr-tabbar, body.menu-open .vt-tray, body.menu-open .vra-launch {
   <script defer src="/assets/js/aurora.js"></script>
   <script defer src="/assets/js/assistant.js"></script>
   <script defer src="/assets/js/site-config.js"></script>
+  <script defer src="/assets/js/analytics.js"></script>
+  <script defer src="/assets/js/form-guard.js"></script>
 <!-- vr-favicons -->
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
@@ -715,7 +717,7 @@ body.menu-open .vr-tabbar, body.menu-open .vt-tray, body.menu-open .vra-launch {
   <div class="portfolio-grid">
     <a href="https://oscar-compliment-services.oscarcomplementservices.workers.dev/" target="_blank" rel="noopener" class="portfolio-card reveal" style="text-decoration:none;display:block;"><div class="portfolio-img" role="img" aria-label="Osca Complement Services website preview" style="background:url('https://oscar-compliment-services.oscarcomplementservices.workers.dev/images/og-share.jpg') top center/cover no-repeat,linear-gradient(135deg,#1c1a16,#141210)"></div><div class="portfolio-body"><span class="tag">Business Platform</span><h3>Osca Complement Services</h3><p>A multi-division website for a Nigerian distributor, engineer and developer: eight business units, product and price listings, quote requests and a staff login.</p></div></a>
     <a href="https://www.aithandistributors.com/" target="_blank" rel="noopener" class="portfolio-card reveal" style="text-decoration:none;display:block;"><div class="portfolio-img" role="img" aria-label="Aithan Distributors website preview" style="background:url('https://www.aithandistributors.com/og-image.png') top center/cover no-repeat,linear-gradient(135deg,#1c1a16,#141210)"></div><div class="portfolio-body"><span class="tag">Web Platform</span><h3>Aithan Distributors</h3><p>A distribution platform connecting verified partners with quality products, with a product catalog, distributor applications and partner login.</p></div></a>
-    <a href="https://martiedenterprises.github.io/martied-enterprise/" target="_blank" rel="noopener" class="portfolio-card reveal" style="text-decoration:none;display:block;"><div class="portfolio-img" role="img" aria-label="Martie-D Enterprises website preview" style="background:url('https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmartiedenterprises.github.io%2Fmartied-enterprise%2F?w=900&h=560') top center/cover no-repeat,linear-gradient(135deg,#1c1a16,#141210)"></div><div class="portfolio-body"><span class="tag">E-Commerce</span><h3>Martie-D Enterprises</h3><p>An online shop for kitchenware, household items, gadgets and gifts, with a cart, delivery details, WhatsApp and bank-transfer ordering, and a product admin.</p></div></a>
+    <a href="https://www.martiedenterprise.com/" target="_blank" rel="noopener" class="portfolio-card reveal" style="text-decoration:none;display:block;"><div class="portfolio-img" role="img" aria-label="Martie-D Enterprises website preview" style="background:url('https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.martiedenterprise.com%2F?w=900&h=560') top center/cover no-repeat,linear-gradient(135deg,#1c1a16,#141210)"></div><div class="portfolio-body"><span class="tag">E-Commerce</span><h3>Martie-D Enterprises</h3><p>An online shop for kitchenware, household items, gadgets and gifts, with a cart, delivery details, WhatsApp and bank-transfer ordering, and a product admin.</p></div></a>
     <a href="https://booknugget.github.io/BookNugget/" target="_blank" rel="noopener" class="portfolio-card reveal" style="text-decoration:none;display:block;"><div class="portfolio-img" role="img" aria-label="BookNugget website preview" style="background:url('https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbooknugget.github.io%2FBookNugget%2F?w=900&h=560') top center/cover no-repeat,linear-gradient(135deg,#1c1a16,#141210)"></div><div class="portfolio-body"><span class="tag">Website</span><h3>BookNugget</h3><p>A book discovery website covering education, tech, business, literature and more.</p></div></a>
     <a href="https://marvsfoods.org/" target="_blank" rel="noopener" class="portfolio-card reveal" style="text-decoration:none;display:block;"><div class="portfolio-img" role="img" aria-label="MarvsFoods website preview" style="background:url('https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmarvsfoods.org%2F?w=900&h=560') top center/cover no-repeat,linear-gradient(135deg,#1c1a16,#141210)"></div><div class="portfolio-body"><span class="tag">E-Commerce</span><h3>MarvsFoods</h3><p>An online store for quality food provisions, built to make ordering simple for customers.</p></div></a>
     <a href="https://itsmrbobby.github.io/Mourine-Momo-Lux-Gallery-/" target="_blank" rel="noopener" class="portfolio-card reveal" style="text-decoration:none;display:block;"><div class="portfolio-img" role="img" aria-label="Mourine Momo LUX Rug website preview" style="background:url('https://s.wordpress.com/mshots/v1/https%3A%2F%2Fitsmrbobby.github.io%2FMourine-Momo-Lux-Gallery-%2F?w=900&h=560') top center/cover no-repeat,linear-gradient(135deg,#1c1a16,#141210)"></div><div class="portfolio-body"><span class="tag">Business Website</span><h3>Mourine Momo LUX Rug</h3><p>A showroom website for a Lagos luxury rug and furniture brand: collections, services, gallery and consultation enquiries.</p></div></a>
@@ -1000,10 +1002,11 @@ body.menu-open .vr-tabbar, body.menu-open .vt-tray, body.menu-open .vra-launch {
 function vrCfg() { return window.VR_CONFIG || {}; }
 function vrSend(params) {
   var c = vrCfg();
+  params.user_email = params.user_email || params.to_email; // some EmailJS templates address the mail with {{user_email}}
   if (!c.emailjsServiceId || !c.emailjsTemplateId || !c.emailjsPublicKey || !window.emailjs) {
     var body = Object.keys(params).map(function(k) { return k + ': ' + params[k]; }).join('\n');
     window.location.href = 'mailto:vr@vibrantrevolve.com?subject=' + encodeURIComponent('Website enquiry') + '&body=' + encodeURIComponent(body);
-    return Promise.resolve();
+    return Promise.resolve('mailto');
   }
   return emailjs.send(c.emailjsServiceId, c.emailjsTemplateId, params, { publicKey: c.emailjsPublicKey });
 }
@@ -1147,8 +1150,10 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     vrSend(templateParams).then(
-      function() {
-        status.textContent = "Message sent successfully! I'll get back to you within 24 hours.";
+      function(res) {
+        status.textContent = (res === 'mailto')
+          ? "Your email app should open with your message. If it does not, email vr@vibrantrevolve.com or WhatsApp +234 901 273 9299."
+          : "Message sent successfully! I'll get back to you within 24 hours.";
         status.style.color = 'var(--gold-bright)';
         status.style.display = 'block';
         contactForm.reset();
@@ -1156,7 +1161,8 @@ document.addEventListener('DOMContentLoaded', function() {
         submitBtn.disabled = false;
       },
       function(error) {
-        status.textContent = "Oops! Something went wrong. Please email me directly at vr@vibrantrevolve.com";
+        console.error('Contact form: EmailJS send failed', error);
+        status.textContent = "Oops! That did not send. Please email vr@vibrantrevolve.com or WhatsApp +234 901 273 9299.";
         status.style.color = '#ef4444';
         status.style.display = 'block';
         submitBtn.textContent = originalBtnText;
