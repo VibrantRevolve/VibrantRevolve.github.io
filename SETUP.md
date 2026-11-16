@@ -131,3 +131,5 @@ If the domain is not proxied through Cloudflare, put it behind Cloudflare (free 
 ## Contact email
 
 All forms (homepage, /contact/, tool leads) deliver through **EmailJS**, to the address set in your EmailJS template ("To Email"). The Cloudflare Worker is not used for contact mail. Leave `turnstileSiteKey` empty: Turnstile is only checked by the Worker, so it would do nothing on these forms. The honeypot in `form-guard.js` is the bot filter.
+
+**How sending works now:** `assets/js/vr-mail.js` calls EmailJS' REST endpoint directly (no CDN library, no mail-app fallback). If a send fails, the visitor sees the reason in brackets and the browser console has the full error.

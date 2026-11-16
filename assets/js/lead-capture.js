@@ -57,10 +57,8 @@
       var btn = form.querySelector('.go'); btn.disabled = true; btn.textContent = 'Sending...';
       function done() { mark(); msg.textContent = 'Thanks. We will be in touch within 24 hours.'; setTimeout(function () { box.remove(); }, 3500); }
       function fail() { btn.disabled = false; btn.textContent = 'Send'; msg.innerHTML = 'Could not send. Please use <a href="https://wa.me/' + wa + '" target="_blank" rel="noopener">WhatsApp</a> instead.'; }
-      if (!cfg.emailjsServiceId || !cfg.emailjsTemplateId || !cfg.emailjsPublicKey) { window.open('https://wa.me/' + wa + '?text=' + encodeURIComponent('Hi, please contact me about ' + tool + '. ' + contact), '_blank', 'noopener'); return done(); }
-      function send() { window.emailjs.send(cfg.emailjsServiceId, cfg.emailjsTemplateId, params, { publicKey: cfg.emailjsPublicKey }).then(done, fail); }
-      if (window.emailjs && window.emailjs.send) return send();
-      var s = document.createElement('script'); s.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js'; s.onload = send; s.onerror = fail; document.head.appendChild(s);
+      if (!window.vrMail) return fail();
+      window.vrMail.send(params).then(done, function (err) { console.error('Lead form: EmailJS send failed', err); fail(); });
     });
   }
 

@@ -527,6 +527,7 @@ body.menu-open .vr-tabbar, body.menu-open .vt-tray, body.menu-open .vra-launch {
   <script defer src="/assets/js/aurora.js"></script>
   <script defer src="/assets/js/assistant.js"></script>
   <script defer src="/assets/js/site-config.js"></script>
+  <script defer src="/assets/js/vr-mail.js"></script>
   <script defer src="/assets/js/analytics.js"></script>
   <script defer src="/assets/js/form-guard.js"></script>
 <!-- vr-favicons -->
@@ -997,21 +998,11 @@ body.menu-open .vr-tabbar, body.menu-open .vt-tray, body.menu-open .vra-launch {
 <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">&#8593;</button>
 
 <!-- EmailJS SDK -->
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
 function vrCfg() { return window.VR_CONFIG || {}; }
 // Delivery: EmailJS (to the address set in your EmailJS template). Falls back to the visitor's email app if EmailJS is not configured.
 function vrSend(params) { params.user_email = params.user_email || params.to_email; return vrSendEmailJS(params); }
-function vrSendEmailJS(params) {
-  var c = vrCfg();
-  params.user_email = params.user_email || params.to_email; // some EmailJS templates address the mail with {{user_email}}
-  if (!c.emailjsServiceId || !c.emailjsTemplateId || !c.emailjsPublicKey || !window.emailjs) {
-    var body = Object.keys(params).map(function(k) { return k + ': ' + params[k]; }).join('\n');
-    window.location.href = 'mailto:vr@vibrantrevolve.com?subject=' + encodeURIComponent('Website enquiry') + '&body=' + encodeURIComponent(body);
-    return Promise.resolve('mailto');
-  }
-  return emailjs.send(c.emailjsServiceId, c.emailjsTemplateId, params, { publicKey: c.emailjsPublicKey });
-}
+function vrSendEmailJS(params) { return window.vrMail ? window.vrMail.send(params) : Promise.reject(new Error('Mail script not loaded')); }
 // Testimonials render only from assets/data/testimonials.json (real, named clients). Empty file = section stays hidden.
 fetch('/assets/data/testimonials.json').then(function(r){ return r.json(); }).then(function(d){
   var items = (d && d.items) || []; if (!items.length) return;
@@ -1153,9 +1144,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     vrSend(templateParams).then(
       function(res) {
-        status.textContent = (res === 'mailto')
-          ? "Your email app should open with your message. If it does not, email vr@vibrantrevolve.com or WhatsApp +234 901 273 9299."
-          : "Message sent successfully! I'll get back to you within 24 hours.";
+        status.textContent = "Message sent successfully! I'll get back to you within 24 hours.";
         status.style.color = 'var(--gold-bright)';
         status.style.display = 'block';
         contactForm.reset();

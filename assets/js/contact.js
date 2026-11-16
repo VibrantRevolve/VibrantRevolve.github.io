@@ -11,10 +11,6 @@ const ContactManager = {
     if (!form) return;
 
     // EmailJS init (key should come from env, this is placeholder)
-    if (window.emailjs) {
-      // In production, load from secure endpoint or env
-      emailjs.init({ publicKey: (window.VR_CONFIG || {}).emailjsPublicKey || '' });
-    }
 
     this.guard(form);
     form.addEventListener('submit', (e) => this.handleSubmit(e, form, modal));
@@ -102,14 +98,9 @@ const ContactManager = {
 
 const EMAILJS_SERVICE = (window.VR_CONFIG || {}).emailjsServiceId || '', EMAILJS_TEMPLATE = (window.VR_CONFIG || {}).emailjsTemplateId || '';
 async function sendContact(form) {
-  if (!EMAILJS_SERVICE || !EMAILJS_TEMPLATE || !((window.VR_CONFIG || {}).emailjsPublicKey) || !window.emailjs) {
-    const body = [...new FormData(form).entries()].filter(([k]) => k !== 'website' && k !== 'cf-turnstile-response').map(([k, v]) => k + ': ' + v).join('\n');
-    window.location.href = 'mailto:vr@vibrantrevolve.com?subject=' + encodeURIComponent('Website enquiry') + '&body=' + encodeURIComponent(body);
-    return;
-  }
-  // Make sure the template can address the mail to you whichever field it uses.
-  ['to_email', 'user_email'].forEach((n) => { if (!form.querySelector('[name="' + n + '"]')) { const h = document.createElement('input'); h.type = 'hidden'; h.name = n; h.value = (window.VR_CONFIG || {}).supportEmail || 'vr@vibrantrevolve.com'; form.appendChild(h); } });
-  return emailjs.sendForm(EMAILJS_SERVICE, EMAILJS_TEMPLATE, form).catch((err) => { console.error('Contact form: EmailJS send failed', err); throw err; });
+  const params = {};
+  new FormData(form).forEach((v, k) => { if (k !== 'company_website' && k !== 'website' && k !== 'cf-turnstile-response') params[k] = String(v); });
+  return window.vrMail.send(params).catch((err) => { console.error('Contact form: EmailJS send failed', err); throw err; });
 }
 
 // ===== INIT =====
