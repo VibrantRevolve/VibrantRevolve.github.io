@@ -1,128 +1,128 @@
 {
- "updated": "2026-11-16T19:16:19.869Z",
+ "updated": "2026-11-17T15:28:09.806Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 22.37,
-   "headline": "BBE Marketing Inc: Business Development Manager",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/bbe-marketing-inc-business-development-manager-2"
+   "score": 24.43,
+   "headline": "Partner Technical Manager",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/162792-partner-technical-manager"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 17.94,
-   "headline": "Lasaco Assurance gets one-year extension to meet NGX free float requirement",
+   "score": 19.9,
+   "headline": "Sahara Group builds 30,000-Tonne LPG terminal in Kenya, targets 10 million homes",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/16/lasaco-assurance-gets-one-year-extension-to-meet-ngx-free-float-requirement/"
+   "url": "https://nairametrics.com/2026/11/17/sahara-group-builds-30000-tonne-lpg-terminal-in-kenya-targets-10-million-homes/"
   },
   {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 12.93,
-   "headline": "Principal Software Engineer – Observability & Telemetry Data",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/162553-principal-software-engineer-observability-telemetry-data"
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 14.38,
+   "headline": "Sahara Group builds 30,000-Tonne LPG terminal in Kenya, targets 10 million homes",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/17/sahara-group-builds-30000-tonne-lpg-terminal-in-kenya-targets-10-million-homes/"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 12.6,
-   "headline": "African investors are building exits and finding money in new places",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/16/african-investors-are-building-exits/"
-  },
-  {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 12.37,
-   "headline": "Digispace Africa Research Fellowship 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/16/digispace-africa-research-fellowship-2027/"
-  },
-  {
-   "topic": "Senior",
-   "hashtag": "#Senior",
-   "score": 10.93,
-   "headline": "Senior Software Engineer, Services",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/162522-senior-software-engineer-services"
+   "score": 13.17,
+   "headline": "Kalvia opens applications for 200 Nigerians to learn technical skills, plans digital marketplace for graduates",
+   "source": "Technext",
+   "url": "https://technext24.com/news/kalvia-opens-applications-for-technical-skills/"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 10.66,
-   "headline": "Ghana goes live on Vatar as viral web game expands beyond Nigeria",
+   "score": 12.68,
+   "headline": "AfDB backs €40 million fund targeting Francophone Africa founders",
    "source": "Benjamin Dada",
-   "url": "https://thecondia.com/vatar-launches-ghana-lagos-life/"
+   "url": "https://thecondia.com/saviu-fund-40-million-francophone-africa/"
   },
   {
-   "topic": "Manager",
-   "hashtag": "#Manager",
-   "score": 10.48,
-   "headline": "BBE Marketing Inc: Business Development Manager",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/bbe-marketing-inc-business-development-manager-2"
-  },
-  {
-   "topic": "Nvidia",
-   "hashtag": "#Nvidia",
-   "score": 10.39,
-   "headline": "The Nvidia scandal isn’t slowing down",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 10.22,
-   "headline": "Digispace Africa Research Fellowship 2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/16/digispace-africa-research-fellowship-2027/"
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 12.22,
+   "headline": "Field Deployment Engineer, Northern Europe",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/162787-field-deployment-engineer-northern-europe"
   },
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 9.77,
-   "headline": "Audible is trying to make it easier to find audiobooks you’ll actually like",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability"
+   "score": 12.12,
+   "headline": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/"
+  },
+  {
+   "topic": "Nvidia",
+   "hashtag": "#Nvidia",
+   "score": 11.93,
+   "headline": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/"
+  },
+  {
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 11.48,
+   "headline": "Partner Technical Manager",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/162792-partner-technical-manager"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 10.81,
+   "headline": "EJN Story Grants to Report on Mining, Environment and Human Rights in Africa 2027 (up to $2,000)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/17/ejn-story-grants-to-report-on-mining-environment-and-human-rights-in-africa-2027/"
   },
   {
    "topic": "Kenya",
    "hashtag": "#Kenya",
-   "score": 7.05,
-   "headline": "Payaza adds Kenya, now has regulatory backing in 14 African countries",
-   "source": "Technext",
-   "url": "https://technext24.com/news/payaza-gets-kenya-regulatory-backing-africa/"
+   "score": 8.98,
+   "headline": "Sahara Group builds 30,000-Tonne LPG terminal in Kenya, targets 10 million homes",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/17/sahara-group-builds-30000-tonne-lpg-terminal-in-kenya-targets-10-million-homes/"
   },
   {
-   "topic": "Ghana",
-   "hashtag": "#Ghana",
-   "score": 6.54,
-   "headline": "Ghana goes live on Vatar as viral web game expands beyond Nigeria",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/vatar-launches-ghana-lagos-life/"
-  },
-  {
-   "topic": "Product",
-   "hashtag": "#Product",
-   "score": 5.55,
-   "headline": "Product Marketing Internship- Spring 2027",
+   "topic": "Senior",
+   "hashtag": "#Senior",
+   "score": 8.96,
+   "headline": "Senior Financial Analyst, Business Finance",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/162520-product-marketing-internship-spring-2027"
+   "url": "https://jobicy.com/jobs/162758-senior-financial-analyst-business-finance"
+  },
+  {
+   "topic": "Fellowship",
+   "hashtag": "#Fellowship",
+   "score": 7.29,
+   "headline": "International Court of Justice Judicial Fellowship Programme 2027-2028",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/16/icj-judicial-fellowship-2027-2028/"
+  },
+  {
+   "topic": "Technical",
+   "hashtag": "#Technical",
+   "score": 5.94,
+   "headline": "Kalvia opens applications for 200 Nigerians to learn technical skills, plans digital marketplace for graduates",
+   "source": "Technext",
+   "url": "https://technext24.com/news/kalvia-opens-applications-for-technical-skills/"
   }
  ],
  "tags": [
-  "Naija Startups",
   "Business",
   "AI & Automation",
   "Tech News",
+  "Security",
   "Grants & Funding",
-  "Payments",
-  "Jobs",
-  "Design & Social"
+  "Naija Startups",
+  "Web",
+  "Jobs"
  ]
 }
