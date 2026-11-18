@@ -1,128 +1,128 @@
 {
- "updated": "2026-11-17T16:12:41.966Z",
+ "updated": "2026-11-18T15:02:36.727Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 24.3,
-   "headline": "Partner Technical Manager",
+   "score": 25.9,
+   "headline": "Field Coordination Manager",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/162792-partner-technical-manager"
+   "url": "https://jobicy.com/jobs/163095-field-coordination-manager"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 19.79,
-   "headline": "Sahara Group builds 30,000-Tonne LPG terminal in Kenya, targets 10 million homes",
+   "score": 20.98,
+   "headline": "Fitch projects Nigeria’s policy rate to average 21.7% in 2027, 18.6% in 2028",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/17/sahara-group-builds-30000-tonne-lpg-terminal-in-kenya-targets-10-million-homes/"
-  },
-  {
-   "topic": "Million",
-   "hashtag": "#Million",
-   "score": 14.28,
-   "headline": "Sahara Group builds 30,000-Tonne LPG terminal in Kenya, targets 10 million homes",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/17/sahara-group-builds-30000-tonne-lpg-terminal-in-kenya-targets-10-million-homes/"
-  },
-  {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 13.1,
-   "headline": "Kalvia opens applications for 200 Nigerians to learn technical skills, plans digital marketplace for graduates",
-   "source": "Technext",
-   "url": "https://technext24.com/news/kalvia-opens-applications-for-technical-skills/"
-  },
-  {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 12.62,
-   "headline": "AfDB backs €40 million fund targeting Francophone Africa founders",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/saviu-fund-40-million-francophone-africa/"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 12.16,
-   "headline": "Field Deployment Engineer, Northern Europe",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/162787-field-deployment-engineer-northern-europe"
-  },
-  {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 12.04,
-   "headline": "Voyage Labs raises $12 million for a specialized AI travel assistant",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/"
+   "url": "https://nairametrics.com/2026/11/18/fitch-projects-nigerias-policy-rate-to-average-21-7-in-2027-18-6-in-2028/"
   },
   {
    "topic": "Nvidia",
    "hashtag": "#Nvidia",
-   "score": 11.87,
-   "headline": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/"
+   "score": 14.82,
+   "headline": "Nvidia suffers major hack, ransomware group The Gentlemen claims responsibility",
+   "source": "Technext",
+   "url": "https://technext24.com/news/nvidia-suffers-major-cyber-hack-the-gentlemen/"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 11.43,
-   "headline": "Partner Technical Manager",
+   "score": 12.79,
+   "headline": "Field Coordination Manager",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/162792-partner-technical-manager"
+   "url": "https://jobicy.com/jobs/163095-field-coordination-manager"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 12.46,
+   "headline": "Will Wright’s next game uses AI to map your memories",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 12.28,
+   "headline": "Global Economic Policies Dictate The Latest Institutional Digital Asset Strategies",
+   "source": "Technext",
+   "url": "https://technext24.com/crypto/global-economic-policies-dictate-the-latest-institutional-digital-asset-strategies/"
+  },
+  {
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 12.18,
+   "headline": "CMFC signs deal to arrange $50 million for Tanzanian gold project financing",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/18/cmfc-signs-deal-to-arrange-50-million-for-tanzanian-gold-project-financing/"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 11.98,
+   "headline": "Zipline hires Uber executive Anthony le Roux to run its Africa operations",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/anthony-le-roux-zipline-africa-operations/"
   },
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 10.76,
-   "headline": "EJN Story Grants to Report on Mining, Environment and Human Rights in Africa 2027 (up to $2,000)",
+   "score": 11.66,
+   "headline": "Journalism & Women Symposium (JAWS) Health Journalism Fellowship 2027 ($4,000 stipend)",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/17/ejn-story-grants-to-report-on-mining-environment-and-human-rights-in-africa-2027/"
+   "url": "https://opportunitydesk.org/2026/11/18/jaws-health-journalism-fellowship-2027/"
+  },
+  {
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 10.68,
+   "headline": "Product Engineer, Nino",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/163092-product-engineer-nino"
   },
   {
    "topic": "Kenya",
    "hashtag": "#Kenya",
-   "score": 8.93,
-   "headline": "Sahara Group builds 30,000-Tonne LPG terminal in Kenya, targets 10 million homes",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/17/sahara-group-builds-30000-tonne-lpg-terminal-in-kenya-targets-10-million-homes/"
-  },
-  {
-   "topic": "Senior",
-   "hashtag": "#Senior",
-   "score": 8.92,
-   "headline": "Senior Financial Analyst, Business Finance",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/162758-senior-financial-analyst-business-finance"
+   "score": 10.45,
+   "headline": "Kenya says Dangote’s $16bn refinery qualifies for tax relief on imported equipment",
+   "source": "Technext",
+   "url": "https://technext24.com/news/kenya-dangotes-16bn-refinery-gets-tax-relief/"
   },
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 7.26,
-   "headline": "International Court of Justice Judicial Fellowship Programme 2027-2028",
+   "score": 9.41,
+   "headline": "Journalism & Women Symposium (JAWS) Health Journalism Fellowship 2027 ($4,000 stipend)",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/16/icj-judicial-fellowship-2027-2028/"
+   "url": "https://opportunitydesk.org/2026/11/18/jaws-health-journalism-fellowship-2027/"
   },
   {
-   "topic": "Technical",
-   "hashtag": "#Technical",
-   "score": 5.9,
-   "headline": "Kalvia opens applications for 200 Nigerians to learn technical skills, plans digital marketplace for graduates",
-   "source": "Technext",
-   "url": "https://technext24.com/news/kalvia-opens-applications-for-technical-skills/"
+   "topic": "China",
+   "hashtag": "#China",
+   "score": 6.74,
+   "headline": "Nvidia isn’t selling any more AI chips to China",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
+  },
+  {
+   "topic": "Remote",
+   "hashtag": "#Remote",
+   "score": 6.05,
+   "headline": "Account Manager (ENT/Strategic) (Remote) (Chicago, Illinois)",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/163090-account-manager-ent-strategic-remote-chicago-illinois"
   }
  ],
  "tags": [
   "Business",
-  "AI & Automation",
-  "Tech News",
   "Security",
-  "Grants & Funding",
-  "Naija Startups",
+  "Tech News",
   "Web",
-  "Jobs"
+  "Design & Social",
+  "AI & Automation",
+  "Naija Startups",
+  "Payments"
  ]
 }
