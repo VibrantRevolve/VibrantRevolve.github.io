@@ -1,27 +1,59 @@
 {
- "updated": "2026-11-18T17:42:44.543Z",
+ "updated": "2026-11-19T15:12:16.520Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 25.4,
-   "headline": "Field Coordination Manager",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/163095-field-coordination-manager"
+   "score": 27.54,
+   "headline": "Kuda cuts jobs for second time in 2026 as it targets 2027 profitability",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/19/kuda-cut-jobs-again/"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 20.56,
-   "headline": "Fitch projects Nigeria’s policy rate to average 21.7% in 2027, 18.6% in 2028",
+   "score": 22.07,
+   "headline": "Nigeria accounts for 35% of fraud networks detected across Africa",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/18/fitch-projects-nigerias-policy-rate-to-average-21-7-in-2027-18-6-in-2028/"
+   "url": "https://nairametrics.com/2026/11/19/nigeria-accounts-for-35-of-fraud-networks-detected-across-africa/"
+  },
+  {
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 14.13,
+   "headline": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
+  },
+  {
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 13.66,
+   "headline": "Meet the InstaDeep alumni building their own startups",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/instadeep-alumni-building-their-own-startups/"
+  },
+  {
+   "topic": "Ipo",
+   "hashtag": "#Ipo",
+   "score": 13.62,
+   "headline": "Anthropic’s impressive $81bn IPO set to create 2,800 employee millionaires",
+   "source": "Technext",
+   "url": "https://technext24.com/news/anthropics-81-ipo-create-employee-millionaires/"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 13.59,
+   "headline": "Kuda cuts jobs for second time in 2026 as it targets 2027 profitability",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/19/kuda-cut-jobs-again/"
   },
   {
    "topic": "Nvidia",
    "hashtag": "#Nvidia",
-   "score": 14.52,
+   "score": 12.57,
    "headline": "Nvidia suffers major hack, ransomware group The Gentlemen claims responsibility",
    "source": "Technext",
    "url": "https://technext24.com/news/nvidia-suffers-major-cyber-hack-the-gentlemen/"
@@ -29,100 +61,68 @@
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 12.54,
-   "headline": "Field Coordination Manager",
+   "score": 11.35,
+   "headline": "Regional Sales Manager",
    "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/163095-field-coordination-manager"
+   "url": "https://jobicy.com/jobs/163280-regional-sales-manager-3"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 12.21,
-   "headline": "Will Wright’s next game uses AI to map your memories",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview"
+   "topic": "Engineer",
+   "hashtag": "#Engineer",
+   "score": 10.94,
+   "headline": "Customer Success Engineer, Singapore",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/163286-customer-success-engineer-singapore-2"
   },
   {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 12.05,
-   "headline": "Global Economic Policies Dictate The Latest Institutional Digital Asset Strategies",
+   "topic": "Anthropic",
+   "hashtag": "#Anthropic",
+   "score": 10.84,
+   "headline": "Anthropic’s impressive $81bn IPO set to create 2,800 employee millionaires",
    "source": "Technext",
-   "url": "https://technext24.com/crypto/global-economic-policies-dictate-the-latest-institutional-digital-asset-strategies/"
+   "url": "https://technext24.com/news/anthropics-81-ipo-create-employee-millionaires/"
+  },
+  {
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 9.9,
+   "headline": "Morris B. Abram Fellowship 2027-2028",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/19/morris-b-abram-fellowship-2027-2028/"
   },
   {
    "topic": "Million",
    "hashtag": "#Million",
-   "score": 11.92,
+   "score": 9.49,
    "headline": "CMFC signs deal to arrange $50 million for Tanzanian gold project financing",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/18/cmfc-signs-deal-to-arrange-50-million-for-tanzanian-gold-project-financing/"
   },
   {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 11.77,
-   "headline": "Zipline hires Uber executive Anthony le Roux to run its Africa operations",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/anthony-le-roux-zipline-africa-operations/"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 11.45,
-   "headline": "Journalism & Women Symposium (JAWS) Health Journalism Fellowship 2027 ($4,000 stipend)",
+   "topic": "Fellowship",
+   "hashtag": "#Fellowship",
+   "score": 8.28,
+   "headline": "Morris B. Abram Fellowship 2027-2028",
    "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/18/jaws-health-journalism-fellowship-2027/"
-  },
-  {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 10.48,
-   "headline": "Product Engineer, Nino",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/163092-product-engineer-nino"
+   "url": "https://opportunitydesk.org/2026/11/19/morris-b-abram-fellowship-2027-2028/"
   },
   {
    "topic": "Kenya",
    "hashtag": "#Kenya",
-   "score": 10.25,
+   "score": 7.9,
    "headline": "Kenya says Dangote’s $16bn refinery qualifies for tax relief on imported equipment",
    "source": "Technext",
    "url": "https://technext24.com/news/kenya-dangotes-16bn-refinery-gets-tax-relief/"
-  },
-  {
-   "topic": "Fellowship",
-   "hashtag": "#Fellowship",
-   "score": 9.24,
-   "headline": "Journalism & Women Symposium (JAWS) Health Journalism Fellowship 2027 ($4,000 stipend)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/18/jaws-health-journalism-fellowship-2027/"
-  },
-  {
-   "topic": "China",
-   "hashtag": "#China",
-   "score": 6.59,
-   "headline": "Nvidia isn’t selling any more AI chips to China",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
-  },
-  {
-   "topic": "Remote",
-   "hashtag": "#Remote",
-   "score": 5.9,
-   "headline": "Account Manager (ENT/Strategic) (Remote) (Chicago, Illinois)",
-   "source": "Jobicy",
-   "url": "https://jobicy.com/jobs/163090-account-manager-ent-strategic-remote-chicago-illinois"
   }
  ],
  "tags": [
+  "Tech News",
+  "AI & Automation",
   "Business",
   "Security",
-  "Tech News",
-  "Web",
-  "Design & Social",
-  "AI & Automation",
   "Naija Startups",
-  "Payments"
+  "Jobs",
+  "Grants & Funding",
+  "Web"
  ]
 }
