@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T14:51:19.983Z",
+ "updated": "2026-11-20T22:17:30.888Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 28.12,
+   "score": 26.63,
    "headline": "Growth & Campaign Manager – SEA",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/163544-growth-campaign-manager-sea"
@@ -13,7 +13,7 @@
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 22.47,
+   "score": 21.25,
    "headline": "Diesel imports surge 917% in October on rising demand",
    "source": "BusinessDay",
    "url": "https://businessday.ng/energy/article/diesel-imports-surge-917-in-october-on-rising-demand/"
@@ -21,7 +21,7 @@
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 16.06,
+   "score": 15.13,
    "headline": "48% of 5G-capable devices in Lagos and Abuja now connect to 5G – Ookla/NCC report says",
    "source": "Technext",
    "url": "https://technext24.com/news/5g-usage-rises-in-abuja-and-lagos-ncc/"
@@ -29,7 +29,7 @@
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 14.1,
+   "score": 13.37,
    "headline": "Nigerian Mediatech Startup Storipod Secures Funding From FourthMainland",
    "source": "WeeTracker",
    "url": "https://weetracker.com/2026/11/20/fourthmainland-invests-in-storipod/"
@@ -37,7 +37,7 @@
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 13.72,
+   "score": 12.95,
    "headline": "Growth & Campaign Manager – SEA",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/163544-growth-campaign-manager-sea"
@@ -45,7 +45,7 @@
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 12.63,
+   "score": 11.99,
    "headline": "Signal is blocking Gemini and Siri AI from reading your screen",
    "source": "The Verge",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
@@ -53,7 +53,7 @@
   {
    "topic": "Million",
    "hashtag": "#Million",
-   "score": 11.58,
+   "score": 10.98,
    "headline": "Arva AI Raises $20 Million To Build AI Agents for Bank Compliance Teams",
    "source": "Ventureburn",
    "url": "https://ventureburn.com/arva-ai-raises-20-million-build-bank-ai-agents-trust/"
@@ -61,7 +61,7 @@
   {
    "topic": "Grants & Funding",
    "hashtag": "#GrantsFunding",
-   "score": 11.1,
+   "score": 10.57,
    "headline": "IAS Person-Centred Care Global Advocacy Academy 2027 (Funded)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/11/20/ias-person-centred-care-global-advocacy-academy-2027/"
@@ -69,7 +69,7 @@
   {
    "topic": "Ipo",
    "hashtag": "#Ipo",
-   "score": 10.98,
+   "score": 10.35,
    "headline": "Anthropic’s impressive $81bn IPO set to create 2,800 employee millionaires",
    "source": "Technext",
    "url": "https://technext24.com/news/anthropics-81-ipo-create-employee-millionaires/"
@@ -77,7 +77,7 @@
   {
    "topic": "Engineer",
    "hashtag": "#Engineer",
-   "score": 10.53,
+   "score": 10.02,
    "headline": "Senior Customer Engineer, AI-Factory",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/163536-senior-customer-engineer-ai-factory"
@@ -85,7 +85,7 @@
   {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 8.75,
+   "score": 8.25,
    "headline": "Anthropic’s impressive $81bn IPO set to create 2,800 employee millionaires",
    "source": "Technext",
    "url": "https://technext24.com/news/anthropics-81-ipo-create-employee-millionaires/"
@@ -93,7 +93,7 @@
   {
    "topic": "Fellowship",
    "hashtag": "#Fellowship",
-   "score": 8.4,
+   "score": 8,
    "headline": "Rest & Resilience Fellowship 2027 (Fully-funded)",
    "source": "Opportunity Desk",
    "url": "https://opportunitydesk.org/2026/11/19/rest-resilience-fellowship-2027/"
@@ -101,18 +101,18 @@
   {
    "topic": "Lagos",
    "hashtag": "#Lagos",
-   "score": 8.15,
+   "score": 7.66,
    "headline": "48% of 5G-capable devices in Lagos and Abuja now connect to 5G – Ookla/NCC report says",
    "source": "Technext",
    "url": "https://technext24.com/news/5g-usage-rises-in-abuja-and-lagos-ncc/"
   },
   {
-   "topic": "Gta",
-   "hashtag": "#Gta",
-   "score": 7.26,
-   "headline": "GTA 6 sets record with $2.36 billion revenue within 24 hours of release",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/20/gta-6-sets-record-with-2-36-billion-revenue-within-24-hours-of-release/"
+   "topic": "Nvidia",
+   "hashtag": "#Nvidia",
+   "score": 6.85,
+   "headline": "Nvidia suffers major hack, ransomware group The Gentlemen claims responsibility",
+   "source": "Technext",
+   "url": "https://technext24.com/news/nvidia-suffers-major-cyber-hack-the-gentlemen/"
   }
  ],
  "tags": [
