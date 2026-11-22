@@ -1,128 +1,128 @@
 {
- "updated": "2026-11-21T14:29:00.056Z",
+ "updated": "2026-11-22T13:59:42.918Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 27.76,
-   "headline": "Oportun: Senior Director of Product Management (R14361)",
+   "score": 28.87,
+   "headline": "Zscaler: Account Executive - Fed Civilian Healthcare",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/oportun-senior-director-of-product-management-r14361"
+   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-fed-civilian-healthcare"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 24.03,
-   "headline": "Niger State-backed NCNI opens N70 billion bond offer at 24%",
+   "score": 25.12,
+   "headline": "Three Nigeria Customs officers secure WCO appointments, accreditation",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/21/niger-state-backed-ncni-opens-n70-billion-bond-offer-at-24/"
+   "url": "https://nairametrics.com/2026/11/22/three-nigeria-customs-officers-secure-wco-appointments-accreditation/"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 16.75,
-   "headline": "Salesloft: Senior Commercial Account Manager",
+   "score": 18.96,
+   "headline": "Datadog: National Partner Manager",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/salesloft-senior-commercial-account-manager"
+   "url": "https://weworkremotely.com/remote-jobs/datadog-national-partner-manager"
   },
   {
-   "topic": "Million",
-   "hashtag": "#Million",
-   "score": 14.32,
-   "headline": "FG begins construction of $70 million privately funded passport manufacturing centre in Abuja",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/21/fg-begins-construction-of-70-million-privately-funded-passport-manufacturing-centre-in-abuja/"
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 14.68,
+   "headline": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 14.1,
+   "score": 12.29,
    "headline": "Moniepoint MFB opens Northern regional headquarters in physical banking push",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/11/21/moniepoint-northern-regional-headquarters/"
   },
   {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 13.86,
-   "headline": "African startups don’t need to move to Dubai to attract Gulf money",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/21/gulf-capital-digital-nomads/"
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 10.15,
+   "headline": "FG begins construction of $70 million privately funded passport manufacturing centre in Abuja",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/21/fg-begins-construction-of-70-million-privately-funded-passport-manufacturing-centre-in-abuja/"
   },
   {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 11.53,
-   "headline": "LendPlus loan Kenya: App download, loan application, limits and repayment (2026 Guide)",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/lendplus-loan/"
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 9.39,
+   "headline": "Clements-Archer National Security Policy Postdoctoral Fellowship 2027-2028 ($80,000 stipend)",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/21/clements-archer-national-security-policy-postdoctoral-fellowship-2027-2028/"
   },
   {
    "topic": "Kenya",
    "hashtag": "#Kenya",
-   "score": 11.04,
+   "score": 9.16,
    "headline": "Kenya begins crude oil drilling ahead of December 1 first oil target",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/21/kenya-begins-crude-oil-drilling-ahead-of-december-1-first-oil-target/"
   },
   {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 9.79,
-   "headline": "Klaus J. Jacobs Research Prize 2027 (up to 1 million Swiss Francs)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/20/klaus-j-jacobs-research-prize-2027/"
-  },
-  {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 9.64,
-   "headline": "Anthropic’s Alpoge claims Claude found Riemann proof",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/anthropic-alpoge-claude-riemann-proof/"
+   "score": 9.05,
+   "headline": "Can Anthropic afford to put safety first?",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+  },
+  {
+   "topic": "Lagos",
+   "hashtag": "#Lagos",
+   "score": 8.55,
+   "headline": "NDLEA arrests South African golfer, Kenyan chef over 50.4kg cannabis shipment in Lagos",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/22/ndlea-arrests-south-african-golfer-kenyan-chef-over-50-4kg-cannabis-shipment-in-lagos/"
   },
   {
    "topic": "Ipo",
    "hashtag": "#Ipo",
-   "score": 9.2,
+   "score": 7.93,
    "headline": "Anthropic’s impressive $81bn IPO set to create 2,800 employee millionaires",
    "source": "Technext",
    "url": "https://technext24.com/news/anthropics-81-ipo-create-employee-millionaires/"
   },
   {
-   "topic": "Dangote",
-   "hashtag": "#Dangote",
-   "score": 8.35,
-   "headline": "Dangote, Otedola, four others lose N2.19 trillion in equity holdings",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/21/dangote-otedola-four-others-lose-n2-19-trillion-in-equity-holdings/"
+   "topic": "Executive",
+   "hashtag": "#Executive",
+   "score": 7.9,
+   "headline": "Zscaler: Account Executive - Fed Civilian Healthcare",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-fed-civilian-healthcare"
   },
   {
-   "topic": "Senior",
-   "hashtag": "#Senior",
-   "score": 7.66,
-   "headline": "Oportun: Senior Director of Product Management (R14361)",
+   "topic": "Account",
+   "hashtag": "#Account",
+   "score": 7.61,
+   "headline": "Zscaler: Account Executive - Fed Civilian Healthcare",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/oportun-senior-director-of-product-management-r14361"
+   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-fed-civilian-healthcare"
   },
   {
-   "topic": "Engineer",
-   "hashtag": "#Engineer",
-   "score": 7.37,
-   "headline": "Gusto, Inc.: Software Engineer, Financial Data & Payments",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/gusto-inc-software-engineer-financial-data-payments"
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 7.56,
+   "headline": "LendPlus loan Kenya: App download, loan application, limits and repayment (2026 Guide)",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/lendplus-loan/"
   }
  ],
  "tags": [
   "Business",
-  "Tech News",
-  "AI & Automation",
-  "Naija Startups",
   "Jobs",
-  "Design & Social",
+  "AI & Automation",
   "Grants & Funding",
+  "Tech News",
+  "Naija Startups",
+  "Design & Social",
   "Security"
  ]
 }
