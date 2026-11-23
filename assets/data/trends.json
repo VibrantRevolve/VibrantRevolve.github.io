@@ -1,128 +1,128 @@
 {
- "updated": "2026-11-22T17:25:00.809Z",
+ "updated": "2026-11-23T17:17:45.874Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 28.17,
-   "headline": "Zscaler: Account Executive - Fed Civilian Healthcare",
+   "score": 28.61,
+   "headline": "Lightbox Animation: VFX Supervisor",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-fed-civilian-healthcare"
+   "url": "https://weworkremotely.com/remote-jobs/lightbox-animation-vfx-supervisor"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 24.5,
-   "headline": "Three Nigeria Customs officers secure WCO appointments, accreditation",
+   "score": 23.98,
+   "headline": "BREAKING: Nigerian equities transactions hit N17.13 trillion in 10 months despite foreign investors’ withdrawal",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/22/three-nigeria-customs-officers-secure-wco-appointments-accreditation/"
+   "url": "https://nairametrics.com/2026/11/23/nigerian-equities-transactions-hit-n17-13-trillion-in-10-months-despite-foreign-investors-withdrawal/"
   },
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 18.48,
-   "headline": "Datadog: National Partner Manager",
+   "score": 15.53,
+   "headline": "GitLab: Professional Services, Program Manager",
    "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/datadog-national-partner-manager"
-  },
-  {
-   "topic": "Ai & Automation",
-   "hashtag": "#AiAutomation",
-   "score": 14.35,
-   "headline": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+   "url": "https://weworkremotely.com/remote-jobs/gitlab-professional-services-program-manager"
   },
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 12.02,
-   "headline": "Moniepoint MFB opens Northern regional headquarters in physical banking push",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/21/moniepoint-northern-regional-headquarters/"
+   "score": 15.3,
+   "headline": "Wysemarket CEO identifies key factors that will shape the future of prediction markets in Africa",
+   "source": "Technext",
+   "url": "https://technext24.com/news/wysemarket-ceo-factor-future-prediction-africa/"
   },
   {
-   "topic": "Million",
-   "hashtag": "#Million",
-   "score": 9.94,
-   "headline": "FG begins construction of $70 million privately funded passport manufacturing centre in Abuja",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/21/fg-begins-construction-of-70-million-privately-funded-passport-manufacturing-centre-in-abuja/"
+   "topic": "Ai & Automation",
+   "hashtag": "#AiAutomation",
+   "score": 12.55,
+   "headline": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
   },
   {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 9.18,
-   "headline": "Clements-Archer National Security Policy Postdoctoral Fellowship 2027-2028 ($80,000 stipend)",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/21/clements-archer-national-security-policy-postdoctoral-fellowship-2027-2028/"
+   "topic": "Nvidia",
+   "hashtag": "#Nvidia",
+   "score": 11.64,
+   "headline": "Jensen Huang Returns as NVIDIA CEO and President as Stock Jumps 30 Percent",
+   "source": "Ventureburn",
+   "url": "https://ventureburn.com/jensen-huang-returns-nvidia-ceo-stock-jumps-30-percent/"
   },
   {
-   "topic": "Kenya",
-   "hashtag": "#Kenya",
-   "score": 8.95,
-   "headline": "Kenya begins crude oil drilling ahead of December 1 first oil target",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/21/kenya-begins-crude-oil-drilling-ahead-of-december-1-first-oil-target/"
+   "topic": "Naija Startups",
+   "hashtag": "#NaijaStartups",
+   "score": 11.13,
+   "headline": "After 11 years of failed tap-to-pay bets, Visa turns to Transsion",
+   "source": "Benjamin Dada",
+   "url": "https://thecondia.com/visa-transsion-africa-tap-to-pay-contactless-payments/"
+  },
+  {
+   "topic": "Ceo",
+   "hashtag": "#Ceo",
+   "score": 10.19,
+   "headline": "Wysemarket CEO identifies key factors that will shape the future of prediction markets in Africa",
+   "source": "Technext",
+   "url": "https://technext24.com/news/wysemarket-ceo-factor-future-prediction-africa/"
+  },
+  {
+   "topic": "Gitlab",
+   "hashtag": "#Gitlab",
+   "score": 8.38,
+   "headline": "GitLab: Professional Services, Program Manager",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/gitlab-professional-services-program-manager"
+  },
+  {
+   "topic": "Mind",
+   "hashtag": "#Mind",
+   "score": 8.38,
+   "headline": "Virtual Peace of Mind: Multilingual Licensed Therapist — K-12 School with a $1,500 Sign-On Bonus",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/virtual-peace-of-mind-multilingual-licensed-therapist-k-12-school-with-a-1-500-sign-on-bonus"
   },
   {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 8.86,
+   "score": 7.71,
    "headline": "Can Anthropic afford to put safety first?",
    "source": "The Verge",
    "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
   },
   {
-   "topic": "Lagos",
-   "hashtag": "#Lagos",
-   "score": 8.34,
-   "headline": "NDLEA arrests South African golfer, Kenyan chef over 50.4kg cannabis shipment in Lagos",
+   "topic": "Grants & Funding",
+   "hashtag": "#GrantsFunding",
+   "score": 7.08,
+   "headline": "Public Policy New Voices Fellowship Program 2026-2027",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/23/public-policy-new-voices-fellowship-program-2026-2027/"
+  },
+  {
+   "topic": "Jensen Huang",
+   "hashtag": "#JensenHuang",
+   "score": 7.07,
+   "headline": "Jensen Huang isn’t out of the woods yet",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/"
+  },
+  {
+   "topic": "Million",
+   "hashtag": "#Million",
+   "score": 6.92,
+   "headline": "Cornerstone Insurance rejects Diuto’s N21 million employee death benefit suit, cites alleged fraud",
    "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/22/ndlea-arrests-south-african-golfer-kenyan-chef-over-50-4kg-cannabis-shipment-in-lagos/"
-  },
-  {
-   "topic": "Ipo",
-   "hashtag": "#Ipo",
-   "score": 7.77,
-   "headline": "Anthropic’s impressive $81bn IPO set to create 2,800 employee millionaires",
-   "source": "Technext",
-   "url": "https://technext24.com/news/anthropics-81-ipo-create-employee-millionaires/"
-  },
-  {
-   "topic": "Executive",
-   "hashtag": "#Executive",
-   "score": 7.7,
-   "headline": "Zscaler: Account Executive - Fed Civilian Healthcare",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-fed-civilian-healthcare"
-  },
-  {
-   "topic": "Account",
-   "hashtag": "#Account",
-   "score": 7.42,
-   "headline": "Zscaler: Account Executive - Fed Civilian Healthcare",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-fed-civilian-healthcare"
-  },
-  {
-   "topic": "Naija Startups",
-   "hashtag": "#NaijaStartups",
-   "score": 7.4,
-   "headline": "LendPlus loan Kenya: App download, loan application, limits and repayment (2026 Guide)",
-   "source": "Benjamin Dada",
-   "url": "https://thecondia.com/lendplus-loan/"
+   "url": "https://nairametrics.com/2026/11/23/cornerstone-insurance-rejects-diutos-n21-million-employee-death-benefit-suit-cites-alleged-fraud/"
   }
  ],
  "tags": [
-  "Business",
-  "Jobs",
   "AI & Automation",
-  "Grants & Funding",
+  "Jobs",
   "Tech News",
+  "Business",
+  "Web",
+  "Security",
   "Naija Startups",
-  "Design & Social",
-  "Security"
+  "Grants & Funding"
  ]
 }
