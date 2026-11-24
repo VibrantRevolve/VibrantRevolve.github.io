@@ -1,5 +1,545 @@
 [
   {
+    "id": "26c3ceae08",
+    "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+    "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-11-24T16:46:00.000Z",
+    "excerpt": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "0deba62a02",
+    "title": "CBN keeps interest rates at 23%, leaving loans expensive for Nigerians",
+    "url": "https://technext24.com/news/cbn-keeps-interest-rates-at-23-per-cent/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-11-24T16:41:34.000Z",
+    "excerpt": "The Central Bank of Nigeria (CBN) has decided to maintain its benchmark interest rate at 23%. This move…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "708d9a0ef5",
+    "title": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+    "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-11-24T16:37:03.000Z",
+    "excerpt": "As Jensen Huang returns to his post as Nvidia's CEO with support from the Trump Administration, the Department of Commerce has added Megaspeed to its Entity List, which blocks trade with the company, citing national security risks. As reported earlier by Semafor, Commerce Secretary Howard Lutnick…",
+    "tag": "Security",
+    "cta": {
+      "label": "Talk to us",
+      "href": "/contact/"
+    },
+    "take": ""
+  },
+  {
+    "id": "c82ab5c574",
+    "title": "Jensen Huang deepfakes are the hot new AI slop",
+    "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-11-24T16:30:00.000Z",
+    "excerpt": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "8a546b15d2",
+    "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+    "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-11-24T16:10:00.000Z",
+    "excerpt": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "dc69597abe",
+    "title": "The New York Times warns photographers not to update Photoshop over AI features",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-11-24T16:09:23.000Z",
+    "excerpt": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "cafe2fa517",
+    "title": "Nigeria’s MPC holds rate steady ahead of 2027 polls",
+    "url": "https://businessday.ng/business-economy/article/nigerias-mpc-holds-rate-at-23-to-sustain-inflation-gains/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-11-24T16:06:14.000Z",
+    "excerpt": "The Central Bank of Nigeria (CBN) on Tuesday expectedly retained its benchmark interest rate, the Monetary Policy Rate (MPR), at read more Nigeria’s MPC holds rate steady ahead of 2027 polls",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ee2357a407",
+    "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+    "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-11-24T16:02:37.000Z",
+    "excerpt": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e93ff506aa",
+    "title": "Spectranet takes critical business decision, exits Ibadan, Port Harcourt to focus on Lagos, Abuja",
+    "url": "https://businessday.ng/companies/article/spectranet-takes-critical-business-decision-exits-ibadan-port-harcourt-to-focus-on-lagos-abuja/",
+    "source": "BusinessDay",
+    "kind": "business",
+    "date": "2026-11-24T16:00:29.000Z",
+    "excerpt": "Spectranet, internet service provider has taken a critical business decision as it says it is discontinuing its services in Ibadan read more Spectranet takes critical business decision, exits Ibadan, Port Harcourt to focus on Lagos, Abuja",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "4a847676e9",
+    "title": "Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
+    "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+    "source": "TechCrunch",
+    "kind": "news",
+    "date": "2026-11-24T15:51:07.000Z",
+    "excerpt": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "4734171583",
+    "title": "Wyze’s new window feeder records birds from a camera inside your home",
+    "url": "https://www.theverge.com/tech/1041164/wyze-window-bird-cam-camera-identification",
+    "source": "The Verge",
+    "kind": "news",
+    "date": "2026-11-24T15:14:05.000Z",
+    "excerpt": "A year ago, Wyze introduced a $35 security camera that stuck to the inside of a window so you could keep an eye on what was happening outside your home without a complicated installation. Today the company announced its new Window Bird Cam, which expands on that idea by pairing a similar…",
+    "tag": "Security",
+    "cta": {
+      "label": "Talk to us",
+      "href": "/contact/"
+    },
+    "take": ""
+  },
+  {
+    "id": "7ddca7c57e",
+    "title": "MTN Benin’s $215 million plan is running into a good problem with customers’ demand for more data",
+    "url": "https://techcabal.com/2026/11/24/mtn-benin-customers-data/",
+    "source": "TechCabal",
+    "kind": "news",
+    "date": "2026-11-24T15:13:50.000Z",
+    "excerpt": "A jump in traffic is forcing MTN to spend faster than planned. Getting customers onto 5G will take more than building the network. MTN Benin has a problem that most telecom operators would welcome: people are using its network more, and keeping up is proving expensive. But that extra usage has not…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "1e5870b964",
+    "title": "LAWMA launches night-time clean-up across Lagos, targets major waste black spots",
+    "url": "https://nairametrics.com/2026/11/24/lawma-launches-night-time-clean-up-across-lagos-targets-major-waste-black-spots/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-11-24T14:58:19.000Z",
+    "excerpt": "LAWMA has launched a night-time clean-up operation across Lagos, targeting major waste black spots as part of efforts to address refuse accumulation ahead of the Christmas and New Year celebrations. The post LAWMA launches night-time clean-up across Lagos, targets major waste black spots appeared…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "5203e50ab5",
+    "title": "Africa’s instant payments grew 171%, but average transaction value fell 40%",
+    "url": "https://thecondia.com/africas-instant-payments-grew-171-but-average-transaction-value-fell-40/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-11-24T14:51:31.000Z",
+    "excerpt": "Africa processed 71.42B instant payments in 2025, up 171% from 2021. But the average transaction value fell from $43 to $26, raising questions about how people use digital payments for everyday spending.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "4f651bb3be",
+    "title": "Avicena Raises $100 Million Series C to Swap Copper for Light in AI Data Centers",
+    "url": "https://ventureburn.com/avicena-raises-100-million-fix-datacenters-microled-optical-links/",
+    "source": "Ventureburn",
+    "kind": "news",
+    "date": "2026-11-24T14:35:03.000Z",
+    "excerpt": "AI chips continue to improve every day, but the wires that connect them are not keeping up. Data center components like accelerators, memory and switches exchange massive amounts of information. The post Avicena Raises $100 Million Series C to Swap Copper for Light in AI Data Centers appeared first…",
+    "tag": "AI & Automation",
+    "cta": {
+      "label": "Custom software",
+      "href": "/services/software-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "7f465f3d23",
+    "title": "UBA generates N152.6 billion from digital banking in 2026: more than GTB, Zenith, and First Bank’s YoY",
+    "url": "https://technext24.com/reviews/uba-generates-152-billion-digital-banking-2026/",
+    "source": "Technext",
+    "kind": "news",
+    "date": "2026-11-24T14:34:40.000Z",
+    "excerpt": "United Bank for Africa (UBA) reported ₦152.6 billion in electronic banking revenue during the first nine months of…",
+    "tag": "Tech News",
+    "cta": {
+      "label": "Explore our services",
+      "href": "/services/"
+    },
+    "take": ""
+  },
+  {
+    "id": "8e28fd90d5",
+    "title": "Tinubu seeks approval to cut 2026 budget from ₦68.32 trillion to ₦65.18 trillion",
+    "url": "https://nairametrics.com/2026/11/24/tinubu-seeks-approval-to-cut-2026-budget-from-%e2%82%a668-32-trillion-to-%e2%82%a665-18-trillion/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-11-24T14:20:53.000Z",
+    "excerpt": "President Bola Tinubu has asked the House of Representatives to approve a bill seeking to repeal and re-enact the 2026 Appropriation Act, alongside a revised Federal Government Fiscal Framework. The post Tinubu seeks approval to cut 2026 budget from ₦68.32 trillion to ₦65.18 trillion appeared first…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2a1fcaa9d1",
+    "title": "Gold Fields plans $7.5 billion investment in Ghana’s Tarkwa Mine",
+    "url": "https://nairametrics.com/2026/11/24/gold-fields-plans-7-5-billion-investment-in-ghanas-tarkwa-mine/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-11-24T14:15:54.000Z",
+    "excerpt": "Gold Fields Ghana Limited is projecting a $7.5 billion capital injection into its Tarkwa Mine, outlining a long-term investment plan to sustain production and improve mining operations. The post Gold Fields plans $7.5 billion investment in Ghana’s Tarkwa Mine appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "2c6d6e02a2",
+    "title": "Abia seeks China Harbour Engineering’s partnership to develop proposed seaport",
+    "url": "https://nairametrics.com/2026/11/24/abia-seeks-china-harbour-engineerings-partnership-to-develop-proposed-seaport/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-11-24T13:54:31.000Z",
+    "excerpt": "The Abia State Government is seeking a long-term partnership with China Harbour Engineering Company Limited (CHEC) to develop the proposed Abia Sea Port City, with the Chinese infrastructure company expected to be involved from feasibility studies through construction and final delivery. The post…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "36ff25873a",
+    "title": "Anthropic stock falls below $83 IPO price days after record debut",
+    "url": "https://nairametrics.com/2026/11/24/anthropic-stock-falls-below-83-ipo-price-days-after-record-debut/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-11-24T13:35:37.000Z",
+    "excerpt": "Anthropic shares fell below their $83 initial public offering (IPO) price in premarket trading on Tuesday, November 24, extending a sharp reversal just days after the artificial intelligence company completed the largest IPO in history. The post Anthropic stock falls below $83 IPO price days after…",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "0bed161388",
+    "title": "Inside the social media strategies of Nigeria’s biggest listed companies",
+    "url": "https://nairametrics.com/2026/11/24/inside-the-social-media-strategies-of-nigerias-biggest-listed-companies/",
+    "source": "Nairametrics",
+    "kind": "business",
+    "date": "2026-11-24T13:28:33.000Z",
+    "excerpt": "Nigeria’s biggest listed companies are increasingly meeting their customers where they spend a significant part of their time: on their smartphones. The post Inside the social media strategies of Nigeria’s biggest listed companies appeared first on Nairametrics .",
+    "tag": "Business",
+    "cta": {
+      "label": "Get a business website",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "1e006ecac8",
+    "title": "Senior Software Engineer, Consumer Facing Web Products",
+    "url": "https://jobicy.com/jobs/164119-senior-software-engineer-consumer-facing-web-products",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T13:00:58.000Z",
+    "excerpt": "At NerdWallet, we’re on a mission to bring clarity to all of life’s financial decisions and every great mission needs a team of exceptional Nerds. We’ve built an inclusive, flexible,...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e945310687",
+    "title": "Clinical Informatics Specialist — Federal Health IT",
+    "url": "https://jobicy.com/jobs/164118-clinical-informatics-specialist-federal-health-it",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T13:00:28.000Z",
+    "excerpt": "Clinical Informatics Specialist — Federal Health IT Location: Remote — United States Security Clearance: Active Secret required Travel: Travel to designated federal healthcare facilities as needed Apply Clinical Expertise. Improve...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "cf8db04cd4",
+    "title": "Senior Project Manager, Clinical Trials",
+    "url": "https://jobicy.com/jobs/164117-senior-project-manager-clinical-trials",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T13:00:26.000Z",
+    "excerpt": "At Cogstate, we’re advancing the science of brain health – making it faster, easier, and more accurate to assess cognition across clinical trials, healthcare settings, and everyday life. Our digital...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e7fe722de4",
+    "title": "Member Advocate (Employee Benefits)",
+    "url": "https://jobicy.com/jobs/164116-member-advocate-employee-benefits",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T13:00:23.000Z",
+    "excerpt": "Essential job responsibilities include but are not limited to: Supports and demonstrates IMA’s core values Values and understands the importance of diversity, equity, and inclusion among all IMA associates. Answer...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "0ee01e8d08",
+    "title": "IT Systems Administrator",
+    "url": "https://jobicy.com/jobs/164115-it-systems-administrator",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T13:00:20.000Z",
+    "excerpt": "Company Overview Kairos Power is a new nuclear energy technology and engineering company whose mission is to enable the world’s transition to clean energy, with the ultimate goal to dramatically...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "44abda4ca3",
+    "title": "Enterprise Sales Development Representative",
+    "url": "https://jobicy.com/jobs/164112-enterprise-sales-development-representative-2",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T13:00:15.000Z",
+    "excerpt": "About Toptal Toptal is a global network of top talent in business, design, and technology that enables companies to scale their teams, on-demand. With $200+ million in annual revenue and...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "ff9ed6a69b",
+    "title": "Tech Lead Manager, Consumer Facing Web Products",
+    "url": "https://jobicy.com/jobs/164110-tech-lead-manager-consumer-facing-web-products",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T13:00:09.000Z",
+    "excerpt": "At NerdWallet, we’re on a mission to bring clarity to all of life’s financial decisions and every great mission needs a team of exceptional Nerds. We’ve built an inclusive, flexible,...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "b17bba97a6",
+    "title": "Backend Software Engineer — Secure Mission Systems",
+    "url": "https://jobicy.com/jobs/164109-backend-software-engineer-secure-mission-systems",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T13:00:06.000Z",
+    "excerpt": "Backend Software Engineer — Secure Mission Systems Location: Mainly remote, with onsite work in Laurel, Maryland, typically one day every six weeks for team-wide sprint planning. Exact timing may vary...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "e93c0964c0",
+    "title": "Software Engineer- Agentic AI & Integrations",
+    "url": "https://jobicy.com/jobs/164107-software-engineer-agentic-ai-integrations",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T12:58:56.000Z",
+    "excerpt": "ABOUT THE ROLE WIN is seeking highly skilled, hands-on Software Engineers to help build innovative digital applications, AI-powered solutions, and scalable technology platforms. WIN is investing heavily in agentic AI,...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "10224c62f4",
+    "title": "DevOps Engineer",
+    "url": "https://jobicy.com/jobs/164108-devops-engineer-8",
+    "source": "Jobicy",
+    "kind": "jobs",
+    "date": "2026-11-24T12:58:50.000Z",
+    "excerpt": "Oddball believes that we can bring change and improve the daily lives of millions by bringing quality software to the federal space. Our team is full of experienced engineering, product,...",
+    "tag": "Jobs",
+    "cta": {
+      "label": "Need a standout CV?",
+      "href": "/services/cv-creation.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "bf166153d2",
+    "title": "UK regulators wants AI agent startups to engage before launch",
+    "url": "https://thecondia.com/uk-regulators-ai-agent-startups-engage/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-11-24T11:49:43.000Z",
+    "excerpt": "Four UK regulators have told firms building personal AI agents to meet their obligations before launch.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "5f03a39bc1",
+    "title": "Payaza acquires Seesail to expand across Africa",
+    "url": "https://thecondia.com/shopaza-acquires-seesail-to-expand-across-africa/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-11-24T07:52:30.000Z",
+    "excerpt": "Payaza's ShopAza acquires Ghanaian startup Seesail to expand its e-commerce footprint and help African businesses sell and manage operations online.",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "799f3b1499",
+    "title": "Last year, Nigerians paid ₦1.5B in UK Global Talent tech endorsement fees. 97% were not endorsed",
+    "url": "https://thecondia.com/tech-nation-global-talent-nigeria-success-rate/",
+    "source": "Benjamin Dada",
+    "kind": "startups",
+    "date": "2026-11-23T18:16:45.000Z",
+    "excerpt": "Home Office data analysed by Condia show Tech Nation endorsed 42 of 1,303 Nigerian applicants for the UK's Global Talent visa in 2025-26, the lowest success rate of any nationality",
+    "tag": "Naija Startups",
+    "cta": {
+      "label": "Brand your startup",
+      "href": "/brand-studio/"
+    },
+    "take": ""
+  },
+  {
+    "id": "37d7f7bcc3",
+    "title": "Yale Council on African Studies Visiting African Scholars Fellowship 2027-2028",
+    "url": "https://opportunitydesk.org/2026/11/23/yale-council-on-african-studies-visiting-african-scholars-fellowship-2027-2028/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-11-23T18:06:00.000Z",
+    "excerpt": "Deadline: December 31, 2026 Applications are open for the Yale Council on African Studies Visiting African Scholars Fellowship 2027-2028. The Council on African Studies at the Whitney and Betty MacMillan Center for International and Area Studies at Yale University invites applications for its…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
+    "id": "da0ea676d5",
+    "title": "Tor Community Fellowship 2027 (stipend available)",
+    "url": "https://opportunitydesk.org/2026/11/23/tor-community-fellowship-2027/",
+    "source": "Opportunity Desk",
+    "kind": "grants",
+    "date": "2026-11-23T17:27:25.000Z",
+    "excerpt": "Deadline: December 17, 2026 Applications are open for the Tor Community Fellowship 2027. For its first year, they are accepting 4 human rights defenders, journalists, technologists, and researchers. Fellows will get the chance to learn from the Tor Project team, build a deep understanding of how…",
+    "tag": "Grants & Funding",
+    "cta": {
+      "label": "Need a website for your application?",
+      "href": "/services/web-development.html"
+    },
+    "take": ""
+  },
+  {
     "id": "6a7990e1ad",
     "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
@@ -2452,546 +2992,6 @@
     "kind": "startups",
     "date": "2026-11-19T13:12:13.000Z",
     "excerpt": "Since BioNTech acquired InstaDeep in 2023, several former employees have gone on to launch new startups, carrying their experience into new ventures.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "72158a9a99",
-    "title": "Nigeria’s NIP retains position as Africa’s only mature instant payment system",
-    "url": "https://nairametrics.com/2026/11/19/nigerias-nip-retains-position-as-africas-only-mature-instant-payment-system/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-11-19T13:04:58.000Z",
-    "excerpt": "Nigeria’s Instant Payment (NIP) system has retained its position as Africa’s only instant payment system to attain the highest level of inclusivity, according to the 2026 State of Inclusive Instant Payment Systems (SIIPS) in Africa Report. The post Nigeria’s NIP retains position as Africa’s only…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "029ded4e9a",
-    "title": "I let Apple’s always-listening AI summarize my life for two weeks",
-    "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-11-19T13:00:00.000Z",
-    "excerpt": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can […]",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "77876a98eb",
-    "title": "Before you buy that US-used iPhone, here’s how SIM-slot surgery is costing Nigerian buyers",
-    "url": "https://technext24.com/reviews/iphone-sim-slot-surgery-costing-nigerians/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-11-19T12:48:20.000Z",
-    "excerpt": "John has saved up for months to upgrade to upgrade his regular smartphone to a UK-used iPhone 14…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "4546abc5b9",
-    "title": "Top 10 mergers and acquisitions announced in 2026 so far",
-    "url": "https://nairametrics.com/2026/11/19/top-10-mergers-and-acquisitions-announced-in-2026-so-far/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-11-19T12:43:33.000Z",
-    "excerpt": "Nigeria's mergers and acquisitions (M&A) market has rebounded in 2026, with telecommunications infrastructure, oil and gas, fintech and banking accounting for some of the year's most significant corporate transactions. The post Top 10 mergers and acquisitions announced in 2026 so far appeared first…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "c3fc72b251",
-    "title": "TELUS Digital: Content Reviewer - United States",
-    "url": "https://weworkremotely.com/remote-jobs/telus-digital-content-reviewer-united-states-1",
-    "source": "We Work Remotely",
-    "kind": "jobs",
-    "date": "2026-11-19T11:55:41.000Z",
-    "excerpt": "Headquarters: Las Vegas, Nevada URL: https://jobs.telusdigital.com/search/jobs?cfm5=Artificial+Intelligence&ns_category=artificial-intelligence Every search represents someone seeking reliable information. They depend on search results being accurate, trustworthy, and relevant to their local…",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "ed8f93d992",
-    "title": "Egyptian AI startup Chipverse raises pre-seed funding",
-    "url": "https://thecondia.com/chipverse-pre-seed-funding-egypt-ai-computing/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-11-19T11:37:15.000Z",
-    "excerpt": "Egyptian AI computing startup Chipverse has raised pre-seed funding from local investors to expand its GPU infrastructure and develop APIs and AI-powered audio and video tools.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "c21a346f8a",
-    "title": "Morris B. Abram Fellowship 2027-2028",
-    "url": "https://opportunitydesk.org/2026/11/19/morris-b-abram-fellowship-2027-2028/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-11-19T11:34:50.000Z",
-    "excerpt": "Deadline: December 31, 2026 Applications are open for the Morris B. Abram Fellowship 2027-2028. The fellowship is designed to train recent college graduates. Previous UN Watch Fellows have gone on to distinguished careers in law, government, diplomacy, human rights, and journalism. UN Watch is a…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "862cac0476",
-    "title": "Strategic Enterprise Account Executive (Sydney or Melbourne)",
-    "url": "https://jobicy.com/jobs/163288-strategic-enterprise-account-executive-sydney-or-melbourne",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-11-19T11:34:38.000Z",
-    "excerpt": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "e04be47a9b",
-    "title": "Customer Success Engineer, Singapore",
-    "url": "https://jobicy.com/jobs/163286-customer-success-engineer-singapore-2",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-11-19T11:34:16.000Z",
-    "excerpt": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "1b8b42d55d",
-    "title": "Customer Success Architect, Australia",
-    "url": "https://jobicy.com/jobs/163284-customer-success-architect-australia",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-11-19T11:34:14.000Z",
-    "excerpt": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "bb0cbf712f",
-    "title": "Coordinator, Legal Support (Part-Time)",
-    "url": "https://jobicy.com/jobs/163283-coordinator-legal-support-part-time",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-11-19T11:34:13.000Z",
-    "excerpt": "At Cogstate, we’re advancing the science of brain health – making it faster, easier, and more accurate to assess cognition across clinical trials, healthcare settings, and everyday life. Our digital...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "fc481693fc",
-    "title": "Regional Sales Manager",
-    "url": "https://jobicy.com/jobs/163280-regional-sales-manager-3",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-11-19T11:34:09.000Z",
-    "excerpt": "Join the company that’s building the telemetry infrastructure for the AI era. At Cribl, we partner with IT and Security teams at many of the world’s biggest enterprises, including half...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "c93c46e4ca",
-    "title": "Senior Tax Manager",
-    "url": "https://jobicy.com/jobs/163279-senior-tax-manager-2",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-11-19T11:31:31.000Z",
-    "excerpt": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "9d314b420f",
-    "title": "Senior Software Engineer, Production Support",
-    "url": "https://jobicy.com/jobs/163277-senior-software-engineer-production-support",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-11-19T11:31:11.000Z",
-    "excerpt": "About the Role We are building a new engineering-led production support function, and as a Senior Software Engineer, Production Support, you will operate at the intersection of support, product, and...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "9e5adb22ab",
-    "title": "Senior Staff Engineer – Stablecoin",
-    "url": "https://jobicy.com/jobs/163274-senior-staff-engineer-stablecoin",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-11-19T11:30:49.000Z",
-    "excerpt": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "0da22997df",
-    "title": "Principal/Staff Product Manager, Risk Advisory",
-    "url": "https://jobicy.com/jobs/163272-principal-staff-product-manager-risk-advisory",
-    "source": "Jobicy",
-    "kind": "jobs",
-    "date": "2026-11-19T11:30:47.000Z",
-    "excerpt": "About Us Fieldguide is establishing a new state of trust for global commerce and capital markets through automating and streamlining the work of advisory, audit, and tax practitioners at the...",
-    "tag": "Jobs",
-    "cta": {
-      "label": "Need a standout CV?",
-      "href": "/services/cv-creation.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "7190c615f4",
-    "title": "South African Startup Community Wolf Secures Investment From Nigeria’s Terra Industries",
-    "url": "https://weetracker.com/2026/11/19/terra-industries-invests-in-community-wolf/",
-    "source": "WeeTracker",
-    "kind": "startups",
-    "date": "2026-11-19T10:54:24.000Z",
-    "excerpt": "Community Wolf, a South African public safety technology startup, has received a strategic The post South African Startup Community Wolf Secures Investment From Nigeria’s Terra Industries appeared first on WeeTracker .",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "2cc1dab10e",
-    "title": "John M. Belk Impact Fellowship 2027-2028 (Paid)",
-    "url": "https://opportunitydesk.org/2026/11/19/john-m-belk-impact-fellowship-2027-2028/",
-    "source": "Opportunity Desk",
-    "kind": "grants",
-    "date": "2026-11-19T09:42:17.000Z",
-    "excerpt": "Deadline: March 5, 2027 Applications are open for the John M. Belk Impact Fellowship 2027-2028. The John M. Belk Impact Fellowship is a 10-month (August-May), paid program that provides hands-on experience for students currently enrolled in community college, undergraduate, or graduate programs in…",
-    "tag": "Grants & Funding",
-    "cta": {
-      "label": "Need a website for your application?",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "dd7a075512",
-    "title": "Terra Industries backs Community Wolf in second startup investment",
-    "url": "https://thecondia.com/terra-industries-backs-community-wolf/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-11-19T09:00:40.000Z",
-    "excerpt": "Terra Industries backs South Africa's Community Wolf to combine community-generated intelligence with autonomous defence and expand its security capabilities.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "b297340ccb",
-    "title": "Anthropic is raising more money ($81.3B) than SpaceX at IPO; what does this mean for Claude subscriptions for African users?",
-    "url": "https://thecondia.com/anthropic-81-billion-ipo-african-users/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-11-19T02:54:18.000Z",
-    "excerpt": "Anthropic doubled the price of Claude subscription in July. What's next, given the demand for sustainability as a newly-minted public company?",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "e1a53e2b81",
-    "title": "What South African stores are discounting for Black Friday 2026, and when their sales end",
-    "url": "https://thecondia.com/black-friday-2026-south-africa/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-11-19T00:04:25.000Z",
-    "excerpt": "Some South African stores like Takealot and Bash started Black Friday sales in October and will keep discounting past 27 November.",
-    "tag": "Naija Startups",
-    "cta": {
-      "label": "Brand your startup",
-      "href": "/brand-studio/"
-    },
-    "take": ""
-  },
-  {
-    "id": "ebcb6e4854",
-    "title": "Fitch projects Nigeria’s policy rate to average 21.7% in 2027, 18.6% in 2028",
-    "url": "https://nairametrics.com/2026/11/18/fitch-projects-nigerias-policy-rate-to-average-21-7-in-2027-18-6-in-2028/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-11-18T15:01:38.000Z",
-    "excerpt": "Fitch Ratings has projected that Nigeria’s policy interest rate will average 21.7% in 2027, before declining further to 18.6% in 2028, as inflation gradually moderates and the Central Bank of Nigeria (CBN) begins to ease monetary conditions. The post Fitch projects Nigeria’s policy rate to average…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "9610a86cb8",
-    "title": "British hackers face prison for GTA 6 data breach and crypto thefts",
-    "url": "https://techcrunch.com/2026/11/18/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/",
-    "source": "TechCrunch",
-    "kind": "news",
-    "date": "2026-11-18T14:55:13.000Z",
-    "excerpt": "Two British hackers face lengthy prison sentences for hacks that broke into the Grand Theft Auto gamemaker and for stealing millions in crypto.",
-    "tag": "Security",
-    "cta": {
-      "label": "Talk to us",
-      "href": "/contact/"
-    },
-    "take": ""
-  },
-  {
-    "id": "5ad7e181c4",
-    "title": "Global Economic Policies Dictate The Latest Institutional Digital Asset Strategies",
-    "url": "https://technext24.com/crypto/global-economic-policies-dictate-the-latest-institutional-digital-asset-strategies/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-11-18T14:52:20.000Z",
-    "excerpt": "Raw market power currently dictates asset valuations, leaving retail hype in the rearview. Big-money entities don't blink at choppy price action; instead, they're purchasing treasury space consistently. This article unpacks institutional maneuvers driving modern decentralized finance.",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "0c16d3e851",
-    "title": "Kenya says Dangote’s $16bn refinery qualifies for tax relief on imported equipment",
-    "url": "https://technext24.com/news/kenya-dangotes-16bn-refinery-gets-tax-relief/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-11-18T14:41:56.000Z",
-    "excerpt": "Kenya has confirmed that Aliko Dangote’s proposed $16 billion oil refinery in Lamu qualifies for tax exemptions. This…",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "c9b488fbc8",
-    "title": "Nvidia suffers major hack, ransomware group The Gentlemen claims responsibility",
-    "url": "https://technext24.com/news/nvidia-suffers-major-cyber-hack-the-gentlemen/",
-    "source": "Technext",
-    "kind": "news",
-    "date": "2026-11-18T14:13:42.000Z",
-    "excerpt": "Ransomware group The Gentlemen has allegedly added Nvidia to its dark web extortion site, threatening to publish stolen…",
-    "tag": "Web",
-    "cta": {
-      "label": "Website templates",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "24db9d2d67",
-    "title": "What you should know about the Oppo Reno 17 Pro",
-    "url": "https://techcabal.com/2026/11/18/oppo-reno-17-pro-price-release-date-specs/",
-    "source": "TechCabal",
-    "kind": "news",
-    "date": "2026-11-18T14:09:35.000Z",
-    "excerpt": "Priced at CNY 4,199 (about $591), the phone packs a 200MP main camera into a compact 6.32-inch body.",
-    "tag": "Tech News",
-    "cta": {
-      "label": "Explore our services",
-      "href": "/services/"
-    },
-    "take": ""
-  },
-  {
-    "id": "53dc466dfa",
-    "title": "Lagos businesses seek relief as tax overhaul targets multiple levies",
-    "url": "https://businessday.ng/business-economy/article/lagos-businesses-seek-relief-as-tax-overhaul-targets-multiple-levies/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-11-18T14:02:49.000Z",
-    "excerpt": "Lagos businesses are still grappling with multiple revenue demands from different collection agents, even as the state moves to harmonise read more Lagos businesses seek relief as tax overhaul targets multiple levies",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "f4841bea81",
-    "title": "How The Verge is picking which Black Friday deals to share",
-    "url": "https://www.theverge.com/gadgets/1034715/how-the-verge-finds-deals",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-11-18T14:00:00.000Z",
-    "excerpt": "For the past month, we’ve been inundated with Black Friday deals, signaling what’s to come on the biggest shopping day of the year in the US. We routinely get dozens of press releases a day, coming from brands big and small that hope that we’ll publicize these offers. Of course, the companies would…",
-    "tag": "Design & Social",
-    "cta": {
-      "label": "Design assets",
-      "href": "/store/"
-    },
-    "take": ""
-  },
-  {
-    "id": "84d2fa603e",
-    "title": "Will Wright’s next game uses AI to map your memories",
-    "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-11-18T14:00:00.000Z",
-    "excerpt": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "1ca100f6e8",
-    "title": "CMFC signs deal to arrange $50 million for Tanzanian gold project financing",
-    "url": "https://nairametrics.com/2026/11/18/cmfc-signs-deal-to-arrange-50-million-for-tanzanian-gold-project-financing/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-11-18T13:31:22.000Z",
-    "excerpt": "Critical Minerals Financing Corp. Plc (CMFC), formerly Deap Capital Management & Trust Plc, has signed a partnership agreement to arrange $50 million in capital for the development of the Matundasi Gold Project in Tanzania. The post CMFC signs deal to arrange $50 million for Tanzanian gold project…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "e4ad8ca25c",
-    "title": "How Sycamore is rethinking finance for women-led businesses",
-    "url": "https://businessday.ng/news/article/how-sycamore-is-rethinking-finance-for-women-led-businesses/",
-    "source": "BusinessDay",
-    "kind": "business",
-    "date": "2026-11-18T13:27:47.000Z",
-    "excerpt": "For many women entrepreneurs, access to credit remains a challenge, not necessarily because they lack income or the capacity to read more How Sycamore is rethinking finance for women-led businesses",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "ce416493db",
-    "title": "Nvidia isn’t selling any more AI chips to China",
-    "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
-    "source": "The Verge",
-    "kind": "news",
-    "date": "2026-11-18T13:01:05.000Z",
-    "excerpt": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former…",
-    "tag": "AI & Automation",
-    "cta": {
-      "label": "Custom software",
-      "href": "/services/software-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "76ddaf984a",
-    "title": "FG adds 150,000 trainees to second cohort of TVET programme",
-    "url": "https://nairametrics.com/2026/11/18/fg-adds-150000-trainees-to-second-cohort-of-tvet-programme/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-11-18T12:47:21.000Z",
-    "excerpt": "The Federal Government has added 150,000 trainees to the second cohort of its Technical and Vocational Education and Training (TVET) programme after 87,701 beneficiaries completed training under the first cohort. The post FG adds 150,000 trainees to second cohort of TVET programme appeared first on…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "81862c2098",
-    "title": "Olowolafe: Ekiti must turn its tourism assets and mineral deposits into viable enterprises",
-    "url": "https://nairametrics.com/2026/11/18/olowolafe-ekiti-must-turn-its-tourism-assets-and-mineral-deposits-into-viable-enterprises/",
-    "source": "Nairametrics",
-    "kind": "business",
-    "date": "2026-11-18T12:36:41.000Z",
-    "excerpt": "Dr. Tunji Olowolafe, Chancellor of Ekiti State University, has called for a more commercial approach to developing Ekiti State’s tourism and mineral resources, arguing that natural assets only create value when they are matched with service quality, industrial data and clear markets. The post…",
-    "tag": "Business",
-    "cta": {
-      "label": "Get a business website",
-      "href": "/services/web-development.html"
-    },
-    "take": ""
-  },
-  {
-    "id": "c7115d3fc8",
-    "title": "Zipline hires Uber executive Anthony le Roux to run its Africa operations",
-    "url": "https://thecondia.com/anthony-le-roux-zipline-africa-operations/",
-    "source": "Benjamin Dada",
-    "kind": "startups",
-    "date": "2026-11-18T12:35:24.000Z",
-    "excerpt": "Zipline has hired Uber executive Anthony le Roux to run its Africa operations from January 2027, while Uber is also one of its investors.",
     "tag": "Naija Startups",
     "cta": {
       "label": "Brand your startup",

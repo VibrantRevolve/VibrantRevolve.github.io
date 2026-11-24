@@ -1,128 +1,128 @@
 {
- "updated": "2026-11-23T17:47:36.466Z",
+ "updated": "2026-11-24T16:55:45.391Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 28.5,
-   "headline": "Lightbox Animation: VFX Supervisor",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/lightbox-animation-vfx-supervisor"
+   "score": 28.59,
+   "headline": "Senior Software Engineer, Consumer Facing Web Products",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/164119-senior-software-engineer-consumer-facing-web-products"
   },
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 23.9,
-   "headline": "BREAKING: Nigerian equities transactions hit N17.13 trillion in 10 months despite foreign investors’ withdrawal",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/23/nigerian-equities-transactions-hit-n17-13-trillion-in-10-months-despite-foreign-investors-withdrawal/"
-  },
-  {
-   "topic": "Manager",
-   "hashtag": "#Manager",
-   "score": 15.48,
-   "headline": "GitLab: Professional Services, Program Manager",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/gitlab-professional-services-program-manager"
-  },
-  {
-   "topic": "Tech News",
-   "hashtag": "#TechNews",
-   "score": 15.25,
-   "headline": "Wysemarket CEO identifies key factors that will shape the future of prediction markets in Africa",
-   "source": "Technext",
-   "url": "https://technext24.com/news/wysemarket-ceo-factor-future-prediction-africa/"
+   "score": 24.14,
+   "headline": "Nigeria’s MPC holds rate steady ahead of 2027 polls",
+   "source": "BusinessDay",
+   "url": "https://businessday.ng/business-economy/article/nigerias-mpc-holds-rate-at-23-to-sustain-inflation-gains/"
   },
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 12.51,
-   "headline": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "score": 15.42,
+   "headline": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
    "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+  },
+  {
+   "topic": "Tech News",
+   "hashtag": "#TechNews",
+   "score": 14.15,
+   "headline": "CBN keeps interest rates at 23%, leaving loans expensive for Nigerians",
+   "source": "Technext",
+   "url": "https://technext24.com/news/cbn-keeps-interest-rates-at-23-per-cent/"
+  },
+  {
+   "topic": "Manager",
+   "hashtag": "#Manager",
+   "score": 13.95,
+   "headline": "Senior Project Manager, Clinical Trials",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/164117-senior-project-manager-clinical-trials"
   },
   {
    "topic": "Nvidia",
    "hashtag": "#Nvidia",
-   "score": 11.59,
-   "headline": "Jensen Huang Returns as NVIDIA CEO and President as Stock Jumps 30 Percent",
-   "source": "Ventureburn",
-   "url": "https://ventureburn.com/jensen-huang-returns-nvidia-ceo-stock-jumps-30-percent/"
+   "score": 12.97,
+   "headline": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
   },
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 11.09,
-   "headline": "After 11 years of failed tap-to-pay bets, Visa turns to Transsion",
+   "score": 10.36,
+   "headline": "Africa’s instant payments grew 171%, but average transaction value fell 40%",
    "source": "Benjamin Dada",
-   "url": "https://thecondia.com/visa-transsion-africa-tap-to-pay-contactless-payments/"
+   "url": "https://thecondia.com/africas-instant-payments-grew-171-but-average-transaction-value-fell-40/"
+  },
+  {
+   "topic": "Lagos",
+   "hashtag": "#Lagos",
+   "score": 9.67,
+   "headline": "Spectranet takes critical business decision, exits Ibadan, Port Harcourt to focus on Lagos, Abuja",
+   "source": "BusinessDay",
+   "url": "https://businessday.ng/companies/article/spectranet-takes-critical-business-decision-exits-ibadan-port-harcourt-to-focus-on-lagos-abuja/"
+  },
+  {
+   "topic": "Huang",
+   "hashtag": "#Huang",
+   "score": 9.09,
+   "headline": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
+  },
+  {
+   "topic": "Anthropic",
+   "hashtag": "#Anthropic",
+   "score": 8.37,
+   "headline": "Anthropic stock falls below $83 IPO price days after record debut",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/24/anthropic-stock-falls-below-83-ipo-price-days-after-record-debut/"
   },
   {
    "topic": "Ceo",
    "hashtag": "#Ceo",
-   "score": 10.14,
+   "score": 8.21,
    "headline": "Wysemarket CEO identifies key factors that will shape the future of prediction markets in Africa",
    "source": "Technext",
    "url": "https://technext24.com/news/wysemarket-ceo-factor-future-prediction-africa/"
   },
   {
-   "topic": "Gitlab",
-   "hashtag": "#Gitlab",
-   "score": 8.33,
-   "headline": "GitLab: Professional Services, Program Manager",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/gitlab-professional-services-program-manager"
-  },
-  {
-   "topic": "Mind",
-   "hashtag": "#Mind",
-   "score": 8.33,
-   "headline": "Virtual Peace of Mind: Multilingual Licensed Therapist — K-12 School with a $1,500 Sign-On Bonus",
-   "source": "We Work Remotely",
-   "url": "https://weworkremotely.com/remote-jobs/virtual-peace-of-mind-multilingual-licensed-therapist-k-12-school-with-a-1-500-sign-on-bonus"
-  },
-  {
-   "topic": "Anthropic",
-   "hashtag": "#Anthropic",
-   "score": 7.69,
-   "headline": "Can Anthropic afford to put safety first?",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
-  },
-  {
-   "topic": "Grants & Funding",
-   "hashtag": "#GrantsFunding",
-   "score": 7.06,
-   "headline": "Public Policy New Voices Fellowship Program 2026-2027",
-   "source": "Opportunity Desk",
-   "url": "https://opportunitydesk.org/2026/11/23/public-policy-new-voices-fellowship-program-2026-2027/"
-  },
-  {
-   "topic": "Jensen Huang",
-   "hashtag": "#JensenHuang",
-   "score": 7.03,
-   "headline": "Jensen Huang isn’t out of the woods yet",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/"
+   "topic": "Ipo",
+   "hashtag": "#Ipo",
+   "score": 7.63,
+   "headline": "Anthropic stock falls below $83 IPO price days after record debut",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/24/anthropic-stock-falls-below-83-ipo-price-days-after-record-debut/"
   },
   {
    "topic": "Million",
    "hashtag": "#Million",
-   "score": 6.9,
-   "headline": "Cornerstone Insurance rejects Diuto’s N21 million employee death benefit suit, cites alleged fraud",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/23/cornerstone-insurance-rejects-diutos-n21-million-employee-death-benefit-suit-cites-alleged-fraud/"
+   "score": 7.57,
+   "headline": "MTN Benin’s $215 million plan is running into a good problem with customers’ demand for more data",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/24/mtn-benin-customers-data/"
+  },
+  {
+   "topic": "Jensen Huang",
+   "hashtag": "#JensenHuang",
+   "score": 7.48,
+   "headline": "Jensen Huang deepfakes are the hot new AI slop",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
   }
  ],
  "tags": [
   "AI & Automation",
-  "Jobs",
   "Tech News",
-  "Business",
-  "Web",
   "Security",
+  "Business",
   "Naija Startups",
-  "Grants & Funding"
+  "Jobs",
+  "Grants & Funding",
+  "Web"
  ]
 }
