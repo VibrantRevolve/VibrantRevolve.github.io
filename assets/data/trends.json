@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T16:55:45.391Z",
+ "updated": "2026-11-25T01:19:39.754Z",
  "basedOn": 200,
  "topics": [
   {
    "topic": "Jobs",
    "hashtag": "#Jobs",
-   "score": 28.59,
+   "score": 26.92,
    "headline": "Senior Software Engineer, Consumer Facing Web Products",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/164119-senior-software-engineer-consumer-facing-web-products"
@@ -13,7 +13,7 @@
   {
    "topic": "Business",
    "hashtag": "#Business",
-   "score": 24.14,
+   "score": 22.74,
    "headline": "Nigeria’s MPC holds rate steady ahead of 2027 polls",
    "source": "BusinessDay",
    "url": "https://businessday.ng/business-economy/article/nigerias-mpc-holds-rate-at-23-to-sustain-inflation-gains/"
@@ -21,7 +21,7 @@
   {
    "topic": "Ai & Automation",
    "hashtag": "#AiAutomation",
-   "score": 15.42,
+   "score": 14.52,
    "headline": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
    "source": "TechCrunch",
    "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
@@ -29,7 +29,7 @@
   {
    "topic": "Tech News",
    "hashtag": "#TechNews",
-   "score": 14.15,
+   "score": 13.37,
    "headline": "CBN keeps interest rates at 23%, leaving loans expensive for Nigerians",
    "source": "Technext",
    "url": "https://technext24.com/news/cbn-keeps-interest-rates-at-23-per-cent/"
@@ -37,7 +37,7 @@
   {
    "topic": "Manager",
    "hashtag": "#Manager",
-   "score": 13.95,
+   "score": 13.21,
    "headline": "Senior Project Manager, Clinical Trials",
    "source": "Jobicy",
    "url": "https://jobicy.com/jobs/164117-senior-project-manager-clinical-trials"
@@ -45,7 +45,7 @@
   {
    "topic": "Nvidia",
    "hashtag": "#Nvidia",
-   "score": 12.97,
+   "score": 12.05,
    "headline": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
    "source": "The Verge",
    "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
@@ -53,7 +53,7 @@
   {
    "topic": "Naija Startups",
    "hashtag": "#NaijaStartups",
-   "score": 10.36,
+   "score": 9.74,
    "headline": "Africa’s instant payments grew 171%, but average transaction value fell 40%",
    "source": "Benjamin Dada",
    "url": "https://thecondia.com/africas-instant-payments-grew-171-but-average-transaction-value-fell-40/"
@@ -61,7 +61,7 @@
   {
    "topic": "Lagos",
    "hashtag": "#Lagos",
-   "score": 9.67,
+   "score": 9.04,
    "headline": "Spectranet takes critical business decision, exits Ibadan, Port Harcourt to focus on Lagos, Abuja",
    "source": "BusinessDay",
    "url": "https://businessday.ng/companies/article/spectranet-takes-critical-business-decision-exits-ibadan-port-harcourt-to-focus-on-lagos-abuja/"
@@ -69,7 +69,7 @@
   {
    "topic": "Huang",
    "hashtag": "#Huang",
-   "score": 9.09,
+   "score": 8.47,
    "headline": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
    "source": "The Verge",
    "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
@@ -77,7 +77,7 @@
   {
    "topic": "Anthropic",
    "hashtag": "#Anthropic",
-   "score": 8.37,
+   "score": 7.94,
    "headline": "Anthropic stock falls below $83 IPO price days after record debut",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/24/anthropic-stock-falls-below-83-ipo-price-days-after-record-debut/"
@@ -85,7 +85,7 @@
   {
    "topic": "Ceo",
    "hashtag": "#Ceo",
-   "score": 8.21,
+   "score": 7.68,
    "headline": "Wysemarket CEO identifies key factors that will shape the future of prediction markets in Africa",
    "source": "Technext",
    "url": "https://technext24.com/news/wysemarket-ceo-factor-future-prediction-africa/"
@@ -93,7 +93,7 @@
   {
    "topic": "Ipo",
    "hashtag": "#Ipo",
-   "score": 7.63,
+   "score": 7.24,
    "headline": "Anthropic stock falls below $83 IPO price days after record debut",
    "source": "Nairametrics",
    "url": "https://nairametrics.com/2026/11/24/anthropic-stock-falls-below-83-ipo-price-days-after-record-debut/"
@@ -101,7 +101,7 @@
   {
    "topic": "Million",
    "hashtag": "#Million",
-   "score": 7.57,
+   "score": 7.16,
    "headline": "MTN Benin’s $215 million plan is running into a good problem with customers’ demand for more data",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/11/24/mtn-benin-customers-data/"
@@ -109,7 +109,7 @@
   {
    "topic": "Jensen Huang",
    "hashtag": "#JensenHuang",
-   "score": 7.48,
+   "score": 6.97,
    "headline": "Jensen Huang deepfakes are the hot new AI slop",
    "source": "The Verge",
    "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
